@@ -1,0 +1,490 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="repairNoObstacles - CSharp" xmlns:yaxlib="http://www.sinairv.com/yaxlib/">
+  <Network Sequential="False" LoadOnStart="False" SaveOnStop="False" Id="0" Name="Network">
+    <Children>
+      <MyJoin LoadOnStart="False" SaveOnStop="False" Id="41" Name="Node_41" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin">
+        <IO>
+          <InputBranches>2</InputBranches>
+          <OutputColHint>0</OutputColHint>
+        </IO>
+        <Behavior>
+          <Operation>StackInputs</Operation>
+        </Behavior>
+        <DataFolder></DataFolder>
+        <Location X="445" Y="539" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="InitMemoryMapping" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin+MyInitTask" />
+          <Task Enabled="True" PropertyName="StackInputs" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin+MyStackInputsTask" />
+        </Tasks>
+      </MyJoin>
+      <MyUserInput LoadOnStart="False" SaveOnStop="False" Id="64" Name="Reset bot" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput">
+        <IO>
+          <OutputSize>1</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <UserInputStr>0</UserInputStr>
+        <ConvertToBinary>False</ConvertToBinary>
+        <DataFolder></DataFolder>
+        <Location X="197" Y="661" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput+MyTransferTask" />
+        </Tasks>
+      </MyUserInput>
+      <MyRandomNode LoadOnStart="False" SaveOnStop="False" Id="76" Name="Node_76" yaxlib:realtype="GoodAI.Modules.Common.MyRandomNode">
+        <SingleOutput>False</SingleOutput>
+        <IO>
+          <OutputSize>4</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <DataFolder></DataFolder>
+        <Location X="194" Y="549" />
+        <Tasks>
+          <Task Enabled="False" PropertyName="UniformRNG" yaxlib:realtype="GoodAI.Modules.Common.UniformRNGTask">
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+          </Task>
+          <Task Enabled="False" PropertyName="NormalRNG" yaxlib:realtype="GoodAI.Modules.Common.NormalRNGTask">
+            <Mean>0</Mean>
+            <StdDev>1</StdDev>
+          </Task>
+          <Task Enabled="True" PropertyName="ConstantRNG" yaxlib:realtype="GoodAI.Modules.Common.ConstantRNGTask">
+            <Constant>0</Constant>
+          </Task>
+          <Task Enabled="False" PropertyName="CombinationRNG" yaxlib:realtype="GoodAI.Modules.Common.CombinationRNGTask">
+            <Min>0</Min>
+            <Max>1024</Max>
+            <Unique>True</Unique>
+          </Task>
+          <Task Enabled="True" PropertyName="PeriodTask" yaxlib:realtype="GoodAI.Modules.Common.PeriodRNGTask">
+            <RandomPeriod>False</RandomPeriod>
+            <Period>1</Period>
+            <RandomPeriodMin>1</RandomPeriodMin>
+            <RandomPeriodMax>10</RandomPeriodMax>
+          </Task>
+        </Tasks>
+      </MyRandomNode>
+      <MyGenerateInput LoadOnStart="False" SaveOnStop="False" Id="659" Name="Node_659" yaxlib:realtype="GoodAI.Modules.Common.MyGenerateInput">
+        <IO>
+          <OutputSize>1</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <UserInput>1</UserInput>
+        <GenerateType>UserData</GenerateType>
+        <DataFolder></DataFolder>
+        <Location X="257" Y="409" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Modules.Common.MyGenerateInput+MyTransferTask">
+            <MinValue>0</MinValue>
+            <MaxValue>1</MaxValue>
+            <ShiftSpeed>0</ShiftSpeed>
+          </Task>
+        </Tasks>
+      </MyGenerateInput>
+      <MyCSharpNode LoadOnStart="False" SaveOnStop="False" Id="662" Name="Node_662" yaxlib:realtype="GoodAI.Modules.Scripting.MyCSharpNode">
+        <IO>
+          <InputBranches>3</InputBranches>
+          <OutputBranchesSpec>6,6</OutputBranchesSpec>
+        </IO>
+        <DataFolder></DataFolder>
+        <Location X="332" Y="18" />
+        <m_script>using System;
+using System.Linq;
+using System.Collections.Generic;
+using GoodAI.Core.Utils;
+using GoodAI.Core.Nodes;
+using GoodAI.Core.Memory;
+using GoodAI.Modules.Scripting;
+using OpenTK;
+
+namespace Runtime
+{
+    public class Script
+    {
+        public class Block
+        {
+            public int UniqueId;
+            public int TypeId;
+            public Vector3 Position;
+            public Vector3 MinPosition;
+            public Vector3 MaxPosition;
+            public Vector3 Size;
+            public Vector3 OrientationForward;
+            public Vector3 OrientationUp;
+            public float BuildIntegrityPercentage;
+            public float IntegrityPercentage;
+            public float GridSize;
+
+            public Block()
+            {
+                TypeId = 0;
+                Position = new Vector3();
+                MinPosition = new Vector3();
+                MaxPosition = new Vector3();
+                Size = new Vector3();
+                OrientationForward = new Vector3();
+                OrientationUp = new Vector3();
+            }
+
+            public Block(float[] data)
+            {
+                UniqueId = (int)data[0];
+                TypeId = (int)data[1];
+                BuildIntegrityPercentage = data[2];
+                IntegrityPercentage = data[3];
+                GridSize = data[4];
+                Position = new Vector3(data[5], data[6], data[7]);
+                MinPosition = new Vector3(data[8], data[9], data[10]);
+                MaxPosition = new Vector3(data[11], data[12], data[13]);
+                OrientationForward = new Vector3(data[14], data[15], data[16]);
+                OrientationUp = new Vector3(data[17], data[18], data[19]);
+                Size = new Vector3(data[20], data[21], data[22]);
+            }
+        }
+        
+        static MyCSharpNode Owner;
+        static MyMemoryBlock&lt;float&gt; Action;
+        static MyMemoryBlock&lt;float&gt; Move;
+        static MyMemoryBlock&lt;float&gt; Input;
+        static MyMemoryBlock&lt;float&gt; Position;
+        static MyMemoryBlock&lt;float&gt; Options;
+    
+        static Block actualBlock;
+
+        enum Mode
+        {
+            Random,
+            Close,
+            Damage
+        }
+
+        static Mode m_mode;
+
+        static Vector3 m_position;
+        static Vector3 m_forward;
+        static Vector3 m_up;
+        static Vector3 m_right;
+        static Vector3 m_left;
+
+        const float NEAR_THRESHOLD = 2.5f;
+        const int BLOCK_SIZE = 23;
+    
+        public static void Init(MyCSharpNode owner)
+        {
+            actualBlock = null;
+            Owner = owner;
+            Move = Owner.GetOutput(0);
+            Action = Owner.GetOutput(1);
+            Input = Owner.GetInput(0);
+            Position = Owner.GetInput(1);
+            Options = Owner.GetInput(2);
+        }
+        
+        private static List&lt;Block&gt; GetBrokenBlocks(List&lt;Block&gt; blocks)
+        {
+            List&lt;Block&gt; result = blocks.Where(x =&gt; x.IntegrityPercentage &lt; 100 &amp;&amp; x.GridSize != 0).ToList();
+            return result;
+        }
+
+        private static Block GetClosestBlock(Vector3 position, List&lt;Block&gt; blocks)
+        {
+            if (blocks.Count == 0)
+                return null;
+
+            List&lt;Block&gt; sortable = blocks.ConvertAll(x =&gt; x).ToList();
+
+            sortable.Sort(
+                delegate(Block a, Block b)
+                {
+                    float distFromA = Distance(position, a.Position);
+                    float distFromB = Distance(position, b.Position);
+                    return distFromA.CompareTo(distFromB);
+                }    
+            );
+
+            return blocks.First();
+        }
+    
+        private static Block GetClosestBrokenBlock(Vector3 position, List&lt;Block&gt; blocks)
+        {
+            List&lt;Block&gt; broken = GetBrokenBlocks(blocks);
+            Block result = GetClosestBlock(position, broken);
+            return result;
+        }
+
+        private static Block GetRandomBrokenBlock(List&lt;Block&gt; blocks)
+        {
+            List&lt;Block&gt; brokenBlocks = GetBrokenBlocks(blocks);
+
+            Random rnd = new Random();
+            int rndIndex = rnd.Next(brokenBlocks.Count);
+            return brokenBlocks[rndIndex];
+        }
+
+        private static Block GetMostBrokenBlock(List&lt;Block&gt; blocks)
+        {
+            List&lt;Block&gt; brokenBlocks = GetBrokenBlocks(blocks);
+            return brokenBlocks.OrderBy(x =&gt; x.IntegrityPercentage).First();
+        }
+    
+        private static List&lt;Block&gt; ConvertToBlocks(float[] data)
+        {
+            List&lt;Block&gt; blocks = new List&lt;Block&gt;();
+            for (int i = 0; i &lt; data.Length; i += BLOCK_SIZE)
+            {
+                Block block = new Block(data.Skip(i).Take(BLOCK_SIZE).ToArray());
+                blocks.Add(block);
+            }
+            return blocks;
+        }
+
+        private static void ChooseNewBlock(Vector3 position)
+        {
+            float[] input = Input.Host;
+            if (input[0] == 0)
+                return;
+
+            List&lt;Block&gt; blocks = ConvertToBlocks(input);
+            if (blocks.Count == 0)
+                return;
+
+            switch (m_mode)
+            {
+                case Mode.Close:
+                    MyLog.INFO.WriteLine("CLOSE");
+                    actualBlock = GetClosestBrokenBlock(position, blocks);
+                    break;
+                case Mode.Damage:
+                    actualBlock = GetMostBrokenBlock(blocks);
+                    break;
+                default:
+                case Mode.Random:
+                    actualBlock = GetRandomBrokenBlock(blocks);
+                    break;
+            }
+        }
+
+        private static float Distance(Vector3 a, Vector3 b)
+        {
+            return (a - b).Length;
+        }
+
+        private static bool NearBlock(Block block, Vector3 position)
+        {
+            if (Distance(block.Position, position) &lt; NEAR_THRESHOLD)
+                return true;
+            return false;
+        }
+
+        private static void Repair()
+        {
+            Action.Host[0] = 3;   //equip welder
+            Action.Host[4] = 1;   //do primary action 1
+            //Action.SafeCopyToDevice();
+        }
+
+        private static void MoveTowardsBlock(Block block)
+        {
+            if (Distance(block.Position, m_position) &gt; Distance(block.Position, m_position + m_forward))
+                Move.Host[2] = -1;    //forward
+            else
+                Move.Host[2] = 1;    //backward
+
+            if (Distance(block.Position, m_position) &gt; Distance(block.Position, m_position + m_right))
+                Move.Host[0] = 1;    //left
+            else
+                Move.Host[0] = -1;    //right
+
+            //Move.SafeCopyToDevice();
+        }
+
+        private static void UpdateBlockInfo(List&lt;Block&gt; blocks)
+        {
+            List&lt;Block&gt; update = blocks.Where(x =&gt; x.UniqueId == actualBlock.UniqueId).ToList();
+            if (update.Count &gt; 0)
+                actualBlock = update.First();
+        }
+
+        private static void FineTune(Block block)
+        {
+            //Move.SafeCopyToHost();
+
+            //make sure that forward vector position is closer to target then actual enginner position or its right vector position
+            if (Distance(block.Position, m_position + m_forward) &gt; Distance(block.Position, m_position) || 
+                Distance(block.Position, m_position + m_forward) &gt; Distance(block.Position, m_position + m_right) ||
+                Math.Abs(Distance(block.Position, m_position + m_right) - Distance(block.Position, m_position + m_left)) &gt; 0.4)
+                Move.Host[4] = 10;
+
+            if (block.Position.Y &gt; m_position.Y) //in front of me
+            {
+                if (Math.Sign(m_up.X) != Math.Sign(m_forward.X))   //looking up
+                {
+                    Move.Host[3] = 3; //pitch down
+                }
+                else
+                {
+                    Move.Host[3] = -3; //pitch up
+                }
+            }
+            else if (block.Position.Y &lt; m_position.Y)  //floor
+            {
+                if (Math.Sign(m_up.X) != Math.Sign(m_forward.X) || m_up.Y &gt; 0.3f)   //looking up
+                {
+                    Move.Host[3] = 3; //pitch down
+                }
+                else
+                {
+                    Move.Host[3] = -3; //pitch up
+                }
+            }
+
+            //Move.SafeCopyToDevice();
+        }
+        
+        public static void Execute(MyCSharpNode owner)
+        {
+            
+            m_mode = (Mode)Options.Host[0];
+
+            //Position.SafeCopyToHost();
+            float[] position = Position.Host;
+
+            m_position = new Vector3(position[0], position[1], position[2]);
+            m_forward = new Vector3(position[3], position[4], position[5]);
+            m_up = new Vector3(position[12], position[13], position[14]);
+            m_right = Vector3.Cross(m_forward, m_up);
+            m_right.Normalize();
+            m_left = -m_right;
+
+            if (actualBlock == null)
+                ChooseNewBlock(m_position);
+            else
+            {
+                float[] input = Input.Host;
+                if (input[0] == 0)
+                    return;
+
+                List&lt;Block&gt; blocks = ConvertToBlocks(input);
+                UpdateBlockInfo(blocks);
+            }
+            if (actualBlock == null)
+                return;
+
+            MyLog.DEBUG.WriteLine("Distance&gt; " + Distance(actualBlock.Position, m_position));
+            
+
+            //Action.Fill(0);
+            for (int i = 0; i &lt; Action.Count; ++i)
+                Action.Host[i] = 0;
+            //Move.Fill(0);
+            for (int i = 0; i &lt; Move.Count; ++i)
+                Move.Host[i] = 0;
+            if (NearBlock(actualBlock, m_position))
+            {
+                FineTune(actualBlock);
+                Repair();
+            }
+            else
+            {
+                MoveTowardsBlock(actualBlock);
+            }
+            MyLog.DEBUG.WriteLine("INT&gt;" + actualBlock.IntegrityPercentage);
+
+            if(actualBlock.IntegrityPercentage == 100)
+            {
+                Action.Fill(0);
+                MyLog.INFO.WriteLine("Block repaired!");
+                actualBlock = null;
+            }
+        }
+    }
+}</m_script>
+        <Tasks>
+          <Task Enabled="True" PropertyName="InitScript" yaxlib:realtype="GoodAI.Modules.Scripting.MyCSharpNode+MyInitScriptTask" />
+          <Task Enabled="True" PropertyName="ExecuteScript" yaxlib:realtype="GoodAI.Modules.Scripting.MyCSharpNode+MyExecuteScriptTask" />
+        </Tasks>
+      </MyCSharpNode>
+    </Children>
+    <LayoutProperties Zoom="0.6502603">
+      <Translation X="-209.8224" Y="-79.1767" />
+    </LayoutProperties>
+    <GroupInputNodes>
+      <MyParentInput ParentInputIndex="0" Id="1" Name="Position">
+        <Location X="39" Y="100" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="1" Id="17" Name="Tools">
+        <Location X="40" Y="235" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="2" Id="18" Name="Blocks">
+        <Location X="50" Y="400" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="3" Id="19" Name="SelectedBlock">
+        <Location X="50" Y="550" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="4" Id="38" Name="Stats">
+        <Location X="50" Y="700" />
+      </MyParentInput>
+    </GroupInputNodes>
+    <GroupOutputNodes>
+      <MyOutput Id="15" Name="MoveAndRotate">
+        <Location X="553" Y="3" />
+      </MyOutput>
+      <MyOutput Id="20" Name="ToolAndActions">
+        <Location X="556" Y="150" />
+      </MyOutput>
+      <MyOutput Id="36" Name="SimulationControl">
+        <Location X="630" Y="637" />
+      </MyOutput>
+    </GroupOutputNodes>
+    <DataFolder></DataFolder>
+    <Connections>
+      <Connection From="662" To="15" FromIndex="0" ToIndex="0" />
+      <Connection From="662" To="20" FromIndex="1" ToIndex="0" />
+      <Connection From="41" To="36" FromIndex="0" ToIndex="0" />
+      <Connection From="76" To="41" FromIndex="0" ToIndex="0" />
+      <Connection From="64" To="41" FromIndex="0" ToIndex="1" />
+      <Connection From="18" To="662" FromIndex="0" ToIndex="0" />
+      <Connection From="1" To="662" FromIndex="0" ToIndex="1" />
+      <Connection From="659" To="662" FromIndex="0" ToIndex="2" />
+    </Connections>
+    <Tasks />
+  </Network>
+  <World LoadOnStart="False" SaveOnStop="False" Id="14" Name="World" yaxlib:realtype="GoodAI.SandboxIntegration.SeWorld">
+    <MaxBlockCount>1000</MaxBlockCount>
+    <ListeningIP>127.0.0.1</ListeningIP>
+    <ListeningPort>6683</ListeningPort>
+    <SynchronizationTimeout>1000</SynchronizationTimeout>
+    <BrainSynchronous>True</BrainSynchronous>
+    <BrainStepsPerComm>1</BrainStepsPerComm>
+    <GameSynchronous>True</GameSynchronous>
+    <GameStepsPerComm>3</GameStepsPerComm>
+    <GameCaffeine>False</GameCaffeine>
+    <DataFolder></DataFolder>
+    <Tasks>
+      <Task Enabled="True" PropertyName="SeSyncTask" yaxlib:realtype="GoodAI.SandboxIntegration.SeSyncTask">
+        <ZeroRotationThreshold>0.75</ZeroRotationThreshold>
+        <SphereRadius>35</SphereRadius>
+      </Task>
+    </Tasks>
+  </World>
+  <Observers>
+    <NodeObserver yaxlib:realtype="GoodAI.SandboxIntegration.MySeObserver">
+      <ViewMode>Orbit_3D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="871" Y="232" />
+        <Size Width="704" Height="611" />
+        <CameraData CameraType="Orbit_3D" X="268.5" Y="42" Z="23.64853" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>14</TargetIdentifier>
+    </NodeObserver>
+  </Observers>
+  <UsedModules>
+    <Module Name="GoodAI.Platform.Core.dll" Version="9" />
+    <Module Name="GoodAI.BasicNodes.dll" Version="13" />
+    <Module Name="GoodAI.SandboxIntegration.dll" Version="1" />
+  </UsedModules>
+</Project>

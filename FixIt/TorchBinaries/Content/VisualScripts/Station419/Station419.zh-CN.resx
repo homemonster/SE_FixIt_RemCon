@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airlock_QLLine1" xml:space="preserve">
+    <value>从高亮的制造机中获取氧气和氢气罐</value>
+  </data>
+  <data name="Airlock_QLLine2" xml:space="preserve">
+    <value>使用面板按钮，循环气密室氧气</value>
+  </data>
+  <data name="Airlock_QLLine3" xml:space="preserve">
+    <value>离开基地</value>
+  </data>
+  <data name="Airlock_QLTitle" xml:space="preserve">
+    <value>通过气密室离开基地</value>
+  </data>
+  <data name="Assembling_Completed" xml:space="preserve">
+    <value>现在有足够的材料</value>
+  </data>
+  <data name="Assembling_GLLine1" xml:space="preserve">
+    <value>钢板：{0}]/{1}</value>
+  </data>
+  <data name="Assembling_GLLine2" xml:space="preserve">
+    <value>建造组件：{0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine3" xml:space="preserve">
+    <value>小管道：{0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine4" xml:space="preserve">
+    <value>大管道：[{0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine5" xml:space="preserve">
+    <value>马达：{0}/{1}</value>
+  </data>
+  <data name="Assembling_QLTitle" xml:space="preserve">
+    <value>需要如下组件：</value>
+  </data>
+  <data name="Assembling_Quest1" xml:space="preserve">
+    <value>点击终端菜单中的制造标签生产组件</value>
+  </data>
+  <data name="Assembling_Quest2" xml:space="preserve">
+    <value>可以使用基地周围货柜内组件</value>
+  </data>
+  <data name="Connecting_3rdPerson" xml:space="preserve">
+    <value>请按[{0}]键切换至第三人视角，按ALT调节摄像头视角</value>
+  </data>
+  <data name="Connecting_Docking" xml:space="preserve">
+    <value>在两个连接器都变成黄色的时候，可以用[{0}]键来锁定他们</value>
+  </data>
+  <data name="Connecting_Done" xml:space="preserve">
+    <value>飞船已连接。材料输送至精炼厂</value>
+  </data>
+  <data name="Connecting_GPS" xml:space="preserve">
+    <value>基地连接器</value>
+  </data>
+  <data name="Connecting_QLLine1" xml:space="preserve">
+    <value>请用[{0}]键锁住连接器</value>
+  </data>
+  <data name="Connecting_QLTitle" xml:space="preserve">
+    <value>将采矿船与基地对接</value>
+  </data>
+  <data name="Connecting_Quest" xml:space="preserve">
+    <value>现在您需要将船和基地对接</value>
+  </data>
+  <data name="Conveyors_Build" xml:space="preserve">
+    <value>现在还需要放置新的传输管道补充断掉的部分，按[{0}]键</value>
+  </data>
+  <data name="Conveyors_Completed1" xml:space="preserve">
+    <value>货柜和加特林连接完成。炮塔能自动从传输网络获得弹药</value>
+  </data>
+  <data name="Conveyors_Completed2" xml:space="preserve">
+    <value>货柜和连接器连接完成。现在可以从传输带连接的货柜中获得物品 </value>
+  </data>
+  <data name="Conveyors_Completed3" xml:space="preserve">
+    <value>连接器连接完成。现在能使用任一连接器从飞船中取得物品</value>
+  </data>
+  <data name="Conveyors_Completed4" xml:space="preserve">
+    <value>精炼厂和反应堆连接完成。铀锭现在会自动供应反应堆</value>
+  </data>
+  <data name="Conveyors_GPS" xml:space="preserve">
+    <value>可回收的输送管</value>
+  </data>
+  <data name="Conveyors_GPS_Cargo" xml:space="preserve">
+    <value>受损输送管</value>
+  </data>
+  <data name="Conveyors_GPS_Connector" xml:space="preserve">
+    <value>缺少多个传输管</value>
+  </data>
+  <data name="Conveyors_GPS_Reactor" xml:space="preserve">
+    <value>缺少传输管</value>
+  </data>
+  <data name="Conveyors_Hint" xml:space="preserve">
+    <value>有断开连接的传输管，可以拆下来作为组件</value>
+  </data>
+  <data name="Conveyors_QLLine1" xml:space="preserve">
+    <value>大型货柜 &lt;=&gt;加特林炮塔</value>
+  </data>
+  <data name="Conveyors_QLLine2" xml:space="preserve">
+    <value>大型货柜 &lt;=&gt;基地连接器</value>
+  </data>
+  <data name="Conveyors_QLLine3" xml:space="preserve">
+    <value>基地连接器&lt;=&gt; 精炼厂</value>
+  </data>
+  <data name="Conveyors_QLLine4" xml:space="preserve">
+    <value>精炼厂&lt;=&gt; 反应堆</value>
+  </data>
+  <data name="Conveyors_QLTitle" xml:space="preserve">
+    <value>修复清单中的基地传输连接部分</value>
+  </data>
+  <data name="Conveyors_Quest1" xml:space="preserve">
+    <value>这个基地以前有完备的传输管道</value>
+  </data>
+  <data name="Conveyors_Quest2" xml:space="preserve">
+    <value>有些部件已经受损需要修复</value>
+  </data>
+  <data name="Cutscene1_Chair" xml:space="preserve">
+    <value>您也可以进入座舱和座椅来补充能量</value>
+  </data>
+  <data name="Cutscene1_Chair2" xml:space="preserve">
+    <value>坐在此座椅可以很好的欣赏太空美景</value>
+  </data>
+  <data name="Cutscene1_Cryo" xml:space="preserve">
+    <value>当您想退出游戏时，请进入这些休眠仓</value>
+  </data>
+  <data name="Cutscene1_MedBay" xml:space="preserve">
+    <value>使用医疗室来重生，治愈，充电和改变宇航服颜色</value>
+  </data>
+  <data name="Cutscene1_Proceed" xml:space="preserve">
+    <value>现在前往气密室</value>
+  </data>
+  <data name="Cutscene1_Welcome" xml:space="preserve">
+    <value>欢迎来到419号基地</value>
+  </data>
+  <data name="Cutscene2_Antenna" xml:space="preserve">
+    <value>基地天线</value>
+  </data>
+  <data name="Cutscene2_Ending" xml:space="preserve">
+    <value>这个基地情况糟糕。需要您来恢复运行</value>
+  </data>
+  <data name="Cutscene2_Gatling" xml:space="preserve">
+    <value>主防卫炮塔</value>
+  </data>
+  <data name="Cutscene2_Mining" xml:space="preserve">
+    <value>矿石探测器</value>
+  </data>
+  <data name="Cutscene2_Missile" xml:space="preserve">
+    <value>次级防卫炮塔</value>
+  </data>
+  <data name="Cutscene2_Production" xml:space="preserve">
+    <value>生产和精炼</value>
+  </data>
+  <data name="Cutscene2_Reactor" xml:space="preserve">
+    <value>主要能量发生器</value>
+  </data>
+  <data name="Cutscene2_Ship" xml:space="preserve">
+    <value>小型飞船机库内有一个没有造好的采矿船</value>
+  </data>
+  <data name="Cutscene2_Solar" xml:space="preserve">
+    <value>太阳能能量产生和电池存储</value>
+  </data>
+  <data name="Cutscene2_Storage" xml:space="preserve">
+    <value>主货柜</value>
+  </data>
+  <data name="Cutscene2_Tank" xml:space="preserve">
+    <value>氢燃料罐</value>
+  </data>
+  <data name="Cutscene2_Welcome" xml:space="preserve">
+    <value>工程师，欢迎来到419号基地。我们一起来看看这里的设施！</value>
+  </data>
+  <data name="Defense_Completed" xml:space="preserve">
+    <value>好极了！您已经完全准备好应对更多的敌人了</value>
+  </data>
+  <data name="Defense_GPS" xml:space="preserve">
+    <value>富含镁矿的陨石</value>
+  </data>
+  <data name="Defense_MagnesiumEnough" xml:space="preserve">
+    <value> 您已经有了足够的镁矿，退回一些到精炼厂</value>
+  </data>
+  <data name="Defense_QLLine1" xml:space="preserve">
+    <value>修复加特林炮塔</value>
+  </data>
+  <data name="Defense_QLLine2" xml:space="preserve">
+    <value>修复从加特林炮台到装配机的传输连接</value>
+  </data>
+  <data name="Defense_QLLine3" xml:space="preserve">
+    <value>采集和处理镁矿</value>
+  </data>
+  <data name="Defense_QLLine4" xml:space="preserve">
+    <value>炮塔库存需要[{0}]单位的弹药（您有{1}）</value>
+  </data>
+  <data name="Defense_QLTitle" xml:space="preserve">
+    <value>全面运行中，供应加特林炮塔</value>
+  </data>
+  <data name="Defense_Quest1" xml:space="preserve">
+    <value>基地已经再经不起攻击，需要加强防卫</value>
+  </data>
+  <data name="Defense_Quest2" xml:space="preserve">
+    <value>加特林炮塔可以协助防御，但是需要提供更多的弹药</value>
+  </data>
+  <data name="Defense_Quest3" xml:space="preserve">
+    <value>需要镁矿制造弹药，幸好附近有富含镁矿的陨石</value>
+  </data>
+  <data name="DrillBott_QLTitle" xml:space="preserve">
+    <value>调查不明无人机</value>
+  </data>
+  <data name="DrillBott_Success" xml:space="preserve">
+    <value>干得好，无人机已被击落！</value>
+  </data>
+  <data name="DrillBot_Fail" xml:space="preserve">
+    <value>敌方挖矿无人机已经逃离而且留下许多矿石</value>
+  </data>
+  <data name="DrillBot_GPS1" xml:space="preserve">
+    <value>不明无人机</value>
+  </data>
+  <data name="DrillBot_GPS2" xml:space="preserve">
+    <value>挖矿无人机</value>
+  </data>
+  <data name="DrillBot_QLLine1" xml:space="preserve">
+    <value>近距离查看无人机</value>
+  </data>
+  <data name="DrillBot_QLLine2" xml:space="preserve">
+    <value>劫停敌方挖矿 无人机</value>
+  </data>
+  <data name="DrillBot_Warning1" xml:space="preserve">
+    <value>警告：基地下面侦测到不明无人机</value>
+  </data>
+  <data name="DrillBot_Warning2" xml:space="preserve">
+    <value>敌方无人机在偷您的资源！用切割器来消灭它！</value>
+  </data>
+  <data name="Drilling_CobaltDone" xml:space="preserve">
+    <value>钴矿供应充足</value>
+  </data>
+  <data name="Drilling_Hint" xml:space="preserve">
+    <value>选中挖矿器请按（[{0}]键）然后接近矿石。按住鼠标左键开始挖矿</value>
+  </data>
+  <data name="Drilling_IronDone" xml:space="preserve">
+    <value>铁矿供应充足。铁矿石是最常用的材料元素</value>
+  </data>
+  <data name="Drilling_NickelDone" xml:space="preserve">
+    <value>镍矿供应充足</value>
+  </data>
+  <data name="Drilling_QLLine1" xml:space="preserve">
+    <value>采集到的铁矿 {0}kg （需要{1}kg） </value>
+  </data>
+  <data name="Drilling_QLLine2" xml:space="preserve">
+    <value>采集到的镍矿 {0}kg （需要{1}kg） </value>
+  </data>
+  <data name="Drilling_QLLine3" xml:space="preserve">
+    <value>采集到的硅矿{0}kg （需要{1}kg） </value>
+  </data>
+  <data name="Drilling_QLLine4" xml:space="preserve">
+    <value>采集到的钴矿{0}kg （需要{1}kg） </value>
+  </data>
+  <data name="Drilling_QLTitle" xml:space="preserve">
+    <value>用采矿船采矿</value>
+  </data>
+  <data name="Drilling_Quest1" xml:space="preserve">
+    <value>用这个船可以更有效的采集到更多的矿物</value>
+  </data>
+  <data name="Drilling_Quest2" xml:space="preserve">
+    <value>用采矿船采集一些基本的矿物-铁，镍和硅</value>
+  </data>
+  <data name="Drilling_SiliconDone" xml:space="preserve">
+    <value>硅供应充足</value>
+  </data>
+  <data name="DroneWaves_QLLine1Fight" xml:space="preserve">
+    <value>无人机运行正常：{0}/{1}</value>
+  </data>
+  <data name="DroneWaves_QLLine1Peace" xml:space="preserve">
+    <value>下一波：{0}秒</value>
+  </data>
+  <data name="DroneWaves_QLLine2" xml:space="preserve">
+    <value>当前波{0}/{1}</value>
+  </data>
+  <data name="DroneWaves_QLTitle" xml:space="preserve">
+    <value>抵抗无人机突袭</value>
+  </data>
+  <data name="Faction_Description" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Faction_Name" xml:space="preserve">
+    <value>419基地工程师队</value>
+  </data>
+  <data name="Faction_Private" xml:space="preserve">
+    <value>工作，工作</value>
+  </data>
+  <data name="Faction_Tag" xml:space="preserve">
+    <value>SEC</value>
+  </data>
+  <data name="FirstAttack_Lost" xml:space="preserve">
+    <value>无人机正在撤退..但是它们已经造成巨大损失</value>
+  </data>
+  <data name="FirstAttack_QLLine" xml:space="preserve">
+    <value>攻击敌方无人机</value>
+  </data>
+  <data name="FirstAttack_QLLine2" xml:space="preserve">
+    <value>无人机状态：{0}%</value>
+  </data>
+  <data name="FirstAttack_QLTitle" xml:space="preserve">
+    <value>保卫基地</value>
+  </data>
+  <data name="FirstAttack_Quest1" xml:space="preserve">
+    <value>警告：基地下面侦查到敌方无人机</value>
+  </data>
+  <data name="FirstAttack_Quest2" xml:space="preserve">
+    <value>用步枪或者切割器摧毁无人机</value>
+  </data>
+  <data name="FirstAttack_Won" xml:space="preserve">
+    <value>无人机已摧毁。可以拆解后获得更多组件</value>
+  </data>
+  <data name="FirstBaseRepair_Furnace" xml:space="preserve">
+    <value>电弧炉运作正常。它能比精炼厂更快的处理基本的矿物例如铁矿</value>
+  </data>
+  <data name="FirstBaseRepair_GPS_Furnace" xml:space="preserve">
+    <value>电弧炉</value>
+  </data>
+  <data name="FirstBaseRepair_GPS_Storage" xml:space="preserve">
+    <value>大型货柜</value>
+  </data>
+  <data name="FirstBaseRepair_Hint" xml:space="preserve">
+    <value>用焊接器和切割器对准方块，就能知道其组成</value>
+  </data>
+  <data name="FirstBaseRepair_QLLine1" xml:space="preserve">
+    <value>维修电弧炉</value>
+  </data>
+  <data name="FirstBaseRepair_QLLine2" xml:space="preserve">
+    <value>维修大型货柜</value>
+  </data>
+  <data name="FirstBaseRepair_QLTitle" xml:space="preserve">
+    <value>维修电弧炉和大型货柜</value>
+  </data>
+  <data name="FirstBaseRepair_Quest1" xml:space="preserve">
+    <value>需要维修电弧炉和大型货柜</value>
+  </data>
+  <data name="FirstBaseRepair_Quest2" xml:space="preserve">
+    <value>可以从标记的地方获得所有必要的组件</value>
+  </data>
+  <data name="FirstBaseRepair_Storage" xml:space="preserve">
+    <value>大型货柜运作正常。里面有大量的材料可用</value>
+  </data>
+  <data name="GeneralGPS_Assembler" xml:space="preserve">
+    <value>装配机</value>
+  </data>
+  <data name="GeneralGPS_Drone" xml:space="preserve">
+    <value>敌方无人机</value>
+  </data>
+  <data name="GeneralGPS_Gatling" xml:space="preserve">
+    <value>加特林炮塔</value>
+  </data>
+  <data name="GeneralGPS_Missile" xml:space="preserve">
+    <value>火箭炮塔</value>
+  </data>
+  <data name="GeneralGPS_Storage" xml:space="preserve">
+    <value>货柜仓口</value>
+  </data>
+  <data name="Gravity_About1" xml:space="preserve">
+    <value>重力发生器产生人工重力场</value>
+  </data>
+  <data name="Gravity_About2" xml:space="preserve">
+    <value>人工重力不影响飞船（除非使用人工质量方块和球体）</value>
+  </data>
+  <data name="Gravity_GPS" xml:space="preserve">
+    <value>重力发生器</value>
+  </data>
+  <data name="Gravity_QLLine1" xml:space="preserve">
+    <value>使用按钮面板激活重力发生器</value>
+  </data>
+  <data name="Gravity_QLTitle" xml:space="preserve">
+    <value>切换到人工重力</value>
+  </data>
+  <data name="Gravity_Quest" xml:space="preserve">
+    <value>开始维修之前，请开启重力发生器</value>
+  </data>
+  <data name="GrindBot_GPS" xml:space="preserve">
+    <value>拆解无人机</value>
+  </data>
+  <data name="GrinderBot_Fail" xml:space="preserve">
+    <value>无人机从基地窃取组件之后正在逃离</value>
+  </data>
+  <data name="GrinderBot_QLLine1" xml:space="preserve">
+    <value>近距离的查看无人机</value>
+  </data>
+  <data name="GrinderBot_QLLine2" xml:space="preserve">
+    <value>劫停拆解无人机</value>
+  </data>
+  <data name="GrinderBot_QLTitle" xml:space="preserve">
+    <value>处理第二个不明无人机</value>
+  </data>
+  <data name="GrinderBot_Success" xml:space="preserve">
+    <value>无人机已摧毁。但是我怀疑后面还有更多</value>
+  </data>
+  <data name="GrinderBot_Warning1" xml:space="preserve">
+    <value>警告：在基地下面侦查到更多无人机</value>
+  </data>
+  <data name="GrinderBot_Warning2" xml:space="preserve">
+    <value>有侦测到了敌方无人机！这次发现它装有拆解机。务必谨慎处理！</value>
+  </data>
+  <data name="Intro_Hint" xml:space="preserve">
+    <value>您需要激活任务指南吗？按高亮按钮面板确定</value>
+  </data>
+  <data name="Intro_Hint2" xml:space="preserve">
+    <value>使用喷气背包([ [{0}] ] 键)在室内飞行</value>
+  </data>
+  <data name="Intro_Outcome1" xml:space="preserve">
+    <value>任务已激活</value>
+  </data>
+  <data name="Intro_Outcome2" xml:space="preserve">
+    <value>任务停止，恢复正常沙盒游戏模式</value>
+  </data>
+  <data name="Intro_QuestlogLine1" xml:space="preserve">
+    <value>按左侧按钮激活指南和任务</value>
+  </data>
+  <data name="Intro_QuestlogLine2" xml:space="preserve">
+    <value>按右侧按钮在沙盒游戏模式下进入游戏</value>
+  </data>
+  <data name="Intro_QuestlogTitle" xml:space="preserve">
+    <value>在任务模式或者沙盒模式之间切换</value>
+  </data>
+  <data name="MissileTurret_QLLine1" xml:space="preserve">
+    <value>火箭炮塔</value>
+  </data>
+  <data name="MissileTurret_QLLine2" xml:space="preserve">
+    <value>火箭炮塔&lt;=&gt;大型货柜</value>
+  </data>
+  <data name="MissileTurret_QLLine3" xml:space="preserve">
+    <value>加特林炮塔</value>
+  </data>
+  <data name="MissileTurret_QLLine4" xml:space="preserve">
+    <value>加特林炮塔&lt;=&gt;大型货柜</value>
+  </data>
+  <data name="MissileTurret_QLLine5" xml:space="preserve">
+    <value>等待卸载货物</value>
+  </data>
+  <data name="MissileTurret_QLTitle" xml:space="preserve">
+    <value>维修受损炮塔</value>
+  </data>
+  <data name="MissileTurret_Quest1" xml:space="preserve">
+    <value>是时候用用这些火箭炮塔了</value>
+  </data>
+  <data name="MissileTurret_Quest2" xml:space="preserve">
+    <value>暂时不需要组装更多的弹药</value>
+  </data>
+  <data name="MissileTurret_Quest3" xml:space="preserve">
+    <value>弹药补给舰正在抵达基地的途中</value>
+  </data>
+  <data name="MissileTurret_Unloading" xml:space="preserve">
+    <value>正在卸弹药</value>
+  </data>
+  <data name="Processing_Completed" xml:space="preserve">
+    <value>所有材料都已堆放在指定的位置。可以开始组装了</value>
+  </data>
+  <data name="Processing_QLLine1" xml:space="preserve">
+    <value>将铁矿放在电弧炉第一格</value>
+  </data>
+  <data name="Processing_QLLine2" xml:space="preserve">
+    <value>将镍矿放在电弧炉第二格</value>
+  </data>
+  <data name="Processing_QLLine3" xml:space="preserve">
+    <value>将硅放在精炼炉第一格</value>
+  </data>
+  <data name="Processing_QLLine4" xml:space="preserve">
+    <value>将钴矿放在电弧炉第三格或者精炼厂第二格</value>
+  </data>
+  <data name="Processing_QLTitle" xml:space="preserve">
+    <value>将矿石在精炼厂和电弧炉中重新排序</value>
+  </data>
+  <data name="Processing_Quest1" xml:space="preserve">
+    <value>矿石依次放置在精炼厂和电弧炉，但是可以再优化一下次序</value>
+  </data>
+  <data name="Processing_Quest2" xml:space="preserve">
+    <value>检查库存，重新排序准备精炼</value>
+  </data>
+  <data name="Reactor_GPS_Reactor" xml:space="preserve">
+    <value>基地反应堆</value>
+  </data>
+  <data name="Reactor_GPS_Spare" xml:space="preserve">
+    <value>停用的反应堆</value>
+  </data>
+  <data name="Reactor_QLLine1" xml:space="preserve">
+    <value> 启用拆解机([ [{0}] ] 键)并且回收利用高亮的方块 </value>
+  </data>
+  <data name="Reactor_QLLine2" xml:space="preserve">
+    <value>启用焊接机 ([ [{0}] ] 键)并且建好小型反应堆 </value>
+  </data>
+  <data name="Reactor_QLTitle" xml:space="preserve">
+    <value>修复基地小型反应堆</value>
+  </data>
+  <data name="Reactor_Quest1" xml:space="preserve">
+    <value>太阳能板和电池为基地提供能量，但是产能不高</value>
+  </data>
+  <data name="Reactor_Quest2" xml:space="preserve">
+    <value>下一步将会是启用基地反应堆，这样就有了更大的产能</value>
+  </data>
+  <data name="Reactor_Quest3" xml:space="preserve">
+    <value>拆解废弃的反应堆获取备件</value>
+  </data>
+  <data name="Refinery_GPS" xml:space="preserve">
+    <value>精炼厂</value>
+  </data>
+  <data name="Refinery_Outcome" xml:space="preserve">
+    <value>不错！铀矿供应充足，但是还是要记得补充！</value>
+  </data>
+  <data name="Refinery_Processing1" xml:space="preserve">
+    <value>精炼厂从左到右依次处理矿石</value>
+  </data>
+  <data name="Refinery_Processing2" xml:space="preserve">
+    <value>可以拖动矿石来重新排序（有些矿石处理的非常慢）</value>
+  </data>
+  <data name="Refinery_QLLine1" xml:space="preserve">
+    <value>输送铀矿到精炼厂</value>
+  </data>
+  <data name="Refinery_QLLine2" xml:space="preserve">
+    <value>将处理好的铀锭送到反应堆</value>
+  </data>
+  <data name="Refinery_QLTitle" xml:space="preserve">
+    <value>给小型反应堆补充铀锭</value>
+  </data>
+  <data name="Refinery_Quest1" xml:space="preserve">
+    <value>好！铀矿暂时已经充足。</value>
+  </data>
+  <data name="Refinery_Quest2" xml:space="preserve">
+    <value>将采集到的矿石输送到精炼厂内</value>
+  </data>
+  <data name="Refinery_Quest3" xml:space="preserve">
+    <value>如果采集到其他的矿石，也可以添加进去</value>
+  </data>
+  <data name="Refinery_Quest4" xml:space="preserve">
+    <value>现在精炼厂内铀锭充足</value>
+  </data>
+  <data name="Refinery_Quest5" xml:space="preserve">
+    <value>将铀矿送到小型反应堆</value>
+  </data>
+  <data name="SecondAttack_GPS" xml:space="preserve">
+    <value>炮塔控制</value>
+  </data>
+  <data name="SecondAttack_QLLine1" xml:space="preserve">
+    <value>停用或者摧毁无人机{0}/{1}</value>
+  </data>
+  <data name="SecondAttack_QLLine2" xml:space="preserve">
+    <value>修复加特林炮塔</value>
+  </data>
+  <data name="SecondAttack_QLTitle" xml:space="preserve">
+    <value>保卫基地</value>
+  </data>
+  <data name="SecondAttack_Quest1" xml:space="preserve">
+    <value>警告：还有敌方无人机正 从下方接近！</value>
+  </data>
+  <data name="SecondAttack_Quest2" xml:space="preserve">
+    <value>进入控制台座舱，手动控制炮塔并且准备好应对威胁</value>
+  </data>
+  <data name="SecondAttack_Turret" xml:space="preserve">
+    <value>加特林炮塔已遭破坏。请及时修复</value>
+  </data>
+  <data name="SecondAttack_Won" xml:space="preserve">
+    <value>所有无人机已经击落，但是还有很多正在接近</value>
+  </data>
+  <data name="ShipRepair_GPS" xml:space="preserve">
+    <value>采矿船</value>
+  </data>
+  <data name="ShipRepair_QLLine1" xml:space="preserve">
+    <value>维修所有高亮方块：{0}/{1}</value>
+  </data>
+  <data name="ShipRepair_QLLine2" xml:space="preserve">
+    <value>维修驾驶舱</value>
+  </data>
+  <data name="ShipRepair_QLLine3" xml:space="preserve">
+    <value>重新为小型反应堆补充铀锭</value>
+  </data>
+  <data name="ShipRepair_QLLine4" xml:space="preserve">
+    <value>使用按钮面板为起落架解锁</value>
+  </data>
+  <data name="ShipRepair_QLLine5" xml:space="preserve">
+    <value>进入驾驶舱</value>
+  </data>
+  <data name="ShipRepair_QLTitle" xml:space="preserve">
+    <value>维修采矿船</value>
+  </data>
+  <data name="ShipRepair_Quest" xml:space="preserve">
+    <value>现在可以正常使用采矿船了</value>
+  </data>
+  <data name="ShipRepair_Uranium" xml:space="preserve">
+    <value>给飞船的小型反应堆补充铀锭（可以从基地小型反应堆中获取）</value>
+  </data>
+  <data name="ShipRepair_UraniumDone" xml:space="preserve">
+    <value>反应堆可以自动从连接的仓储货柜中获得铀锭</value>
+  </data>
+  <data name="UpgModules_Completed1" xml:space="preserve">
+    <value>干得好！装配机会运作的更快。</value>
+  </data>
+  <data name="UpgModules_Completed2" xml:space="preserve">
+    <value>装配机和精炼厂都有容纳四个模块的空间</value>
+  </data>
+  <data name="UpgModules_Completed3" xml:space="preserve">
+    <value>您可以稍厚添加和维修更多的模块</value>
+  </data>
+  <data name="UpgModules_QLLine1" xml:space="preserve">
+    <value>修复未完成的升级模块</value>
+  </data>
+  <data name="UpgModules_QLLine2" xml:space="preserve">
+    <value>在装配机上放置并且焊接提速模块</value>
+  </data>
+  <data name="UpgModules_QLTitle" xml:space="preserve">
+    <value>升级装配机</value>
+  </data>
+  <data name="UpgModules_Quest1" xml:space="preserve">
+    <value>生产这些组件可能有点耗时</value>
+  </data>
+  <data name="UpgModules_Quest2" xml:space="preserve">
+    <value>添加升级模块后可以加快组件装配速度</value>
+  </data>
+  <data name="UpgModules_Quest3" xml:space="preserve">
+    <value>这些模块提高了精炼厂和装配器的速度，产能和能效</value>
+  </data>
+  <data name="Uranium_GPS" xml:space="preserve">
+    <value>矿石探测器</value>
+  </data>
+  <data name="Uranium_QLLine1" xml:space="preserve">
+    <value>激活矿石探测器</value>
+  </data>
+  <data name="Uranium_QLLine2" xml:space="preserve">
+    <value>启用挖矿 ([ [{0}] ] 键)，用它挖铀矿</value>
+  </data>
+  <data name="Uranium_QLLine3" xml:space="preserve">
+    <value>采集到矿石：{0}公斤（需要{1}公斤）</value>
+  </data>
+  <data name="Uranium_QLTitle" xml:space="preserve">
+    <value>挖铀矿</value>
+  </data>
+  <data name="Uranium_Quest1" xml:space="preserve">
+    <value>小型反应堆需要铀锭提供能量</value>
+  </data>
+  <data name="Uranium_Quest2" xml:space="preserve">
+    <value>好，现在需要选择钻头，开始挖铀矿</value>
+  </data>
+  <data name="Uranium_Quest3" xml:space="preserve">
+    <value>矿石探测器可以协助您找到铀矿</value>
+  </data>
+</root>

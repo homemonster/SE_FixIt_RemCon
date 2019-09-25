@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_AboutPower2" xml:space="preserve">
+    <value>Tyto solární panely potřebují trochu energie, aby se mohly nasměrovat ke slunci. Pak budou produkovat elektřinu.</value>
+  </data>
+  <data name="Chat_Rebel_AboutPower3" xml:space="preserve">
+    <value>Je tam i kontejner s nějakými součástkami. Nahrávám souřadnice.</value>
+  </data>
+  <data name="Chat_Rebel_Intro1" xml:space="preserve">
+    <value>Vítejte v naší osadě. Kdysi nás tu byly stovky, budovali a pracovali jsme na této kolonii. Pevně jsme věřili, že kontrakt s R.O.S. bude začátek nové kapitoly našich životů, která se změní v něco velkého.</value>
+  </data>
+  <data name="Chat_Rebel_Intro2" xml:space="preserve">
+    <value>Krátce poté, co byl artefakt vykopán, na nás poslali bitevníky a nemilosrdně nás téměř vyhladili. Kolonie byla v troskách, přesně jak můžete vidět na vlastní oči.</value>
+  </data>
+  <data name="Chat_Rebel_Intro3" xml:space="preserve">
+    <value>Důvod proč jsme Vás přivedli je ten, že potřebujeme pomoc. Nemůžeme se sami postavit společnosti, ale s pomocí Vašich znalostí konstruktéra, bychom mohli mít šanci. V hangáru opodál je stará fregata. Je sice poškozená díky poslednímu útoku, ale pevně věřím, že s Vašimi schopnostmi nebude problém ji znovu dostat do vzduchu.</value>
+  </data>
+  <data name="Chat_Rebel_Intro4" xml:space="preserve">
+    <value>Plánujeme útok na flotilu společnosti a potřebujeme každou loď, kterou jsme schopni sehnat.</value>
+  </data>
+  <data name="Chat_Rebel_Intro5" xml:space="preserve">
+    <value>Hodně štěstí konstruktére!</value>
+  </data>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>Dokázali jsme to! Stahují se!</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>Konečně ty bastardi poznají chuť vlastní medicíny!</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>Bez Vás bychom to nedokázali, ale ještě stále není po všem. Ještě pořád jim musíme sebrat ten artefakt. Nesmíme dovolit, aby zůstal v rukou lidí, kteří by využívali jeho tajemství pro své vlastní sebestředné cíle.</value>
+  </data>
+  <data name="Chat_VA_AboutPower1" xml:space="preserve">
+    <value>Nezaznamenávám ze základny žádné známky energie.</value>
+  </data>
+  <data name="Chat_VA_ActivateTorpedo" xml:space="preserve">
+    <value>Torpédová komora se otevírá. Systémy torpéda aktivujete ze stejného panelu.</value>
+  </data>
+  <data name="Chat_VA_AmmoHaveEnough" xml:space="preserve">
+    <value>Už máte dostatek munice. Vraťte se s nimi na loď, prosím.</value>
+  </data>
+  <data name="Chat_VA_AmmoQuest" xml:space="preserve">
+    <value>Loď je v tuto chvíli bez munice. Přineste, prosím, zpět na loď alespoň 80 muničních beden.</value>
+  </data>
+  <data name="Chat_VA_AmmoReady" xml:space="preserve">
+    <value>Munice nabita a připravena k distribuování podle potřeby.</value>
+  </data>
+  <data name="Chat_VA_BatteryWrongPlace" xml:space="preserve">
+    <value>Baterie musí být v přímém kontaktu s červenou plošinou. Zkuste vyletět nahoru a dívat se dolů, když jí umisťujete.</value>
+  </data>
+  <data name="Chat_VA_EnemyShips" xml:space="preserve">
+    <value>Nepřátelské lodě v dosahu torpéd. Otevřete torpédovou komoru pomocí panelu poblíž torpéda.</value>
+  </data>
+  <data name="Chat_VA_FuelDone" xml:space="preserve">
+    <value>Reaktory nabíhají. Dobrá práce.</value>
+  </data>
+  <data name="Chat_VA_FuelLocation" xml:space="preserve">
+    <value>Kontejner s palivem zaměřen na následujících souřadnicích.</value>
+  </data>
+  <data name="Chat_VA_FuelPlaced" xml:space="preserve">
+    <value>Palivo je připravené, ale transportní systém je mimo provoz. Zapněte baterii, prosím.</value>
+  </data>
+  <data name="Chat_VA_GearsUnlocked" xml:space="preserve">
+    <value>Přistávací podvozky odemčeny. Můžete letět.</value>
+  </data>
+  <data name="Chat_VA_GoToShip" xml:space="preserve">
+    <value>Souřadnice hangáru nahrány do navigačního počítače.</value>
+  </data>
+  <data name="Chat_VA_GoToShipStatus" xml:space="preserve">
+    <value>Aktivujte kontrolní stanoviště v hangáru, abyste zjistili současný stav lodi.</value>
+  </data>
+  <data name="Chat_VA_GotFuel" xml:space="preserve">
+    <value>Uranové tyče budou pohánět reaktory Vaší lodě. Přineste je k záložnímu reaktoru lodě. </value>
+  </data>
+  <data name="Chat_VA_GrindBlock" xml:space="preserve">
+    <value>Vyzkoušejte svou novou brusku na té trysce za Vámi.</value>
+  </data>
+  <data name="Chat_VA_GrindDone1" xml:space="preserve">
+    <value>Máte všechny součástky potřebné k opravám.</value>
+  </data>
+  <data name="Chat_VA_GrindDone2" xml:space="preserve">
+    <value>Poškozená tryska byla zvýrazněna pro snazší nalezení.</value>
+  </data>
+  <data name="Chat_VA_GrindDone3" xml:space="preserve">
+    <value>Prohledejte základnu a hledejte další bloky, které můžete rozebrat na součástky. </value>
+  </data>
+  <data name="Chat_VA_LaunchTorpedo" xml:space="preserve">
+    <value>Torpédo je připraveno k odpalu z pilotního sedadla poblíž.</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNoStatus" xml:space="preserve">
+    <value>Mechanizmus střechy je vyřazen, musíte zapojit řídící stanoviště.</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNotReady" xml:space="preserve">
+    <value>Mechanizmus střechy je odpojen, do doby, než připravíte svou loď.</value>
+  </data>
+  <data name="Chat_VA_RepairsDone" xml:space="preserve">
+    <value>Tryska opravena. Dobrá práce.</value>
+  </data>
+  <data name="Chat_VA_RepairsDoneCompletely" xml:space="preserve">
+    <value>Opravy dokončeny.</value>
+  </data>
+  <data name="Chat_VA_RepairsDonePart2" xml:space="preserve">
+    <value>Zvýrazňuji místo, kam je potřeba dát trysku.</value>
+  </data>
+  <data name="Chat_VA_RoofReady" xml:space="preserve">
+    <value>Střešní vrata hangáru se otevírají.</value>
+  </data>
+  <data name="Chat_VA_TankingConnectorSwitch" xml:space="preserve">
+    <value>Konektory nemůžete během tankování odpojit.</value>
+  </data>
+  <data name="Chat_VA_TankingInProgress" xml:space="preserve">
+    <value>Probíhá tankování.</value>
+  </data>
+  <data name="Chat_VA_TankingPumpsSwitch" xml:space="preserve">
+    <value>Píst nemůže být aktivován, kdy je připojen k lodi.</value>
+  </data>
+  <data name="Chat_VA_ToolsLocation" xml:space="preserve">
+    <value>Potřebujete brusku, abyste si mohli sehnat náhradní díly na opravu lodi. Naleznete ji v nákladním kontejneru. </value>
+  </data>
+  <data name="Chat_VA_TorpedoDoorNotReady" xml:space="preserve">
+    <value>Torpédo nelze aktivovat, dokud je komora uzavřená.</value>
+  </data>
+  <data name="GPS_AmmoCargo" xml:space="preserve">
+    <value>Kontejner s municí pro loď</value>
+  </data>
+  <data name="GPS_BackupReactor" xml:space="preserve">
+    <value>Záložní reaktor</value>
+  </data>
+  <data name="GPS_Battery" xml:space="preserve">
+    <value>Lodní baterie</value>
+  </data>
+  <data name="GPS_BatterySpareParts" xml:space="preserve">
+    <value>Náhradní díly pro baterii</value>
+  </data>
+  <data name="GPS_Cargo" xml:space="preserve">
+    <value>Hlavní nákladní kontejner</value>
+  </data>
+  <data name="GPS_Cockpit" xml:space="preserve">
+    <value>Pilotní sedadlo</value>
+  </data>
+  <data name="GPS_ControlStation" xml:space="preserve">
+    <value>Řídící místnost</value>
+  </data>
+  <data name="GPS_DamagedBlock" xml:space="preserve">
+    <value>SVAŘOVÁNÍ: Poškozená tryska </value>
+  </data>
+  <data name="GPS_Enemy" xml:space="preserve">
+    <value>Nepřátelská loď</value>
+  </data>
+  <data name="GPS_FuelBox" xml:space="preserve">
+    <value>Kontejner s uranem</value>
+  </data>
+  <data name="GPS_GrindThis" xml:space="preserve">
+    <value>ROZEBÍRÁNÍ: Stará tryska</value>
+  </data>
+  <data name="GPS_Hangar" xml:space="preserve">
+    <value>Vstup do hangáru</value>
+  </data>
+  <data name="GPS_Location" xml:space="preserve">
+    <value>Místo setkání</value>
+  </data>
+  <data name="GPS_TankingPanel" xml:space="preserve">
+    <value>Ovládací panel tankování</value>
+  </data>
+  <data name="GPS_ToolBox" xml:space="preserve">
+    <value>Kontejner s nářadím</value>
+  </data>
+  <data name="GPS_TorpedoCockpit" xml:space="preserve">
+    <value>Zbraňové stanoviště</value>
+  </data>
+  <data name="GPS_TorpedoPanel" xml:space="preserve">
+    <value>Ovládací panel torpéd</value>
+  </data>
+  <data name="GPS_Weakpoint" xml:space="preserve">
+    <value>Slabé místo </value>
+  </data>
+  <data name="GPS_WeldThis" xml:space="preserve">
+    <value>Rozestavěná tryska</value>
+  </data>
+  <data name="HowToHint_EquipAWelder" xml:space="preserve">
+    <value>Přetáhněte svářečku z výběru do panelu nástrojů.</value>
+  </data>
+  <data name="HowToHint_HowToTransferItems" xml:space="preserve">
+    <value>Klikněte dvakrát na předměty v inventáři vpravo, abyste je přesunuli do svého.</value>
+  </data>
+  <data name="HowToHint_SelectABattery" xml:space="preserve">
+    <value>Přetáhněte blok baterie do svého panelu nástrojů. Nebo použijte dvojklik.</value>
+  </data>
+  <data name="HowToHint_SelectAToolSection" xml:space="preserve">
+    <value>Přepněte do sekce Nářadí.</value>
+  </data>
+  <data name="Panel_Working" xml:space="preserve">
+    <value>           Funkční</value>
+  </data>
+  <data name="Quest01_BatteryItems" xml:space="preserve">
+    <value>Získejte součástky pro novou baterii</value>
+  </data>
+  <data name="Quest01_BatteryItems_AccessItems" xml:space="preserve">
+    <value>Namiřte na přístupový port a stiskněte [ {0} ] nebo [ {1} ] pro otevření inventáře</value>
+  </data>
+  <data name="Quest01_BatteryItems_Approach" xml:space="preserve">
+    <value>Jděte ke zvýrazněnému kontejneru</value>
+  </data>
+  <data name="Quest01_BatteryItems_DragItems" xml:space="preserve">
+    <value>Přetáhněte předměty z nákladního kontejneru do svého inventáře.</value>
+  </data>
+  <data name="Quest01_BatteryItems_LeaveShip" xml:space="preserve">
+    <value>Opusťte transportní loď.</value>
+  </data>
+  <data name="Quest02_BatteryPlace" xml:space="preserve">
+    <value>Postavte baterii</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Close" xml:space="preserve">
+    <value>Klikněte na křížek nebo stiskněte Escape pro zavření.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Drag" xml:space="preserve">
+    <value>Přidejte baterii do svého panelu nástrojů.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_GScreen" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro otevření obrazovky s panelem nástrojů</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Place" xml:space="preserve">
+    <value>Umístěte baterii na červenou plošinu stisknutím levého tlačítka myši.</value>
+  </data>
+  <data name="Quest03_BatteryWeld" xml:space="preserve">
+    <value>Svařte baterii</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Drag" xml:space="preserve">
+    <value>Přepněte na kartu "Nářadí" a přidejte svářečku do svého panelu nástrojů. Okno následně zavřete.</value>
+  </data>
+  <data name="Quest03_BatteryWeld_GScreen" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro otevření obrazovky s panelem nástrojů</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Weld" xml:space="preserve">
+    <value>Namiřte na blok a držte levé tlačítko myši, dokud nebude baterie kompletně dostavěná.</value>
+  </data>
+  <data name="Quest04_ControlTower" xml:space="preserve">
+    <value>Aktivujte řídící místnost</value>
+  </data>
+  <data name="Quest04_ControlTower_Activate" xml:space="preserve">
+    <value>Použijte vyznačený panel s tlačítky.</value>
+  </data>
+  <data name="Quest04_ControlTower_Elevator" xml:space="preserve">
+    <value>Vstupte do hangáru použitím výtahu.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip" xml:space="preserve">
+    <value>Obnovte energii v lodi</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Inventory" xml:space="preserve">
+    <value>Přesuňte uranové tyče z nákladního kontejneru do svého inventáře. Použijte klávesy [ {0} ] nebo [ {1} ].</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Place" xml:space="preserve">
+    <value>Vložte uran do reaktoru lodi.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Uranium" xml:space="preserve">
+    <value>Získejte uran z kontejneru.</value>
+  </data>
+  <data name="Quest06_GrinderTool" xml:space="preserve">
+    <value>Získejte brusku</value>
+  </data>
+  <data name="Quest06_GrinderTool_GetGrinder" xml:space="preserve">
+    <value>Ve zvýrazněném nákladním kontejneru naleznete brusku.</value>
+  </data>
+  <data name="Quest06_GrinderTool_Purpose" xml:space="preserve">
+    <value>Bruska může být využita k rozebírání bloků na součástky.</value>
+  </data>
+  <data name="Quest07_GrindThruster" xml:space="preserve">
+    <value>Získejte součástky potřebné na opravy</value>
+  </data>
+  <data name="Quest07_GrindThruster_Drag" xml:space="preserve">
+    <value>Přepněte na kartu "Nářadí" a přidejte profesionální brusku do panelu nástrojů.</value>
+  </data>
+  <data name="Quest07_GrindThruster_Equip" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro otevření obrazovky s panelem nástrojů</value>
+  </data>
+  <data name="Quest07_GrindThruster_Grind" xml:space="preserve">
+    <value>Jděte ke zvýrazněné trysce a rozeberte ji podržením levého tlačítka myši.</value>
+  </data>
+  <data name="Quest08_RepairThrusters" xml:space="preserve">
+    <value>Opravte zvýrazněnou trysku</value>
+  </data>
+  <data name="Quest08_RepairThrusters_ActualCount" xml:space="preserve">
+    <value>Opravené trysky: {0} / 3</value>
+  </data>
+  <data name="Quest08_RepairThrusters_LookAround" xml:space="preserve">
+    <value>Jsou tam</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseGrinder" xml:space="preserve">
+    <value>Extra součástky můžete získat rozebráním nepotřebných trysek.</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseWelder" xml:space="preserve">
+    <value>Přepněte na svářečku a svařte poškozenou trysku.</value>
+  </data>
+  <data name="Quest09_Tanking" xml:space="preserve">
+    <value>Naplňte vodíkovou nádrž lodě</value>
+  </data>
+  <data name="Quest09_Tanking_Control" xml:space="preserve">
+    <value>Použijte tlačítko 1 k vysunutí konektoru a pak tlačítko 2 k jeho uzamknutí.</value>
+  </data>
+  <data name="Quest09_Tanking_Disconnect" xml:space="preserve">
+    <value>Stiskněte tlačítko 2 pro odemknutí a odpojení.</value>
+  </data>
+  <data name="Quest09_Tanking_Fill" xml:space="preserve">
+    <value>Hladina vodíku: {0}%</value>
+  </data>
+  <data name="Quest09_Tanking_Wait" xml:space="preserve">
+    <value>Počkejte, dokud nebude proces zcela dokončen.</value>
+  </data>
+  <data name="Quest10_Ammo" xml:space="preserve">
+    <value>Nabijte munici do lodě</value>
+  </data>
+  <data name="Quest10_Ammo_Hint" xml:space="preserve">
+    <value>Poblíž obrany základny naleznete potřebnou munici</value>
+  </data>
+  <data name="Quest10_Ammo_PlayerCount" xml:space="preserve">
+    <value>Máte {0} muničních beden</value>
+  </data>
+  <data name="Quest10_Ammo_Quest" xml:space="preserve">
+    <value>Přineste 80 muničních beden do zvýrazněného nákladního kontejneru</value>
+  </data>
+  <data name="Quest10_Ammo_ShipCount" xml:space="preserve">
+    <value>Lodní náklad: {0} / 80</value>
+  </data>
+  <data name="Quest11_Roof" xml:space="preserve">
+    <value>Otevřete střechu hangáru</value>
+  </data>
+  <data name="Quest11_Roof_Hint" xml:space="preserve">
+    <value>Použijte panel s tlačítky v řídící místnosti.</value>
+  </data>
+  <data name="Quest12_Combat" xml:space="preserve">
+    <value>Zničte vedoucí loď nepřítele</value>
+  </data>
+  <data name="Quest12_Combat_Cancel" xml:space="preserve">
+    <value>Opusťte ovládání zbraňové věže stisknutím [ {0} ]</value>
+  </data>
+  <data name="Quest12_Combat_Turrets" xml:space="preserve">
+    <value>Použijte raketometné věže, přístupné z pilotního sedadla. Stiskněte [ {0} ], [ {1} ], [ {2} ] nebo [ {3} ]</value>
+  </data>
+  <data name="Quest12_Combat_Weakpoint" xml:space="preserve">
+    <value>Cíl má vyznačené slabé části lodi</value>
+  </data>
+  <data name="Quest12_Combat_WeakpointCount" xml:space="preserve">
+    <value>Zničená slabá místa: {0}/{1}</value>
+  </data>
+  <data name="Quest12_Flying" xml:space="preserve">
+    <value>Vyleťte s lodí z hangáru</value>
+  </data>
+  <data name="Quest12_Flying_Cockpit" xml:space="preserve">
+    <value>Stiskněte [ {0} ], abyste se usadili do pilotní sedačky.</value>
+  </data>
+  <data name="Quest12_Flying_Coordinates" xml:space="preserve">
+    <value>Leťte k místu setkání</value>
+  </data>
+  <data name="Quest12_Flying_Start" xml:space="preserve">
+    <value>Stiskněte a podržte [ {0} ] pro vzlet a bezpečné opuštění hangáru.</value>
+  </data>
+  <data name="Quest12_Flying_VHint" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro přepnutí do pohledu třetí osoby</value>
+  </data>
+  <data name="ShipStatus_Status_Closed" xml:space="preserve">
+    <value>zavřené</value>
+  </data>
+  <data name="ShipStatus_Status_Empty" xml:space="preserve">
+    <value>Prázdné</value>
+  </data>
+  <data name="ShipStatus_Status_FuelInCargo" xml:space="preserve">
+    <value>palivo není distribuováno</value>
+  </data>
+  <data name="ShipStatus_Status_Full" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ShipStatus_Status_Missing" xml:space="preserve">
+    <value>chybí</value>
+  </data>
+  <data name="ShipStatus_Status_NoFuel" xml:space="preserve">
+    <value>systém bez paliva</value>
+  </data>
+  <data name="ShipStatus_Status_OffLine" xml:space="preserve">
+    <value>mimo provoz</value>
+  </data>
+  <data name="ShipStatus_Status_OnLine" xml:space="preserve">
+    <value>v provozu</value>
+  </data>
+  <data name="ShipStatus_Status_Open" xml:space="preserve">
+    <value>otevřené</value>
+  </data>
+  <data name="ShipStatus_Status_Ready" xml:space="preserve">
+    <value>připravena</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs1" xml:space="preserve">
+    <value>opravy vyžadovány</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs2" xml:space="preserve">
+    <value>chybí trysky</value>
+  </data>
+  <data name="ShipStatus_Title_Ammo" xml:space="preserve">
+    <value>MUNICE: </value>
+  </data>
+  <data name="ShipStatus_Title_Hydrogen" xml:space="preserve">
+    <value>VODÍKOVÁ NÁDRŽ: </value>
+  </data>
+  <data name="ShipStatus_Title_Main" xml:space="preserve">
+    <value>                 STAV LODĚ</value>
+  </data>
+  <data name="ShipStatus_Title_Reactors" xml:space="preserve">
+    <value>REAKTORY: </value>
+  </data>
+  <data name="ShipStatus_Title_Repair" xml:space="preserve">
+    <value>STAV: </value>
+  </data>
+  <data name="ShipStatus_Title_Roof" xml:space="preserve">
+    <value>STŘECHA HANGÁRU: </value>
+  </data>
+  <data name="TankingStatus_Status_Idle" xml:space="preserve">
+    <value>neaktivní</value>
+  </data>
+  <data name="TankingStatus_Status_Locked" xml:space="preserve">
+    <value>zamknuto</value>
+  </data>
+  <data name="TankingStatus_Status_PumpingDone" xml:space="preserve">
+    <value>nádrž naplněna</value>
+  </data>
+  <data name="TankingStatus_Status_Unlocked" xml:space="preserve">
+    <value>odemknuto</value>
+  </data>
+  <data name="TankingStatus_Status_Working" xml:space="preserve">
+    <value>čerpání</value>
+  </data>
+  <data name="TankingStatus_Title_Connector" xml:space="preserve">
+    <value>Konektor: </value>
+  </data>
+  <data name="TankingStatus_Title_Fuel" xml:space="preserve">
+    <value>Hladina nádrže: {0}%</value>
+  </data>
+  <data name="TankingStatus_Title_Pumps" xml:space="preserve">
+    <value>Čerpadla: </value>
+  </data>
+  <data name="GPS_RedPlatform" xml:space="preserve">
+    <value>Umístěte baterii zde</value>
+  </data>
+</root>

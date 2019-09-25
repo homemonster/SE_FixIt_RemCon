@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Enemy_BossFight" xml:space="preserve">
+    <value>你想干的事情，你首先要能到那儿行！但现在你就要死了！</value>
+  </data>
+  <data name="Chat_Rebel_PlayerReady" xml:space="preserve">
+    <value>就在目的地附近等着，我们就快到了</value>
+  </data>
+  <data name="Chat_Rebel_Tank" xml:space="preserve">
+    <value>很高兴看到你活着从残骸中逃出来。报告坐标，我们有东西给你。</value>
+  </data>
+  <data name="Chat_Rebel_TankDrop" xml:space="preserve">
+    <value>不要站在着陆区。马上就投放战车！</value>
+  </data>
+  <data name="Chat_Rebel_TankDropped" xml:space="preserve">
+    <value>祝你好运</value>
+  </data>
+  <data name="Chat_Rebel_TankReady" xml:space="preserve">
+    <value>我们已就位，听从调遣。</value>
+  </data>
+  <data name="Chat_VA_DroneBlockDestroyed" xml:space="preserve">
+    <value>大门已关闭，需要击毁更多的节点</value>
+  </data>
+  <data name="Chat_VA_DroneControlStart" xml:space="preserve">
+    <value>前往门控制室，击毁其中的一个控制节点</value>
+  </data>
+  <data name="Chat_VA_DroneDoor" xml:space="preserve">
+    <value>这扇门已经关闭。可以在左边的房间内打开</value>
+  </data>
+  <data name="Chat_VA_DroneHint" xml:space="preserve">
+    <value>进入这个区域受限。但是这里有战斗无人机站</value>
+  </data>
+  <data name="Chat_VA_DroneHint2" xml:space="preserve">
+    <value>可以从附近的无人机控制室激活无人机</value>
+  </data>
+  <data name="Chat_VA_FrontGateOnFoot" xml:space="preserve">
+    <value>建议使用废弃的火箭发射器来击毁要塞大门</value>
+  </data>
+  <data name="Chat_VA_FrontGateTank" xml:space="preserve">
+    <value>建议使用火箭发射器来击毁要塞大门</value>
+  </data>
+  <data name="Chat_VA_Jetpack" xml:space="preserve">
+    <value>警告：检测到宇航服氢气泄露</value>
+  </data>
+  <data name="Chat_VA_Outro" xml:space="preserve">
+    <value>无人机工厂就在前方，我收到了奇怪的信号，那意味着人造物就在附近，我想很有可能公司的CEO不会给我好脸色看</value>
+  </data>
+  <data name="Chat_VA_ShipDestruction" xml:space="preserve">
+    <value>警告：反应堆极不稳定，将很快爆炸！</value>
+  </data>
+  <data name="Chat_VA_Start" xml:space="preserve">
+    <value>警告：反应堆核心负载过大，立即撤离飞船！</value>
+  </data>
+  <data name="Chat_VA_TankDestruction1" xml:space="preserve">
+    <value>你的战车已损毁。</value>
+  </data>
+  <data name="Chat_VA_TankDestruction2" xml:space="preserve">
+    <value>我有别的解决办法，这些飞船残骸中还有些能用的炮塔</value>
+  </data>
+  <data name="Chat_VA_Warning" xml:space="preserve">
+    <value>警告：飞船已经失控，马上就要触地坠毁！</value>
+  </data>
+  <data name="Chat_VA_Wreckage" xml:space="preserve">
+    <value>飞船残骸中还有些武器可以使用</value>
+  </data>
+  <data name="GPS_Base" xml:space="preserve">
+    <value>主入口</value>
+  </data>
+  <data name="GPS_ControlRoom" xml:space="preserve">
+    <value>门控制室</value>
+  </data>
+  <data name="GPS_Core" xml:space="preserve">
+    <value>基地核心</value>
+  </data>
+  <data name="GPS_DoorControl" xml:space="preserve">
+    <value>门控制</value>
+  </data>
+  <data name="GPS_DronelRoom" xml:space="preserve">
+    <value>无人机控制室</value>
+  </data>
+  <data name="GPS_Escape" xml:space="preserve">
+    <value>逃离路线</value>
+  </data>
+  <data name="GPS_GearPanel" xml:space="preserve">
+    <value>起落架控制面板</value>
+  </data>
+  <data name="GPS_LZ" xml:space="preserve">
+    <value>着陆区</value>
+  </data>
+  <data name="GPS_ShipWreckage" xml:space="preserve">
+    <value>可以使用的飞船残骸</value>
+  </data>
+  <data name="LCD_TankPanel1_Line1" xml:space="preserve">
+    <value>请按[{0}]切换</value>
+  </data>
+  <data name="LCD_TankPanel1_Line2" xml:space="preserve">
+    <value>手刹</value>
+  </data>
+  <data name="LCD_TankPanel2_Line1" xml:space="preserve">
+    <value>按[{0}]切换</value>
+  </data>
+  <data name="LCD_TankPanel2_Line2" xml:space="preserve">
+    <value>第三人视角</value>
+  </data>
+  <data name="Quest01_GetOut" xml:space="preserve">
+    <value>撤离飞船</value>
+  </data>
+  <data name="Quest01_GetOut_Countdown" xml:space="preserve">
+    <value>飞船在[{0}]后爆炸</value>
+  </data>
+  <data name="Quest01_GetOut_Line1" xml:space="preserve">
+    <value>飞船反应堆马上熔化</value>
+  </data>
+  <data name="Quest01_GetOut_Line2" xml:space="preserve">
+    <value>马上撤离飞船！</value>
+  </data>
+  <data name="Quest02_Meeting" xml:space="preserve">
+    <value>联系上反抗军运输队</value>
+  </data>
+  <data name="Quest02_Meeting_Coordinate" xml:space="preserve">
+    <value>前往GPS坐标</value>
+  </data>
+  <data name="Quest02_Meeting_StayClose" xml:space="preserve">
+    <value>待在GPS坐标附近</value>
+  </data>
+  <data name="Quest02_Meeting_Tank" xml:space="preserve">
+    <value>进入战车座舱</value>
+  </data>
+  <data name="Quest02_Meeting_Wait" xml:space="preserve">
+    <value>等待反抗军运输舰部署战车</value>
+  </data>
+  <data name="Quest03B_OnFoot" xml:space="preserve">
+    <value>攻破防卫设施，进入基地</value>
+  </data>
+  <data name="Quest03B_OnFoot_TurretControlHint1" xml:space="preserve">
+    <value>请按[{0}]键控制炮塔</value>
+  </data>
+  <data name="Quest03B_OnFoot_TurretControlHint2" xml:space="preserve">
+    <value>请按[{0}]键离开炮塔</value>
+  </data>
+  <data name="Quest03B_OnFoot_UseShips" xml:space="preserve">
+    <value>残骸中可以找到未毁坏的炮塔。用它们来继续战斗，攻破主要入口</value>
+  </data>
+  <data name="Quest03_Tank" xml:space="preserve">
+    <value>驾驶战车攻破基地防卫设施</value>
+  </data>
+  <data name="Quest03_Tank_Brakes" xml:space="preserve">
+    <value>请按[{0}]键切换手刹</value>
+  </data>
+  <data name="Quest03_Tank_EscapeTurret" xml:space="preserve">
+    <value>请按[{0}]键离开炮塔</value>
+  </data>
+  <data name="Quest03_Tank_FrontTurrets" xml:space="preserve">
+    <value>用武器将主入口打开一个洞 [{0}]键</value>
+  </data>
+  <data name="Quest03_Tank_Quest" xml:space="preserve">
+    <value>请用[{0}]键开启反应堆</value>
+  </data>
+  <data name="Quest03_Tank_Turrets" xml:space="preserve">
+    <value>请按[{0}]和[{1}]键控制炮塔</value>
+  </data>
+  <data name="Quest04_BaseStart" xml:space="preserve">
+    <value>进入基地内部</value>
+  </data>
+  <data name="Quest04_BaseStart_Exit" xml:space="preserve">
+    <value>用按钮面板打开门可以通往无人机工厂</value>
+  </data>
+  <data name="Quest04_BaseStart_Intro" xml:space="preserve">
+    <value>继续前行进入基地</value>
+  </data>
+</root>

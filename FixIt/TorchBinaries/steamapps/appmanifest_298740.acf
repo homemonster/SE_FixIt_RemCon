@@ -1,0 +1,47 @@
+"AppState"
+{
+	"appid"		"298740"
+	"Universe"		"1"
+	"name"		"Space Engineers Dedicated Server"
+	"StateFlags"		"4"
+	"installdir"		"SpaceEngineersDedicatedServer"
+	"LastUpdated"		"1569072392"
+	"UpdateResult"		"0"
+	"SizeOnDisk"		"2363544337"
+	"buildid"		"4207592"
+	"LastOwner"		"76561201837458455"
+	"BytesToDownload"		"708771328"
+	"BytesDownloaded"		"708771328"
+	"AutoUpdateBehavior"		"0"
+	"AllowOtherDownloadsWhileRunning"		"0"
+	"ScheduledAutoUpdate"		"0"
+	"InstalledDepots"
+	{
+		"1004"
+		{
+			"manifest"		"2144826912121883656"
+		}
+		"298741"
+		{
+			"manifest"		"757480929287726079"
+		}
+	}
+	"MountedDepots"
+	{
+		"1004"		"2144826912121883656"
+		"298741"		"757480929287726079"
+	}
+	"InstallScripts"
+	{
+		"298741"		"_CommonRedist\\DotNet\\4.6.1\\installscript.vdf"
+	}
+	"SharedDepots"
+	{
+		"228985"		"228980"
+		"228987"		"228980"
+		"229005"		"228980"
+	}
+	"UserConfig"
+	{
+	}
+}

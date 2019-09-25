@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Enemy_BossFight" xml:space="preserve">
+    <value>Chceš-li mít něco hotové, udělej to sám. Nastal čas na tvou smrt!</value>
+  </data>
+  <data name="Chat_Rebel_PlayerReady" xml:space="preserve">
+    <value>Čekejte u souřadnic, už jsme skoro tam.</value>
+  </data>
+  <data name="Chat_Rebel_Tank" xml:space="preserve">
+    <value>Jsem rád, že jste se dostali z toho vraku živí. Hlaste se na těchto souřadnicích, něco pro Vás máme...</value>
+  </data>
+  <data name="Chat_Rebel_TankDrop" xml:space="preserve">
+    <value>Stůjte mimo přistávací oblast! Vypuštění tanku začne brzy</value>
+  </data>
+  <data name="Chat_Rebel_TankDropped" xml:space="preserve">
+    <value>Hodně štěstí.</value>
+  </data>
+  <data name="Chat_Rebel_TankReady" xml:space="preserve">
+    <value>Jsme na místě, připraveni na vypuštění.</value>
+  </data>
+  <data name="Chat_VA_DroneBlockDestroyed" xml:space="preserve">
+    <value>Dveře jsou zamčené. Je třeba zničit více uzlů.</value>
+  </data>
+  <data name="Chat_VA_DroneControlStart" xml:space="preserve">
+    <value>Pokračujte do místnosti ovládání dveří a zničte jeden uzlů ovládající dveře.</value>
+  </data>
+  <data name="Chat_VA_DroneDoor" xml:space="preserve">
+    <value>Tyto dveře jsou uzamčené. Mohou být otevřené z místnosti nalevo.</value>
+  </data>
+  <data name="Chat_VA_DroneHint" xml:space="preserve">
+    <value>Přístup do této sekce je omezen. V této oblasti se však nachází bojový dron stanice.</value>
+  </data>
+  <data name="Chat_VA_DroneHint2" xml:space="preserve">
+    <value>Aktivujte dron z kontrolní místnosti, která je poblíž.</value>
+  </data>
+  <data name="Chat_VA_FrontGateOnFoot" xml:space="preserve">
+    <value>Doporučuji použít raketomet ve vraku ke zničení brány pevnosti.</value>
+  </data>
+  <data name="Chat_VA_FrontGateTank" xml:space="preserve">
+    <value>Doporučuji použít raketomety ke zničení vrat pevnosti.</value>
+  </data>
+  <data name="Chat_VA_Jetpack" xml:space="preserve">
+    <value>Varování: zaznamenán únik vodíku ze skafandru.</value>
+  </data>
+  <data name="Chat_VA_Outro" xml:space="preserve">
+    <value>Továrna na drony je přímo před námi. Dostávám podivné údaje, které jsem ještě nikdy neviděl. Pravděpodobně je poblíž ten artefakt a je více než pravděpodobné, že tam bude i ředitel společnosti, který z Vás asi nebude mít moc velkou radost.</value>
+  </data>
+  <data name="Chat_VA_ShipDestruction" xml:space="preserve">
+    <value>Varování: Jádro reaktoru na kritické úrovni, výbuch je nevyhnutelný.</value>
+  </data>
+  <data name="Chat_VA_Start" xml:space="preserve">
+    <value>Varování: Reaktor se přetěžuje, okamžitě opusťte loď.</value>
+  </data>
+  <data name="Chat_VA_TankDestruction1" xml:space="preserve">
+    <value>Váš tank už není funkční.</value>
+  </data>
+  <data name="Chat_VA_TankDestruction2" xml:space="preserve">
+    <value>Mám náhradní řešení. Některé z těchto vraků mají stále funkční zbraňové věže.</value>
+  </data>
+  <data name="Chat_VA_Warning" xml:space="preserve">
+    <value>Varování, ovládání lodě vyřazeno. Náraz do planety je nevyhnutelný.</value>
+  </data>
+  <data name="Chat_VA_Wreckage" xml:space="preserve">
+    <value>Vrak má stále funkční zbraně, které můžete použít.</value>
+  </data>
+  <data name="GPS_Base" xml:space="preserve">
+    <value>Hlavní vstup</value>
+  </data>
+  <data name="GPS_ControlRoom" xml:space="preserve">
+    <value>Místnost pro ovládání dveří</value>
+  </data>
+  <data name="GPS_Core" xml:space="preserve">
+    <value>Jádro základny</value>
+  </data>
+  <data name="GPS_DoorControl" xml:space="preserve">
+    <value>Ovládání dveří</value>
+  </data>
+  <data name="GPS_DronelRoom" xml:space="preserve">
+    <value>Místnost pro ovládání dronů</value>
+  </data>
+  <data name="GPS_Escape" xml:space="preserve">
+    <value>Úniková cesta</value>
+  </data>
+  <data name="GPS_GearPanel" xml:space="preserve">
+    <value>Ovládací panel podvozku</value>
+  </data>
+  <data name="GPS_LZ" xml:space="preserve">
+    <value>Přistávací oblast</value>
+  </data>
+  <data name="GPS_ShipWreckage" xml:space="preserve">
+    <value>Použitelný vrak lodi </value>
+  </data>
+  <data name="LCD_TankPanel1_Line1" xml:space="preserve">
+    <value>   Stiskněte {0} pro přepnutí</value>
+  </data>
+  <data name="LCD_TankPanel1_Line2" xml:space="preserve">
+    <value>        ruční brzda</value>
+  </data>
+  <data name="LCD_TankPanel2_Line1" xml:space="preserve">
+    <value>  Stiskněte {0} pro přepnutí</value>
+  </data>
+  <data name="LCD_TankPanel2_Line2" xml:space="preserve">
+    <value>Pohled z třetí osoby</value>
+  </data>
+  <data name="Quest01_GetOut" xml:space="preserve">
+    <value>Evakuujte loď!</value>
+  </data>
+  <data name="Quest01_GetOut_Countdown" xml:space="preserve">
+    <value>Loď exploduje za {0}...</value>
+  </data>
+  <data name="Quest01_GetOut_Line1" xml:space="preserve">
+    <value>Roztavení lodního reaktoru je nevyhnutelné</value>
+  </data>
+  <data name="Quest01_GetOut_Line2" xml:space="preserve">
+    <value>Okamžitě unikněte z lodi!</value>
+  </data>
+  <data name="Quest02_Meeting" xml:space="preserve">
+    <value>Setkejte se s transportem Rebelů</value>
+  </data>
+  <data name="Quest02_Meeting_Coordinate" xml:space="preserve">
+    <value>Jděte na souřadnice GPS</value>
+  </data>
+  <data name="Quest02_Meeting_StayClose" xml:space="preserve">
+    <value>Zůstaňte v blízkosti souřadnic GPS</value>
+  </data>
+  <data name="Quest02_Meeting_Tank" xml:space="preserve">
+    <value>Vstupte do kokpitu tanku</value>
+  </data>
+  <data name="Quest02_Meeting_Wait" xml:space="preserve">
+    <value>Vyčkejte, dokud loď Rebelů nevypustí tank</value>
+  </data>
+  <data name="Quest03B_OnFoot" xml:space="preserve">
+    <value>Prorazte obranu a vnikněte do základny</value>
+  </data>
+  <data name="Quest03B_OnFoot_TurretControlHint1" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro ovládání zbraňové věže</value>
+  </data>
+  <data name="Quest03B_OnFoot_TurretControlHint2" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro opuštění zbraňové věže</value>
+  </data>
+  <data name="Quest03B_OnFoot_UseShips" xml:space="preserve">
+    <value>Vraky mají funkční zbraňové věže, použijte je pro boj a proražení hlavního vstupu.</value>
+  </data>
+  <data name="Quest03_Tank" xml:space="preserve">
+    <value>Jeďte s tankem a použijte ho k proražení obrany základny</value>
+  </data>
+  <data name="Quest03_Tank_Brakes" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro přepnutí ruční brzdy</value>
+  </data>
+  <data name="Quest03_Tank_EscapeTurret" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro opuštění zbraňové věže</value>
+  </data>
+  <data name="Quest03_Tank_FrontTurrets" xml:space="preserve">
+    <value>Použijte zbraně k vytvoření díry v hlavním vstupu (klávesa [ {0} ])</value>
+  </data>
+  <data name="Quest03_Tank_Quest" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro přepnutí reaktorů</value>
+  </data>
+  <data name="Quest03_Tank_Turrets" xml:space="preserve">
+    <value>Stiskněte [ {0} ] a [ {1} ] pro ovládání zbraňových věží</value>
+  </data>
+  <data name="Quest04_BaseStart" xml:space="preserve">
+    <value>Vstupte do základny</value>
+  </data>
+  <data name="Quest04_BaseStart_Exit" xml:space="preserve">
+    <value>Použijte panel s tlačítky pro otevření dveří do továrny na drony</value>
+  </data>
+  <data name="Quest04_BaseStart_Intro" xml:space="preserve">
+    <value>Pokračujte dále, hlouběji do základny</value>
+  </data>
+</root>

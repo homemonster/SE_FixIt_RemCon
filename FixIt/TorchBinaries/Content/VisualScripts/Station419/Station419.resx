@@ -1,0 +1,753 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Airlock_QLLine1" xml:space="preserve">
+    <value>Acquire an oxygen and hydrogen bottle from the highlighted generator.</value>
+  </data>
+  <data name="Airlock_QLLine2" xml:space="preserve">
+    <value>Cycle the airlock by using the button panel.</value>
+  </data>
+  <data name="Airlock_QLLine3" xml:space="preserve">
+    <value>Exit the station.</value>
+  </data>
+  <data name="Airlock_QLTitle" xml:space="preserve">
+    <value>Leave the station interior through the airlock</value>
+  </data>
+  <data name="Assembling_Completed" xml:space="preserve">
+    <value>You now have enough materials to proceed.</value>
+  </data>
+  <data name="Assembling_GLLine1" xml:space="preserve">
+    <value>Steel Plates: {0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine2" xml:space="preserve">
+    <value>Construction Components: {0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine3" xml:space="preserve">
+    <value>Small Tube: {0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine4" xml:space="preserve">
+    <value>Large Tubes: {0}/{1}</value>
+  </data>
+  <data name="Assembling_GLLine5" xml:space="preserve">
+    <value>Motors: {0}/{1}</value>
+  </data>
+  <data name="Assembling_QLTitle" xml:space="preserve">
+    <value>You need the following components -</value>
+  </data>
+  <data name="Assembling_Quest1" xml:space="preserve">
+    <value>Use the Production tab in the terminal menu to start producing these components -</value>
+  </data>
+  <data name="Assembling_Quest2" xml:space="preserve">
+    <value>Components in Cargo Containers around the station are also available.</value>
+  </data>
+  <data name="Connecting_3rdPerson" xml:space="preserve">
+    <value>Switch to 3rd person with the [ {0} ] key then hold down ALT to rotate the camera and get a better view for docking.</value>
+  </data>
+  <data name="Connecting_Docking" xml:space="preserve">
+    <value>When both connectors are yellow you can lock them with the [ {0} ] key.</value>
+  </data>
+  <data name="Connecting_Done" xml:space="preserve">
+    <value>Ship connected. Materials are being moved to the refinery.</value>
+  </data>
+  <data name="Connecting_GPS" xml:space="preserve">
+    <value>Station Connector.</value>
+  </data>
+  <data name="Connecting_QLLine1" xml:space="preserve">
+    <value>Lock the Connectors with the ([ {0} ] key).</value>
+  </data>
+  <data name="Connecting_QLTitle" xml:space="preserve">
+    <value>Dock the mining ship with the station</value>
+  </data>
+  <data name="Connecting_Quest" xml:space="preserve">
+    <value>Now you need to dock your ship to the station.</value>
+  </data>
+  <data name="Conveyors_Build" xml:space="preserve">
+    <value>You will also need to place new conveyor tubes to fill in the gaps, press the ([ {0} ] key).</value>
+  </data>
+  <data name="Conveyors_Completed1" xml:space="preserve">
+    <value>Cargo/Gatling connection completed. The turret will automatically draw ammo from the conveyor network.</value>
+  </data>
+  <data name="Conveyors_Completed2" xml:space="preserve">
+    <value>Cargo/Connector connection completed. You can now retrieve items from conveyor connected storage.</value>
+  </data>
+  <data name="Conveyors_Completed3" xml:space="preserve">
+    <value>Connectors connection completed. You can now use any connector for unloading items from ships.</value>
+  </data>
+  <data name="Conveyors_Completed4" xml:space="preserve">
+    <value>Refinery/Reactor connection completed. Reactor will now be supplied with uranium ingots automaticaly.</value>
+  </data>
+  <data name="Conveyors_GPS" xml:space="preserve">
+    <value>Salvagable Conveyor Tube</value>
+  </data>
+  <data name="Conveyors_GPS_Cargo" xml:space="preserve">
+    <value>Damaged Conveyor Tubes</value>
+  </data>
+  <data name="Conveyors_GPS_Connector" xml:space="preserve">
+    <value>Missing Conveyor Tubes</value>
+  </data>
+  <data name="Conveyors_GPS_Reactor" xml:space="preserve">
+    <value>Missing Conveyor Tube</value>
+  </data>
+  <data name="Conveyors_Hint" xml:space="preserve">
+    <value>There are disconnected Conveyor Tubes that can be ground down for components.</value>
+  </data>
+  <data name="Conveyors_QLLine1" xml:space="preserve">
+    <value>Large cargo container &lt;=&gt; Gatling Turret</value>
+  </data>
+  <data name="Conveyors_QLLine2" xml:space="preserve">
+    <value>Large cargo container &lt;=&gt; Base connector</value>
+  </data>
+  <data name="Conveyors_QLLine3" xml:space="preserve">
+    <value>Base connector &lt;=&gt; Refinery connector</value>
+  </data>
+  <data name="Conveyors_QLLine4" xml:space="preserve">
+    <value>Refinery &lt;=&gt; Reactor</value>
+  </data>
+  <data name="Conveyors_QLTitle" xml:space="preserve">
+    <value>Fix the listed Conveyor connections in the base</value>
+  </data>
+  <data name="Conveyors_Quest1" xml:space="preserve">
+    <value>This base used to have a fully connected conveyor network.</value>
+  </data>
+  <data name="Conveyors_Quest2" xml:space="preserve">
+    <value>Some parts are damaged and need to be fixed.</value>
+  </data>
+  <data name="Cutscene1_Chair" xml:space="preserve">
+    <value>You can also enter cockpits or seats to recharge your energy.</value>
+  </data>
+  <data name="Cutscene1_Chair2" xml:space="preserve">
+    <value>This seat has a nice window view into the void.</value>
+  </data>
+  <data name="Cutscene1_Cryo" xml:space="preserve">
+    <value>Get into these cryochambers when you wish to quit to preserve yourself.</value>
+  </data>
+  <data name="Cutscene1_MedBay" xml:space="preserve">
+    <value>Use this medbay to respawn, heal, recharge and change your suit color.</value>
+  </data>
+  <data name="Cutscene1_Proceed" xml:space="preserve">
+    <value>Now proceed to the airlock.</value>
+  </data>
+  <data name="Cutscene1_Welcome" xml:space="preserve">
+    <value>Welcome to Station #419</value>
+  </data>
+  <data name="Cutscene2_Antenna" xml:space="preserve">
+    <value>Station Antenna.</value>
+  </data>
+  <data name="Cutscene2_Ending" xml:space="preserve">
+    <value>This base is in a poor state, it's up to you to get it in working order.</value>
+  </data>
+  <data name="Cutscene2_Gatling" xml:space="preserve">
+    <value>Primary defense turret.</value>
+  </data>
+  <data name="Cutscene2_Mining" xml:space="preserve">
+    <value>Ore Detector.</value>
+  </data>
+  <data name="Cutscene2_Missile" xml:space="preserve">
+    <value>Secondary defense turret.</value>
+  </data>
+  <data name="Cutscene2_Production" xml:space="preserve">
+    <value>Production and refining.</value>
+  </data>
+  <data name="Cutscene2_Reactor" xml:space="preserve">
+    <value>Primary energy generation.</value>
+  </data>
+  <data name="Cutscene2_Ship" xml:space="preserve">
+    <value>Small ship hangar containing an incomplete mining ship.</value>
+  </data>
+  <data name="Cutscene2_Solar" xml:space="preserve">
+    <value>Solar energy generation and battery storage.</value>
+  </data>
+  <data name="Cutscene2_Storage" xml:space="preserve">
+    <value>Main storage.</value>
+  </data>
+  <data name="Cutscene2_Tank" xml:space="preserve">
+    <value>Hydrogen storage.</value>
+  </data>
+  <data name="Cutscene2_Welcome" xml:space="preserve">
+    <value>Welcome to Station #419, Engineer. Lets take a tour around the facillity.</value>
+  </data>
+  <data name="Defense_Completed" xml:space="preserve">
+    <value>Excellent. You are now much better prepared for any additional hostiles.</value>
+  </data>
+  <data name="Defense_GPS" xml:space="preserve">
+    <value>Magnesium rich asteroid.</value>
+  </data>
+  <data name="Defense_MagnesiumEnough" xml:space="preserve">
+    <value>You have enough magnesium. Bring it back to the refinery.</value>
+  </data>
+  <data name="Defense_QLLine1" xml:space="preserve">
+    <value>Repair Gatling Turret.</value>
+  </data>
+  <data name="Defense_QLLine2" xml:space="preserve">
+    <value>Repair conveyor connection from Gatling Turret to Assembler</value>
+  </data>
+  <data name="Defense_QLLine3" xml:space="preserve">
+    <value>Mine and process magnesium.</value>
+  </data>
+  <data name="Defense_QLLine4" xml:space="preserve">
+    <value>Need {0} ammo boxes in the turret inventory (you have {1})</value>
+  </data>
+  <data name="Defense_QLTitle" xml:space="preserve">
+    <value>Fully functioning and supplied Gatling Turret</value>
+  </data>
+  <data name="Defense_Quest1" xml:space="preserve">
+    <value>The station is vulnerable to further attack, you need to bolster its defenses.</value>
+  </data>
+  <data name="Defense_Quest2" xml:space="preserve">
+    <value>The Gatling Turret will help but you also need to create ammunition for it.</value>
+  </data>
+  <data name="Defense_Quest3" xml:space="preserve">
+    <value>Ammunition requires magnesium, fortunately there is magnesium rich asteroid nearby.</value>
+  </data>
+  <data name="DrillBot_Fail" xml:space="preserve">
+    <value>The hostile drill drone has escaped with a load of ore.</value>
+  </data>
+  <data name="DrillBot_GPS1" xml:space="preserve">
+    <value>Unknown Drone</value>
+  </data>
+  <data name="DrillBot_GPS2" xml:space="preserve">
+    <value>Drill Drone</value>
+  </data>
+  <data name="DrillBot_QLLine1" xml:space="preserve">
+    <value>Get a closer look at the drone.</value>
+  </data>
+  <data name="DrillBot_QLLine2" xml:space="preserve">
+    <value>Disable the hostile drill drone.</value>
+  </data>
+  <data name="DrillBot_Warning1" xml:space="preserve">
+    <value>Warning: Unidentified drone detected below station.</value>
+  </data>
+  <data name="DrillBot_Warning2" xml:space="preserve">
+    <value>The hostile drone is stealing your resources! Use your grinder to disable it!</value>
+  </data>
+  <data name="DrillBott_QLTitle" xml:space="preserve">
+    <value>Investigate the unidentified drone</value>
+  </data>
+  <data name="DrillBott_Success" xml:space="preserve">
+    <value>The drone is disabled, good job.</value>
+  </data>
+  <data name="Drilling_CobaltDone" xml:space="preserve">
+    <value>Cobalt supply sufficient.</value>
+  </data>
+  <data name="Drilling_Hint" xml:space="preserve">
+    <value>Select the drill ([ {0} ] key) and approach a patch of ore. Hold left mouse button to drill.</value>
+  </data>
+  <data name="Drilling_IronDone" xml:space="preserve">
+    <value>Iron supply sufficient. Iron is the most commonly used element.</value>
+  </data>
+  <data name="Drilling_NickelDone" xml:space="preserve">
+    <value>Nickel supply sufficient.</value>
+  </data>
+  <data name="Drilling_QLLine1" xml:space="preserve">
+    <value>Iron mined: {0}kg  ({1}kg required)</value>
+  </data>
+  <data name="Drilling_QLLine2" xml:space="preserve">
+    <value>Nickel mined: {0}kg  ({1}kg required)</value>
+  </data>
+  <data name="Drilling_QLLine3" xml:space="preserve">
+    <value>Silicon mined: {0}kg  ({1}kg required)</value>
+  </data>
+  <data name="Drilling_QLLine4" xml:space="preserve">
+    <value>Cobalt mined: {0}kg  ({1}kg required)</value>
+  </data>
+  <data name="Drilling_QLTitle" xml:space="preserve">
+    <value>Mine ore with the drill ship</value>
+  </data>
+  <data name="Drilling_Quest1" xml:space="preserve">
+    <value>With this ship you can mine ore much faster and more efficiently.</value>
+  </data>
+  <data name="Drilling_Quest2" xml:space="preserve">
+    <value>Mine some basic materials with the drill ship - iron, nickel, Silicon and nickel.</value>
+  </data>
+  <data name="Drilling_SiliconDone" xml:space="preserve">
+    <value>Silicon supply sufficient.</value>
+  </data>
+  <data name="DroneWaves_QLLine1Fight" xml:space="preserve">
+    <value>Drones operational: {0} / {1}</value>
+  </data>
+  <data name="DroneWaves_QLLine1Peace" xml:space="preserve">
+    <value>Next wave in: {0}s</value>
+  </data>
+  <data name="DroneWaves_QLLine2" xml:space="preserve">
+    <value>Current wave: {0} / {1}</value>
+  </data>
+  <data name="DroneWaves_QLTitle" xml:space="preserve">
+    <value>Defend against the drone onslaught</value>
+  </data>
+  <data name="Faction_Description" xml:space="preserve">
+    <value> </value>
+  </data>
+  <data name="Faction_Name" xml:space="preserve">
+    <value>Station 419 Engineering Crew</value>
+  </data>
+  <data name="Faction_Private" xml:space="preserve">
+    <value>Work, work</value>
+  </data>
+  <data name="Faction_Tag" xml:space="preserve">
+    <value>SEC</value>
+  </data>
+  <data name="FirstAttack_Lost" xml:space="preserve">
+    <value>The drone is retreating.. but it caused a lot of damage.</value>
+  </data>
+  <data name="FirstAttack_QLLine" xml:space="preserve">
+    <value>Disable the enemy drone.</value>
+  </data>
+  <data name="FirstAttack_QLLine2" xml:space="preserve">
+    <value>Drone integrity: {0}%</value>
+  </data>
+  <data name="FirstAttack_QLTitle" xml:space="preserve">
+    <value>Defend the station!</value>
+  </data>
+  <data name="FirstAttack_Quest1" xml:space="preserve">
+    <value>Warning: enemy drone detected below the station.</value>
+  </data>
+  <data name="FirstAttack_Quest2" xml:space="preserve">
+    <value>Use rifles or grinders to disable the drone.</value>
+  </data>
+  <data name="FirstAttack_Won" xml:space="preserve">
+    <value>The drone is disabled. You can now grind it for additional components.</value>
+  </data>
+  <data name="FirstBaseRepair_Furnace" xml:space="preserve">
+    <value>Blast furnace is operational. It will process basic ores like iron faster then refinery.</value>
+  </data>
+  <data name="FirstBaseRepair_GPS_Furnace" xml:space="preserve">
+    <value>Blast Furnace</value>
+  </data>
+  <data name="FirstBaseRepair_GPS_Storage" xml:space="preserve">
+    <value>Large Cargo Container</value>
+  </data>
+  <data name="FirstBaseRepair_Hint" xml:space="preserve">
+    <value>If you aim a welder or grinder at a nearby block you can find out how many components it has.</value>
+  </data>
+  <data name="FirstBaseRepair_QLLine1" xml:space="preserve">
+    <value>Repair Blast Furnace</value>
+  </data>
+  <data name="FirstBaseRepair_QLLine2" xml:space="preserve">
+    <value>Repair Large Cargo Container</value>
+  </data>
+  <data name="FirstBaseRepair_QLTitle" xml:space="preserve">
+    <value>Repair Blast Furnace and Large Cargo Container</value>
+  </data>
+  <data name="FirstBaseRepair_Quest1" xml:space="preserve">
+    <value>Now you need to conduct repairs to the Blast Furnace and Large Cargo Container.</value>
+  </data>
+  <data name="FirstBaseRepair_Quest2" xml:space="preserve">
+    <value>You can get all necessary components from the marked location.</value>
+  </data>
+  <data name="FirstBaseRepair_Storage" xml:space="preserve">
+    <value>Large Cargo Container is operational. This block can hold a large amount of materiel.</value>
+  </data>
+  <data name="GeneralGPS_Assembler" xml:space="preserve">
+    <value>Assembler</value>
+  </data>
+  <data name="GeneralGPS_Drone" xml:space="preserve">
+    <value>Enemy Drone </value>
+  </data>
+  <data name="GeneralGPS_Gatling" xml:space="preserve">
+    <value>Gatling Turret</value>
+  </data>
+  <data name="GeneralGPS_Missile" xml:space="preserve">
+    <value>Missile Turret</value>
+  </data>
+  <data name="GeneralGPS_Storage" xml:space="preserve">
+    <value>Storage Access</value>
+  </data>
+  <data name="Gravity_About1" xml:space="preserve">
+    <value>The Gravity Generator creates artificial gravity fields.</value>
+  </data>
+  <data name="Gravity_About2" xml:space="preserve">
+    <value>Artificial gravity does not affect ships (unless using artificial mass block or spheres).</value>
+  </data>
+  <data name="Gravity_GPS" xml:space="preserve">
+    <value>Gravity Generator</value>
+  </data>
+  <data name="Gravity_QLLine1" xml:space="preserve">
+    <value>Activate the Gravity Generator by using the button panel.</value>
+  </data>
+  <data name="Gravity_QLTitle" xml:space="preserve">
+    <value>Switch on the artificial gravity</value>
+  </data>
+  <data name="Gravity_Quest" xml:space="preserve">
+    <value>Before beginning repairs, first activate the Gravity Generator</value>
+  </data>
+  <data name="GrindBot_GPS" xml:space="preserve">
+    <value>Grinder Drone</value>
+  </data>
+  <data name="GrinderBot_Fail" xml:space="preserve">
+    <value>The drone is escaping with components stolen from the base!</value>
+  </data>
+  <data name="GrinderBot_QLLine1" xml:space="preserve">
+    <value>Get a closer look at the drone.</value>
+  </data>
+  <data name="GrinderBot_QLLine2" xml:space="preserve">
+    <value>Disable the grinder drone.</value>
+  </data>
+  <data name="GrinderBot_QLTitle" xml:space="preserve">
+    <value>Deal with the second unidentified drone</value>
+  </data>
+  <data name="GrinderBot_Success" xml:space="preserve">
+    <value>The drone is disabled, but I suspect we have not seen the last of them.</value>
+  </data>
+  <data name="GrinderBot_Warning1" xml:space="preserve">
+    <value>Warning: additional drone detected below the station.</value>
+  </data>
+  <data name="GrinderBot_Warning2" xml:space="preserve">
+    <value>Another hostile drone! This one is equiped with a grinder, ensure proper caution tackling it.</value>
+  </data>
+  <data name="Intro_Hint" xml:space="preserve">
+    <value>Do you want to activate guided missions? Use the highlighted button panel to decide.</value>
+  </data>
+  <data name="Intro_Hint2" xml:space="preserve">
+    <value>Use jetpack ([ {0} ] key) to get to navigate in this room</value>
+  </data>
+  <data name="Intro_Outcome1" xml:space="preserve">
+    <value>Missions Activated.</value>
+  </data>
+  <data name="Intro_Outcome2" xml:space="preserve">
+    <value>Missions Disabled, normal sandbox gameplay restored.</value>
+  </data>
+  <data name="Intro_QuestlogLine1" xml:space="preserve">
+    <value>Press left button to activate the guide and missions.</value>
+  </data>
+  <data name="Intro_QuestlogLine2" xml:space="preserve">
+    <value>Press right button to play this map in sandbox mode.</value>
+  </data>
+  <data name="Intro_QuestlogTitle" xml:space="preserve">
+    <value>Choose between missions or sandbox</value>
+  </data>
+  <data name="MissileTurret_QLLine1" xml:space="preserve">
+    <value>Missile Turret</value>
+  </data>
+  <data name="MissileTurret_QLLine2" xml:space="preserve">
+    <value>Missile Turret &lt;=&gt; Large Cargo Container</value>
+  </data>
+  <data name="MissileTurret_QLLine3" xml:space="preserve">
+    <value>Gatling Turret</value>
+  </data>
+  <data name="MissileTurret_QLLine4" xml:space="preserve">
+    <value>Gatling turret &lt;=&gt; Large Cargo Container</value>
+  </data>
+  <data name="MissileTurret_QLLine5" xml:space="preserve">
+    <value>Wait for cargo to unload.</value>
+  </data>
+  <data name="MissileTurret_QLTitle" xml:space="preserve">
+    <value>Repair damaged turrets</value>
+  </data>
+  <data name="MissileTurret_Quest1" xml:space="preserve">
+    <value>It's time to get that Missile Turret functioning.</value>
+  </data>
+  <data name="MissileTurret_Quest2" xml:space="preserve">
+    <value>You do not need to assemble more ammunition now.</value>
+  </data>
+  <data name="MissileTurret_Quest3" xml:space="preserve">
+    <value>A supply ship with ammo is on route to the station.</value>
+  </data>
+  <data name="MissileTurret_Unloading" xml:space="preserve">
+    <value>Ammunition unloading is in progress.</value>
+  </data>
+  <data name="Processing_Completed" xml:space="preserve">
+    <value>All materials are in correct queue positions. Now you are ready to start assembling components.</value>
+  </data>
+  <data name="Processing_QLLine1" xml:space="preserve">
+    <value>Place iron in Blast Furnace slot 1.</value>
+  </data>
+  <data name="Processing_QLLine2" xml:space="preserve">
+    <value>Place nickel in Blast Furnace slot 2.</value>
+  </data>
+  <data name="Processing_QLLine3" xml:space="preserve">
+    <value>Place silicon in Refinery slot 1.</value>
+  </data>
+  <data name="Processing_QLLine4" xml:space="preserve">
+    <value>Place cobalt in Blast Furnace slot 3 or refinery slot 2.</value>
+  </data>
+  <data name="Processing_QLTitle" xml:space="preserve">
+    <value>Rearrange Refinery and Blast Furnace ore queues</value>
+  </data>
+  <data name="Processing_Quest1" xml:space="preserve">
+    <value>The Refinery and Blast Furnace have ore in their queues but they will need to be rearranged in a more suitable order.</value>
+  </data>
+  <data name="Processing_Quest2" xml:space="preserve">
+    <value>Check their inventory and rearrange the refining queues.</value>
+  </data>
+  <data name="Reactor_GPS_Reactor" xml:space="preserve">
+    <value>Station Reactor</value>
+  </data>
+  <data name="Reactor_GPS_Spare" xml:space="preserve">
+    <value>Unused Reactor</value>
+  </data>
+  <data name="Reactor_QLLine1" xml:space="preserve">
+    <value>Equip grinder ([ {0} ] key) and salvage the highlighted block.</value>
+  </data>
+  <data name="Reactor_QLLine2" xml:space="preserve">
+    <value>Equip welder ([ {0} ] key) and finishing building the Small Reactor</value>
+  </data>
+  <data name="Reactor_QLTitle" xml:space="preserve">
+    <value>Repair the stations Small Reactor</value>
+  </data>
+  <data name="Reactor_Quest1" xml:space="preserve">
+    <value>The station is powered by solar panels and batteries but these are relatively low capacity.</value>
+  </data>
+  <data name="Reactor_Quest2" xml:space="preserve">
+    <value>The next step will be to get the station reactor up and running so you have a larger power source.</value>
+  </data>
+  <data name="Reactor_Quest3" xml:space="preserve">
+    <value>Grind this scrapped reactor for spare parts.</value>
+  </data>
+  <data name="Refinery_GPS" xml:space="preserve">
+    <value>Refinery</value>
+  </data>
+  <data name="Refinery_Outcome" xml:space="preserve">
+    <value>Good, Uranium supply is sufficient but will eventually need replenishing.</value>
+  </data>
+  <data name="Refinery_Processing1" xml:space="preserve">
+    <value>The Refinery processes ores in it's queue from left to right.</value>
+  </data>
+  <data name="Refinery_Processing2" xml:space="preserve">
+    <value>You can re-arrange the order by dragging ores (some ores are processed very slowly).</value>
+  </data>
+  <data name="Refinery_QLLine1" xml:space="preserve">
+    <value>Bring uraninite ore to the refinery.</value>
+  </data>
+  <data name="Refinery_QLLine2" xml:space="preserve">
+    <value>Take the processed uranium ingots and put them in the reactor.</value>
+  </data>
+  <data name="Refinery_QLTitle" xml:space="preserve">
+    <value>Refuel the Small Reactor with uranium ingots</value>
+  </data>
+  <data name="Refinery_Quest1" xml:space="preserve">
+    <value>Good, that is enough uranium ore for now.</value>
+  </data>
+  <data name="Refinery_Quest2" xml:space="preserve">
+    <value>Bring the mined ore to the Refinery and place it inside.</value>
+  </data>
+  <data name="Refinery_Quest3" xml:space="preserve">
+    <value>If you have mined other ores, these can also be added to the queue.</value>
+  </data>
+  <data name="Refinery_Quest4" xml:space="preserve">
+    <value>There are now enough processed uranium ingots in the Refinery.</value>
+  </data>
+  <data name="Refinery_Quest5" xml:space="preserve">
+    <value>Take the Uranium and place it into the Small Reactor.</value>
+  </data>
+  <data name="SecondAttack_GPS" xml:space="preserve">
+    <value>Turret Control.</value>
+  </data>
+  <data name="SecondAttack_QLLine1" xml:space="preserve">
+    <value>Disable or destroy drones: {0}/{1}</value>
+  </data>
+  <data name="SecondAttack_QLLine2" xml:space="preserve">
+    <value>Repair the Gatling Turret.</value>
+  </data>
+  <data name="SecondAttack_QLTitle" xml:space="preserve">
+    <value>Defend the station</value>
+  </data>
+  <data name="SecondAttack_Quest1" xml:space="preserve">
+    <value>Warning: more enemy drones approaching from below.</value>
+  </data>
+  <data name="SecondAttack_Quest2" xml:space="preserve">
+    <value>Enter the Control Station seat to take manual control of a turret and prepare to face the threat.</value>
+  </data>
+  <data name="SecondAttack_Turret" xml:space="preserve">
+    <value>Gatling Turret disabled. Try to repair it when possible.</value>
+  </data>
+  <data name="SecondAttack_Won" xml:space="preserve">
+    <value>All drones are disabled, but more are on the way.</value>
+  </data>
+  <data name="ShipRepair_GPS" xml:space="preserve">
+    <value>Mining Ship</value>
+  </data>
+  <data name="ShipRepair_QLLine1" xml:space="preserve">
+    <value>Repair all highlighted blocks: {0}/{1}</value>
+  </data>
+  <data name="ShipRepair_QLLine2" xml:space="preserve">
+    <value>Repair the Cockpit.</value>
+  </data>
+  <data name="ShipRepair_QLLine3" xml:space="preserve">
+    <value>Resupply the ship's Small Reactors with uranium ingots.</value>
+  </data>
+  <data name="ShipRepair_QLLine4" xml:space="preserve">
+    <value>Unlock the landing gear by using the button panel.</value>
+  </data>
+  <data name="ShipRepair_QLLine5" xml:space="preserve">
+    <value>Enter the Cockpit.</value>
+  </data>
+  <data name="ShipRepair_QLTitle" xml:space="preserve">
+    <value>Repair the mining ship</value>
+  </data>
+  <data name="ShipRepair_Quest" xml:space="preserve">
+    <value>Now you are prepared to get the mining ship working.</value>
+  </data>
+  <data name="ShipRepair_Uranium" xml:space="preserve">
+    <value>Bring some uranium ingots for the ship's Small Reactors (you can take it from the station Small Reactor).</value>
+  </data>
+  <data name="ShipRepair_UraniumDone" xml:space="preserve">
+    <value>Reactors will pull uranium ingots automatically from any conveyor connected inventory.</value>
+  </data>
+  <data name="UpgModules_Completed1" xml:space="preserve">
+    <value>Good work. The Assembler will now be much faster.</value>
+  </data>
+  <data name="UpgModules_Completed2" xml:space="preserve">
+    <value>There is room for four modules on the Assembler or Refinery.</value>
+  </data>
+  <data name="UpgModules_Completed3" xml:space="preserve">
+    <value>You can add or repair more modules later.</value>
+  </data>
+  <data name="UpgModules_QLLine1" xml:space="preserve">
+    <value>Repair the unfinished upgrade module.</value>
+  </data>
+  <data name="UpgModules_QLLine2" xml:space="preserve">
+    <value>Place and weld a speed module on the Assembler.</value>
+  </data>
+  <data name="UpgModules_QLTitle" xml:space="preserve">
+    <value>Upgrade the Assembler</value>
+  </data>
+  <data name="UpgModules_Quest1" xml:space="preserve">
+    <value>Production of these components can be slow.</value>
+  </data>
+  <data name="UpgModules_Quest2" xml:space="preserve">
+    <value>You can speed up future component production by adding upgrade modules.</value>
+  </data>
+  <data name="UpgModules_Quest3" xml:space="preserve">
+    <value>These modules boost the speed, yield and power efficiency of Refineries and Assemblers.</value>
+  </data>
+  <data name="Uranium_GPS" xml:space="preserve">
+    <value>Ore Detector</value>
+  </data>
+  <data name="Uranium_QLLine1" xml:space="preserve">
+    <value>Activate Ore Detector.</value>
+  </data>
+  <data name="Uranium_QLLine2" xml:space="preserve">
+    <value>Equip drill ([ {0} ] key) and use it to drill uraninite ore</value>
+  </data>
+  <data name="Uranium_QLLine3" xml:space="preserve">
+    <value>Ore collected: {0}kg  ({1}kg required)</value>
+  </data>
+  <data name="Uranium_QLTitle" xml:space="preserve">
+    <value>Drill for uraninite</value>
+  </data>
+  <data name="Uranium_Quest1" xml:space="preserve">
+    <value>The Small Reactor needs uranium ingots to provide power.</value>
+  </data>
+  <data name="Uranium_Quest2" xml:space="preserve">
+    <value>Ok, now you need to select your drill and start mining some uraninite.</value>
+  </data>
+  <data name="Uranium_Quest3" xml:space="preserve">
+    <value>This Ore Detector will help you to locate the uraninite ore.</value>
+  </data>
+</root>

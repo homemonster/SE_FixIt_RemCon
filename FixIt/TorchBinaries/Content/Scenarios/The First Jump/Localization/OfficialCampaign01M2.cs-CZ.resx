@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>Konstruktére, dlužím Vám omluvu. Neuvědomili jsme si, že na palubě stanice byl představitel společnosti Sol Cooperative, když jsme zaútočili.</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>Mluvím jménem Nezávislých Terranských Pracovníků, byli jsme najati společností R.O.S., abychom postavili a spravovali zařízení, které jste právě opustili.</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>Společnost objevila artefakt neznámého původu, ale místo toho, aby ho nahlásili, utajili jeho existenci a zaútočili na naše dělníky. Mnoho z nás zabili, aby ukryli svou lest.</value>
+  </data>
+  <data name="Chat_Rebel_Outro4" xml:space="preserve">
+    <value>Povstali jsme se na odpor a nyní se snažíme tento artefakt získat, abychom společnosti zabránili v jeho využití pro zvětšení své moci.</value>
+  </data>
+  <data name="Chat_Rebel_Outro5" xml:space="preserve">
+    <value>Trváme na tom, že se k nám nalodíte. Osobně Vám musíme ukázat činy této společnosti.</value>
+  </data>
+  <data name="Chat_VA_BaseStart" xml:space="preserve">
+    <value>Prohledejte základnu. Najděte cestu do podzemní části zařízení.</value>
+  </data>
+  <data name="Chat_VA_BlastDoorClosed" xml:space="preserve">
+    <value>Bezpečnostní systém uzamkl vrata! Musí tu být i jiná cesta... zpřístupňuji nákresy stanice... jděte do výtahu!</value>
+  </data>
+  <data name="Chat_VA_ControlTower" xml:space="preserve">
+    <value>Našli jste řídící věž. Bezpečnostní uzamčení můžete zrušit právě tam.</value>
+  </data>
+  <data name="Chat_VA_Detection" xml:space="preserve">
+    <value>Zaznamenána energetická signatura v okolí. Vypadá to, že je to další zařízení ROS, ale nemám k dipozici žádný oficiální záznam o jeho existenci.</value>
+  </data>
+  <data name="Chat_VA_ElevatorBroken" xml:space="preserve">
+    <value>Řízení výtahu nereaguje.</value>
+  </data>
+  <data name="Chat_VA_ElevatorLocked" xml:space="preserve">
+    <value>Výtah je uzamčen. Doporučuji najít řídící místnost.</value>
+  </data>
+  <data name="Chat_VA_Excavation1" xml:space="preserve">
+    <value>Projektor vykresluje snímek nějakého artefaktu. Museli ho odtud vykopat a přesunout jinam.</value>
+  </data>
+  <data name="Chat_VA_Excavation2" xml:space="preserve">
+    <value>Varování: UI bezpečnostních dronů byla aktivována!</value>
+  </data>
+  <data name="Chat_VA_InfoAboutEscapeShip" xml:space="preserve">
+    <value>Jděte k únikové lodi</value>
+  </data>
+  <data name="Chat_VA_Investigation" xml:space="preserve">
+    <value>Doporučuji pokračovat ve vyšetřování. Další informace by mohly vnést trochu světla do tohoto konfliktu.</value>
+  </data>
+  <data name="Chat_VA_Landing" xml:space="preserve">
+    <value>Přistání na měsíci dokončeno, skenuji...</value>
+  </data>
+  <data name="Chat_VA_LandingGearsWarning" xml:space="preserve">
+    <value>Varování, přistávací podvozky jsou uzamknuté.</value>
+  </data>
+  <data name="Chat_VA_NoHydrogenBottle" xml:space="preserve">
+    <value>Doporučuji Vám, vzít si i vodíkovou láhev. Jetpack potřebuje vodík jako palivo.</value>
+  </data>
+  <data name="Chat_VA_NoOxygenBottle" xml:space="preserve">
+    <value>Doporučuji Vám, vzít si i kyslíkovou láhev. Mohlo by to být rozhodující pro přežití ve vesmíru.</value>
+  </data>
+  <data name="Chat_VA_PitBottom" xml:space="preserve">
+    <value>Určitě je tu někde vysvětlení, proč tohle postavili. Myslím si, že odpověď se nachází někde v těchto tunelech.</value>
+  </data>
+  <data name="Chat_VA_PitDrones" xml:space="preserve">
+    <value>Automatizovaný obranný dron. Jejich UI je v tuto chvíli mimo provoz.</value>
+  </data>
+  <data name="Chat_VA_PitTop" xml:space="preserve">
+    <value>Hlavní šachta je zpřístupněna. Zajímalo by mě, proč to vede tak hluboko...</value>
+  </data>
+  <data name="Chat_VA_Start1" xml:space="preserve">
+    <value>Doporučuji Vám, vzít si s sebou náhradní kyslíkové a vodíkové láhve.</value>
+  </data>
+  <data name="Chat_VA_Start2" xml:space="preserve">
+    <value>V nákladním kontejneru v podlaze naleznete rezervní láhve.</value>
+  </data>
+  <data name="Chat_VA_Welder" xml:space="preserve">
+    <value>Tato svářečka je mnohem výkonnější, než ta, kterou teď máte.</value>
+  </data>
+  <data name="GPS_ControlTower" xml:space="preserve">
+    <value>Řídící Věž</value>
+  </data>
+  <data name="GPS_ControlTowerPanel" xml:space="preserve">
+    <value>Ovládací panel</value>
+  </data>
+  <data name="GPS_Elevator" xml:space="preserve">
+    <value>Výtah</value>
+  </data>
+  <data name="GPS_EscapeShip" xml:space="preserve">
+    <value>Úniková loď</value>
+  </data>
+  <data name="GPS_Excavation" xml:space="preserve">
+    <value>Místo výkopu</value>
+  </data>
+  <data name="GPS_ExitCoords" xml:space="preserve">
+    <value>Souřadnice nav. počítače</value>
+  </data>
+  <data name="GPS_MineEntrance" xml:space="preserve">
+    <value>Vstup do dolu</value>
+  </data>
+  <data name="GPS_MoonBase" xml:space="preserve">
+    <value>Vestibul základny na měsíci</value>
+  </data>
+  <data name="Hint_HowToDragAndDrop" xml:space="preserve">
+    <value>Nebo můžete přetáhnout předměty z inventáře vpravo do toho svého.</value>
+  </data>
+  <data name="Hint_HowToLeaveSeat" xml:space="preserve">
+    <value>Stiskněte tlačítko [ {0} ] pro opuštění sedadla.</value>
+  </data>
+  <data name="Hint_HowToLight" xml:space="preserve">
+    <value>Stisknutím tlačítka [ {0} ] si můžete rozsvítit baterku.</value>
+  </data>
+  <data name="Hint_HowToRetrieveAnItem" xml:space="preserve">
+    <value>Klikněte dvakrát na předmět, který chcete přetáhnout do svého inventáře.</value>
+  </data>
+  <data name="Hint_HowToUseInventory" xml:space="preserve">
+    <value>Namiřte na čtvercový přístupový port a stiskněte [ {0} ], abyste otevřeli jeho inventář.</value>
+  </data>
+  <data name="Hint_HowToUseJetpack" xml:space="preserve">
+    <value>Jetpack můžete zapnout/vypnout klávesou [ {0} ].</value>
+  </data>
+  <data name="Hint_HowToggleLandingGears" xml:space="preserve">
+    <value>Přistávací podvozky odemknete klávesou [ {0} ].</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite1" xml:space="preserve">
+    <value>Konečně jsme připraveni</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite2" xml:space="preserve">
+    <value>na extrakci.</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite3" xml:space="preserve">
+    <value>Bude o dost snazší</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite4" xml:space="preserve">
+    <value>studovat artefakt</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite5" xml:space="preserve">
+    <value>na hlavní základně.</value>
+  </data>
+  <data name="Quest01_Bottles" xml:space="preserve">
+    <value>Připravte se opustit únikový modul</value>
+  </data>
+  <data name="Quest01_Bottles_Drag" xml:space="preserve">
+    <value>Klikněte dvakrát, nebo přetáhněte předměty z inventáře vpravo do Vašeho osobního inventáře vlevo.</value>
+  </data>
+  <data name="Quest01_Bottles_Escape" xml:space="preserve">
+    <value>Stiskněte [ {0} ], [ {1} ] nebo [ Escape ] pro zavření okna.</value>
+  </data>
+  <data name="Quest01_Bottles_OpenInventory" xml:space="preserve">
+    <value>Zpřístupněte náklad v podlaze (klávesy [ {0} ] nebo [ {1} ]).</value>
+  </data>
+  <data name="Quest01_Bottles_Seat" xml:space="preserve">
+    <value>Opusťte sedadlo pro pasažéra stisknutím [ {0} ].</value>
+  </data>
+  <data name="Quest02_EnterBase" xml:space="preserve">
+    <value>Prozkoumejte stavbu poblíž</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls1" xml:space="preserve">
+    <value>Použijte pohybové klávesy postavy, abyste letěli.</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls2" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro stoupání a [ {1} ] pro klesání.</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls3" xml:space="preserve">
+    <value>Stiskněte [ {0} ] nebo [ {1} ] pro rotaci vlevo nebo vpravo.</value>
+  </data>
+  <data name="Quest02_EnterBase_GoTo" xml:space="preserve">
+    <value>Jděte na vyznačené souřadnice</value>
+  </data>
+  <data name="Quest02_EnterBase_Jetpack" xml:space="preserve">
+    <value>Přepněte svůj jetkpack mezi zapnut/vypnut klávesou [ {0} ].</value>
+  </data>
+  <data name="Quest03_LocateTower" xml:space="preserve">
+    <value>Získejte přístup do zařízení</value>
+  </data>
+  <data name="Quest03_LocateTower_Base" xml:space="preserve">
+    <value>Vstupte do základny skrze vyznačené dveře.</value>
+  </data>
+  <data name="Quest03_LocateTower_Open" xml:space="preserve">
+    <value>Použijte panel s tlačítky pro zrušení bezpečnostního uzamknutí.</value>
+  </data>
+  <data name="Quest03_LocateTower_Tower" xml:space="preserve">
+    <value>Jděte do řídící věže.</value>
+  </data>
+  <data name="Quest04_Descent" xml:space="preserve">
+    <value>Jděte hlouběji do zařízení.</value>
+  </data>
+  <data name="Quest04_Descent_Elevator" xml:space="preserve">
+    <value>Vstupte do výtahu.</value>
+  </data>
+  <data name="Quest04_Descent_UseElevator" xml:space="preserve">
+    <value>Použijte panel s tlačítky pro aktivování výtahu.</value>
+  </data>
+  <data name="Quest04_Descent_WaitForIt" xml:space="preserve">
+    <value>Počkejte, dokud se výtah nezastaví.</value>
+  </data>
+  <data name="Quest05_ExcavationSite" xml:space="preserve">
+    <value>Najděte místo výkopu</value>
+  </data>
+  <data name="Quest05_ExcavationSite_ActivateProjector" xml:space="preserve">
+    <value>Použijte panel s tlačítky pro aktivování projektoru.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Explore" xml:space="preserve">
+    <value>Najděte výkopové místo v těchto tunelech.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Light" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro přepnutí baterky mezi zapnuta/vypnuta.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Located" xml:space="preserve">
+    <value>Místo výkopu bylo nalezeno a vyznačeno pomocí GPS</value>
+  </data>
+  <data name="Quest06_Escape" xml:space="preserve">
+    <value>Unikněte z tunelů</value>
+  </data>
+  <data name="Quest06_Escape_Drones" xml:space="preserve">
+    <value>Bezpečnostní drony se aktivují.</value>
+  </data>
+  <data name="Quest06_Escape_Fight" xml:space="preserve">
+    <value>Zničte je, nebo jim uleťte a dostaňte se do hlavní šachty.</value>
+  </data>
+  <data name="Quest06_Escape_GPS" xml:space="preserve">
+    <value>Souřadnice východu jsou vyznačeny pomocí GPS.</value>
+  </data>
+  <data name="Quest07_Elevator" xml:space="preserve">
+    <value>Unikněte použitím výtahu</value>
+  </data>
+  <data name="Quest07_Elevator_BlastDoor" xml:space="preserve">
+    <value>Použijte panel s tlačítky pro aktivování výtahu.</value>
+  </data>
+  <data name="Quest08_Maintenance" xml:space="preserve">
+    <value>Vstupte do údržbářské šachty</value>
+  </data>
+  <data name="Quest08_Maintenance_Elevator" xml:space="preserve">
+    <value>Uvedl jsem výtah do diagnostického režimu, takže zastaví v mezipatře pro přístup údržby.</value>
+  </data>
+  <data name="Quest08_Maintenance_Quest" xml:space="preserve">
+    <value>Jděte skrze tento tunel, vede k záložnímu hangáru s loděmi.</value>
+  </data>
+  <data name="Quest09_EscapeShip" xml:space="preserve">
+    <value>Unikněte s pomocí lodě</value>
+  </data>
+  <data name="Quest09_EscapeShip_Enter" xml:space="preserve">
+    <value>Kokpit lodě zpřístupníte klávesou [ {0} ]</value>
+  </data>
+  <data name="Quest09_EscapeShip_Gears" xml:space="preserve">
+    <value>Přistávací podvozky odemknete klávesou [ {0} ]</value>
+  </data>
+  <data name="Quest09_EscapeShip_Power" xml:space="preserve">
+    <value>Energii zapnete klávesou [ {0} ]</value>
+  </data>
+  <data name="Quest10_End" xml:space="preserve">
+    <value>Leťte k určeným souřadnicím.</value>
+  </data>
+  <data name="Quest10_End_Movement" xml:space="preserve">
+    <value>Stiskněte [ {0} ], abyste odletěli z hangáru.</value>
+  </data>
+  <data name="Quest10_End_Quest" xml:space="preserve">
+    <value>K ovládání lodě použijte stejné klávesy, jako pro ovládání jetpacku.</value>
+  </data>
+</root>

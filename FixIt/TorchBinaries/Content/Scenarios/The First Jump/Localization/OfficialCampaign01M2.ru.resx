@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>Инженер, прошу нас простить, мы не понимали что на борту представитель Sol Cooperative когда мы напали.</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>Я говорю от лица Независимых Рабочих Земли, мы были наняты ROS4 чтобы построить и обслуживать комплекс, который Вы только что покинули.</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>Компания обнаружена артефакт неизвестного происхождения и вместо того, чтобы обнародовать это, предпочла умолчать и напала на наших рабочих, убив многих из нас, всё лишь бы оставить это в секрете.</value>
+  </data>
+  <data name="Chat_Rebel_Outro4" xml:space="preserve">
+    <value>Мы восстали и дали отпор и теперь ищем возможности отбить артефакт, чтобы не дать корпорации злоупотребить его возможностями для распространения своей власти.</value>
+  </data>
+  <data name="Chat_Rebel_Outro5" xml:space="preserve">
+    <value>Мы настаиваем, чтобы Вы поднялись на борт нашего корабля, чтобы убедиться во всем лично.</value>
+  </data>
+  <data name="Chat_VA_BaseStart" xml:space="preserve">
+    <value>Исследуйте базу. Найдите путь вглубь комплекса.</value>
+  </data>
+  <data name="Chat_VA_BlastDoorClosed" xml:space="preserve">
+    <value>Система безопасности заблокировала створки! Должен быть другой пусть... проверяю схему... к лифту!</value>
+  </data>
+  <data name="Chat_VA_ControlTower" xml:space="preserve">
+    <value>Вы обнаружили центр управления. Здесь блокировка может быть снята.</value>
+  </data>
+  <data name="Chat_VA_Detection" xml:space="preserve">
+    <value>Обнаружена локальная энергетическая сигнатура, похоже это дополнительный комплекс ROS4, но я нигде не могу найти упоминаний о его существовании.</value>
+  </data>
+  <data name="Chat_VA_ElevatorBroken" xml:space="preserve">
+    <value>Лифт не отвечает.</value>
+  </data>
+  <data name="Chat_VA_ElevatorLocked" xml:space="preserve">
+    <value>Лифт заблокировано. Рекомендуется найти центр управления.</value>
+  </data>
+  <data name="Chat_VA_Excavation1" xml:space="preserve">
+    <value>Проектор показываето образ какого-то артефакта, который они извлекли и переместили куда-то еще.</value>
+  </data>
+  <data name="Chat_VA_Excavation2" xml:space="preserve">
+    <value>Внимание: охранные дроны активироаны!</value>
+  </data>
+  <data name="Chat_VA_InfoAboutEscapeShip" xml:space="preserve">
+    <value>[go to escape ship text]</value>
+  </data>
+  <data name="Chat_VA_Investigation" xml:space="preserve">
+    <value>Требуется осмотр, возможно найдется дополнительная информация, которая прольет свет на суть конфликта.</value>
+  </data>
+  <data name="Chat_VA_Landing" xml:space="preserve">
+    <value>Посадка на луну завершена, сканирование...</value>
+  </data>
+  <data name="Chat_VA_LandingGearsWarning" xml:space="preserve">
+    <value>Внимание, шасси закреплены.</value>
+  </data>
+  <data name="Chat_VA_NoHydrogenBottle" xml:space="preserve">
+    <value>Рекомендуется также взять баллон с водородом. Водород используется личным реактивным ранцем.</value>
+  </data>
+  <data name="Chat_VA_NoOxygenBottle" xml:space="preserve">
+    <value>Рекомендуется также взять баллон с кислородом. Он необходим для выживания в космосе.</value>
+  </data>
+  <data name="Chat_VA_PitBottom" xml:space="preserve">
+    <value>Должно быть объяснение, зачем они построили это, я думаю ответ находится в этих туннелях.</value>
+  </data>
+  <data name="Chat_VA_PitDrones" xml:space="preserve">
+    <value>Автоматический охранный дрон. ИИ в данный момент неактивен.</value>
+  </data>
+  <data name="Chat_VA_PitTop" xml:space="preserve">
+    <value>Основная шахта теперь доступна, интересно, почему она такая глубокая?</value>
+  </data>
+  <data name="Chat_VA_Start1" xml:space="preserve">
+    <value>Рекомендуется взять с собой запасные баллоны с кислородом и водородом.</value>
+  </data>
+  <data name="Chat_VA_Start2" xml:space="preserve">
+    <value>В этом контейнере есть несколько дополнительных баллонов.</value>
+  </data>
+  <data name="Chat_VA_Welder" xml:space="preserve">
+    <value>Этот сварщик намного мощнее Вашего текущего.</value>
+  </data>
+  <data name="GPS_ControlTower" xml:space="preserve">
+    <value>Центр управления</value>
+  </data>
+  <data name="GPS_ControlTowerPanel" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="GPS_Elevator" xml:space="preserve">
+    <value>Лифт</value>
+  </data>
+  <data name="GPS_EscapeShip" xml:space="preserve">
+    <value>Корабль</value>
+  </data>
+  <data name="GPS_Excavation" xml:space="preserve">
+    <value>Место раскопок</value>
+  </data>
+  <data name="GPS_ExitCoords" xml:space="preserve">
+    <value>Координаты нав. комп.</value>
+  </data>
+  <data name="GPS_MineEntrance" xml:space="preserve">
+    <value>Вход в шахту</value>
+  </data>
+  <data name="GPS_MoonBase" xml:space="preserve">
+    <value>Лобби лунной базы</value>
+  </data>
+  <data name="Hint_HowToDragAndDrop" xml:space="preserve">
+    <value>Или вы можете перетащить предметы из правого инвентаря в Ваш.</value>
+  </data>
+  <data name="Hint_HowToLeaveSeat" xml:space="preserve">
+    <value>Нажмите {0} чтобы покинуть сидение.</value>
+  </data>
+  <data name="Hint_HowToLight" xml:space="preserve">
+    <value>Используйте {0} чтобы включить фонарик.</value>
+  </data>
+  <data name="Hint_HowToRetrieveAnItem" xml:space="preserve">
+    <value>Двойной клик по предмету переместит его в Ваш инвентарь.</value>
+  </data>
+  <data name="Hint_HowToUseInventory" xml:space="preserve">
+    <value>Наведите на конвейерный порт и нажмите {0}, чтобы открыть инвентарь.</value>
+  </data>
+  <data name="Hint_HowToUseJetpack" xml:space="preserve">
+    <value>Вы можете переключить реактивный ранец нажатием {0}.</value>
+  </data>
+  <data name="Hint_HowToggleLandingGears" xml:space="preserve">
+    <value>Нажмите {0} чтобы отцепить/зацепить шасси.</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite1" xml:space="preserve">
+    <value>Мы наконец готовы</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite2" xml:space="preserve">
+    <value>начать извлечение.</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite3" xml:space="preserve">
+    <value>Изучать артефакт</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite4" xml:space="preserve">
+    <value>будет намного проще</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite5" xml:space="preserve">
+    <value>на основной базе.</value>
+  </data>
+  <data name="Quest01_Bottles" xml:space="preserve">
+    <value>Приготовьтесь покинуть спасательную капсулу</value>
+  </data>
+  <data name="Quest01_Bottles_Drag" xml:space="preserve">
+    <value>Дважды кликните или перетащите все предметы из инвентаря справа в ваш личный инвентарь слева.</value>
+  </data>
+  <data name="Quest01_Bottles_Escape" xml:space="preserve">
+    <value>Нажмите {0}, {1} или Escape чтобы закрыть экран.</value>
+  </data>
+  <data name="Quest01_Bottles_OpenInventory" xml:space="preserve">
+    <value>Откройте нижний контейнер ({0} или {1}).</value>
+  </data>
+  <data name="Quest01_Bottles_Seat" xml:space="preserve">
+    <value>Покиньте кресло нажатием {0}.</value>
+  </data>
+  <data name="Quest02_EnterBase" xml:space="preserve">
+    <value>Осмотрите ближайшее строение</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls1" xml:space="preserve">
+    <value>Используйте кнопки передвижения для полета</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls2" xml:space="preserve">
+    <value>Нажмите {0} для взлета выше и {1} для снижения.</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls3" xml:space="preserve">
+    <value>Используйте {0} и {1} для крена влево или вправо.</value>
+  </data>
+  <data name="Quest02_EnterBase_GoTo" xml:space="preserve">
+    <value>Идите к отмеченным коордианатам</value>
+  </data>
+  <data name="Quest02_EnterBase_Jetpack" xml:space="preserve">
+    <value>Переключите реактивный ранец с помощью {0}.</value>
+  </data>
+  <data name="Quest03_LocateTower" xml:space="preserve">
+    <value>Получите доступ к комплексу</value>
+  </data>
+  <data name="Quest03_LocateTower_Base" xml:space="preserve">
+    <value>Войдите на базу через отмеченные двери.</value>
+  </data>
+  <data name="Quest03_LocateTower_Open" xml:space="preserve">
+    <value>Используйте кнопочную панель чтобы снять блокировку.</value>
+  </data>
+  <data name="Quest03_LocateTower_Tower" xml:space="preserve">
+    <value>Идите в центр управления.</value>
+  </data>
+  <data name="Quest04_Descent" xml:space="preserve">
+    <value>Проследуйте вглубь комплекса.</value>
+  </data>
+  <data name="Quest04_Descent_Elevator" xml:space="preserve">
+    <value>Пройдите в лифт.</value>
+  </data>
+  <data name="Quest04_Descent_UseElevator" xml:space="preserve">
+    <value>Используйте кнопочную панель чтобы вызвать лифт.</value>
+  </data>
+  <data name="Quest04_Descent_WaitForIt" xml:space="preserve">
+    <value>Дождитесь пока лифт достигнет точки назначения.</value>
+  </data>
+  <data name="Quest05_ExcavationSite" xml:space="preserve">
+    <value>Найдите место раскопок</value>
+  </data>
+  <data name="Quest05_ExcavationSite_ActivateProjector" xml:space="preserve">
+    <value>Нажмите кнопку на панели для включения проектора.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Explore" xml:space="preserve">
+    <value>Найдите место раскопок, проследовав по одному из туннелей.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Light" xml:space="preserve">
+    <value>Нажмите {0} для включения фонарика.</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Located" xml:space="preserve">
+    <value>Местоположение раскопа обнаружено и добавлено в GPS</value>
+  </data>
+  <data name="Quest06_Escape" xml:space="preserve">
+    <value>Покиньте туннели</value>
+  </data>
+  <data name="Quest06_Escape_Drones" xml:space="preserve">
+    <value>Охранные дроны активируются.</value>
+  </data>
+  <data name="Quest06_Escape_Fight" xml:space="preserve">
+    <value>Сражайтесь или бегите, вернитесь к главной шахте.</value>
+  </data>
+  <data name="Quest06_Escape_GPS" xml:space="preserve">
+    <value>Выход помечет GPS точкой.</value>
+  </data>
+  <data name="Quest07_Elevator" xml:space="preserve">
+    <value>Поднимитесь на лифте</value>
+  </data>
+  <data name="Quest07_Elevator_BlastDoor" xml:space="preserve">
+    <value>Используйте кнопочную панель чтобы вызвать лифт.</value>
+  </data>
+  <data name="Quest08_Maintenance" xml:space="preserve">
+    <value>Войдите в коридор тех. обслуживания</value>
+  </data>
+  <data name="Quest08_Maintenance_Elevator" xml:space="preserve">
+    <value>Я включу режим диагностики лифта, чтобы попасть на служебный подуровень.</value>
+  </data>
+  <data name="Quest08_Maintenance_Quest" xml:space="preserve">
+    <value>Проследуйте по туннелю, он выведет к ангару корабля.</value>
+  </data>
+  <data name="Quest09_EscapeShip" xml:space="preserve">
+    <value>Сбегите с помощью этого корабля</value>
+  </data>
+  <data name="Quest09_EscapeShip_Enter" xml:space="preserve">
+    <value>Войдите в кокпит корабля нажатием {0}</value>
+  </data>
+  <data name="Quest09_EscapeShip_Gears" xml:space="preserve">
+    <value>Открепите шасси нажатием {0}</value>
+  </data>
+  <data name="Quest09_EscapeShip_Power" xml:space="preserve">
+    <value>Включите подачу энергии нажатием {0}</value>
+  </data>
+  <data name="Quest10_End" xml:space="preserve">
+    <value>Летите к показанной точке</value>
+  </data>
+  <data name="Quest10_End_Movement" xml:space="preserve">
+    <value>Нажмите {0} чтобы вылететь из ангара.</value>
+  </data>
+  <data name="Quest10_End_Quest" xml:space="preserve">
+    <value>Используйте те же клавиши управления для корабля, что и для ранца.</value>
+  </data>
+</root>

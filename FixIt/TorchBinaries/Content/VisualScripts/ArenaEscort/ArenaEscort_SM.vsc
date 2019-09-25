@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StateMachine>
+    <Name>ArenaEscort_SM</Name>
+    <OwnerId>0</OwnerId>
+    <Cursors>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Initial</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+    </Cursors>
+    <Nodes>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="39.7501526" y="246.227448" />
+        <Name>Initial</Name>
+        <ScriptFilePath>VisualScripts\ArenaEscort\ArenaEscort_SMS_Initial.vs</ScriptFilePath>
+        <ScriptClassName>ArenaEscort_SMS_Initial</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="820.3241" y="136.350754" />
+        <Name>FlyControl</Name>
+        <ScriptFilePath>VisualScripts\ArenaEscort\ArenaEscort_SMS_FlyControl.vs</ScriptFilePath>
+        <ScriptClassName>ArenaEscort_SMS_FlyControl</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="323.753784" y="252.85788" />
+        <Name>GameStart</Name>
+        <ScriptFilePath>VisualScripts\ArenaEscort\ArenaEscort_SMS_GameStart.vs</ScriptFilePath>
+        <ScriptClassName>ArenaEscort_SMS_GameStart</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMSpreadNode">
+        <Position x="604.2132" y="283.928925" />
+        <Name>Spread_4</Name>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="819.539368" y="301.5204" />
+        <Name>Attackers</Name>
+        <ScriptFilePath>VisualScripts\ArenaEscort\ArenaEscort_SMS_Attackers.vs</ScriptFilePath>
+        <ScriptClassName>ArenaEscort_SMS_Attackers</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="826.42804" y="483.7378" />
+        <Name>Defenders</Name>
+        <ScriptFilePath>VisualScripts\ArenaEscort\ArenaEscort_SMS_Defenders.vs</ScriptFilePath>
+        <ScriptClassName>ArenaEscort_SMS_Defenders</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+    </Nodes>
+    <Transitions>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Initial</From>
+        <To>GameStart</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>GameStart</From>
+        <To>Spread_4</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_4</From>
+        <To>FlyControl</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_4</From>
+        <To>Attackers</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_4</From>
+        <To>Defenders</To>
+      </MyObjectBuilder_ScriptSMTransition>
+    </Transitions>
+  </StateMachine>
+</MyObjectBuilder_VSFiles>

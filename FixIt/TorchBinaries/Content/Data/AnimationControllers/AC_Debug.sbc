@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Definition xsi:type="AnimationControllerDefinition">
+    <Id Type="MyObjectBuilder_AnimationControllerDefinition" Subtype="Debug" />
+    <Layers>
+      <Layer>
+        <Name>Body</Name>
+        <Mode>Add</Mode>
+        <StateMachine>SMAnyAnimation</StateMachine>
+        <InitialSMNode>Default</InitialSMNode>
+        <BoneMask>BackJetpackDummy FrontJetpackDummy HeadDummy LeftLightDummy RightLightDummy RootNode SE_main_root SE_RigHead SE_RigHelmetGlassBone SE_RigL_Index_1 SE_RigL_Index_2 SE_RigL_Index_3 SE_RigL_Little_1 SE_RigL_Little_2 SE_RigL_Little_3 SE_RigL_Middle_1 SE_RigL_Middle_2 SE_RigL_Middle_3 SE_RigL_Ring_1 SE_RigL_Ring_2 SE_RigL_Ring_3 SE_RigL_Thumb_1 SE_RigL_Thumb_2 SE_RigL_Thumb_3 SE_RigL_Weapon_pin SE_RigLCalf SE_RigLCollarbone SE_RigLFoot SE_RigLForearm1 SE_RigLForearm2 SE_RigLForearm3 SE_RigLPalm SE_RigLR_Foot_tip1 SE_RigLThigh SE_RigLUpperarm SE_RigNeck SE_RigPelvis SE_RigR_Index_1 SE_RigR_Index_2 SE_RigR_Index_3 SE_RigR_Little_1 SE_RigR_Little_2 SE_RigR_Little_3 SE_RigR_Middle_1 SE_RigR_Middle_2 SE_RigR_Middle_3 SE_RigR_Ring_1 SE_RigR_Ring_2 SE_RigR_Ring_3 SE_RigR_Thumb_1 SE_RigR_Thumb_2 SE_RigR_Thumb_3 SE_RigR_Weapon_pin SE_RigRCalf SE_RigRCollarbone SE_RigRFoot SE_RigRForearm1 SE_RigRForearm2 SE_RigRForearm3 SE_RigRibcage SE_RigRibcageBone001 SE_RigRPalm SE_RigRR_Foot_tip1 SE_RigRThigh SE_RigRUpperarm SE_RigRUpVectorNode SE_RigSpine1 SE_RigSpine2 SE_RigSpine3 SE_RigSpine4 ThirdCameraDummy</BoneMask>
+      </Layer>
+    </Layers>
+    <StateMachines>
+      <StateMachine>
+        <Name>SMAnyAnimation</Name>
+        <Nodes>
+          <Node>
+            <Name>Any animation</Name>
+            <AnimationTree>
+              <EdPos>
+                <X>0</X>
+                <Y>0</Y>
+              </EdPos>
+              <Child xsi:type="MyObjectBuilder_AnimationTreeNodeDynamicTrack">
+                <EdPos>
+                  <X>283</X>
+                  <Y>-14</Y>
+                </EdPos>
+                <Loop>true</Loop>
+                <Speed>1</Speed>
+                <Interpolate>true</Interpolate>
+                <DefaultAnimation>idle</DefaultAnimation>
+              </Child>
+            </AnimationTree>
+            <EdPos>
+              <X>-20</X>
+              <Y>7</Y>
+            </EdPos>
+            <Type>Normal</Type>
+            <Variables />
+          </Node>
+          <Node>
+            <Name>Default</Name>
+            <EdPos>
+              <X>-338</X>
+              <Y>-60</Y>
+            </EdPos>
+            <Type>Normal</Type>
+            <Variables />
+          </Node>
+          <Node>
+            <Name>Through</Name>
+            <EdPos>
+              <X>-149</X>
+              <Y>-105</Y>
+            </EdPos>
+            <Type>PassThrough</Type>
+            <Variables />
+          </Node>
+        </Nodes>
+        <Transitions>
+          <Transition From="Any animation" To="Default" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Conditions>
+              <Conjunction>
+                <Condition Lhs="@animationfinished" Op="GreaterOrEqual" Rhs="1" />
+              </Conjunction>
+            </Conditions>
+            <Priority xsi:nil="true" />
+          </Transition>
+          <Transition Name="play" From="Default" To="Through" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Priority xsi:nil="true" />
+          </Transition>
+          <Transition From="Through" To="Any animation" TimeInSec="0" Sync="Restart" Curve="Smooth">
+            <Priority xsi:nil="true" />
+          </Transition>
+        </Transitions>
+      </StateMachine>
+    </StateMachines>
+    <FootIkChains>
+      <FootIkChain>
+        <FootBone>SE_RigLFoot</FootBone>
+        <ChainLength>2</ChainLength>
+        <AlignBoneWithTerrain>true</AlignBoneWithTerrain>
+      </FootIkChain>
+      <FootIkChain>
+        <FootBone>SE_RigRFoot</FootBone>
+        <ChainLength>2</ChainLength>
+        <AlignBoneWithTerrain>true</AlignBoneWithTerrain>
+      </FootIkChain>
+    </FootIkChains>
+    <IkIgnoredBones>
+      <Bone>HeadDummy</Bone>
+      <Bone>ThirdCameraDummy</Bone>
+    </IkIgnoredBones>
+  </Definition>
+</Definitions>

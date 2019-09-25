@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>工程师，很抱歉我们没有注意到发动攻击的时候基地中有Sol 合作代表</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>我代表独立的外包地表建筑团队声明，你们刚刚离开后，ROS聘请我们来重建和掌管这里的设施</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>公司发现了一个不明来源的人造物，没有上报反而隐瞒其所在，并且攻击我们工人。许多人遇害。这一切都是为了欺瞒世人。</value>
+  </data>
+  <data name="Chat_Rebel_Outro4" xml:space="preserve">
+    <value>我们奋起反抗，现在必须想办法夺回这个人造物以免公司继续利用它壮大自己的力量。</value>
+  </data>
+  <data name="Chat_Rebel_Outro5" xml:space="preserve">
+    <value>我们坚持要求你上船，需要你亲眼看到公司的所作所为。</value>
+  </data>
+  <data name="Chat_VA_BaseStart" xml:space="preserve">
+    <value>探索基地，找到深入设施的路径。</value>
+  </data>
+  <data name="Chat_VA_BlastDoorClosed" xml:space="preserve">
+    <value>防爆门已经被安全系统封闭。应该有其他的路。进入指示图，进入升降机</value>
+  </data>
+  <data name="Chat_VA_ControlTower" xml:space="preserve">
+    <value>你已经找到控制塔，通过它解除安全戒备</value>
+  </data>
+  <data name="Chat_VA_Detection" xml:space="preserve">
+    <value>侦测到热源信号，来自一个 R.O.S.4 的设施，但是该处位置在公司记录中从未提及。 </value>
+  </data>
+  <data name="Chat_VA_ElevatorBroken" xml:space="preserve">
+    <value>升降机不受控制</value>
+  </data>
+  <data name="Chat_VA_ElevatorLocked" xml:space="preserve">
+    <value>升降机锁住了，应该有控制开关能解锁，找到它。</value>
+  </data>
+  <data name="Chat_VA_Excavation1" xml:space="preserve">
+    <value>投影仪显示扫描到了某种人造物，一定是从这里挖掘出来然后被搬走了</value>
+  </data>
+  <data name="Chat_VA_Excavation2" xml:space="preserve">
+    <value>警告：安防无人机的人工智能已经激活</value>
+  </data>
+  <data name="Chat_VA_InfoAboutEscapeShip" xml:space="preserve">
+    <value>[前往逃生飞船]</value>
+  </data>
+  <data name="Chat_VA_Investigation" xml:space="preserve">
+    <value>建议调查，获取额外的信息，可能对解决冲突有帮助</value>
+  </data>
+  <data name="Chat_VA_Landing" xml:space="preserve">
+    <value>月球登陆成功，扫描中……</value>
+  </data>
+  <data name="Chat_VA_LandingGearsWarning" xml:space="preserve">
+    <value>警告：起落架目前被锁住了</value>
+  </data>
+  <data name="Chat_VA_NoHydrogenBottle" xml:space="preserve">
+    <value>建议拿氢气瓶。喷气背包需要氢气</value>
+  </data>
+  <data name="Chat_VA_NoOxygenBottle" xml:space="preserve">
+    <value>建议拿氧气瓶。氧气对太空生存非常重要</value>
+  </data>
+  <data name="Chat_VA_PitBottom" xml:space="preserve">
+    <value>他们建造这个肯定有什么目的。我想在这些隧道里一定能找到答案。</value>
+  </data>
+  <data name="Chat_VA_PitDrones" xml:space="preserve">
+    <value>人工智能控制的安防无人机，现在是关闭状态。</value>
+  </data>
+  <data name="Chat_VA_PitTop" xml:space="preserve">
+    <value>主矿井打开了，我很想知道为什么那么深？</value>
+  </data>
+  <data name="Chat_VA_Start1" xml:space="preserve">
+    <value>建议带上氧气和氢气瓶</value>
+  </data>
+  <data name="Chat_VA_Start2" xml:space="preserve">
+    <value>地上的货柜里有备用气罐</value>
+  </data>
+  <data name="Chat_VA_Welder" xml:space="preserve">
+    <value>这个焊接工具要比你现有的性能高很多</value>
+  </data>
+  <data name="GPS_ControlTower" xml:space="preserve">
+    <value>控制塔</value>
+  </data>
+  <data name="GPS_ControlTowerPanel" xml:space="preserve">
+    <value>控制面板</value>
+  </data>
+  <data name="GPS_Elevator" xml:space="preserve">
+    <value>升降机</value>
+  </data>
+  <data name="GPS_EscapeShip" xml:space="preserve">
+    <value>逃生船</value>
+  </data>
+  <data name="GPS_Excavation" xml:space="preserve">
+    <value>挖掘场</value>
+  </data>
+  <data name="GPS_ExitCoords" xml:space="preserve">
+    <value>撤离点</value>
+  </data>
+  <data name="GPS_MineEntrance" xml:space="preserve">
+    <value>矿井入口</value>
+  </data>
+  <data name="GPS_MoonBase" xml:space="preserve">
+    <value>月球基地大厅</value>
+  </data>
+  <data name="Hint_HowToDragAndDrop" xml:space="preserve">
+    <value>或者你可以将物品从右侧库存中拖动到你的库存。</value>
+  </data>
+  <data name="Hint_HowToggleLandingGears" xml:space="preserve">
+    <value>请按[{0}]解锁和锁住起落架</value>
+  </data>
+  <data name="Hint_HowToLeaveSeat" xml:space="preserve">
+    <value>请按[{0}]键离开座舱</value>
+  </data>
+  <data name="Hint_HowToLight" xml:space="preserve">
+    <value>请用[{0}]键打开头盔灯</value>
+  </data>
+  <data name="Hint_HowToRetrieveAnItem" xml:space="preserve">
+    <value>请双击物品将其移到你的库存</value>
+  </data>
+  <data name="Hint_HowToUseInventory" xml:space="preserve">
+    <value>请对准方形的货柜仓口然后按 [{0}] 打开它</value>
+  </data>
+  <data name="Hint_HowToUseJetpack" xml:space="preserve">
+    <value>请按[{0}]键启用和停用喷气背包</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite1" xml:space="preserve">
+    <value>我们终于准备好</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite2" xml:space="preserve">
+    <value>搬走它了。能在</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite3" xml:space="preserve">
+    <value>主基地进行研究</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite4" xml:space="preserve">
+    <value>比在这儿容易多</value>
+  </data>
+  <data name="LCDPanel_ExtractionSite5" xml:space="preserve">
+    <value>了。</value>
+  </data>
+  <data name="Quest01_Bottles" xml:space="preserve">
+    <value>请准备离开逃生舱</value>
+  </data>
+  <data name="Quest01_Bottles_Drag" xml:space="preserve">
+    <value>拿取物品，双击或者拖过来都可以</value>
+  </data>
+  <data name="Quest01_Bottles_Escape" xml:space="preserve">
+    <value>请按[{0}]，{1}或者【ESC】关闭面板</value>
+  </data>
+  <data name="Quest01_Bottles_OpenInventory" xml:space="preserve">
+    <value>打开地上的货柜仓，([{0}] 或者 [{1}] 键)</value>
+  </data>
+  <data name="Quest01_Bottles_Seat" xml:space="preserve">
+    <value>请按 [{0}] 起身</value>
+  </data>
+  <data name="Quest02_EnterBase" xml:space="preserve">
+    <value>调查附近的建筑</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls1" xml:space="preserve">
+    <value>请用人物移动键飞行</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls2" xml:space="preserve">
+    <value>[{0}]上升，[{1}]下降</value>
+  </data>
+  <data name="Quest02_EnterBase_Controls3" xml:space="preserve">
+    <value>[{0}]向左，[{1}]向右</value>
+  </data>
+  <data name="Quest02_EnterBase_GoTo" xml:space="preserve">
+    <value>前往高亮位置</value>
+  </data>
+  <data name="Quest02_EnterBase_Jetpack" xml:space="preserve">
+    <value>请按[{0}]启动和关闭喷气背包</value>
+  </data>
+  <data name="Quest03_LocateTower" xml:space="preserve">
+    <value>进入设施</value>
+  </data>
+  <data name="Quest03_LocateTower_Base" xml:space="preserve">
+    <value>通过高亮的门进入基地</value>
+  </data>
+  <data name="Quest03_LocateTower_Open" xml:space="preserve">
+    <value>请用按钮面板解除安全锁</value>
+  </data>
+  <data name="Quest03_LocateTower_Tower" xml:space="preserve">
+    <value>前往控制塔、</value>
+  </data>
+  <data name="Quest04_Descent" xml:space="preserve">
+    <value>进入设施的深处</value>
+  </data>
+  <data name="Quest04_Descent_Elevator" xml:space="preserve">
+    <value>进入电梯</value>
+  </data>
+  <data name="Quest04_Descent_UseElevator" xml:space="preserve">
+    <value>使用按钮面板来激活电梯</value>
+  </data>
+  <data name="Quest04_Descent_WaitForIt" xml:space="preserve">
+    <value>等到电梯抵达终点</value>
+  </data>
+  <data name="Quest05_ExcavationSite" xml:space="preserve">
+    <value>定位挖掘点</value>
+  </data>
+  <data name="Quest05_ExcavationSite_ActivateProjector" xml:space="preserve">
+    <value>请用按钮面板激活投影仪</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Explore" xml:space="preserve">
+    <value>在这些地道中搜索挖掘点</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Light" xml:space="preserve">
+    <value>请用[{0}]开关宇航服的灯</value>
+  </data>
+  <data name="Quest05_ExcavationSite_Located" xml:space="preserve">
+    <value>挖掘点已找到，用GPS标记了</value>
+  </data>
+  <data name="Quest06_Escape" xml:space="preserve">
+    <value>逃离地道</value>
+  </data>
+  <data name="Quest06_Escape_Drones" xml:space="preserve">
+    <value>安防无人机正在激活</value>
+  </data>
+  <data name="Quest06_Escape_Fight" xml:space="preserve">
+    <value>返回进来的地方，小心无人机，干掉或者躲开它们。</value>
+  </data>
+  <data name="Quest06_Escape_GPS" xml:space="preserve">
+    <value>撤离点已标记，注意看GPS</value>
+  </data>
+  <data name="Quest07_Elevator" xml:space="preserve">
+    <value>用升降机撤离</value>
+  </data>
+  <data name="Quest07_Elevator_BlastDoor" xml:space="preserve">
+    <value>用按钮面板激活升降机</value>
+  </data>
+  <data name="Quest08_Maintenance" xml:space="preserve">
+    <value>进入维修通道</value>
+  </data>
+  <data name="Quest08_Maintenance_Elevator" xml:space="preserve">
+    <value>我已经将升降机设置成诊断模式。它会前往维修底层</value>
+  </data>
+  <data name="Quest08_Maintenance_Quest" xml:space="preserve">
+    <value>穿过地道，一直通往备用飞船机库</value>
+  </data>
+  <data name="Quest09_EscapeShip" xml:space="preserve">
+    <value>乘飞船撤离</value>
+  </data>
+  <data name="Quest09_EscapeShip_Enter" xml:space="preserve">
+    <value>请按[{0}]进入飞船驾驶舱</value>
+  </data>
+  <data name="Quest09_EscapeShip_Gears" xml:space="preserve">
+    <value>请按[{0}]解锁起落架</value>
+  </data>
+  <data name="Quest09_EscapeShip_Power" xml:space="preserve">
+    <value>请按[{0}]打开电源</value>
+  </data>
+  <data name="Quest10_End" xml:space="preserve">
+    <value>飞往所提供的坐标</value>
+  </data>
+  <data name="Quest10_End_Movement" xml:space="preserve">
+    <value>请按{0}飞离机库</value>
+  </data>
+  <data name="Quest10_End_Quest" xml:space="preserve">
+    <value>用驾驶喷气背包的方法来驾驶飞船</value>
+  </data>
+</root>

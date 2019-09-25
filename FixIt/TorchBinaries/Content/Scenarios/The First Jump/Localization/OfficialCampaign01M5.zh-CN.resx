@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Enemy_Arrival" xml:space="preserve">
+    <value>我会用一个棺材送您回太阳系同盟会！</value>
+  </data>
+  <data name="Chat_Enemy_BossTalk" xml:space="preserve">
+    <value>工程师，我们很快就会见面，现在请享受无人机大军的款待！</value>
+  </data>
+  <data name="Chat_Monolith_Come" xml:space="preserve">
+    <value>工-程-师……来……这里，您将会看到……</value>
+  </data>
+  <data name="Chat_VA_AboutArena" xml:space="preserve">
+    <value>看来这里就是R.O.S.4 制造小飞船和无人机地方</value>
+  </data>
+  <data name="Chat_VA_AboutTube" xml:space="preserve">
+    <value>新制造的无人机会从这些管道中出来</value>
+  </data>
+  <data name="Chat_VA_BossDead" xml:space="preserve">
+    <value>你成功了！真没想到你做到了。我还以为你不可能成功，正准备发送任务失败的报告。</value>
+  </data>
+  <data name="Chat_VA_BossWarning" xml:space="preserve">
+    <value>警告：侦测到大型飞船，建议使用回避机动</value>
+  </data>
+  <data name="Chat_VA_Fan" xml:space="preserve">
+    <value>好吧，不知道它为什么出现在这里，我们最好还是避开它。</value>
+  </data>
+  <data name="Chat_VA_FighterShips" xml:space="preserve">
+    <value>这些飞船已经解锁。我建议借用其中的一个来对抗他们</value>
+  </data>
+  <data name="Chat_VA_OverView" xml:space="preserve">
+    <value>至少从人类设计水平看，算是不错的工厂了，可能就那个巨大的风扇不咋的</value>
+  </data>
+  <data name="Chat_VA_SecurityDrone" xml:space="preserve">
+    <value>安防无人机已经激活</value>
+  </data>
+  <data name="Chat_VA_SecurityDroneWarning" xml:space="preserve">
+    <value>警告：安防无人机已经激活！</value>
+  </data>
+  <data name="Chat_VA_SeesMonolith" xml:space="preserve">
+    <value>是个人造物。怪不得我一直接收各种奇怪的信号</value>
+  </data>
+  <data name="Chat_VA_ShowControlBlock" xml:space="preserve">
+    <value>攻击这些控制方块会干扰敌方无人机的程序</value>
+  </data>
+  <data name="GPS_HackModuleCreator" xml:space="preserve">
+    <value>装配控制</value>
+  </data>
+  <data name="GPS_Module" xml:space="preserve">
+    <value>破解模块</value>
+  </data>
+  <data name="GPS_Monolith" xml:space="preserve">
+    <value>人造物</value>
+  </data>
+  <data name="GPS_SecurityDrone" xml:space="preserve">
+    <value>安防无人机</value>
+  </data>
+  <data name="GPS_Socket" xml:space="preserve">
+    <value>控制方块</value>
+  </data>
+  <data name="GPS_TugShip" xml:space="preserve">
+    <value>违背者-战斗飞船</value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>[{0}]%</value>
+  </data>
+  <data name="Quest01_Preparation" xml:space="preserve">
+    <value>准备战斗！</value>
+  </data>
+  <data name="Quest01_Preparation_drone" xml:space="preserve">
+    <value>击毁敌方安防无人机</value>
+  </data>
+  <data name="Quest01_Preparation_gears" xml:space="preserve">
+    <value>按[{0}]解锁起落架</value>
+  </data>
+  <data name="Quest01_Preparation_ship" xml:space="preserve">
+    <value>进入其中一个高亮的飞船</value>
+  </data>
+  <data name="Quest02_FirstTower" xml:space="preserve">
+    <value>击毁控制方块来骇取新出现的无人机</value>
+  </data>
+  <data name="Quest02_FirstTower_Attack" xml:space="preserve">
+    <value>击毁出现的控制方块</value>
+  </data>
+  <data name="Quest02_FirstTower_NextExposed" xml:space="preserve">
+    <value>下一个出现的控制方块：{0}</value>
+  </data>
+  <data name="Quest02_FirstTower_NextExposedTime" xml:space="preserve">
+    <value>下一个目标出现：[{0}]秒</value>
+  </data>
+  <data name="Quest02_FirstTower_Wait" xml:space="preserve">
+    <value>坚持到下一个目标出现</value>
+  </data>
+  <data name="Quest03_Combat" xml:space="preserve">
+    <value>坚持住，直到控制方块重新出现</value>
+  </data>
+  <data name="Quest03_Combat_HelpYourDrones" xml:space="preserve">
+    <value>帮助友好无人机（绿色）战胜敌方无人机（红色）</value>
+  </data>
+  <data name="Quest03_Combat_TimeLeft" xml:space="preserve">
+    <value>骇入完成  {0}:{1}{2}</value>
+  </data>
+  <data name="Quest03_Combat_WaitForHacking" xml:space="preserve">
+    <value>活下来，直到骇入完成</value>
+  </data>
+  <data name="Quest04_SecondTower" xml:space="preserve">
+    <value>击毁另外一个控制方块</value>
+  </data>
+  <data name="Quest05_DefeatBoss" xml:space="preserve">
+    <value>战胜[{0}]</value>
+  </data>
+  <data name="Quest05_DefeatBoss_Quest" xml:space="preserve">
+    <value>击毁CEO飞船</value>
+  </data>
+  <data name="Quest05_WaitForBoss" xml:space="preserve">
+    <value>坚持到马库斯抵达</value>
+  </data>
+  <data name="Quest05_WaitForBoss_Boss" xml:space="preserve">
+    <value>大型物体正在接近：{0}秒</value>
+  </data>
+  <data name="Quest05_WaitForBoss_Intro" xml:space="preserve">
+    <value>击毁更多的红色无人机</value>
+  </data>
+  <data name="Quest06_Monolith" xml:space="preserve">
+    <value>找到人造物并调查其意图</value>
+  </data>
+  <data name="Quest06_Monolith_End" xml:space="preserve">
+    <value>接近人造物</value>
+  </data>
+  <data name="Quest06_Monolith_Location" xml:space="preserve">
+    <value>秘密通道已经在GPS上标记</value>
+  </data>
+  <data name="Terminology_Central" xml:space="preserve">
+    <value>中间</value>
+  </data>
+  <data name="Terminology_Left" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="Terminology_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+</root>

@@ -1,0 +1,264 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StateMachine>
+    <Name>Station419_SM</Name>
+    <OwnerId>0</OwnerId>
+    <Cursors>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>IntroCutscene</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+    </Cursors>
+    <Nodes>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="103.549561" y="186.318756" />
+        <Name>IntroCutscene</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_IntroCutscene.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_IntroCutscene</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="389.549561" y="189.318756" />
+        <Name>Airlock</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_Airlock.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_Airlock</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="621.8381" y="182.924225" />
+        <Name>OverviewCutscene</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_OverviewCutscene.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_OverviewCutscene</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="926.2601" y="175.404327" />
+        <Name>Gravity</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_Gravity.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_Gravity</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="1184.39026" y="188.675232" />
+        <Name>Reactor</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_Reactor.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_Reactor</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="1421.63245" y="195.086517" />
+        <Name>MineUranium</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_MineUranium.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_MineUranium</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="1680.41272" y="190.739777" />
+        <Name>ProcessUranium</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_ProcessUranium.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_ProcessUranium</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="2229.08936" y="188.786652" />
+        <Name>FirstRepairs</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_FirstRepairs.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_FirstRepairs</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="2508.21362" y="184.838623" />
+        <Name>Conveyors</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_Conveyors.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_Conveyors</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="2784.97583" y="175.4349" />
+        <Name>MiningShipRepair</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_MiningShipRepair.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_MiningShipRepair</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="3078.33154" y="179.597351" />
+        <Name>ShipDrilling</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_ShipDrilling.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_ShipDrilling</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="4133.05371" y="176.519058" />
+        <Name>AssembleThings</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_AssembleThings.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_AssembleThings</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="3345.41333" y="184.273483" />
+        <Name>ConnectShip</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_ConnectShip.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_ConnectShip</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="3630.689" y="180.328262" />
+        <Name>Processing</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_Processing.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_Processing</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="4739.55029" y="169.319977" />
+        <Name>FirstDroneAttack</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_FirstDroneAttack.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_FirstDroneAttack</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="4433.952" y="176.386887" />
+        <Name>UpgradeModules</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_UpgradeModules.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_UpgradeModules</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="5041.551" y="165.666" />
+        <Name>BuildingDefenses</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_BuildingDefenses.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_BuildingDefenses</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="5366.868" y="168.212662" />
+        <Name>SecondDroneAttack</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_SecondDroneAttack.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_SecondDroneAttack</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="5713.309" y="168.583633" />
+        <Name>MissileTurret</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_MissileTurret.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_MissileTurret</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="6015.417" y="166.89064" />
+        <Name>DroneWaves</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_DroneWaves.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_DroneWaves</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="6334.75" y="171.358627" />
+        <Name>Boss</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_Boss.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_Boss</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="1974.03516" y="176.828857" />
+        <Name>DrillBot</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_DrillBot.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_DrillBot</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="3871.67" y="172.264511" />
+        <Name>GrindBot</Name>
+        <ScriptFilePath>VisualScripts\Station419\Station419_SMS_GrindBot.vs</ScriptFilePath>
+        <ScriptClassName>Station419_SMS_GrindBot</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+    </Nodes>
+    <Transitions>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>IntroCutscene</From>
+        <To>Airlock</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Airlock</From>
+        <To>OverviewCutscene</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>OverviewCutscene</From>
+        <To>Gravity</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Gravity</From>
+        <To>Reactor</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Reactor</From>
+        <To>MineUranium</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>MineUranium</From>
+        <To>ProcessUranium</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>FirstRepairs</From>
+        <To>Conveyors</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>ShipDrilling</From>
+        <To>ConnectShip</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>MiningShipRepair</From>
+        <To>ShipDrilling</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Conveyors</From>
+        <To>MiningShipRepair</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>ConnectShip</From>
+        <To>Processing</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>AssembleThings</From>
+        <To>UpgradeModules</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>UpgradeModules</From>
+        <To>FirstDroneAttack</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>FirstDroneAttack</From>
+        <To>BuildingDefenses</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>BuildingDefenses</From>
+        <To>SecondDroneAttack</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>SecondDroneAttack</From>
+        <To>MissileTurret</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>MissileTurret</From>
+        <To>DroneWaves</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>DroneWaves</From>
+        <To>Boss</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>DrillBot</From>
+        <To>FirstRepairs</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>ProcessUranium</From>
+        <To>DrillBot</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>GrindBot</From>
+        <To>AssembleThings</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Processing</From>
+        <To>GrindBot</To>
+      </MyObjectBuilder_ScriptSMTransition>
+    </Transitions>
+  </StateMachine>
+</MyObjectBuilder_VSFiles>

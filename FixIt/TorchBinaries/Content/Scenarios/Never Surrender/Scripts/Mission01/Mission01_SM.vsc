@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StateMachine>
+    <Name>Mission01_SM</Name>
+    <OwnerId>0</OwnerId>
+    <Cursors>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Start</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+    </Cursors>
+    <Nodes>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="303" y="340" />
+        <Name>BaseOne_Start</Name>
+        <ScriptFilePath>Scenarios\Never Surrender\Scripts\Mission01\BaseOne_Start.vs</ScriptFilePath>
+        <ScriptClassName>BaseOne_Start</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="546" y="338" />
+        <Name>BaseOne_Defend</Name>
+        <ScriptFilePath>Scenarios\Never Surrender\Scripts\Mission01\BaseOne_Waves.vs</ScriptFilePath>
+        <ScriptClassName>BaseOne_Waves</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="9" y="353" />
+        <Name>Start</Name>
+        <ScriptFilePath>Scenarios\Never Surrender\Scripts\Mission01\StartingScript.vs</ScriptFilePath>
+        <ScriptClassName>StartingScript</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="841" y="336" />
+        <Name>BaseOne_Failed</Name>
+        <ScriptFilePath>Scenarios\Never Surrender\Scripts\Mission01\BaseOne_Failed.vs</ScriptFilePath>
+        <ScriptClassName>BaseOne_Failed</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+    </Nodes>
+    <Transitions>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>BaseOne_Start</From>
+        <To>BaseOne_Defend</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Start</From>
+        <To>BaseOne_Start</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>BaseOne_Defend</From>
+        <To>BaseOne_Failed</To>
+      </MyObjectBuilder_ScriptSMTransition>
+    </Transitions>
+  </StateMachine>
+</MyObjectBuilder_VSFiles>

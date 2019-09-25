@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Campaign>
+    <StateMachine>
+      <Nodes>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_1</Name>
+          <SaveFilePath>Scenarios\Never Surrender\Worlds\Mission01\Sandbox.sbc</SaveFilePath>
+          <Location x="488" y="237" />
+        </MyObjectBuilder_CampaignSMNode>
+      </Nodes>
+      <Transitions />
+    </StateMachine>
+    <LocalizationPaths>
+      <Path>Scenarios\Never Surrender\Localization</Path>
+    </LocalizationPaths>
+    <LocalizationLanguages>
+      <Language>en-US</Language>
+    </LocalizationLanguages>
+    <DescriptionLocalizationFile>Scenarios\Never Surrender\Localization\Common.sbl</DescriptionLocalizationFile>
+    <Name>Never Surrender</Name>
+    <Description>This is survival world with high-end content. Challenge yourself by defending the beacon from hordes of drones. Prepare your defence any way you like, play alone or together. How you do it is up to you!</Description>
+    <ImagePath>Scenarios\Never Surrender\Screens\Scenario.png</ImagePath>
+    <IsMultiplayer>true</IsMultiplayer>
+    <Difficulty>Normal</Difficulty>
+    <Author>Keen Software House</Author>
+  </Campaign>
+</MyObjectBuilder_VSFiles>

@@ -1,0 +1,516 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CurrentSector x="0" y="0" z="0" />
+  <ElapsedGameTime>317375840000</ElapsedGameTime>
+  <SessionName>01 - Basic Movement Learning</SessionName>
+  <SpectatorPosition>
+    <Position x="-73.41775267593583" y="55.028588573770321" z="-22.530257322712707" />
+    <Forward x="-0" y="-0.4472138" z="0.8944271" />
+    <Up x="0" y="0.8944271" z="0.4472138" />
+    <Orientation>
+      <X>0</X>
+      <Y>0.973248959</Y>
+      <Z>0.229753032</Z>
+      <W>0</W>
+    </Orientation>
+  </SpectatorPosition>
+  <SpectatorIsLightOn>false</SpectatorIsLightOn>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>164938907579108194</CameraEntity>
+  <ControlledObject>164938907579108194</ControlledObject>
+  <Password />
+  <Description>Basic movement learning using gradient descent</Description>
+  <LastSaveTime>2016-02-19T15:33:28.3228806+01:00</LastSaveTime>
+  <SpectatorDistance>32.62908</SpectatorDistance>
+  <CharacterToolbar>
+    <ToolbarType>Character</ToolbarType>
+    <SelectedSlot xsi:nil="true" />
+    <Slots>
+      <Slot>
+        <Index>0</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+            <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>1</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_Cockpit</TypeId>
+            <SubtypeId>LargeBlockCockpit</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>2</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_Reactor</TypeId>
+            <SubtypeId>LargeBlockSmallGenerator</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>3</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_Thrust</TypeId>
+            <SubtypeId>LargeBlockSmallThrust</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>4</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_Gyro</TypeId>
+            <SubtypeId>LargeBlockGyro</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+    </Slots>
+  </CharacterToolbar>
+  <ControlledEntities>
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">164938907579108194</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198043661356</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">136167859395138339</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198043661356</ClientId>
+          <SerialId>1</SerialId>
+        </Value>
+      </item>
+    </dictionary>
+  </ControlledEntities>
+  <Settings xsi:type="MyObjectBuilder_SessionSettings">
+    <GameMode>Creative</GameMode>
+    <InventorySizeMultiplier>1</InventorySizeMultiplier>
+    <AssemblerSpeedMultiplier>1</AssemblerSpeedMultiplier>
+    <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
+    <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
+    <OnlineMode>OFFLINE</OnlineMode>
+    <MaxPlayers>1</MaxPlayers>
+    <MaxFloatingObjects>256</MaxFloatingObjects>
+    <EnvironmentHostility>SAFE</EnvironmentHostility>
+    <AutoHealing>true</AutoHealing>
+    <EnableCopyPaste>true</EnableCopyPaste>
+    <WeaponsEnabled>true</WeaponsEnabled>
+    <ShowPlayerNamesOnHud>true</ShowPlayerNamesOnHud>
+    <ThrusterDamage>true</ThrusterDamage>
+    <CargoShipsEnabled>false</CargoShipsEnabled>
+    <EnableSpectator>true</EnableSpectator>
+    <RemoveTrash>false</RemoveTrash>
+    <WorldSizeKm>0</WorldSizeKm>
+    <RespawnShipDelete>true</RespawnShipDelete>
+    <ResetOwnership>false</ResetOwnership>
+    <WelderSpeedMultiplier>1</WelderSpeedMultiplier>
+    <GrinderSpeedMultiplier>1</GrinderSpeedMultiplier>
+    <RealisticSound>false</RealisticSound>
+    <HackSpeedMultiplier>0.33</HackSpeedMultiplier>
+    <PermanentDeath>false</PermanentDeath>
+    <AutoSaveInMinutes>0</AutoSaveInMinutes>
+    <SpawnShipTimeMultiplier>1</SpawnShipTimeMultiplier>
+    <DestructibleBlocks>true</DestructibleBlocks>
+    <EnableIngameScripts>true</EnableIngameScripts>
+    <ViewDistance>7000</ViewDistance>
+    <FloraDensity>20</FloraDensity>
+    <EnableToolShake>true</EnableToolShake>
+    <VoxelGeneratorVersion>2</VoxelGeneratorVersion>
+    <EnableOxygen>true</EnableOxygen>
+    <Enable3rdPersonView>true</Enable3rdPersonView>
+    <EnableEncounters>false</EnableEncounters>
+    <EnableFlora>false</EnableFlora>
+    <EnableStationVoxelSupport>false</EnableStationVoxelSupport>
+    <EnableSunRotation>false</EnableSunRotation>
+    <DisableRespawnShips>false</DisableRespawnShips>
+    <ScenarioEditMode>false</ScenarioEditMode>
+    <Battle>false</Battle>
+    <Scenario>true</Scenario>
+    <CanJoinRunning>false</CanJoinRunning>
+    <PhysicsIterations>4</PhysicsIterations>
+    <SunRotationIntervalMinutes>240</SunRotationIntervalMinutes>
+    <EnableJetpack>true</EnableJetpack>
+    <SpawnWithTools>true</SpawnWithTools>
+    <StartInRespawnScreen>false</StartInRespawnScreen>
+    <EnableVoxelDestruction>true</EnableVoxelDestruction>
+    <MaxDrones>5</MaxDrones>
+    <EnableDrones>true</EnableDrones>
+    <EnableCyberhounds>true</EnableCyberhounds>
+    <EnableSpiders>false</EnableSpiders>
+    <FloraDensityMultiplier>1</FloraDensityMultiplier>
+  </Settings>
+  <AppVersion>1123001</AppVersion>
+  <Factions>
+    <Factions>
+      <MyObjectBuilder_Faction>
+        <FactionId>287596539944527602</FactionId>
+        <Tag>SPRT</Tag>
+        <Name>Space Pirates</Name>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855874</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+      <MyObjectBuilder_Faction>
+        <FactionId>228076643235414941</FactionId>
+        <Tag>SPID</Tag>
+        <Name>Space spiders</Name>
+        <PrivateInfo />
+        <Members>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855876</PlayerId>
+            <IsLeader>true</IsLeader>
+            <IsFounder>true</IsFounder>
+          </MyObjectBuilder_FactionMember>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855875</PlayerId>
+            <IsLeader>false</IsLeader>
+            <IsFounder>false</IsFounder>
+          </MyObjectBuilder_FactionMember>
+        </Members>
+        <JoinRequests />
+        <AutoAcceptMember>true</AutoAcceptMember>
+        <AutoAcceptPeace>false</AutoAcceptPeace>
+        <AcceptHumans>true</AcceptHumans>
+        <EnableFriendlyFire>false</EnableFriendlyFire>
+      </MyObjectBuilder_Faction>
+    </Factions>
+    <Players>
+      <dictionary>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855874</Key>
+          <Value xsi:type="xsd:long">287596539944527602</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855876</Key>
+          <Value xsi:type="xsd:long">228076643235414941</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855875</Key>
+          <Value xsi:type="xsd:long">228076643235414941</Value>
+        </item>
+      </dictionary>
+    </Players>
+    <Relations>
+      <MyObjectBuilder_FactionRelation>
+        <FactionId1>228076643235414941</FactionId1>
+        <FactionId2>287596539944527602</FactionId2>
+        <Relation>Enemies</Relation>
+      </MyObjectBuilder_FactionRelation>
+    </Relations>
+    <Requests />
+  </Factions>
+  <Mods />
+  <PromotedUsers />
+  <Scenario>
+    <TypeId>MyObjectBuilder_ScenarioDefinition</TypeId>
+    <SubtypeId>EmptyWorld</SubtypeId>
+  </Scenario>
+  <RespawnCooldowns />
+  <Identities>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855873</IdentityId>
+      <DisplayName>Player</DisplayName>
+      <CharacterEntityId>164938907579108194</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0" y="-0.96" z="-0.5" />
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855874</IdentityId>
+      <DisplayName>Space Pirates</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855875</IdentityId>
+      <DisplayName />
+      <CharacterEntityId>136167859395138339</CharacterEntityId>
+      <Model>Default_Astronaut</Model>
+      <ColorMask x="0" y="0" z="0.05" />
+    </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855876</IdentityId>
+      <DisplayName>The Great Tarantula</DisplayName>
+      <CharacterEntityId>0</CharacterEntityId>
+    </MyObjectBuilder_Identity>
+  </Identities>
+  <PreviousEnvironmentHostility xsi:nil="true" />
+  <AllPlayersData>
+    <dictionary>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198043661356</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>Player</DisplayName>
+          <IdentityId>144115188075855873</IdentityId>
+          <Connected>true</Connected>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+                    <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_Cockpit</TypeId>
+                    <SubtypeId>LargeBlockCockpit</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_Reactor</TypeId>
+                    <SubtypeId>LargeBlockSmallGenerator</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_Thrust</TypeId>
+                    <SubtypeId>LargeBlockSmallThrust</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_Gyro</TypeId>
+                    <SubtypeId>LargeBlockGyro</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>true</IsFirstPerson>
+            <Distance>32.629081154433393</Distance>
+            <HeadAngle x="-4.562993" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData />
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198043661356</ClientId>
+          <SerialId>1</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName />
+          <IdentityId>144115188075855875</IdentityId>
+          <Connected>true</Connected>
+          <EntityCameraData />
+        </Value>
+      </item>
+    </dictionary>
+  </AllPlayersData>
+  <ChatHistory />
+  <FactionChatHistory />
+  <NonPlayerIdentities>
+    <long>144115188075855874</long>
+    <long>144115188075855876</long>
+  </NonPlayerIdentities>
+  <Gps>
+    <dictionary />
+  </Gps>
+  <SessionComponents>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_WorldGenerator">
+      <MarkedAreas />
+      <ExistingObjectsSeeds />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_AIComponent">
+      <BotBrains>
+        <BotData>
+          <PlayerHandle>1</PlayerHandle>
+          <BotBrain xsi:type="MyObjectBuilder_BrainSimBot">
+            <BotDefId>
+              <TypeId>MyObjectBuilder_BrainSimBot</TypeId>
+              <SubtypeId>BrainSimBot</SubtypeId>
+            </BotDefId>
+            <BotMemory>
+              <BehaviorTreeMemory>
+                <BehaviorName>BrainSimBotBehavior</BehaviorName>
+                <Memory>
+                  <Node />
+                  <Node InitCalled="true" />
+                </Memory>
+                <BlackboardMemory />
+              </BehaviorTreeMemory>
+              <NewPath />
+              <OldPath />
+              <LastRunningNodeIndex>-1</LastRunningNodeIndex>
+            </BotMemory>
+            <LastBehaviorTree>BrainSimBotBehavior</LastBehaviorTree>
+            <AiTarget>
+              <CurrentTarget>NO_TARGET</CurrentTarget>
+              <EntityId xsi:nil="true" />
+              <CompoundId xsi:nil="true" />
+              <TargetCube>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </TargetCube>
+              <TargetPosition>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </TargetPosition>
+              <UnreachableEntities />
+            </AiTarget>
+            <RemoveAfterDeath>true</RemoveAfterDeath>
+            <RespawnCounter>0</RespawnCounter>
+          </BotBrain>
+        </BotData>
+      </BotBrains>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_BrainSimulator">
+      <BotId>1</BotId>
+      <LocalBrainName>D:\svn\Sources\SpaceEngineers\bin\x64\Debug\Content\Brains\basic-movement-learning.brain</LocalBrainName>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpaceFaunaComponent">
+      <SpawnInfos />
+      <TimeoutInfos />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_ScriptManager">
+      <variables>
+        <dictionary />
+      </variables>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
+      <PiratesIdentity>144115188075855874</PiratesIdentity>
+      <Drones />
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <LastCoordSysId>1</LastCoordSysId>
+      <CoordSystems />
+    </MyObjectBuilder_SessionComponent>
+  </SessionComponents>
+  <MissionTriggers>
+    <Triggers>
+      <dictionary>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198025485545</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>0</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>0</stm>
+            <ser>1</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198025485545</stm>
+            <ser>1</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198043661356</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198043661356</stm>
+            <ser>1</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
+      </dictionary>
+    </Triggers>
+  </MissionTriggers>
+  <Briefing>Description
+
+  The scene contains a flat field with reactors suspended in the ground. One of these is chosen by random as the target for the bot.
+  The bot knows its angle towards target and distance and is rewarded when it turns towards the target or gets closer to it.
+  The goal of the bot is to learn how to control its available "muscles", which correspond to movement of the character - jumping, walking, turning etc.
+  It should learn to walk correctly towards the chosen block in about 2000 steps. On a mid-tier gaming desktop, this should take under 5 minutes.
+  The bot respawns if it gets too far from the play zone or if it reaches its goal, choosing a new goal after each respawn.</Briefing>
+</MyObjectBuilder_Checkpoint>

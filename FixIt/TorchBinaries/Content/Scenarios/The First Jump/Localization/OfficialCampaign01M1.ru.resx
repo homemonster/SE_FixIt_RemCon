@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_VA_Airlock" xml:space="preserve">
+    <value>Симуляции показывают что вероятность того, что такие повреждения случайны всего 2%.</value>
+  </data>
+  <data name="Chat_VA_AttackWarning" xml:space="preserve">
+    <value>Инженер, Ваш корабль критически поврежден. В отчете будет смотреться не очень.</value>
+  </data>
+  <data name="Chat_VA_AttackWarningpart2" xml:space="preserve">
+    <value>Рекомендуется немедленная эвакуация, изначальная миссия отменена.</value>
+  </data>
+  <data name="Chat_VA_AttackWarningpart3" xml:space="preserve">
+    <value>Самый короткий путь к спасательным капсулам помечен на GPS.</value>
+  </data>
+  <data name="Chat_VA_BreachDetected" xml:space="preserve">
+    <value>Простите, не могу взломать системы безопасности, системы станции не поддаются.</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo1" xml:space="preserve">
+    <value>Производится стыковка со станцией.</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo2" xml:space="preserve">
+    <value>На станции никто не отвечает.</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo3" xml:space="preserve">
+    <value>Придется исследовать лично, чтобы понять что здесь произошло.</value>
+  </data>
+  <data name="Chat_VA_CommandCenter" xml:space="preserve">
+    <value>Судя по планам станции, командный центр должен быть на верхнем уровне.</value>
+  </data>
+  <data name="Chat_VA_DoorDamaged" xml:space="preserve">
+    <value>Похоже, дверь повреждена. Нужно починить ее с помощью инструментов, разбросанных вокруг.</value>
+  </data>
+  <data name="Chat_VA_EnergyLoss" xml:space="preserve">
+    <value>Внимание, обнаружена неисправность костюма. Уровень энергии падает.</value>
+  </data>
+  <data name="Chat_VA_EnergyStabilize" xml:space="preserve">
+    <value>Неисправность устранена. Рекомендуется найти место для его зарядки.</value>
+  </data>
+  <data name="Chat_VA_EnterEscapePod" xml:space="preserve">
+    <value>Сядьте в кресло, чтобы эвакуироваться.</value>
+  </data>
+  <data name="Chat_VA_EnterTheStation" xml:space="preserve">
+    <value>Будьте осторожны, падение вниз повлечет негативный отчет о Вашей работе.</value>
+  </data>
+  <data name="Chat_VA_GetOxygenBottle" xml:space="preserve">
+    <value>Инженер, не забывайте дышать. Кислород необходим для работоспособности астронавта.</value>
+  </data>
+  <data name="Chat_VA_GoToTheAirlock" xml:space="preserve">
+    <value>Инженер, приготовьтесь к высадке и исследованию станции.</value>
+  </data>
+  <data name="Chat_VA_GoToTheBridge" xml:space="preserve">
+    <value>Пожалуйста, проследуйте на командный мостик для инструктажа.</value>
+  </data>
+  <data name="Chat_VA_Helmet" xml:space="preserve">
+    <value>Внимание, передвижение во внешней среде без шлема не рекомендуется.</value>
+  </data>
+  <data name="Chat_VA_Introduction" xml:space="preserve">
+    <value>Система виртуальной помощи инженеру активирована.</value>
+  </data>
+  <data name="Chat_VA_Outro" xml:space="preserve">
+    <value>Сообщения о конфликте подтверждены, станция ROS4 атакована и уничтожена группой неизвестных, корабль Инженера уничтожен, эвакуация на поверхность луны.</value>
+  </data>
+  <data name="Chat_VA_StartExploring" xml:space="preserve">
+    <value>Автопилот включен, передвигаюсь на безопасное расстояние.</value>
+  </data>
+  <data name="Chat_VA_UseRedPanel" xml:space="preserve">
+    <value>Системы станции тяжело повреждены.</value>
+  </data>
+  <data name="Chat_VA_WakeUp" xml:space="preserve">
+    <value>Разморозка криокапсулы начата.</value>
+  </data>
+  <data name="GPS_Airlock" xml:space="preserve">
+    <value>Шлюз</value>
+  </data>
+  <data name="GPS_BluePanel" xml:space="preserve">
+    <value>Синяя панель</value>
+  </data>
+  <data name="GPS_Bridge" xml:space="preserve">
+    <value>Мостик</value>
+  </data>
+  <data name="GPS_ControlPanel" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="GPS_DamagedDoor" xml:space="preserve">
+    <value>Поврежденная дверь</value>
+  </data>
+  <data name="GPS_EscapePod" xml:space="preserve">
+    <value>Спаскапсула</value>
+  </data>
+  <data name="GPS_MedicalBay" xml:space="preserve">
+    <value>Медпункт - зарядка здесь</value>
+  </data>
+  <data name="GPS_RedPanel" xml:space="preserve">
+    <value>Красная панель</value>
+  </data>
+  <data name="GPS_StationFrontDoor" xml:space="preserve">
+    <value>Шлюз станции</value>
+  </data>
+  <data name="GPS_ToCommandCenter" xml:space="preserve">
+    <value>Командный центр</value>
+  </data>
+  <data name="GPS_ToEscapePods" xml:space="preserve">
+    <value>К спаскапсулам</value>
+  </data>
+  <data name="LCDPanel_Bridge_Approaching" xml:space="preserve">
+    <value>Приближение к станции...</value>
+  </data>
+  <data name="LCDPanel_Bridge_Distance" xml:space="preserve">
+    <value>Расстояние: {0} м</value>
+  </data>
+  <data name="LCDPanel_Bridge_Locked" xml:space="preserve">
+    <value>Зацеплен за станцию</value>
+  </data>
+  <data name="LCDPanel_Oxy_Amount" xml:space="preserve">
+    <value>Давление в помещении: {0}%</value>
+  </data>
+  <data name="LCDPanel_Oxy_NoPressure" xml:space="preserve">
+    <value>Комната разгерметизирована</value>
+  </data>
+  <data name="LCDPanel_Oxy_PressurePreporeLine1" xml:space="preserve">
+    <value>Створки закрываются.</value>
+  </data>
+  <data name="LCDPanel_Oxy_PressurePreporeLine2" xml:space="preserve">
+    <value>подготовка к герметизации...</value>
+  </data>
+  <data name="LCDPanel_Oxy_Pressurized" xml:space="preserve">
+    <value>Помещение герметично.</value>
+  </data>
+  <data name="Notification_Intro" xml:space="preserve">
+    <value>Автожурнал корабля - приближаемся к пункту назначения. Время в пути 576 земных часов. Начинаем пробуждение Инженера...</value>
+  </data>
+  <data name="Quest01_Cryo" xml:space="preserve">
+    <value>Покиньте криокапсулу</value>
+  </data>
+  <data name="Quest01_Cryo_UseKey" xml:space="preserve">
+    <value>Покиньте криокапсулу нажатием {0}.</value>
+  </data>
+  <data name="Quest02_Movement" xml:space="preserve">
+    <value>Подняться на мостик</value>
+  </data>
+  <data name="Quest02_Movement_Door" xml:space="preserve">
+    <value>Посмотрите на дверь и нажмите {0} чтобы открыть/закрыть</value>
+  </data>
+  <data name="Quest02_Movement_GPS" xml:space="preserve">
+    <value>Точки GPS должны помочь в навигации.</value>
+  </data>
+  <data name="Quest02_Movement_Keys" xml:space="preserve">
+    <value>Используйте {0}, {1}, {2}, {3} для передвижения.</value>
+  </data>
+  <data name="Quest02_Movement_Mouse" xml:space="preserve">
+    <value>Используйте мышь, чтобы осмотреться.</value>
+  </data>
+  <data name="Quest03_GoToAirlock" xml:space="preserve">
+    <value>Пройдите к шлюзу корабля.</value>
+  </data>
+  <data name="Quest03_GoToAirlock_Doors" xml:space="preserve">
+    <value>Нажмите {0}, чтобы открыть/закрыть двери.</value>
+  </data>
+  <data name="Quest03_GoToAirlock_Navigation" xml:space="preserve">
+    <value>Пройдите к шлюзу на нижней палубе</value>
+  </data>
+  <data name="Quest04B_Helmet" xml:space="preserve">
+    <value>Откройте шлюз</value>
+  </data>
+  <data name="Quest04B_Helmet_RedPanel" xml:space="preserve">
+    <value>Откройте створки ангара с помощью кнопочной панели.</value>
+  </data>
+  <data name="Quest04B_Helmet_toggle" xml:space="preserve">
+    <value>Шлем снимается/надевается с помощью {0}.</value>
+  </data>
+  <data name="Quest04_Equipment" xml:space="preserve">
+    <value>Возьмите персональный запас кислорода</value>
+  </data>
+  <data name="Quest04_Equipment_Button" xml:space="preserve">
+    <value>Используйте кнопочную панель для выдачи кислородного баллона.</value>
+  </data>
+  <data name="Quest04_Equipment_PickUp" xml:space="preserve">
+    <value>Подбирайте предметы наведя на них прицел и нажав {0}.</value>
+  </data>
+  <data name="Quest04_Equipment_UseKey" xml:space="preserve">
+    <value>Используйте {0} чтобы нажимать кнопки.</value>
+  </data>
+  <data name="Quest05_EnterStation" xml:space="preserve">
+    <value>Высадитесь на станции</value>
+  </data>
+  <data name="Quest05_EnterStation_Airlock" xml:space="preserve">
+    <value>Пройдите к шлюзу станции.</value>
+  </data>
+  <data name="Quest05_EnterStation_AirlockButton" xml:space="preserve">
+    <value>Используйте кнопки чтобы активировать шлюз.</value>
+  </data>
+  <data name="Quest05_EnterStation_Caution" xml:space="preserve">
+    <value>Обновлены координаты шлюза станции.</value>
+  </data>
+  <data name="Quest06_Explore" xml:space="preserve">
+    <value>Найдите командный центр станции.</value>
+  </data>
+  <data name="Quest06_ExplorePartOne_Crouch" xml:space="preserve">
+    <value>Нажмите {0}, чтобы присесть.</value>
+  </data>
+  <data name="Quest06_ExplorePartOne_Search" xml:space="preserve">
+    <value>Проследуйте к командному центру по GPS точкам маршрута.</value>
+  </data>
+  <data name="Quest07_Breach" xml:space="preserve">
+    <value>Герметизируйте снова помещение жизнеобеспечения.</value>
+  </data>
+  <data name="Quest07_Breach_Intro" xml:space="preserve">
+    <value>Обнаружен серьезный пробой в корпусе.</value>
+  </data>
+  <data name="Quest07_Breach_Intro2" xml:space="preserve">
+    <value>Система безопасности не позволит открыть двери, пока герметичность не восстановлена.</value>
+  </data>
+  <data name="Quest07_Breach_Intro3" xml:space="preserve">
+    <value>Проверьте ближайшую кнопочную панель, чтобы закрыть верхние створки.</value>
+  </data>
+  <data name="Quest07_Breach_Pressurizing" xml:space="preserve">
+    <value>Производится герметизация, ожидайте.</value>
+  </data>
+  <data name="Quest08_ExplorePartTwo_Intro" xml:space="preserve">
+    <value>Двери открываются, продолжайте идти к командному центру.</value>
+  </data>
+  <data name="Quest09_DamagedDoor" xml:space="preserve">
+    <value>Отремонтируйте поврежденную дверь</value>
+  </data>
+  <data name="Quest09_DamagedDoor_Energy" xml:space="preserve">
+    <value>Зарядите энергию в медпункте (удерживайте {0})</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpComponents" xml:space="preserve">
+    <value>Подберите все подсвеченные предметы ({0}).</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpMotors" xml:space="preserve">
+    <value>Компоненты подобраны: {0}/{1}</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpWelder" xml:space="preserve">
+    <value>Наведитесь на предмет и нажмите {0} чтобы подобрать.</value>
+  </data>
+  <data name="Quest09_DamagedDoor_Repair" xml:space="preserve">
+    <value>Подойдите к двери и удерживайте ЛКМ чтобы начать сварку.</value>
+  </data>
+  <data name="Quest10_ExplorePartThree_Intro" xml:space="preserve">
+    <value>Продолжайте идти к командному центру.</value>
+  </data>
+  <data name="Quest10_ExplorePartThree_IntroPart2" xml:space="preserve">
+    <value>Командный центр уже близко.</value>
+  </data>
+  <data name="Quest11_Attacked" xml:space="preserve">
+    <value>Срочно эвакуируйтесь со станции</value>
+  </data>
+  <data name="Quest11_Attacked_Direction" xml:space="preserve">
+    <value>Следуйте за точками GPS к спасательным капсулам</value>
+  </data>
+  <data name="Quest11_Attacked_EscapePods" xml:space="preserve">
+    <value>Маршрут обновлен, направляйтесь к спасательным капсулам.</value>
+  </data>
+  <data name="Quest11_Attacked_Intro" xml:space="preserve">
+    <value>Станция атакована неизвестными.</value>
+  </data>
+  <data name="Quest11_Attacked_Sprint" xml:space="preserve">
+    <value>Бегите, удерживая {0}</value>
+  </data>
+  <data name="Quest12_Jumping" xml:space="preserve">
+    <value>Проследуйте по поврежденном коридору</value>
+  </data>
+  <data name="Quest12_Jumping_Danger" xml:space="preserve">
+    <value>Проследуйте по поврежденном коридору</value>
+  </data>
+  <data name="Quest12_Jumping_Gaps" xml:space="preserve">
+    <value>Вам придется перепыгнуть разломы в коридоре.</value>
+  </data>
+  <data name="Quest12_Jumping_Jump" xml:space="preserve">
+    <value>Нажмите {0} чтобы перепрыгнуть разрывы.</value>
+  </data>
+  <data name="Quest13_GoToEscapePods" xml:space="preserve">
+    <value>Пройдите к спасательной капсуле</value>
+  </data>
+  <data name="Quest13_GoToEscapePods_Stairs" xml:space="preserve">
+    <value>Проследуйте к последней точке GPS</value>
+  </data>
+  <data name="Quest14_EscapePod" xml:space="preserve">
+    <value>Убегите!</value>
+  </data>
+  <data name="Quest14_EscapePod_How" xml:space="preserve">
+    <value>Подойтите к сидению и нажмите {0}.</value>
+  </data>
+</root>

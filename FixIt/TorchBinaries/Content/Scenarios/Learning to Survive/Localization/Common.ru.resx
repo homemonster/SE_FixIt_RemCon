@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Fail_Part1" xml:space="preserve">
+    <value>Кнопочная панель для начала задания "</value>
+  </data>
+  <data name="Button_Fail_Part2" xml:space="preserve">
+    <value>" была уничтожена. Загрузите предыдущее сохранение для восстановления задания (F5) или продолжайте без нее.</value>
+  </data>
+  <data name="Fail_Caption" xml:space="preserve">
+    <value>Миссия провалена!</value>
+  </data>
+  <data name="Fail_Description" xml:space="preserve">
+    <value>Миссия провалена. Вы можете продолжать игру (прогресс не будет заблокирован) или загрузить предыдущее сохранение.</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01" xml:space="preserve">
+    <value>Точка маршрута</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01_Desc" xml:space="preserve">
+    <value>Расположение точки маршрута</value>
+  </data>
+  <data name="GPS_PirateDrone_01" xml:space="preserve">
+    <value>Пиратский дрон</value>
+  </data>
+  <data name="GPS_PirateDrone_01_Desc" xml:space="preserve">
+    <value>Расположение пиратского дрона</value>
+  </data>
+  <data name="GPS_PirateFacility_01" xml:space="preserve">
+    <value>Пиратская база</value>
+  </data>
+  <data name="GPS_PirateFacility_01_Desc" xml:space="preserve">
+    <value>Расположение пиратской базы</value>
+  </data>
+  <data name="GPS_PiratePlanet_01" xml:space="preserve">
+    <value>Планета</value>
+  </data>
+  <data name="GPS_PiratePlanet_01_Desc" xml:space="preserve">
+    <value>Расположение планеты</value>
+  </data>
+  <data name="GPS_PirateShip_01" xml:space="preserve">
+    <value>Главарь пиратов</value>
+  </data>
+  <data name="GPS_PirateShip_01_Desc" xml:space="preserve">
+    <value>Расположение главаря пиратов</value>
+  </data>
+  <data name="O_01x01_01_Description" xml:space="preserve">
+    <value>Чтобы восстановить кислород и водород в комплекте для выживания, Вам нужна энергии, рабочая система конвейеров между генератором газов и комплектом и лед в генераторе.</value>
+  </data>
+  <data name="O_01x01_01_Objective" xml:space="preserve">
+    <value>Восстановите кислород и водород в комплекте для выживания.</value>
+  </data>
+  <data name="O_01x01_Caption" xml:space="preserve">
+    <value>Good.bot: Кислород и водород</value>
+  </data>
+  <data name="O_01x01_Hint" xml:space="preserve">
+    <value>Отлично!
+
+Подсказка: положите кислородные баллоны внутрь генератора газов чтобы наполнить их.</value>
+  </data>
+  <data name="O_01x01_Name" xml:space="preserve">
+    <value>Кислород и водород</value>
+  </data>
+  <data name="O_01x02_01_Description" xml:space="preserve">
+    <value>Эти солнечные панели производят энергию от прямого солнечного света.
+Эта энергия хранится в батареях. Почините солнечную панель чтобы производить больше энергии.
+Вы найдете инструменты и компоненты в контейнере на платформе. </value>
+  </data>
+  <data name="O_01x02_01_Objective" xml:space="preserve">
+    <value>Используйте сварщик для починки панели.</value>
+  </data>
+  <data name="O_01x02_Caption" xml:space="preserve">
+    <value>Good.bot: Солнечные панели</value>
+  </data>
+  <data name="O_01x02_Hint" xml:space="preserve">
+    <value>Отлично сработано!
+
+
+Подсказка: Солнечные панели производят больше энергии, когда полностью обращены к солнцу. </value>
+  </data>
+  <data name="O_01x02_Name" xml:space="preserve">
+    <value>Солнечные панели</value>
+  </data>
+  <data name="O_01x03_01_Description" xml:space="preserve">
+    <value>Комплект для выживания может создавать небольшое количество слитков из камня, собирать основные компоненты из этих слитков, заряжать энергию и восстанавливать здоровье, а также возрождаться. Все что надо, чтобы начать. </value>
+  </data>
+  <data name="O_01x03_01_Objective" xml:space="preserve">
+    <value>Удерживайте {CONTROL:USE} для восстановления здоровья и зарядки.</value>
+  </data>
+  <data name="O_01x03_Caption" xml:space="preserve">
+    <value>Good.bot: Комплет для выживания</value>
+  </data>
+  <data name="O_01x03_Hint" xml:space="preserve">
+    <value>Отлично!
+
+Подсказка: соедините генератор газов с комплектом для выживания для наполнения скафандра кислородом и водородом. </value>
+  </data>
+  <data name="O_01x03_Name" xml:space="preserve">
+    <value>Комплект для выживания</value>
+  </data>
+  <data name="O_01x04_01_Description" xml:space="preserve">
+    <value>Вы можете найти руды внутри астероидов и в недрах планет. Возьмите бур и включите маркеры на экране, чтобы увидеть расположение руд. </value>
+  </data>
+  <data name="O_01x04_01_Objective" xml:space="preserve">
+    <value>Найдите, добудьте и возьмите немного железной руды.</value>
+  </data>
+  <data name="O_01x04_Caption" xml:space="preserve">
+    <value>Good.bot: Добыча руд</value>
+  </data>
+  <data name="O_01x04_Hint" xml:space="preserve">
+    <value>Шикарно!
+
+
+Подсказка: Вы можете положить эту железную руду в базовый очиститель для получения железных слитков.</value>
+  </data>
+  <data name="O_01x04_Name" xml:space="preserve">
+    <value>Добыча руд</value>
+  </data>
+  <data name="O_01x05_01_Description" xml:space="preserve">
+    <value>Этот корабль закреплен на платформе магнитным шасси. Найдите способ открепить шасси через терминал или распилите его болгаркой. Обратите внимание что его отключение не открепит корабль. </value>
+  </data>
+  <data name="O_01x05_01_Objective" xml:space="preserve">
+    <value>Разблокируйте шасси.</value>
+  </data>
+  <data name="O_01x05_Caption" xml:space="preserve">
+    <value>Good.bot: Корабль</value>
+  </data>
+  <data name="O_01x05_Hint" xml:space="preserve">
+    <value>Здорово!
+
+
+Подсказка: попробуйте полетать на корабле!</value>
+  </data>
+  <data name="O_01x05_Name" xml:space="preserve">
+    <value>Корабль</value>
+  </data>
+  <data name="O_01x06_01_Description" xml:space="preserve">
+    <value>Здесь находится полезный рабочий корабль, но его нужно починить. Требуемые компоненты наверняка где-то поблизости.</value>
+  </data>
+  <data name="O_01x06_01_Objective" xml:space="preserve">
+    <value>Восстановите энергию на рабочем корабле.</value>
+  </data>
+  <data name="O_01x06_02_Description" xml:space="preserve">
+    <value>Хорошо! Сядьте в кокпит, чтобы начать.</value>
+  </data>
+  <data name="O_01x06_02_Objective" xml:space="preserve">
+    <value>Сядьте в кокпит нажав {CONTROL:USE}, когда он подсвечен.</value>
+  </data>
+  <data name="O_01x06_03_Description" xml:space="preserve">
+    <value>Корабельные инструменты полезны для быстрого строительства и демонтажа блоков и могут хранить большое количество компонентов. Выберите один из них на панели инструментов и используйте их, чтобы покинуть ангар. Нажмите {CONTROL:LANDING_GEAR} для открепления шасси. </value>
+  </data>
+  <data name="O_01x06_03_Objective" xml:space="preserve">
+    <value>Почините или распилите двери.</value>
+  </data>
+  <data name="O_01x06_Caption" xml:space="preserve">
+    <value>Good.bot: Корабельные инструменты</value>
+  </data>
+  <data name="O_01x06_Hint" xml:space="preserve">
+    <value>Хорошая работа!
+
+
+Подсказка: корабельный сварщик берет компоненты из присоединенных инвентарей для строительства.</value>
+  </data>
+  <data name="O_01x06_Name" xml:space="preserve">
+    <value>Корабельные инструменты</value>
+  </data>
+  <data name="O_01x07_01_Description" xml:space="preserve">
+    <value>Здесь находится полезный добывающий корабль, но его нужно починить. Требуемые компоненты наверняка где-то поблизости.</value>
+  </data>
+  <data name="O_01x07_01_Objective" xml:space="preserve">
+    <value>Восстановите энергию на добывающем корабле.</value>
+  </data>
+  <data name="O_01x07_02_Description" xml:space="preserve">
+    <value>Хорошо! Сядьте в кокпит, чтобы начать.</value>
+  </data>
+  <data name="O_01x07_02_Objective" xml:space="preserve">
+    <value>Сядьте в кокпит нажав {CONTROL:USE}, когда он подсвечен.</value>
+  </data>
+  <data name="O_01x07_03_Description" xml:space="preserve">
+    <value>Выберите буры на панели инструментов и используйте ПКМ для бурения широких туннелей без добычи.
+Нажмите {CONTROL:LANDING_GEAR} для открепления шасси. </value>
+  </data>
+  <data name="O_01x07_03_Objective" xml:space="preserve">
+    <value>Найдите способ выбраться на добывающем корабле.</value>
+  </data>
+  <data name="O_01x07_Caption" xml:space="preserve">
+    <value>Good.bot: Добыча руд на корабле</value>
+  </data>
+  <data name="O_01x07_Hint" xml:space="preserve">
+    <value>Замечательно!
+
+Подсказка: когда пользуетесь бурами, используйте ЛКМ ддя добычи руд и ПКМ для быстрого создания туннелей. </value>
+  </data>
+  <data name="O_01x07_Name" xml:space="preserve">
+    <value>Добыча руд на корабле</value>
+  </data>
+  <data name="O_02x01_01_Description" xml:space="preserve">
+    <value>Здесь вы можете протестировать ручное и корабельное оружие.</value>
+  </data>
+  <data name="O_02x01_01_Objective_01" xml:space="preserve">
+    <value>Уничтожьте цели</value>
+  </data>
+  <data name="O_02x01_01_Objective_02" xml:space="preserve">
+    <value>Выстрелите из пулемета Гатлинга</value>
+  </data>
+  <data name="O_02x01_01_Objective_03" xml:space="preserve">
+    <value>Выстрелите из ракетницы</value>
+  </data>
+  <data name="O_02x01_02_Description" xml:space="preserve">
+    <value>Отлично! Вы можете починить истребитель и вернуться на нем на базу.</value>
+  </data>
+  <data name="O_02x01_02_Objective" xml:space="preserve">
+    <value>Восстановите энергию на истребителе.</value>
+  </data>
+  <data name="O_02x01_Caption" xml:space="preserve">
+    <value>Good.bot: Оружие</value>
+  </data>
+  <data name="O_02x01_Hint" xml:space="preserve">
+    <value>Пятерка!
+
+Подсказка: оружие имеет максимальную дальность в 800 м.</value>
+  </data>
+  <data name="O_02x01_Name" xml:space="preserve">
+    <value>Оружие</value>
+  </data>
+  <data name="O_02x02_01_Description" xml:space="preserve">
+    <value>Это строительная платформа. Похоже, здесь достаточно материалов для строительства собственного корабля. Здесь уже есть база для начала. Начните с постройки кокпита.</value>
+  </data>
+  <data name="O_02x02_01_Objective" xml:space="preserve">
+    <value>Добавьте и сварите кокпит для управления кораблем.</value>
+  </data>
+  <data name="O_02x02_02_Description" xml:space="preserve">
+    <value>Хорошо! Теперь вам нужны рабочие ускорители во всех шести направлениях. Ионные ускорители предназначены для полета в космосе. Больше ускорителей - больше ускорения!</value>
+  </data>
+  <data name="O_02x02_02_Objective" xml:space="preserve">
+    <value>Постройте ускорители во всех шести направлениях.</value>
+  </data>
+  <data name="O_02x02_03_Description" xml:space="preserve">
+    <value>Кораблю также требуются гироскопы для ориентирования. Больше гироскопов означает больше чувствительность.</value>
+  </data>
+  <data name="O_02x02_03_Objective" xml:space="preserve">
+    <value>Добавьте и сварите гироскопы на Ваш корабль.</value>
+  </data>
+  <data name="O_02x02_04_Description" xml:space="preserve">
+    <value>И наконец, кораблю требуется энергия. Постройте или реакторы и добавьте топливо или батареи, которые имеют небольшой стартовый заряд.</value>
+  </data>
+  <data name="O_02x02_04_Objective" xml:space="preserve">
+    <value>Обеспечьте корабль энергией.</value>
+  </data>
+  <data name="O_02x02_Caption" xml:space="preserve">
+    <value>Good.bot: Строительство корабля</value>
+  </data>
+  <data name="O_02x02_Hint" xml:space="preserve">
+    <value>Я бы сам не смог лучше!
+
+
+Подсказка: добавьте больше брони для защиты жизненно важных блоков от ударов и оружия!</value>
+  </data>
+  <data name="O_02x02_Name" xml:space="preserve">
+    <value>Строительство корабля</value>
+  </data>
+  <data name="O_02x03_01_Description" xml:space="preserve">
+    <value>Похоже, это место было герметично. Герметичные комнаты восполнят Ваш кислород и будут поддерживать тепло.
+Почините вентиляцию для проверки герметичности комнаты.</value>
+  </data>
+  <data name="O_02x03_01_Objective" xml:space="preserve">
+    <value>Почините вентиляцию.</value>
+  </data>
+  <data name="O_02x03_02_Description" xml:space="preserve">
+    <value>Шикарно! Однако желтый индикатор на вентиляции означает что комната не изолирована. Найдите и почините дыры в стенах и закройте дверь, чтобы сделать комнату герметичной.</value>
+  </data>
+  <data name="O_02x03_02_Objective_01" xml:space="preserve">
+    <value>Обеспечьте герметичность комнаты.</value>
+  </data>
+  <data name="O_02x03_02_Objective_02" xml:space="preserve">
+    <value>Почините дыры в стенах.</value>
+  </data>
+  <data name="O_02x03_03_Description" xml:space="preserve">
+    <value>Обратите внимание, что вентиляция показывает зеленый индикатор, означающий что комната изолирована. Подсоединенный генератор газов сможет наполнить ее кислородом изо льда.</value>
+  </data>
+  <data name="O_02x03_03_Objective" xml:space="preserve">
+    <value>Положите лед в инвентарь генератора газов, доступный на крыше.</value>
+  </data>
+  <data name="O_02x03_Caption" xml:space="preserve">
+    <value>Good.bot: Герметизация</value>
+  </data>
+  <data name="O_02x03_Hint" xml:space="preserve">
+    <value>Достойно!
+Подсказка: обратите внимание, что запас кислорода в костюме автоматически восполняется, когда вы находитесь в герметичной комнате.</value>
+  </data>
+  <data name="O_02x03_Name" xml:space="preserve">
+    <value>Герметизация</value>
+  </data>
+  <data name="O_02x04_01_Description" xml:space="preserve">
+    <value>Похоже на продвинутый производственный комплекс.
+В большом контейнере уже есть руда, но конвейеры недостроены. Конвейерные трубы перемещают предметы между блоками.</value>
+  </data>
+  <data name="O_02x04_01_Objective" xml:space="preserve">
+    <value>Почините конвейеры.</value>
+  </data>
+  <data name="O_02x04_02_Description" xml:space="preserve">
+    <value>Очистительный завод автоматически забирает руду из контейнеров и перерабатывает ее в слитки. Они, в свою очередь, используются для создания компонентов в сборщике.</value>
+  </data>
+  <data name="O_02x04_02_Objective" xml:space="preserve">
+    <value>Постройте и подсоедините сборщик к очистительному заводу.</value>
+  </data>
+  <data name="O_02x04_Caption" xml:space="preserve">
+    <value>Good.bot: Производство</value>
+  </data>
+  <data name="O_02x04_Hint" xml:space="preserve">
+    <value>Вы быстро учитесь!
+
+
+Подсказка: Вы можете улучшать заводы и сборщики с помощью модулей.</value>
+  </data>
+  <data name="O_02x04_Name" xml:space="preserve">
+    <value>Производство</value>
+  </data>
+  <data name="O_02x05_01_Description" xml:space="preserve">
+    <value>Рядом есть отсоединенные батареи, которые можно использовать для обеспечения комплекса энергией. Структуры могут быть соединены стыковочными блоками. Используйте тягач для присоединения батарей. </value>
+  </data>
+  <data name="O_02x05_01_Objective" xml:space="preserve">
+    <value>Сядьте в тягач</value>
+  </data>
+  <data name="O_02x05_02_Description" xml:space="preserve">
+    <value>Корабль удерживает батареи с помощью передних шасси. Подтяните стыковочные блоки ближе друг к другу, чтобы они могли соединиться. Они загорятся желтым, когда будут в зоне действия друг друга.</value>
+  </data>
+  <data name="O_02x05_02_Objective" xml:space="preserve">
+    <value>Подсоедините батарею к станции.</value>
+  </data>
+  <data name="O_02x05_03_Description" xml:space="preserve">
+    <value>Отлично! Подача энергии восстановлена. Теперь Вы можете стыковать свой корабль со станцией. Используйте коннектор, он будет подсвечен желтым светом, когда будет в зоне действия.</value>
+  </data>
+  <data name="O_02x05_03_Objective" xml:space="preserve">
+    <value>Нажмите {CONTROL:LANDING_GEAR} когда коннекторы желтые для стыковки.</value>
+  </data>
+  <data name="O_02x05_Caption" xml:space="preserve">
+    <value>Good.bot: Соединения</value>
+  </data>
+  <data name="O_02x05_Hint" xml:space="preserve">
+    <value>Скоро Вы станете экспертом!
+Коннекторы позволяют вам зарядить батареи на корабле и передавать предметы.</value>
+  </data>
+  <data name="O_02x05_Name" xml:space="preserve">
+    <value>Соединения</value>
+  </data>
+  <data name="O_03x01_01_Description" xml:space="preserve">
+    <value>Разобравшись с дроном, лишите станцию защиты. Большинство турелей и оружия имеют дальность в 800 м.</value>
+  </data>
+  <data name="O_03x01_01_Objective_01" xml:space="preserve">
+    <value>Уничтожьте турель 1.</value>
+  </data>
+  <data name="O_03x01_01_Objective_02" xml:space="preserve">
+    <value>Уничтожьте турель 2.</value>
+  </data>
+  <data name="O_03x01_02_Description" xml:space="preserve">
+    <value>Красные маркеры показывают вражескую пиратскую станцию. Они обычно оснащены автоматическими турелями и дронами.</value>
+  </data>
+  <data name="O_03x01_02_Objective" xml:space="preserve">
+    <value>Уничтожьте дрон.</value>
+  </data>
+  <data name="O_03x01_03_Description" xml:space="preserve">
+    <value>Повредите антенну станции чтобы предотвратить призыв подкреплений.</value>
+  </data>
+  <data name="O_03x01_03_Objective" xml:space="preserve">
+    <value>Уничтожьте антенну станции.</value>
+  </data>
+  <data name="O_03x01_Caption" xml:space="preserve">
+    <value>Good.bot: Бой</value>
+  </data>
+  <data name="O_03x01_Hint" xml:space="preserve">
+    <value>Цель нейтрализована!
+
+
+Подсказка: красные сигналы могут также показывать присутствие других игроков. </value>
+  </data>
+  <data name="O_03x01_Name" xml:space="preserve">
+    <value>Бой</value>
+  </data>
+  <data name="O_03x02_01_Description" xml:space="preserve">
+    <value>Похоже на автоматизированный строительный цех. Проекторы могут быть использованы для проецирования чертежей кораблей для быстрой сборки.</value>
+  </data>
+  <data name="O_03x02_01_Objective" xml:space="preserve">
+    <value>Найдите способ включить проектор.</value>
+  </data>
+  <data name="O_03x02_02_Description" xml:space="preserve">
+    <value>Проектор требует соединения с чертежом, с которого Вы можете начать строить. Сварщики станции сделают за вас большую часть работы. Они используют компоненты, доступные на станции.</value>
+  </data>
+  <data name="O_03x02_02_Objective" xml:space="preserve">
+    <value>Постройте проекцию.</value>
+  </data>
+  <data name="O_03x02_03_Description" xml:space="preserve">
+    <value>Чудесно! Теперь все, что остается - отсоединить корабль и зарядить оружие боеприпасами. Отсоедините корабль от станции и попробуйте!</value>
+  </data>
+  <data name="O_03x02_03_Objective" xml:space="preserve">
+    <value>Покиньте ангар на новом корабле для тест-драйва.</value>
+  </data>
+  <data name="O_03x02_Caption" xml:space="preserve">
+    <value>Good.bot: Проекторы</value>
+  </data>
+  <data name="O_03x02_Hint" xml:space="preserve">
+    <value>Вы быстро справились!
+
+
+Подсказка: Вы можете использовать этот цех или построить собственный для быстрого производства множества кораблей. Не забудьте про патроны и топливо!</value>
+  </data>
+  <data name="O_03x02_Name" xml:space="preserve">
+    <value>Проекторы</value>
+  </data>
+  <data name="O_03x03_01_Description" xml:space="preserve">
+    <value>Похоже на старый исследовательский корабль. Он оснащен прыжковым двигателем. Прыжковые двигатели используются для освоения космоса. Найдите способ починить его.</value>
+  </data>
+  <data name="O_03x03_01_Objective" xml:space="preserve">
+    <value>Почините прыжковый двигатель.</value>
+  </data>
+  <data name="O_03x03_02_Description" xml:space="preserve">
+    <value>Прыжковые двигатели могут быть активированы только из панели инструментов кокпита. Сядьте в кокпит и активируйте прыжковый двигатель. Оставайтесь в кокпите в момент прыжка.</value>
+  </data>
+  <data name="O_03x03_02_Objective" xml:space="preserve">
+    <value>Сделайте прыжок.</value>
+  </data>
+  <data name="O_03x03_03_Description" xml:space="preserve">
+    <value>Прыжковые двигатели также могут использовать GPS координаты для прыжка. Воспользуйтесь координатами с экрана в корабле для обнаружения скрытых локаций.</value>
+  </data>
+  <data name="O_03x03_03_Objective" xml:space="preserve">
+    <value>Найдите скрытую базу.</value>
+  </data>
+  <data name="O_03x03_Caption" xml:space="preserve">
+    <value>Good.bot: Прыжковый двигатель</value>
+  </data>
+  <data name="O_03x03_Hint" xml:space="preserve">
+    <value>Пристегните ремни!
+
+
+Подсказка: не покидайте кресло, когда совершаете прыжок или останетесь без корабля! </value>
+  </data>
+  <data name="O_03x03_Name" xml:space="preserve">
+    <value>Прыжковые двигатели</value>
+  </data>
+  <data name="O_03x04_01_Description" xml:space="preserve">
+    <value>Этот комплекс чинит дроны для добычи, строительства и обороны. Для управления беспилотным кораблем, Вам нужен блок дистанционного управления и антенна.</value>
+  </data>
+  <data name="O_03x04_01_Objective_01" xml:space="preserve">
+    <value>Почините блок дистанционного управления.</value>
+  </data>
+  <data name="O_03x04_01_Objective_02" xml:space="preserve">
+    <value>Постройте антенну на дроне.</value>
+  </data>
+  <data name="O_03x04_02_Description" xml:space="preserve">
+    <value>Для управления кораблем удаленно, нажмите Shift+K для входа в меню, показывающее корабли в радиусе действия антенны.
+Убедитесь что антенна костюма включена!</value>
+  </data>
+  <data name="O_03x04_02_Objective" xml:space="preserve">
+    <value>Возьмите под контроль дрона.</value>
+  </data>
+  <data name="O_03x04_03_Description" xml:space="preserve">
+    <value>Отправляйтесь по точкам маршрута на своем дроне.
+Однако, не улетайте слишком далеко, антенны должны оставаться в радиусе друг друга.</value>
+  </data>
+  <data name="O_03x04_03_Objective" xml:space="preserve">
+    <value>Отправьте дрона к точке GPS. </value>
+  </data>
+  <data name="O_03x04_Caption" xml:space="preserve">
+    <value>Good.bot: Дистанционное управление</value>
+  </data>
+  <data name="O_03x04_Hint" xml:space="preserve">
+    <value>Вот это пилотирование!
+
+
+Подсказка: дроны крайне полезны из-за дешевизны и размера.</value>
+  </data>
+  <data name="O_03x04_Name" xml:space="preserve">
+    <value>Дистанционное управление</value>
+  </data>
+  <data name="O_03x05_01_Description" xml:space="preserve">
+    <value>Рядом есть малый добывающий корабль на водороде.
+Водородные ускорители более мощные, но быстро потребляют водород.
+Корабль может производить водород изо льда с помощью генератора газов.</value>
+  </data>
+  <data name="O_03x05_01_Objective" xml:space="preserve">
+    <value>Добавьте лед в генератор газов корабля.</value>
+  </data>
+  <data name="O_03x05_02_Description" xml:space="preserve">
+    <value>Задние ускорители не имеют соединения с водородным резервуаром.
+Почините или добавьте конвейерные трубы для восстановления подачи топлива. 
+</value>
+  </data>
+  <data name="O_03x05_02_Objective" xml:space="preserve">
+    <value>Восстановите подачу топлива в задние ускорители.</value>
+  </data>
+  <data name="O_03x05_03_Description" xml:space="preserve">
+    <value>Великолепно! Теперь вы можете воспользоваться корабельными бурами для добычи льда для самозаправки корабля.</value>
+  </data>
+  <data name="O_03x05_03_Objective" xml:space="preserve">
+    <value>Добудьте лед с помощью корабля.</value>
+  </data>
+  <data name="O_03x05_Caption" xml:space="preserve">
+    <value>Good.bot: Водородные ускорители</value>
+  </data>
+  <data name="O_03x05_Hint" xml:space="preserve">
+    <value>Прекрасно!
+
+
+Подсказка: Водородные ускорители помогут преодолеть притяжение планеты.</value>
+  </data>
+  <data name="O_03x05_Name" xml:space="preserve">
+    <value>Водородные ускорители</value>
+  </data>
+  <data name="O_0Fx01_01_Description" xml:space="preserve">
+    <value>Отлично сработано, инженер! Настало время проверить Ваши навыки. Недалеко находится планета, контролируемая пиратами.
+Найдите планету и выбейте пиратов оттуда.</value>
+  </data>
+  <data name="O_0Fx01_01_Objective" xml:space="preserve">
+    <value>Достигните планеты.</value>
+  </data>
+  <data name="O_0Fx01_02_Description" xml:space="preserve">
+    <value>Хорошо, Вы достигли планеты! Недалеко расположен пиратский комплекс. Как именно его обезвредить - решать Вам.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_01" xml:space="preserve">
+    <value>Обезвредьте пиратский комплекс.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_02" xml:space="preserve">
+    <value>Обезвредьте второй пиратский комплекс.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_03" xml:space="preserve">
+    <value>Обезвредьте третий пиратский комплекс.</value>
+  </data>
+  <data name="O_0Fx01_03_Description" xml:space="preserve">
+    <value>Невероятная работа! Уничтожением этих комплексов Вы привлекли внимание пиратского главаря, его корабль на орбите планеты. Вы знаете что делать!</value>
+  </data>
+  <data name="O_0Fx01_03_Objective" xml:space="preserve">
+    <value>Уничтожьте главаря пиратов.</value>
+  </data>
+  <data name="O_0Fx01_Caption" xml:space="preserve">
+    <value>Good.bot: Конечная цель</value>
+  </data>
+  <data name="O_0Fx01_Hint" xml:space="preserve">
+    <value>Изумительно!
+
+
+Подсказка: поделитесь опытом с другими игроками, объединяйтесь или соревнуйтесь друг с другом для новых ощущений!</value>
+  </data>
+  <data name="O_InitialQuest" xml:space="preserve">
+    <value>Здесь есть небольшие задания для Вас, они могут быть начаты нахождением и нажатием особых кнопочных панелей. Несколько таких панелей есть на этой платформе.</value>
+  </data>
+  <data name="O_InitialQuest_Caption" xml:space="preserve">
+    <value>Good.bot: Задания</value>
+  </data>
+  <data name="Persons_VirtualAssistant" xml:space="preserve">
+    <value>Good.bot</value>
+  </data>
+  <data name="QuestlogDetail_Failed" xml:space="preserve">
+    <value>Задание провалено.</value>
+  </data>
+  <data name="QuestlogDetail_Success" xml:space="preserve">
+    <value>Задание успешно завершено.</value>
+  </data>
+</root>

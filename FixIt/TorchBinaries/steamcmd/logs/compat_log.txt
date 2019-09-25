@@ -1,0 +1,6 @@
+
+
+[2019-09-21 16:17:46] No local tool list detected at C:\Torch\steamcmd/compatibilitytools.vdf.
+
+
+[2019-09-21 16:40:00] No local tool list detected at C:\Torch\steamcmd/compatibilitytools.vdf.

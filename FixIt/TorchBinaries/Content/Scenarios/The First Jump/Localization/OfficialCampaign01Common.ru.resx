@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Boundary_Warning" xml:space="preserve">
+    <value>*Вы покидаете игровую зону*</value>
+  </data>
+  <data name="DeathScreen" xml:space="preserve">
+    <value>Вы умерли...</value>
+  </data>
+  <data name="Hacked" xml:space="preserve">
+    <value>ВЗЛОМАНО</value>
+  </data>
+  <data name="LCD_M01_01" xml:space="preserve">
+    <value>Приближаемся к станции...
+Расстояние: 239.3 м</value>
+  </data>
+  <data name="LCD_M01_02" xml:space="preserve">
+    <value>ВЫХОД</value>
+  </data>
+  <data name="LCD_M01_03" xml:space="preserve">
+    <value>Шлюз</value>
+  </data>
+  <data name="LCD_M01_04" xml:space="preserve">
+    <value>-----------------------------------------------
+Спаскапсулы
+--------------------------------</value>
+  </data>
+  <data name="LCD_M01_05" xml:space="preserve">
+    <value>////////\\\\\\\\\\\\\ 
+ Капсула 07
+ Готова
+////////\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_06" xml:space="preserve">
+    <value>--------------------------------
+ Медпункт
+ Зарядка 
+ Энергия здесь
+---------------------------</value>
+  </data>
+  <data name="LCD_M01_07" xml:space="preserve">
+    <value>Спаскапсулы --&gt;</value>
+  </data>
+  <data name="LCD_M01_08" xml:space="preserve">
+    <value>Спаскапсул ост.: 1</value>
+  </data>
+  <data name="LCD_M01_09" xml:space="preserve">
+    <value>Нет спаскапсул</value>
+  </data>
+  <data name="LCD_M01_10" xml:space="preserve">
+    <value>doop</value>
+  </data>
+  <data name="LCD_M01_11" xml:space="preserve">
+    <value>---------------------------
+ /\
+ /_!_\
+ Тревога
+Срочно эвакуируйтесь
+-----------------------------------------</value>
+  </data>
+  <data name="LCD_M01_12" xml:space="preserve">
+    <value>/////////\\\\\\\\\
+ Дверь повреждена
+ Требуется ремонт
+/////////\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_13" xml:space="preserve">
+    <value>----
+ Пробой!
+ Системы:
+ Отказ
+----------------------------------</value>
+  </data>
+  <data name="LCD_M01_14" xml:space="preserve">
+    <value>////////////\\\\\\\\\\\\\
+ Спаскапуслы
+ Срочно эвакуируйтесь!
+////////////\\\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_15" xml:space="preserve">
+    <value>\/ Спаскапсулы</value>
+  </data>
+  <data name="LCD_M01_16" xml:space="preserve">
+    <value>////////\\\\\\\\\\\ 
+ Капсула 06
+ Отправлена
+////////\\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_17" xml:space="preserve">
+    <value>Обнаружен пробой!</value>
+  </data>
+  <data name="LCD_M01_18" xml:space="preserve">
+    <value>Спаскапсула 7 готова</value>
+  </data>
+  <data name="LCD_M01_19" xml:space="preserve">
+    <value>Контроль давления</value>
+  </data>
+  <data name="LCD_M01_20" xml:space="preserve">
+    <value>ОГРАНИЧЕНО</value>
+  </data>
+  <data name="LCD_M01_21" xml:space="preserve">
+    <value>Открыть ангар</value>
+  </data>
+  <data name="LCD_M01_22" xml:space="preserve">
+    <value>Открыть шлюз</value>
+  </data>
+  <data name="LCD_M01_23" xml:space="preserve">
+    <value>Выдать кислородный баллон</value>
+  </data>
+  <data name="LCD_M01_24" xml:space="preserve">
+    <value>дверь ангара</value>
+  </data>
+  <data name="LCD_M01_25" xml:space="preserve">
+    <value>Герметизировать</value>
+  </data>
+  <data name="LCD_M01_26" xml:space="preserve">
+    <value>Изолировать и герметизировать</value>
+  </data>
+  <data name="LCD_M02_01" xml:space="preserve">
+    <value>-----------------------------------------------
+    Нажмите "P" 
+  чтобы закрепить/открепить
+  шасси и
+коннекторы
+
+----------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_02" xml:space="preserve">
+    <value>----------------------------------------
+    Нажмите "1"  
+  чтобы выбрать буры
+ затем удерживайте
+      ЛКМ чтобы 
+     использовать их
+----------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_03" xml:space="preserve">
+    <value>----------------------------------------
+Коннектор корабля
+ находится снизу
+
+        нажмите "V" чтобы 
+   переключить режим обзора
+   чтобы выравнить
+        коннекторы
+
+-------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_04" xml:space="preserve">
+    <value>----------------------------------------
+  Удерживайте "ALT" 
+    и двигайте
+        мышью чтобы
+  осмотреться 
+   от 3-го лица
+
+---------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_05" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Журнал 48
+----------------------------------------------------------------------------------------
+Извлечение назначено на 14:00.
+
+ Ученые нетерпеливо ожидают
+ доставку артефакта
+ на главную базу, я не позволю это задержать
+ снова, я не буду снова выслушивать
+ лекции о важности
+ тайм-менеджмента от этих доморощенных
+ ученых.
+----------------------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_06" xml:space="preserve">
+    <value>РАСКОПКИ -&gt;</value>
+  </data>
+  <data name="LCD_M02_07" xml:space="preserve">
+    <value>&lt;- РАСКОПКИ</value>
+  </data>
+  <data name="LCD_M02_08" xml:space="preserve">
+    <value>ОХРАННЫЕ ДРОНЫ</value>
+  </data>
+  <data name="LCD_M02_09" xml:space="preserve">
+    <value>МЕДПУНКТ</value>
+  </data>
+  <data name="LCD_M02_10" xml:space="preserve">
+    <value>Жизнеобеспечение</value>
+  </data>
+  <data name="LCD_M02_11" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Ф. Палмер - Личный дневник #13
+---------------------------------------------------------------------------
+ Я не уверен, должен ли я доложить об
+ этом высшим чинам, но мне кажется Блэр
+ на грани. Я проснулся
+из криосна и увидел как он стоит на краю
+ комнаты с артефактом, неподвижно...
+ уставившись на него. Думаю, он
+ не ложился спать. Я ничего
+ не сказал, но я взволнован, этот
+ стресс от работы и жизни в этом
+ склепе меня скоро доконает.
+----------------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_12" xml:space="preserve">
+    <value>НОРРИС</value>
+  </data>
+  <data name="LCD_M02_13" xml:space="preserve">
+    <value>ПАЛМЕР</value>
+  </data>
+  <data name="LCD_M02_14" xml:space="preserve">
+    <value>ЧАЙЛДС</value>
+  </data>
+  <data name="LCD_M02_15" xml:space="preserve">
+    <value>БЛЭР</value>
+  </data>
+  <data name="LCD_M02_16" xml:space="preserve">
+    <value>Тех. обслуживание</value>
+  </data>
+  <data name="LCD_M02_17" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Блэр - Личный дневник #24
+---------------------------------------------------------------------
+ Похоже, это будет последней
+ записью. Я всегда
+ удивлялся как люди
+ находят время чтобы писать
+ перед смертью, но
+ похоже я теперь знаю.
+
+ Хотя бы... я попытался 
+ сделать что-то правильное.
+--------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_18" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ К. Кларк - Журнал обслуживания #91
+------------------------------------------------------------------------
+ Начальник вызвал меня в эту яму сегодня,
+ терпеть не могу этот старый лифт, 
+ каждый раз ощущение что это последняя поездка.
+ Я продолжаю просить о
+ починке, но они говорят что это не нужно,
+ не думаю что они тут задержатся.
+
+ Охранный дрон 07 сбоил, но
+ починка была пустяком, я
+ без понятия как эти ученые могут находиться в 
+ этих туннелях так долго.
+------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_19" xml:space="preserve">
+    <value>БАШНЯ УПРАВЛЕНИЯ</value>
+  </data>
+  <data name="LCD_M02_20" xml:space="preserve">
+    <value>ГАРАЖ</value>
+  </data>
+  <data name="LCD_M02_21" xml:space="preserve">
+    <value>ЛОББИ</value>
+  </data>
+  <data name="LCD_M02_22" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+ СТАТУС 
+---------------------------------------------------------------------------------- 
+ ЭКИПАЖ - 0</value>
+  </data>
+  <data name="LCD_M02_23" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+ СТАТУС 
+---------------------------------------------------------------------------------- 
+ СВЯЗЬ: недоступна</value>
+  </data>
+  <data name="LCD_M02_24" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ СТАТУС
+----------------------------------------------------------------------------------
+ ПОДАЧА ЭНЕРГИИ: включена</value>
+  </data>
+  <data name="LCD_M02_25" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+ СТАТУС 
+---------------------------------------------------------------------------------- 
+ ЖИЗНЕОБЕСПЕЧЕНИЕ: в норме</value>
+  </data>
+  <data name="LCD_M02_26" xml:space="preserve">
+    <value>Тех. обслуживание</value>
+  </data>
+  <data name="LCD_M02_27" xml:space="preserve">
+    <value>ЛИФТ</value>
+  </data>
+  <data name="LCD_M02_28" xml:space="preserve">
+    <value>-------------------------------------------
+
+Научная станция 17-A
+
+
+была активна:
+  79 дней назад
+
+----------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_29" xml:space="preserve">
+    <value>ОХРАНА ВКЛЮЧЕНА</value>
+  </data>
+  <data name="LCD_M02_30" xml:space="preserve">
+    <value>Таймер - активировать</value>
+  </data>
+  <data name="LCD_M02_31" xml:space="preserve">
+    <value>Малый реактор - включить/выключить</value>
+  </data>
+  <data name="LCD_M02_32" xml:space="preserve">
+    <value>Шасси - отцепить</value>
+  </data>
+  <data name="LCD_M02_33" xml:space="preserve">
+    <value>Лифт - активировать</value>
+  </data>
+  <data name="LCD_M02_34" xml:space="preserve">
+    <value>Лифт поднят</value>
+  </data>
+  <data name="LCD_M02_35" xml:space="preserve">
+    <value>Тех. обслуживание - активировать</value>
+  </data>
+  <data name="LCD_M02_36" xml:space="preserve">
+    <value>Удаленное управление - автопилот вкл/выкл</value>
+  </data>
+  <data name="LCD_M02_37" xml:space="preserve">
+    <value>Ангарные створки гаража</value>
+  </data>
+  <data name="LCD_M02_38" xml:space="preserve">
+    <value>Ангарные створки гаража</value>
+  </data>
+  <data name="LCD_M02_39" xml:space="preserve">
+    <value>Открыть створки - активировать</value>
+  </data>
+  <data name="LCD_M03_01" xml:space="preserve">
+    <value>Компоненты батареи</value>
+  </data>
+  <data name="LCD_M03_02" xml:space="preserve">
+    <value>Нет энергии</value>
+  </data>
+  <data name="LCD_M03_03" xml:space="preserve">
+    <value>Проверял в последний раз, 
+ не передумал ли кто убраться
+ отсюда с нами вместо того, чтобы  
+ оставаться в этом месте. 
+ 
+ Я не сразу понял, что
+ я увидел. Стая птиц? 
+ Нет, они послали дронов. Десятки
+ дронов. 
+ 
+ Теперь лежу здесь, умирая,
+ видимо, закончу написанием
+ этой записки.</value>
+  </data>
+  <data name="LCD_M03_04" xml:space="preserve">
+    <value>ОГРАНИЧЕНО</value>
+  </data>
+  <data name="LCD_M03_05" xml:space="preserve">
+    <value>&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;  
+  ||	   C. Патрик  ||  Личный дневник  ||
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;
+
+ После всего вложенного труда! Невероятно,
+ они сделают такое с нами! Чертовы корпорации,
+ вонзят нож в спину при первом
+ же удобном случае..
+ Леонард,на случай если ты это найдешь
+ и захочешь узнать что случилось,
+ радары засекли целый флот ROS4.
+ Мы отдали им чертов артефакт, но они
+ все равно пришли за нами... Осталось мало
+ времени. Я надеюсь мы найдем друг
+ друга снова в добром здравии.
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&gt;</value>
+  </data>
+  <data name="LCD_M03_06" xml:space="preserve">
+    <value>&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;
+     ||    К. Джеймс     ||   Объявление  ||
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;
+
+ ВНИМАНИЕ! Утилизационный цех 
+ закрыт до дальнейшего уведомления.
+
+ Инциденты прошлой недели
+ были серьезными, я не
+ буду подвергать никого риску. Пока будем
+ утилизировать мусор вручную,
+ по крайней мере пока цех не
+ исправлен.
+
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;</value>
+  </data>
+  <data name="LCD_M03_07" xml:space="preserve">
+    <value>Aggelos</value>
+  </data>
+  <data name="LCD_M03_08" xml:space="preserve">
+    <value>ВЫХОД</value>
+  </data>
+  <data name="LCD_M03_09" xml:space="preserve">
+    <value>/\
+       |
+ЦЕНТР
+  УПРАВЛЕНИЯ</value>
+  </data>
+  <data name="LCD_M03_10" xml:space="preserve">
+    <value>ЦЕНТР
+ УПРАВЛЕНИЯ</value>
+  </data>
+  <data name="LCD_M03_11" xml:space="preserve">
+    <value>Коннектор: незакреплен
+
+Насосы: неактивны
+
+Резервуар: 0%</value>
+  </data>
+  <data name="LCD_M03_12" xml:space="preserve">
+    <value>Центр управления</value>
+  </data>
+  <data name="LCD_M03_13" xml:space="preserve">
+    <value>&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;    
+  ||	   О. Майлс  ||  Журнал главного инженера||  
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;
+ Наконец-то после многих месяцев работы мы почти завершили
+ ремонт фрегата, трудно вспомнить его состояние
+ когда его сдали нам в ремонт, половина систем не работала вовсе
+ и там было больше ржавчины чем корабля! 
+ 
+ Последней задачей остается ремонт главного ускорителя,
+ после чего потребуется дозаправка и к бою готов. 
+  
+ Я бы рад проводить его, боюсь только того что могут мне подбросить
+ на ремонт в следующий раз. 
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;</value>
+  </data>
+  <data name="LCD_M03_14" xml:space="preserve">
+    <value>Лифт - активировать</value>
+  </data>
+  <data name="LCD_M03_15" xml:space="preserve">
+    <value>Места</value>
+  </data>
+  <data name="LCD_M03_16" xml:space="preserve">
+    <value>Боеголовка - начать отсчет</value>
+  </data>
+  <data name="LCD_M03_17" xml:space="preserve">
+    <value>Прожектор - вкл/выкл</value>
+  </data>
+  <data name="LCD_M03_18" xml:space="preserve">
+    <value>Прожектор - вкл/выкл</value>
+  </data>
+  <data name="LCD_M03_19" xml:space="preserve">
+    <value>Створки ангара</value>
+  </data>
+  <data name="LCD_M03_20" xml:space="preserve">
+    <value>Активировать экран</value>
+  </data>
+  <data name="LCD_M03_21" xml:space="preserve">
+    <value>резак</value>
+  </data>
+  <data name="LCD_M03_22" xml:space="preserve">
+    <value>Запустить</value>
+  </data>
+  <data name="LCD_M03_23" xml:space="preserve">
+    <value>Выдвинуть поршень</value>
+  </data>
+  <data name="LCD_M03_24" xml:space="preserve">
+    <value>Закрепить коннектор</value>
+  </data>
+  <data name="LCD_M04_01" xml:space="preserve">
+    <value>Нажмите P чтобы 
+ переключить ручной тормоз</value>
+  </data>
+  <data name="LCD_M04_02" xml:space="preserve">
+    <value>Нажмите V чтобы 
+включить вид от 3-го лица</value>
+  </data>
+  <data name="LCD_M04_03" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="LCD_M04_04" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+   ФАБРИКА
+ ДРОНОВ
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</value>
+  </data>
+  <data name="LCD_M04_05" xml:space="preserve">
+    <value>Колеса</value>
+  </data>
+  <data name="LCD_M04_06" xml:space="preserve">
+    <value>Таймер скрипта - активировать</value>
+  </data>
+  <data name="LCD_M04_07" xml:space="preserve">
+    <value>Ракеты</value>
+  </data>
+  <data name="LCD_M04_08" xml:space="preserve">
+    <value>Торпедный отсек</value>
+  </data>
+  <data name="LCD_M04_09" xml:space="preserve">
+    <value>Створки ангара</value>
+  </data>
+  <data name="LCD_M04_10" xml:space="preserve">
+    <value>Шасси - автозацеп вкл/выкл</value>
+  </data>
+  <data name="LCD_M04_11" xml:space="preserve">
+    <value>Шасси - переключить зацеп</value>
+  </data>
+  <data name="LCD_M04_12" xml:space="preserve">
+    <value>Открыть дверь фабрики дронов</value>
+  </data>
+  <data name="LCD_M05_01" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+   ИНТЕЛЛЕКТ 
+ ДРОНОВ:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="LCD_M05_02" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+     СТАТУС
+    ПОСТРОЙКИ
+    ДРОНА:  
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="LCD_M05_03" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LCD_M05_04" xml:space="preserve">
+    <value>НОРМАЛЬНО</value>
+  </data>
+  <data name="LCD_M05_05" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ КОРАБЕЛЬНЫЙ
+          ДОК 01
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="LCD_M05_06" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+ КОРАБЕЛЬНЫЙ
+          ДОК 02
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="Messages_CampDone_Caption" xml:space="preserve">
+    <value>Кампания завершена!</value>
+  </data>
+  <data name="Messages_CampDone_Message" xml:space="preserve">
+    <value>Вы хотите вернуться в главное меню?</value>
+  </data>
+  <data name="Messages_LevelDone_Caption" xml:space="preserve">
+    <value>Уроверь пройден!</value>
+  </data>
+  <data name="Messages_LevelDone_Message" xml:space="preserve">
+    <value>Хотите перейти на следующий уровень?</value>
+  </data>
+  <data name="Messages_YouDied_Caption" xml:space="preserve">
+    <value>Вы умерли</value>
+  </data>
+  <data name="Messages_YouDied_Message" xml:space="preserve">
+    <value>Нужно перезагрузить игру с последней точки сохранения.</value>
+  </data>
+  <data name="Persons_Enemy" xml:space="preserve">
+    <value>Маркус</value>
+  </data>
+  <data name="Persons_Rebel" xml:space="preserve">
+    <value>Мятежник</value>
+  </data>
+  <data name="Persons_VirtualAssistant" xml:space="preserve">
+    <value>Good.Bot</value>
+  </data>
+  <data name="SaveName_M01_Ch1" xml:space="preserve">
+    <value>Миссия 1 - Контрольная точка 1</value>
+  </data>
+  <data name="SaveName_M01_Ch2" xml:space="preserve">
+    <value>Миссия 1 - Контрольная точка 2</value>
+  </data>
+  <data name="SaveName_M01_Ch3" xml:space="preserve">
+    <value>Миссия 1 - Контрольная точка 3</value>
+  </data>
+  <data name="SaveName_M01_Start" xml:space="preserve">
+    <value>Миссия 1 - Старт</value>
+  </data>
+  <data name="SaveName_M02_Base" xml:space="preserve">
+    <value>Миссия 2 - База</value>
+  </data>
+  <data name="SaveName_M02_ExtractionSite" xml:space="preserve">
+    <value>Миссия 2 - Раскопки</value>
+  </data>
+  <data name="SaveName_M02_Mines" xml:space="preserve">
+    <value>Миссия 2 - Шахты</value>
+  </data>
+  <data name="SaveName_M02_Ship" xml:space="preserve">
+    <value>Миссия 2 - Корабль</value>
+  </data>
+  <data name="SaveName_M02_Start" xml:space="preserve">
+    <value>Миссия 2 - Старт</value>
+  </data>
+  <data name="SaveName_M02_ThePit" xml:space="preserve">
+    <value>Миссия 2 - Яма</value>
+  </data>
+  <data name="SaveName_M03_Battle" xml:space="preserve">
+    <value>Миссия 3 - Битва</value>
+  </data>
+  <data name="SaveName_M03_ControlTower" xml:space="preserve">
+    <value>Миссия 3 - Центр управления</value>
+  </data>
+  <data name="SaveName_M03_Fuel" xml:space="preserve">
+    <value>Миссия 3 - Топливо</value>
+  </data>
+  <data name="SaveName_M03_Introduction" xml:space="preserve">
+    <value>Миссия 3 - Введение</value>
+  </data>
+  <data name="SaveName_M03_Power" xml:space="preserve">
+    <value>Миссия 3 - Энергия</value>
+  </data>
+  <data name="SaveName_M03_TakeOff" xml:space="preserve">
+    <value>Миссия 3 - Взлет</value>
+  </data>
+  <data name="SaveName_M04_Base" xml:space="preserve">
+    <value>Миссия 4 - База</value>
+  </data>
+  <data name="SaveName_M04_Start" xml:space="preserve">
+    <value>Миссия 4 - Старт</value>
+  </data>
+  <data name="SaveName_M04_Tank" xml:space="preserve">
+    <value>Миссия 4 - В танке</value>
+  </data>
+  <data name="SaveName_M05_Artefact" xml:space="preserve">
+    <value>Миссия 5 - Артефакт</value>
+  </data>
+  <data name="SaveName_M05_FirstTower" xml:space="preserve">
+    <value>Миссия 5 - Первая башня</value>
+  </data>
+  <data name="SaveName_M05_HackingDone" xml:space="preserve">
+    <value>Миссия 5 - Взлом завершен</value>
+  </data>
+  <data name="SaveName_M05_Start" xml:space="preserve">
+    <value>Миссия 5 - Старт</value>
+  </data>
+</root>

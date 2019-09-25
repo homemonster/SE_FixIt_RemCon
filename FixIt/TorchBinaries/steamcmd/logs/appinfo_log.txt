@@ -1,0 +1,28 @@
+
+
+[2019-09-21 16:17:50] RequestAppInfoUpdate: nNumAppIDs 1
+[2019-09-21 16:17:51] Change number 0->6907186, apps: 0/0, packages: 0/0
+[2019-09-21 16:17:51] Requesting 1 apps, 1 packages (meta data, 1024 prev attempts)
+[2019-09-21 16:17:51] Requesting 1 apps, 1 packages (full data, 1024 prev attempts)
+[2019-09-21 16:17:53] UpdatesJob: finished OK, nAppsUpdated 1 (3 KB), nPackagesUpdated 1 (58 KB)
+[2019-09-21 16:17:53] Requesting 978 apps, 0 packages (meta data, 1024 prev attempts)
+[2019-09-21 16:17:54] Requested 522 access tokens, 36 received, 486 denied
+[2019-09-21 16:17:56] Updated SHAs with 36 new access tokens
+[2019-09-21 16:17:58] Downloaded 40 apps via HTTP, 968 KB (219 KB compressed)
+[2019-09-21 16:17:58] Requesting 938 apps, 0 packages (full data, 1024 prev attempts)
+[2019-09-21 16:18:05] UpdatesJob: finished OK, nAppsUpdated 978 (2422 KB), nPackagesUpdated 0 (0 KB)
+[2019-09-21 16:18:05] RequestAppInfoUpdate: nNumAppIDs 1
+[2019-09-21 16:18:05] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2019-09-21 16:18:05] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)
+[2019-09-21 16:18:06] Requesting 1 apps, 0 packages (meta data, 1024 prev attempts)
+[2019-09-21 16:18:06] Requesting 1 apps, 0 packages (full data, 1024 prev attempts)
+[2019-09-21 16:18:06] UpdatesJob: finished OK, nAppsUpdated 1 (4 KB), nPackagesUpdated 0 (0 KB)
+[2019-09-21 16:18:21] Starting async write C:\Torch\steamcmd/appcache/appinfo.vdf (1791715 bytes)
+
+
+[2019-09-21 16:40:03] RequestAppInfoUpdate: nNumAppIDs 1
+[2019-09-21 16:40:03] RequestAppInfoUpdate: nNumAppIDs 1
+[2019-09-21 16:40:03] Change number 0->6907219, apps: 0/0, packages: 0/0
+[2019-09-21 16:40:03] Requesting 980 apps, 1 packages (meta data, 1024 prev attempts)
+[2019-09-21 16:40:04] Requested 486 access tokens, 0 received, 486 denied
+[2019-09-21 16:40:04] UpdatesJob: finished OK, nAppsUpdated 0 (0 KB), nPackagesUpdated 0 (0 KB)

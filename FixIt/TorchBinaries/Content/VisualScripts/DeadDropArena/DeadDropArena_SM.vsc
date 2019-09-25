@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StateMachine>
+    <Name>DeadDropArena_SM</Name>
+    <OwnerId>0</OwnerId>
+    <Cursors>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Initialization</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+    </Cursors>
+    <Nodes>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="423" y="270" />
+        <Name>Initialization</Name>
+        <ScriptFilePath>VisualScripts\DeadDropArena\DeadDropArena_SMS_Initialization.vs</ScriptFilePath>
+        <ScriptClassName>DeadDropArena_SMS_Initialization</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="757.839966" y="55.8256531" />
+        <Name>Lobby</Name>
+        <ScriptFilePath>VisualScripts\DeadDropArena\DeadDropArena_SMS_Lobby.vs</ScriptFilePath>
+        <ScriptClassName>DeadDropArena_SMS_Lobby</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="854.444763" y="464.750946" />
+        <Name>GameStart</Name>
+        <ScriptFilePath>VisualScripts\DeadDropArena\DeadDropArena_SMS_GameStart.vs</ScriptFilePath>
+        <ScriptClassName>DeadDropArena_SMS_GameStart</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMSpreadNode">
+        <Position x="799.9877" y="282.3112" />
+        <Name>Spread_4</Name>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="1062.88757" y="154.984283" />
+        <Name>ShipRespawn</Name>
+        <ScriptFilePath>VisualScripts\DeadDropArena\DeadDropArena_SMS_ShipRespawn.vs</ScriptFilePath>
+        <ScriptClassName>DeadDropArena_SMS_ShipRespawn</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode>
+        <Position x="1160.67139" y="634.3252" />
+        <Name>GameLogic</Name>
+        <ScriptFilePath>VisualScripts\DeadDropArena\DeadDropArena_SMS_GameLogic.vs</ScriptFilePath>
+        <ScriptClassName>DeadDropArena_SMS_GameLogic</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+    </Nodes>
+    <Transitions>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Initialization</From>
+        <To>Spread_4</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_4</From>
+        <To>Lobby</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_4</From>
+        <To>GameStart</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_4</From>
+        <To>ShipRespawn</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>GameStart</From>
+        <To>GameLogic</To>
+      </MyObjectBuilder_ScriptSMTransition>
+    </Transitions>
+  </StateMachine>
+</MyObjectBuilder_VSFiles>

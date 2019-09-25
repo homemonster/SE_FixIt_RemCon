@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Enemy_BossFight" xml:space="preserve">
+    <value>Если хочешь что-то сделать хорошо - делай это сам. Время умирать!</value>
+  </data>
+  <data name="Chat_Rebel_PlayerReady" xml:space="preserve">
+    <value>Ждите около указанной точки, мы почти здесь.</value>
+  </data>
+  <data name="Chat_Rebel_Tank" xml:space="preserve">
+    <value>Мы рады что Вы выжили в этом крушении. Отправьтесь к этой точке, у нас есть кое-что для Вас...</value>
+  </data>
+  <data name="Chat_Rebel_TankDrop" xml:space="preserve">
+    <value>Держитесь подальше от зоны приземления! Производится сброс танка</value>
+  </data>
+  <data name="Chat_Rebel_TankDropped" xml:space="preserve">
+    <value>Удачи.</value>
+  </data>
+  <data name="Chat_Rebel_TankReady" xml:space="preserve">
+    <value>Мы на позиции, готовы к сбросу.</value>
+  </data>
+  <data name="Chat_VA_DroneBlockDestroyed" xml:space="preserve">
+    <value>Двери все еще закрыты. Похоже, нужно уничтожить больше узлов.</value>
+  </data>
+  <data name="Chat_VA_DroneControlStart" xml:space="preserve">
+    <value>Пройдите к комнате управления дверьми и уничтожьте один из узлов контроля дверей.</value>
+  </data>
+  <data name="Chat_VA_DroneDoor" xml:space="preserve">
+    <value>В настоящее время дверь заблокирована. Она может быть открыта из комнаты слева.</value>
+  </data>
+  <data name="Chat_VA_DroneHint" xml:space="preserve">
+    <value>Доступ к данному сектору ограничен. Однако здесь станция боевых дронов.</value>
+  </data>
+  <data name="Chat_VA_DroneHint2" xml:space="preserve">
+    <value>Активируйте дрона из пункта управления дронами неподалеку.</value>
+  </data>
+  <data name="Chat_VA_FrontGateOnFoot" xml:space="preserve">
+    <value>Рекомендуется использовать ракетные установки на разбившихся кораблях, чтобы уничтожить врата.</value>
+  </data>
+  <data name="Chat_VA_FrontGateTank" xml:space="preserve">
+    <value>Рекомендуется использовать Ваши ракетницы, чтобы уничтожить врата.</value>
+  </data>
+  <data name="Chat_VA_Jetpack" xml:space="preserve">
+    <value>Внимание: обнаружена утечка водорода в костюме.</value>
+  </data>
+  <data name="Chat_VA_Outro" xml:space="preserve">
+    <value>Фабрика дронов впереди, я получаю странные сигналы которые мы не встречали ранее, похоже артефакт близко, как и директор компании, который не будет рад нашему визиту.</value>
+  </data>
+  <data name="Chat_VA_ShipDestruction" xml:space="preserve">
+    <value>Внимание: ядро реактора в критическом состоянии, взрыв неизбежен.</value>
+  </data>
+  <data name="Chat_VA_Start" xml:space="preserve">
+    <value>Внимание: ядро реактора перегружено, срочно покиньте корабль.</value>
+  </data>
+  <data name="Chat_VA_TankDestruction1" xml:space="preserve">
+    <value>Ваш танк более не работоспособен.</value>
+  </data>
+  <data name="Chat_VA_TankDestruction2" xml:space="preserve">
+    <value>Есть альтернативное решение - некоторые упавшие корабли имеют все еще рабочие турели.</value>
+  </data>
+  <data name="Chat_VA_Warning" xml:space="preserve">
+    <value>Внимание, управление кораблем отключено. Столкновение с планетой неизбежно.</value>
+  </data>
+  <data name="Chat_VA_Wreckage" xml:space="preserve">
+    <value>Эти обломки имюет все еще рабочее вооружение, которое можно использовать.</value>
+  </data>
+  <data name="GPS_Base" xml:space="preserve">
+    <value>Главных вход</value>
+  </data>
+  <data name="GPS_ControlRoom" xml:space="preserve">
+    <value>Пункт управления дверьми</value>
+  </data>
+  <data name="GPS_Core" xml:space="preserve">
+    <value>Центр базы</value>
+  </data>
+  <data name="GPS_DoorControl" xml:space="preserve">
+    <value>Управление дверьми</value>
+  </data>
+  <data name="GPS_DronelRoom" xml:space="preserve">
+    <value>Центр управления дронами</value>
+  </data>
+  <data name="GPS_Escape" xml:space="preserve">
+    <value>Эвакуация</value>
+  </data>
+  <data name="GPS_GearPanel" xml:space="preserve">
+    <value>Панель управления</value>
+  </data>
+  <data name="GPS_LZ" xml:space="preserve">
+    <value>Зона высадки</value>
+  </data>
+  <data name="GPS_ShipWreckage" xml:space="preserve">
+    <value>Полезный разбитый корабль </value>
+  </data>
+  <data name="LCD_TankPanel1_Line1" xml:space="preserve">
+    <value>   Нажмите {0}, чтобы переключить</value>
+  </data>
+  <data name="LCD_TankPanel1_Line2" xml:space="preserve">
+    <value>        ручной тормоз</value>
+  </data>
+  <data name="LCD_TankPanel2_Line1" xml:space="preserve">
+    <value>  Нажмите {0}, чтобы переключить</value>
+  </data>
+  <data name="LCD_TankPanel2_Line2" xml:space="preserve">
+    <value>обзор на вид от 3-го лица</value>
+  </data>
+  <data name="Quest01_GetOut" xml:space="preserve">
+    <value>Покиньте корабль!</value>
+  </data>
+  <data name="Quest01_GetOut_Countdown" xml:space="preserve">
+    <value>Взрыв корабля через {0}...</value>
+  </data>
+  <data name="Quest01_GetOut_Line1" xml:space="preserve">
+    <value>Расплавление реактора неизбежно</value>
+  </data>
+  <data name="Quest01_GetOut_Line2" xml:space="preserve">
+    <value>Срочно покиньте корабль!</value>
+  </data>
+  <data name="Quest02_Meeting" xml:space="preserve">
+    <value>Встретьте транспортник мятежников</value>
+  </data>
+  <data name="Quest02_Meeting_Coordinate" xml:space="preserve">
+    <value>Отправляйтесь к точке GPS</value>
+  </data>
+  <data name="Quest02_Meeting_StayClose" xml:space="preserve">
+    <value>Оставайтесь рядом с точкой GPS</value>
+  </data>
+  <data name="Quest02_Meeting_Tank" xml:space="preserve">
+    <value>Войдите в кокпит танка</value>
+  </data>
+  <data name="Quest02_Meeting_Wait" xml:space="preserve">
+    <value>Подождите пока корабль сбрасывает танк</value>
+  </data>
+  <data name="Quest03B_OnFoot" xml:space="preserve">
+    <value>Прорвите оборону и проникнете на базу</value>
+  </data>
+  <data name="Quest03B_OnFoot_TurretControlHint1" xml:space="preserve">
+    <value>Нажмите {0}, чтобы управлять турелью</value>
+  </data>
+  <data name="Quest03B_OnFoot_TurretControlHint2" xml:space="preserve">
+    <value>Нажмите {0}, чтобы покинуть турель</value>
+  </data>
+  <data name="Quest03B_OnFoot_UseShips" xml:space="preserve">
+    <value>Разбитые корабли имеют рабочие турели, используйте их чтобы пробить брешь в главном входе.</value>
+  </data>
+  <data name="Quest03_Tank" xml:space="preserve">
+    <value>Прорвите оборону базы на танке.</value>
+  </data>
+  <data name="Quest03_Tank_Brakes" xml:space="preserve">
+    <value>Нажмите {0}, чтобы переключить ручной тормоз</value>
+  </data>
+  <data name="Quest03_Tank_EscapeTurret" xml:space="preserve">
+    <value>Нажмите {0}, чтобы покинуть турель</value>
+  </data>
+  <data name="Quest03_Tank_FrontTurrets" xml:space="preserve">
+    <value>Используйте оружие, чтобы пробить дыру в главном входе ({0})</value>
+  </data>
+  <data name="Quest03_Tank_Quest" xml:space="preserve">
+    <value>Нажмите {0} чтобы переключить реакторы</value>
+  </data>
+  <data name="Quest03_Tank_Turrets" xml:space="preserve">
+    <value>Нажмите {0} и {1} чтобы управлять турелями</value>
+  </data>
+  <data name="Quest04_BaseStart" xml:space="preserve">
+    <value>Войдите в помещение базы</value>
+  </data>
+  <data name="Quest04_BaseStart_Exit" xml:space="preserve">
+    <value>Используйте кнопочную панель, чтобы открыть дверь к фабрике дронов</value>
+  </data>
+  <data name="Quest04_BaseStart_Intro" xml:space="preserve">
+    <value>Продолжайте вперед, вглубь базы</value>
+  </data>
+</root>

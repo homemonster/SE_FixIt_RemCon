@@ -1,0 +1,36 @@
+
+
+[2019-09-21 16:17:46] Log session started
+[2019-09-21 16:17:46] [0,0] SetSteamID( [U:1:0] )
+[2019-09-21 16:17:46] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2019-09-21 16:17:46] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2019-09-21 16:17:46] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2019-09-21 16:17:46] [0,0] SetSteamID( [a:1:0] )
+[2019-09-21 16:17:46] [0,0] SetSteamID( [a:1:0] )
+[2019-09-21 16:17:47] [0,0] Server says 0% of connections should be websockets, we rolled 91 - using UDP as default.
+[2019-09-21 16:17:47] CCMInterface::YieldingConnect -- no CMs cached locally, calling ISteamDirectory/GetCMList web api for launcher type 'steamcmd'. . .
+[2019-09-21 16:17:48] CCMInterface::YieldingConnect -- got 100 CMs and 100 WebSocket CMS from ISteamDirectory/GetCMList.
+[2019-09-21 16:17:48] [1,2] Connect() starting connection (eNetQOSLevelHigh, 162.254.197.40:27019, UDP)
+[2019-09-21 16:17:49] [1,2] ConnectionCompleted() (146.66.152.10:27018, UDP)
+[2019-09-21 16:17:50] [1,2] RecvMsgClientLogOnResponse() : [a:1:3877192727] 'OK'
+[2019-09-21 16:26:32] [3,2] ResetVoiceRecording() (was recording: 0) (last get voice time: 1569072392 seconds ago)
+[2019-09-21 16:26:32] [3,2] LogOff()
+[2019-09-21 16:26:32] [2,2] AsyncDisconnect()
+[2019-09-21 16:26:32] [2,2] Log session ended
+
+
+[2019-09-21 16:40:00] Log session started
+[2019-09-21 16:40:00] [0,0] SetSteamID( [U:1:0] )
+[2019-09-21 16:40:00] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2019-09-21 16:40:00] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2019-09-21 16:40:00] CCMInterface::OnNetworkDeviceStateChange -- Saw device up, connecting to Steam
+[2019-09-21 16:40:00] [0,0] SetSteamID( [a:1:0] )
+[2019-09-21 16:40:00] [0,0] SetSteamID( [a:1:0] )
+[2019-09-21 16:40:02] [0,0] Server says 50% of connections should be websockets, we rolled 61 - using UDP as default.
+[2019-09-21 16:40:02] [1,2] Connect() starting connection (eNetQOSLevelHigh, 162.254.197.40:27019, UDP)
+[2019-09-21 16:40:02] [1,2] ConnectionCompleted() (162.254.198.131:27017, UDP)
+[2019-09-21 16:40:03] [1,2] RecvMsgClientLogOnResponse() : [a:1:3575669882] 'OK'
+[2019-09-21 16:40:04] [3,2] ResetVoiceRecording() (was recording: 0) (last get voice time: 1569073204 seconds ago)
+[2019-09-21 16:40:04] [3,2] LogOff()
+[2019-09-21 16:40:04] [2,2] AsyncDisconnect()
+[2019-09-21 16:40:04] [2,2] Log session ended

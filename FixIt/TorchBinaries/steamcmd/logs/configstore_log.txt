@@ -1,0 +1,35 @@
+
+
+[2019-09-21 16:17:45] Failed to read store 'install' from 'C:\Torch\steamcmd\config\config.vdf.tmp'
+[2019-09-21 16:17:46] Failed to read store 'install' from 'C:\Torch\steamcmd\config\config.vdf.tmp'
+[2019-09-21 16:17:46] Failed to read store 'install' from 'C:\Torch\steamcmd\config\config.vdf.tmp'
+[2019-09-21 16:17:46] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:17:47] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:17:49] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:17:50] Failed to read store 'userlocal' from 'C:\Torch\steamcmd\userdata\anonymous\config\localconfig.vdf.tmp'
+[2019-09-21 16:17:51] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:18:07] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:18:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:18:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:19:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:19:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:20:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:20:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:21:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:21:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:22:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:22:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:23:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:23:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:24:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:24:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:25:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:25:38] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+[2019-09-21 16:26:08] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'
+
+
+[2019-09-21 16:40:00] Loaded store 'install' from 'C:\Torch\steamcmd\config\config.vdf' successfully
+[2019-09-21 16:40:00] Loaded store 'install' from 'C:\Torch\steamcmd\config\config.vdf' successfully
+[2019-09-21 16:40:00] Loaded store 'install' from 'C:\Torch\steamcmd\config\config.vdf' successfully
+[2019-09-21 16:40:03] Failed to read store 'userlocal' from 'C:\Torch\steamcmd\userdata\anonymous\config\localconfig.vdf.tmp'
+[2019-09-21 16:40:03] Flushed store 'install' to 'C:\Torch\steamcmd\config\config.vdf'

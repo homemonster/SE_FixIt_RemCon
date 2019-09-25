@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="Special" />
+        <BackgroundColorRanges>
+            <Color x="0" y="0" z="0" />
+        </BackgroundColorRanges>
+        <Icon>Textures\FactionLogo\Empty.dds</Icon>
+        <Icon>Textures\FactionLogo\PirateIcon.dds</Icon>
+        <Icon>Textures\FactionLogo\Spiders.dds</Icon>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="Miner" />
+        <BackgroundColorRanges>
+            <Color x="1" y="0.02" z="0.2" />
+            <Color x="0" y="-0.77" z="-0.17" />
+            <Color x="0.12" y="-0.1" z="0.26" />
+            <Color x="0" y="-0.96" z="-0.5" />
+            <Color x="0" y="-0.85" z="0.2" />
+            <Color x="0.33" y="-0.33" z="-0.05" />
+
+            <Color x="0" y="0" z="0.05" />
+            <Color x="0.3333" y="-0.48" z="-0.25" />
+            <Color x="0.575" y="0" z="0" />
+            <Color x="0.122222" y="-0.1" z="0.26" />
+
+            <Color x="0" y="0.15" z="0.25" />
+            <Color x="0.3333" y="-0.33" z="-0.049999" />
+            <Color x="0.575" y="0.15" z="0.2" />
+            <Color x="0.1222" y="0.05" z="0.46" />
+        </BackgroundColorRanges>
+        <Icon>Textures\FactionLogo\Miners\MinerIcon_1.dds</Icon>
+        <Icon>Textures\FactionLogo\Miners\MinerIcon_2.dds</Icon>
+        <Icon>Textures\FactionLogo\Miners\MinerIcon_3.dds</Icon>
+        <Icon>Textures\FactionLogo\Miners\MinerIcon_4.dds</Icon>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="Trader" />
+        <BackgroundColorRanges>
+            <Color x="1" y="0.02" z="0.2" />
+            <Color x="0" y="-0.77" z="-0.17" />
+            <Color x="0.12" y="-0.1" z="0.26" />            
+            <Color x="0" y="-0.96" z="-0.5" />
+            <Color x="0" y="-0.85" z="0.2" />
+            <Color x="0.33" y="-0.33" z="-0.05" />            
+
+            <Color x="0" y="0" z="0.05" />
+            <Color x="0.3333" y="-0.48" z="-0.25" />
+            <Color x="0.575" y="0" z="0" />
+            <Color x="0.122222" y="-0.1" z="0.26" />
+
+            <Color x="0" y="0.15" z="0.25" />
+            <Color x="0.3333" y="-0.33" z="-0.049999" />
+            <Color x="0.575" y="0.15" z="0.2" />
+            <Color x="0.1222" y="0.05" z="0.46" />
+        </BackgroundColorRanges>
+        <Icon>Textures\FactionLogo\Traders\TraderIcon_1.dds</Icon>
+        <Icon>Textures\FactionLogo\Traders\TraderIcon_2.dds</Icon>
+        <Icon>Textures\FactionLogo\Traders\TraderIcon_3.dds</Icon>
+        <Icon>Textures\FactionLogo\Traders\TraderIcon_4.dds</Icon>
+        <Icon>Textures\FactionLogo\Traders\TraderIcon_5.dds</Icon>
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="Builder" />
+        <BackgroundColorRanges>
+            <Color x="1" y="0.02" z="0.2" />
+            <Color x="0" y="-0.77" z="-0.17" />
+            <Color x="0.12" y="-0.1" z="0.26" />            
+            <Color x="0" y="-0.96" z="-0.5" />
+            <Color x="0" y="-0.85" z="0.2" />
+            <Color x="0.33" y="-0.33" z="-0.05" />            
+
+            <Color x="0" y="0" z="0.05" />
+            <Color x="0.3333" y="-0.48" z="-0.25" />
+            <Color x="0.575" y="0" z="0" />
+            <Color x="0.122222" y="-0.1" z="0.26" />
+
+            <Color x="0" y="0.15" z="0.25" />
+            <Color x="0.3333" y="-0.33" z="-0.049999" />
+            <Color x="0.575" y="0.15" z="0.2" />
+            <Color x="0.1222" y="0.05" z="0.46" />
+        </BackgroundColorRanges>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_1.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_2.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_3.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_4.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_5.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_6.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_7.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_8.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_9.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_10.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_11.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_12.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_13.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_14.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_15.dds</Icon>
+        <Icon>Textures\FactionLogo\Builders\BuilderIcon_16.dds</Icon>
+    </Definition>
+    
+    <Definition xsi:type="MyObjectBuilder_FactionIconsDefinition">
+        <Id Type="MyObjectBuilder_FactionIconsDefinition" Subtype="Other" />
+        <BackgroundColorRanges>
+            <Color x="0" y="0" z="0.05" />
+            <Color x="0.3333" y="-0.48" z="-0.25" />
+            <Color x="0.575" y="0" z="0" />
+            <Color x="0.122222" y="-0.1" z="0.26" />
+
+            <Color x="0" y="0.15" z="0.25" />
+            <Color x="0.3333" y="-0.33" z="-0.049999" />
+            <Color x="0.575" y="0.15" z="0.2" />
+            <Color x="0.1222" y="0.05" z="0.46" />
+        </BackgroundColorRanges>        
+        <Icon>Textures\FactionLogo\Others\OtherIcon_1.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_2.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_3.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_4.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_5.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_6.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_7.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_8.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_9.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_10.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_11.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_12.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_13.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_14.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_15.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_16.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_17.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_18.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_19.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_20.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_21.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_22.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_23.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_24.dds</Icon>        
+        <Icon>Textures\FactionLogo\Others\OtherIcon_26.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_27.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_28.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_29.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_30.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_31.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_32.dds</Icon>
+        <Icon>Textures\FactionLogo\Others\OtherIcon_33.dds</Icon>
+    </Definition>    
+</Definitions>

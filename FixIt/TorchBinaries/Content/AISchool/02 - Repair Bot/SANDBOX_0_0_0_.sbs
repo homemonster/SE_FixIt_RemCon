@@ -1,0 +1,3478 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Sector xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Position>
+    <X>0</X>
+    <Y>0</Y>
+    <Z>0</Z>
+  </Position>
+  <SectorEvents>
+    <Events />
+  </SectorEvents>
+  <AppVersion>1123001</AppVersion>
+  <Encounters>
+    <SavedEcounters />
+    <MovedOnlyEncounters>
+      <dictionary />
+    </MovedOnlyEncounters>
+  </Encounters>
+  <Environment>
+    <SunAzimuth>-0.502843142</SunAzimuth>
+    <SunElevation>0.789207637</SunElevation>
+    <SunIntensity>0.6</SunIntensity>
+    <FogMultiplier>0.13</FogMultiplier>
+    <FogDensity>0.0005</FogDensity>
+    <FogColor x="1" y="1" z="1" />
+  </Environment>
+  <VoxelHandVolumeChanged>0</VoxelHandVolumeChanged>
+  <SectorObjects>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
+      <SubtypeName>Default_Astronaut</SubtypeName>
+      <EntityId>120661682914413548</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="22.861659241041707" y="26.024658215883392" z="-22.880909060500926" />
+        <Forward x="-0.57558614" y="-0.5300771" z="0.62267077" />
+        <Up x="-0.344885916" y="0.847775936" z="0.40290162" />
+        <Orientation>
+          <X>-0.0914339349</X>
+          <Y>0.896088839</Y>
+          <Z>0.260291934</Z>
+          <W>0.347725123</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyEntityStatComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+              <Stats>
+                <MyObjectBuilder_EntityStat>
+                  <SubtypeName>Health</SubtypeName>
+                  <Value>1</Value>
+                  <MaxValue>1</MaxValue>
+                  <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+                  <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+                </MyObjectBuilder_EntityStat>
+              </Stats>
+              <ScriptNames>
+                <string>SpaceStatEffect</string>
+              </ScriptNames>
+            </Component>
+          </ComponentData>
+          <ComponentData>
+            <TypeId>MyInventoryBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_Inventory">
+              <Items>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <Scale>1</Scale>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>AngleGrinderItem</SubtypeName>
+                    <DurabilityHP xsi:nil="true" />
+                    <GunEntity xsi:type="MyObjectBuilder_AngleGrinder">
+                      <EntityId>118462422608978490</EntityId>
+                      <PersistentFlags>CastShadows InScene</PersistentFlags>
+                      <PositionAndOrientation>
+                        <Position x="11.56518764455971" y="5.6043555471144337" z="-9.9336663561076772" />
+                        <Forward x="0.857562542" y="0.31834048" z="-0.404036939" />
+                        <Up x="-0.513999939" y="0.5605146" z="-0.6493284" />
+                        <Orientation>
+                          <X>-0.117483556</X>
+                          <Y>-0.5330845</Y>
+                          <Z>0.45380643</Z>
+                          <W>0.7043282</W>
+                        </Orientation>
+                      </PositionAndOrientation>
+                    </GunEntity>
+                  </PhysicalContent>
+                  <ItemId>0</ItemId>
+                  <AmountDecimal>1</AmountDecimal>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <Scale>1</Scale>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>AutomaticRifleItem</SubtypeName>
+                    <DurabilityHP xsi:nil="true" />
+                  </PhysicalContent>
+                  <ItemId>1</ItemId>
+                  <AmountDecimal>1</AmountDecimal>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <Scale>1</Scale>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>HandDrillItem</SubtypeName>
+                    <DurabilityHP xsi:nil="true" />
+                  </PhysicalContent>
+                  <ItemId>2</ItemId>
+                  <AmountDecimal>1</AmountDecimal>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>1</Amount>
+                  <Scale>1</Scale>
+                  <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+                    <SubtypeName>WelderItem</SubtypeName>
+                    <DurabilityHP xsi:nil="true" />
+                  </PhysicalContent>
+                  <ItemId>3</ItemId>
+                  <AmountDecimal>1</AmountDecimal>
+                </MyObjectBuilder_InventoryItem>
+              </Items>
+              <nextItemId>3</nextItemId>
+              <Volume>0.4</Volume>
+              <Mass>9223372036854.775807</Mass>
+              <Size xsi:nil="true" />
+              <InventoryFlags />
+              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <CharacterModel>Default_Astronaut</CharacterModel>
+      <Inventory>
+        <Items>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <Scale>1</Scale>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>AngleGrinderItem</SubtypeName>
+              <DurabilityHP xsi:nil="true" />
+              <GunEntity xsi:type="MyObjectBuilder_AngleGrinder">
+                <EntityId>118462422608978490</EntityId>
+                <PersistentFlags>CastShadows InScene</PersistentFlags>
+                <PositionAndOrientation>
+                  <Position x="11.56518764455971" y="5.6043555471144337" z="-9.9336663561076772" />
+                  <Forward x="0.857562542" y="0.31834048" z="-0.404036939" />
+                  <Up x="-0.513999939" y="0.5605146" z="-0.6493284" />
+                  <Orientation>
+                    <X>-0.117483556</X>
+                    <Y>-0.5330845</Y>
+                    <Z>0.45380643</Z>
+                    <W>0.7043282</W>
+                  </Orientation>
+                </PositionAndOrientation>
+              </GunEntity>
+            </PhysicalContent>
+            <ItemId>0</ItemId>
+            <AmountDecimal>1</AmountDecimal>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <Scale>1</Scale>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>AutomaticRifleItem</SubtypeName>
+              <DurabilityHP xsi:nil="true" />
+            </PhysicalContent>
+            <ItemId>1</ItemId>
+            <AmountDecimal>1</AmountDecimal>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <Scale>1</Scale>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>HandDrillItem</SubtypeName>
+              <DurabilityHP xsi:nil="true" />
+            </PhysicalContent>
+            <ItemId>2</ItemId>
+            <AmountDecimal>1</AmountDecimal>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>1</Amount>
+            <Scale>1</Scale>
+            <PhysicalContent xsi:type="MyObjectBuilder_PhysicalGunObject">
+              <SubtypeName>WelderItem</SubtypeName>
+              <DurabilityHP xsi:nil="true" />
+            </PhysicalContent>
+            <ItemId>3</ItemId>
+            <AmountDecimal>1</AmountDecimal>
+          </MyObjectBuilder_InventoryItem>
+        </Items>
+        <nextItemId>3</nextItemId>
+        <Volume>0.4</Volume>
+        <Mass>9223372036854.775807</Mass>
+        <Size xsi:nil="true" />
+        <InventoryFlags />
+        <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+      </Inventory>
+      <Battery>
+        <CurrentCapacity>1E-05</CurrentCapacity>
+      </Battery>
+      <LightEnabled>false</LightEnabled>
+      <UsingLadder xsi:nil="true" />
+      <HeadAngle x="0" y="0" />
+      <LinearVelocity x="0" y="0" z="0" />
+      <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
+      <JetpackEnabled>true</JetpackEnabled>
+      <ColorMaskHSV x="0" y="-1" z="0" />
+      <LootingCounter>0</LootingCounter>
+      <DisplayName>Player</DisplayName>
+      <IsInFirstPersonView>true</IsInFirstPersonView>
+      <EnableBroadcasting>true</EnableBroadcasting>
+      <OxygenLevel>1</OxygenLevel>
+      <EnvironmentOxygenLevel>0</EnvironmentOxygenLevel>
+      <StoredGases>
+        <StoredGas>
+          <Id>
+            <TypeId>MyObjectBuilder_GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <FillLevel>1</FillLevel>
+        </StoredGas>
+        <StoredGas>
+          <Id>
+            <TypeId>MyObjectBuilder_GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <FillLevel>1</FillLevel>
+        </StoredGas>
+      </StoredGases>
+      <MovementState>Flying</MovementState>
+      <EnabledComponents>
+        <string>RagdollComponent</string>
+      </EnabledComponents>
+      <PlayerSteamId>76561198043661356</PlayerSteamId>
+      <PlayerSerialId>0</PlayerSerialId>
+      <IsPromoted>false</IsPromoted>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>89313323786315482</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-10" y="2.5" z="10" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>142227046296994561</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>112056059491351964</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>108046384226366811</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>125640852062559377</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>133953142780297864</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-20" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>115262130363667267</EntityId>
+          <Min x="0" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>76075223998622155</EntityId>
+          <Min x="1" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>72299740690972366</EntityId>
+          <Min x="2" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 7864</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>121966193237654332</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="10" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>126447331597322522</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>104751045337123072</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>105458598605390699</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>103725489729559912</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>85372645885283609</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>128927946538898601</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>105751878740868799</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>72786340770112924</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>81889741283968587</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="1" y="-1" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="1" y="-2" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="1" y="-3" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="1" y="-4" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="1" y="-4" z="-1" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="2" y="-4" z="0" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <Min x="2" y="-4" z="-1" />
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Reactor">
+          <SubtypeName>LargeBlockSmallGenerator</SubtypeName>
+          <EntityId>105937828210686085</EntityId>
+          <Min x="2" y="-3" z="0" />
+          <ShareMode>All</ShareMode>
+          <ComponentContainer>
+            <Components>
+              <ComponentData>
+                <TypeId>MyInventoryBase</TypeId>
+                <Component xsi:type="MyObjectBuilder_Inventory">
+                  <Items />
+                  <nextItemId>0</nextItemId>
+                  <Volume>1</Volume>
+                  <Mass>9223372036854.775807</Mass>
+                  <Size xsi:nil="true" />
+                  <InventoryFlags />
+                  <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+                </Component>
+              </ComponentData>
+            </Components>
+          </ComponentContainer>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <Enabled>true</Enabled>
+          <Inventory>
+            <Items />
+            <nextItemId>0</nextItemId>
+            <Volume>1</Volume>
+            <Mass>9223372036854.775807</Mass>
+            <Size xsi:nil="true" />
+            <InventoryFlags />
+            <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+          </Inventory>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_GravityGenerator">
+          <SubtypeName />
+          <EntityId>105932534774703900</EntityId>
+          <Min x="1" y="-3" z="-1" />
+          <BlockOrientation Forward="Left" Up="Up" />
+          <ShareMode>All</ShareMode>
+          <ShowOnHUD>false</ShowOnHUD>
+          <ShowInTerminal>true</ShowInTerminal>
+          <ShowInToolbarConfig>true</ShowInToolbarConfig>
+          <Enabled>true</Enabled>
+          <FieldSize x="150" y="150" z="150" />
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>112864206229288621</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129204609201269470</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>73355665211185094</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135074750744665663</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>101148989433827048</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>118626707097667298</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="10" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>89040219389104758</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>138000217226800028</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>78522937402247033</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>90563850423077387</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>86176481971301061</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="0" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>125633807019446919</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>95874098974136203</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>85722287997526576</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>118349532348153163</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>137209218347704283</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="0" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>142677568554261850</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113550149102466262</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>87277166978783963</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113777801196817480</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>124487332320004786</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-5" y="2.5" z="0" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>106956103215680873</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>136811596462149769</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>77552632483585153</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>74879058378982109</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>94745711202524511</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-5" y="2.5" z="5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>83242842723928818</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133710682003546500</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>140263758074766091</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>95137817323950709</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>141281272998299151</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-5" y="2.5" z="10" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>108548412679171899</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>112200466216310983</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>141594823086843351</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107616597914502499</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>91785841638880020</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-10" y="2.5" z="5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>74705227176979098</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>74680549227112642</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>104295288260996802</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132657208451519463</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>119880530828866579</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-10" y="2.5" z="0" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>77748084085894152</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>114968023533785415</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>144005157654912991</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>84035629839256031</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>110366132731471999</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-10" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>143697298727927142</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137133907521413290</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113197800346467862</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>102457635060311231</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>80639174114529294</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>99403664591270097</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132803514113047424</EntityId>
+          <Min x="3" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>111709518274860266</EntityId>
+          <Min x="3" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>76305143802705972</EntityId>
+          <Min x="0" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>84826025487649695</EntityId>
+          <Min x="0" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>83529210926136962</EntityId>
+          <Min x="1" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107826555516212473</EntityId>
+          <Min x="1" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>85183846814952227</EntityId>
+          <Min x="2" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>102382033665984427</EntityId>
+          <Min x="2" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>93056347226518630</EntityId>
+          <Min x="3" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>138412232970446863</EntityId>
+          <Min x="3" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>99320246271073558</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>75618298621930909</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>89975675127164410</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132431436095004420</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>126610909795945556</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>133910841383390737</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="0" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>102945329761584914</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>79681076502541940</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129438155494457194</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>117211094509691303</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>102699217789583929</EntityId>
+          <Min x="2" y="0" z="2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133753207188559207</EntityId>
+          <Min x="2" y="0" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>119133210526946359</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>117282585877926449</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>86390014950302326</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="15" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137928483745718719</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>139817062087752125</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>91991158479360830</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>125174576740124625</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>95266902768417282</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="20" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>103951222666535456</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113249752184702935</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135388088994261936</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>81955373970957016</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113557263862144088</EntityId>
+          <Min x="-2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>97048536830819394</EntityId>
+          <Min x="-2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>104498959751225571</EntityId>
+          <Min x="-1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>131935972458464887</EntityId>
+          <Min x="-1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>127321765415280342</EntityId>
+          <Min x="-4" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>122221483231788618</EntityId>
+          <Min x="-4" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>143982177923199254</EntityId>
+          <Min x="-3" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133032916867251263</EntityId>
+          <Min x="-3" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>142451512783740597</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="20" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137804419044864911</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129205478146815626</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>120757640529551056</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>106758715667970460</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>83825703064216089</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="15" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>114734761392166187</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>122369416336755788</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>95418648658275278</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>74267096831008610</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>139829509249386447</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="15" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129473609597694519</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>139376997892076178</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>96990552151014564</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135202061221011011</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>78533870638295058</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>104912048350418642</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>86333650117949995</EntityId>
+          <Min x="0" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>99128218720474336</EntityId>
+          <Min x="0" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>136693955925984636</EntityId>
+          <Min x="1" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>78008207589739325</EntityId>
+          <Min x="1" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>134090717326168279</EntityId>
+          <Min x="2" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113406926422608560</EntityId>
+          <Min x="2" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>72901170510567809</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="20" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>90463906232002881</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>97805525511424893</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>141865844033414446</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>125657968666875881</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113689940677033703</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129271788770518023</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>116852785784544966</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-5" y="2.5" z="15" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132203506143905905</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>106514108721549904</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>127334646076147539</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>112253368805239630</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>111760289011631249</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-10" y="2.5" z="15" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>98237701991798203</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>92446564623392490</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133483994616137226</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>110071447553137143</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>100486563124834023</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-10" y="2.5" z="25" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>140364258282189360</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>83196781921744928</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>102920300433094558</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-5" y="2.5" z="25" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>127124614672315403</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107458739945684345</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>97505503730406378</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="25" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>101752797051847490</EntityId>
+          <Min x="-4" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>120543946815176317</EntityId>
+          <Min x="-3" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>84417693966366717</EntityId>
+          <Min x="-2" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>91772178566033094</EntityId>
+          <Min x="-1" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>81502910983738374</EntityId>
+          <Min x="0" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>77671255324303473</EntityId>
+          <Min x="1" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>95170851983624250</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="25" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>91291115124751972</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>112595447676568132</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>93562766426374798</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>72505489385069139</EntityId>
+          <Min x="3" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>124597424587819592</EntityId>
+          <Min x="4" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>134704005202107948</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135448927634423431</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>119029380473702130</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129797287039635103</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>119443908764432713</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>118148102531844793</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>116253675733164970</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>141578348573508919</EntityId>
+          <Min x="3" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>140378747398776241</EntityId>
+          <Min x="3" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>111714317946806685</EntityId>
+          <Min x="0" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133884478488033771</EntityId>
+          <Min x="0" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>131627748181421915</EntityId>
+          <Min x="1" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>97257331855844628</EntityId>
+          <Min x="1" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>123866005214023601</EntityId>
+          <Min x="2" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>84909527892999096</EntityId>
+          <Min x="2" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133874098584449545</EntityId>
+          <Min x="3" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132961547482418573</EntityId>
+          <Min x="3" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>78256680083556004</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>139675875050589515</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>123429763381246976</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>113934992082738362</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>111536693624915382</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>143958401215295706</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>73256673138601981</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>87679059142085679</EntityId>
+          <Min x="0" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>106179755577803805</EntityId>
+          <Min x="0" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>76173942105689152</EntityId>
+          <Min x="1" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>127452378625301234</EntityId>
+          <Min x="1" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107591451930205190</EntityId>
+          <Min x="2" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>114322820687670745</EntityId>
+          <Min x="2" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>78030839471289363</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-20" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>133073825589096237</EntityId>
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135757677204970147</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>111793236222906052</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137102878087435498</EntityId>
+          <Min x="1" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>128143713573976901</EntityId>
+          <Min x="2" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>127749958220798845</EntityId>
+          <Min x="2" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>99061449624697938</EntityId>
+          <Min x="3" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>98937007388786530</EntityId>
+          <Min x="3" y="0" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>104307950085456050</EntityId>
+          <Min x="0" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>124848828085483974</EntityId>
+          <Min x="0" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>123800914489724942</EntityId>
+          <Min x="1" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>140081859599909979</EntityId>
+          <Min x="1" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>89401029137614331</EntityId>
+          <Min x="2" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>119730520434953801</EntityId>
+          <Min x="2" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>91976855070801348</EntityId>
+          <Min x="3" y="0" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>129736491240570888</EntityId>
+          <Min x="3" y="0" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>115923503245945376</EntityId>
+          <Min x="2" y="0" z="2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135950795692744759</EntityId>
+          <Min x="2" y="0" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107109298295526776</EntityId>
+          <Min x="3" y="0" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>89942024963096087</EntityId>
+          <Min x="3" y="0" z="2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>93580832922267687</EntityId>
+          <Min x="0" y="0" z="2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>124480366327889984</EntityId>
+          <Min x="0" y="0" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>88066198387746694</EntityId>
+          <Min x="1" y="0" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>112202462519351885</EntityId>
+          <Min x="1" y="0" z="2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>138968474092422745</EntityId>
+          <Min x="2" y="0" z="4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>131961954304879296</EntityId>
+          <Min x="2" y="0" z="3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>126703634019743209</EntityId>
+          <Min x="3" y="0" z="3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135694621643583030</EntityId>
+          <Min x="3" y="0" z="4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>80209034831448579</EntityId>
+          <Min x="0" y="0" z="4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>78580898256883840</EntityId>
+          <Min x="0" y="0" z="3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>102558398369527659</EntityId>
+          <Min x="1" y="0" z="3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>94976540611847264</EntityId>
+          <Min x="1" y="0" z="4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>99550449941458653</EntityId>
+          <Min x="2" y="0" z="6" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>140424321503164166</EntityId>
+          <Min x="2" y="0" z="5" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>131278565979380244</EntityId>
+          <Min x="3" y="0" z="5" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>121123946894967483</EntityId>
+          <Min x="3" y="0" z="6" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137578281899668894</EntityId>
+          <Min x="0" y="0" z="6" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>98744573075801135</EntityId>
+          <Min x="0" y="0" z="5" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>74999187899128274</EntityId>
+          <Min x="1" y="0" z="5" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>108323354968364033</EntityId>
+          <Min x="1" y="0" z="6" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>89770476827694215</EntityId>
+          <Min x="2" y="0" z="8" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>75803893810488060</EntityId>
+          <Min x="2" y="0" z="7" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>92963394048689944</EntityId>
+          <Min x="3" y="0" z="7" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>95685254558017240</EntityId>
+          <Min x="3" y="0" z="8" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>100344488443986232</EntityId>
+          <Min x="0" y="0" z="8" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>115352205643230438</EntityId>
+          <Min x="0" y="0" z="7" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>103736880483837137</EntityId>
+          <Min x="1" y="0" z="7" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>122910188974081876</EntityId>
+          <Min x="1" y="0" z="8" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>141652432590566055</EntityId>
+          <Min x="2" y="0" z="10" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>85872668823835047</EntityId>
+          <Min x="2" y="0" z="9" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>73185510831815209</EntityId>
+          <Min x="3" y="0" z="9" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>99884274038936491</EntityId>
+          <Min x="3" y="0" z="10" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>131602316520364332</EntityId>
+          <Min x="0" y="0" z="10" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>75686406611734816</EntityId>
+          <Min x="0" y="0" z="9" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>72147294875453267</EntityId>
+          <Min x="1" y="0" z="9" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107881428817865862</EntityId>
+          <Min x="1" y="0" z="10" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>98712002419050465</EntityId>
+          <Min x="0" y="0" z="11" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>122512098405377253</EntityId>
+          <Min x="1" y="0" z="11" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137550971206565261</EntityId>
+          <Min x="2" y="0" z="11" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>72455545928081336</EntityId>
+          <Min x="3" y="0" z="11" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4332</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>137954213966750249</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>88572279775572442</EntityId>
+          <Min x="-5" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>87237039974339531</EntityId>
+          <Min x="-4" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>97424632286649455</EntityId>
+          <Min x="-3" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>107643512481998335</EntityId>
+          <Min x="-2" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>106501015628084105</EntityId>
+          <Min x="-1" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>127070064722771127</EntityId>
+          <Min x="0" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 249</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>132871332282735794</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>97909668176359505</EntityId>
+          <Min x="-3" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>100352127800639858</EntityId>
+          <Min x="-2" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>94821676365822802</EntityId>
+          <Min x="-1" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>78235445692286228</EntityId>
+          <Min x="0" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>96674267800823086</EntityId>
+          <Min x="1" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>95305764709942209</EntityId>
+          <Min x="2" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 5794</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>129211832045245685</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-20" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>88042846627558954</EntityId>
+          <Min x="0" y="1" z="12" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>124100687082342218</EntityId>
+          <Min x="1" y="1" z="12" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>106328074372114477</EntityId>
+          <Min x="2" y="1" z="12" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>119671680822847007</EntityId>
+          <Min x="3" y="1" z="12" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 5685</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>116862072328590426</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="12.5" y="2.5" z="35" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>86278147772884041</EntityId>
+          <Min x="-3" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>135734631040497330</EntityId>
+          <Min x="-2" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>125242918373936691</EntityId>
+          <Min x="-1" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>128541687080434431</EntityId>
+          <Min x="0" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132660592777236626</EntityId>
+          <Min x="1" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 5794</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>106165837471577064</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="0" y="2.5" z="25" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>117962861766974648</EntityId>
+          <Min x="0" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>74676314347832742</EntityId>
+          <Min x="1" y="0" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 7064</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>110006124299570992</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-20" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>109454885782831655</EntityId>
+          <Min x="-1" y="1" z="7" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>81189853468283670</EntityId>
+          <Min x="-1" y="1" z="8" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>85226403581500447</EntityId>
+          <Min x="-1" y="1" z="6" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>109549131325289950</EntityId>
+          <Min x="-1" y="1" z="9" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>126327391705162180</EntityId>
+          <Min x="-1" y="1" z="5" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>131801082897066692</EntityId>
+          <Min x="-1" y="1" z="10" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>92518031899636047</EntityId>
+          <Min x="-1" y="1" z="4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>119330519592472157</EntityId>
+          <Min x="-1" y="1" z="3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>137738272883840966</EntityId>
+          <Min x="-1" y="1" z="2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>114846231994449408</EntityId>
+          <Min x="-1" y="1" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>109492768870292278</EntityId>
+          <Min x="-1" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>125627694405110421</EntityId>
+          <Min x="-1" y="1" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>104646244464334817</EntityId>
+          <Min x="-1" y="1" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>134778229377344146</EntityId>
+          <Min x="-1" y="1" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 992</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>91832676668612403</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-20" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132044754802723625</EntityId>
+          <Min x="-1" y="1" z="11" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 2403</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>142276122583191666</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="5" y="2.5" z="25" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>99938447418507998</EntityId>
+          <Min x="5" y="1" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>75272199741685225</EntityId>
+          <Min x="5" y="1" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 1666</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>141913659564902271</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="20" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>122434673016505406</EntityId>
+          <Min x="3" y="1" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>118867107416843135</EntityId>
+          <Min x="3" y="1" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 2271</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>95063605272923823</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="15" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132744222528016301</EntityId>
+          <Min x="3" y="1" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>81400149250474107</EntityId>
+          <Min x="3" y="1" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>143325591677182202</EntityId>
+          <Min x="3" y="1" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>76425150435551181</EntityId>
+          <Min x="3" y="1" z="-4" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 3823</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>137959530074496273</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="0" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>114641607798306606</EntityId>
+          <Min x="3" y="1" z="1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>88484392238694650</EntityId>
+          <Min x="3" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>132660862331099347</EntityId>
+          <Min x="3" y="1" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 6273</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_CubeGrid">
+      <SubtypeName />
+      <EntityId>106669499518054636</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="10" y="2.5" z="-5" />
+        <Forward x="-0" y="-0" z="-1" />
+        <Up x="0" y="1" z="0" />
+        <Orientation>
+          <X>0</X>
+          <Y>0</Y>
+          <Z>0</Z>
+          <W>1</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <GridSizeEnum>Large</GridSizeEnum>
+      <CubeBlocks>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>73569338532911449</EntityId>
+          <Min x="3" y="1" z="-3" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>101537939870043061</EntityId>
+          <Min x="3" y="1" z="-2" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>75271572603573880</EntityId>
+          <Min x="3" y="1" z="-1" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+        <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
+          <SubtypeName>LargeBlockArmorBlock</SubtypeName>
+          <EntityId>126005276664656261</EntityId>
+          <Min x="3" y="1" z="0" />
+          <IntegrityPercent>0.05</IntegrityPercent>
+          <BuildPercent>0.05</BuildPercent>
+        </MyObjectBuilder_CubeBlock>
+      </CubeBlocks>
+      <IsStatic>true</IsStatic>
+      <DisplayName>Platform 4636</DisplayName>
+      <DestructibleBlocks>true</DestructibleBlocks>
+      <IsRespawnGrid>false</IsRespawnGrid>
+      <LocalCoordSys>0</LocalCoordSys>
+    </MyObjectBuilder_EntityBase>
+    <MyObjectBuilder_EntityBase xsi:type="MyObjectBuilder_Character">
+      <SubtypeName>Default_Astronaut</SubtypeName>
+      <EntityId>123116502759994651</EntityId>
+      <PersistentFlags>CastShadows InScene</PersistentFlags>
+      <PositionAndOrientation>
+        <Position x="-1.6610126372961531" y="3.7350013383656915" z="1.6093552658330736" />
+        <Forward x="1" y="0" z="0" />
+        <Up x="0" y="1" z="-0" />
+        <Orientation>
+          <X>0</X>
+          <Y>-0.707106769</Y>
+          <Z>0</Z>
+          <W>0.707106769</W>
+        </Orientation>
+      </PositionAndOrientation>
+      <ComponentContainer>
+        <Components>
+          <ComponentData>
+            <TypeId>MyEntityStatComponent</TypeId>
+            <Component xsi:type="MyObjectBuilder_CharacterStatComponent">
+              <Stats>
+                <MyObjectBuilder_EntityStat>
+                  <SubtypeName>SpaceCharacterHealth</SubtypeName>
+                  <Value>1</Value>
+                  <MaxValue>1</MaxValue>
+                  <StatRegenAmountMultiplier>1</StatRegenAmountMultiplier>
+                  <StatRegenAmountMultiplierDuration>0</StatRegenAmountMultiplierDuration>
+                </MyObjectBuilder_EntityStat>
+              </Stats>
+              <ScriptNames>
+                <string>SpaceStatEffect</string>
+              </ScriptNames>
+            </Component>
+          </ComponentData>
+          <ComponentData>
+            <TypeId>MyInventoryBase</TypeId>
+            <Component xsi:type="MyObjectBuilder_Inventory">
+              <Items>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>200</Amount>
+                  <Scale>1</Scale>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>MetalGrid</SubtypeName>
+                    <DurabilityHP xsi:nil="true" />
+                  </PhysicalContent>
+                  <ItemId>0</ItemId>
+                  <AmountDecimal>200</AmountDecimal>
+                </MyObjectBuilder_InventoryItem>
+                <MyObjectBuilder_InventoryItem>
+                  <Amount>200</Amount>
+                  <Scale>1</Scale>
+                  <PhysicalContent xsi:type="MyObjectBuilder_Component">
+                    <SubtypeName>SteelPlate</SubtypeName>
+                    <DurabilityHP xsi:nil="true" />
+                  </PhysicalContent>
+                  <ItemId>1</ItemId>
+                  <AmountDecimal>200</AmountDecimal>
+                </MyObjectBuilder_InventoryItem>
+              </Items>
+              <nextItemId>1</nextItemId>
+              <Volume>0.4</Volume>
+              <Mass>9223372036854.775807</Mass>
+              <Size xsi:nil="true" />
+              <InventoryFlags />
+              <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+            </Component>
+          </ComponentData>
+        </Components>
+      </ComponentContainer>
+      <CharacterModel>Default_Astronaut</CharacterModel>
+      <Inventory>
+        <Items>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>200</Amount>
+            <Scale>1</Scale>
+            <PhysicalContent xsi:type="MyObjectBuilder_Component">
+              <SubtypeName>MetalGrid</SubtypeName>
+              <DurabilityHP xsi:nil="true" />
+            </PhysicalContent>
+            <ItemId>0</ItemId>
+            <AmountDecimal>200</AmountDecimal>
+          </MyObjectBuilder_InventoryItem>
+          <MyObjectBuilder_InventoryItem>
+            <Amount>200</Amount>
+            <Scale>1</Scale>
+            <PhysicalContent xsi:type="MyObjectBuilder_Component">
+              <SubtypeName>SteelPlate</SubtypeName>
+              <DurabilityHP xsi:nil="true" />
+            </PhysicalContent>
+            <ItemId>1</ItemId>
+            <AmountDecimal>200</AmountDecimal>
+          </MyObjectBuilder_InventoryItem>
+        </Items>
+        <nextItemId>1</nextItemId>
+        <Volume>0.4</Volume>
+        <Mass>9223372036854.775807</Mass>
+        <Size xsi:nil="true" />
+        <InventoryFlags />
+        <RemoveEntityOnEmpty>false</RemoveEntityOnEmpty>
+      </Inventory>
+      <HandWeapon xsi:type="MyObjectBuilder_AutomaticRifle">
+        <SubtypeName>RifleGun</SubtypeName>
+        <EntityId>110091826972683618</EntityId>
+        <PersistentFlags>CastShadows InScene</PersistentFlags>
+        <PositionAndOrientation>
+          <Position x="-1.4704942097459091" y="5.2580512413015326" z="1.7166038867676892" />
+          <Forward x="0.9799798" y="0.180775851" z="-0.08342425" />
+          <Up x="-0.183140233" y="0.9828505" z="-0.021553833" />
+          <Orientation>
+            <X>0.0543654636</X>
+            <Y>-0.6747831</Y>
+            <Z>0.07496101</Z>
+            <W>0.7321837</W>
+          </Orientation>
+        </PositionAndOrientation>
+        <GunBase>
+          <RemainingAmmo>0</RemainingAmmo>
+          <CurrentAmmoMagazineName>NATO_5p56x45mm</CurrentAmmoMagazineName>
+          <RemainingAmmosList />
+          <LastShootTime>0</LastShootTime>
+        </GunBase>
+      </HandWeapon>
+      <Battery>
+        <CurrentCapacity>1E-05</CurrentCapacity>
+      </Battery>
+      <LightEnabled>false</LightEnabled>
+      <UsingLadder xsi:nil="true" />
+      <HeadAngle x="0" y="0" />
+      <LinearVelocity x="-2.82842636" y="1.03307684E-07" z="-2.82842636" />
+      <AutoenableJetpackDelay>0</AutoenableJetpackDelay>
+      <JetpackEnabled>false</JetpackEnabled>
+      <ColorMaskHSV x="0" y="-0.8" z="0.6" />
+      <LootingCounter>0</LootingCounter>
+      <DisplayName />
+      <IsInFirstPersonView>true</IsInFirstPersonView>
+      <EnableBroadcasting>true</EnableBroadcasting>
+      <OxygenLevel>1</OxygenLevel>
+      <EnvironmentOxygenLevel>0</EnvironmentOxygenLevel>
+      <StoredGases>
+        <StoredGas>
+          <Id>
+            <TypeId>MyObjectBuilder_GasProperties</TypeId>
+            <SubtypeId>Hydrogen</SubtypeId>
+          </Id>
+          <FillLevel>1</FillLevel>
+        </StoredGas>
+        <StoredGas>
+          <Id>
+            <TypeId>MyObjectBuilder_GasProperties</TypeId>
+            <SubtypeId>Oxygen</SubtypeId>
+          </Id>
+          <FillLevel>1</FillLevel>
+        </StoredGas>
+      </StoredGases>
+      <MovementState>RunningLeftBack</MovementState>
+      <EnabledComponents>
+        <string>RagdollComponent</string>
+        <string>InventorySpawnComponent</string>
+      </EnabledComponents>
+      <PlayerSteamId>76561198043661356</PlayerSteamId>
+      <PlayerSerialId>1</PlayerSerialId>
+      <IsPromoted>false</IsPromoted>
+    </MyObjectBuilder_EntityBase>
+  </SectorObjects>
+</MyObjectBuilder_Sector>

@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Campaign>
+    <StateMachine>
+      <Nodes>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_05</Name>
+          <SaveFilePath>Scenarios\The First Jump\Worlds\Mission 05\Sandbox.sbc</SaveFilePath>
+          <Location x="237.241608" y="844.5343" />
+        </MyObjectBuilder_CampaignSMNode>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_04</Name>
+          <SaveFilePath>Scenarios\The First Jump\Worlds\Mission 04\Sandbox.sbc</SaveFilePath>
+          <Location x="219.399841" y="654.202332" />
+        </MyObjectBuilder_CampaignSMNode>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_02</Name>
+          <SaveFilePath>Scenarios\The First Jump\Worlds\Mission 02\Sandbox.sbc</SaveFilePath>
+          <Location x="210" y="288" />
+        </MyObjectBuilder_CampaignSMNode>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_01</Name>
+          <SaveFilePath>Scenarios\The First Jump\Worlds\Mission 01\Sandbox.sbc</SaveFilePath>
+          <Location x="130" y="94" />
+        </MyObjectBuilder_CampaignSMNode>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_03</Name>
+          <SaveFilePath>Scenarios\The First Jump\Worlds\Mission 03\Sandbox.sbc</SaveFilePath>
+          <Location x="215.157166" y="467.526154" />
+        </MyObjectBuilder_CampaignSMNode>
+      </Nodes>
+      <Transitions>
+        <MyObjectBuilder_CampaignSMTransition>
+          <Name>LevelCompleted</Name>
+          <From>Mission_03</From>
+          <To>Mission_04</To>
+        </MyObjectBuilder_CampaignSMTransition>
+        <MyObjectBuilder_CampaignSMTransition>
+          <Name>LevelCompleted</Name>
+          <From>Mission_01</From>
+          <To>Mission_02</To>
+        </MyObjectBuilder_CampaignSMTransition>
+        <MyObjectBuilder_CampaignSMTransition>
+          <Name>LevelCompleted</Name>
+          <From>Mission_02</From>
+          <To>Mission_03</To>
+        </MyObjectBuilder_CampaignSMTransition>
+        <MyObjectBuilder_CampaignSMTransition>
+          <Name>LevelCompleted</Name>
+          <From>Mission_04</From>
+          <To>Mission_05</To>
+        </MyObjectBuilder_CampaignSMTransition>
+      </Transitions>
+    </StateMachine>
+    <LocalizationPaths>
+      <Path>Scenarios\The First Jump\Localization</Path>
+    </LocalizationPaths>
+    <LocalizationLanguages />
+    <DescriptionLocalizationFile>Scenarios\The First Jump\Localization\TheFirstJump_Menu.sbl</DescriptionLocalizationFile>
+    <Name>The First Jump</Name>
+    <Description>This scenario offers a linear story with action-packed gameplay, while the majority of Space Engineers scenarios feature unique sandbox environments where players create their own challenges.</Description>
+    <ImagePath>Scenarios\The First Jump\Screens\Campaign.png</ImagePath>
+    <IsMultiplayer>false</IsMultiplayer>
+    <Difficulty>Easy</Difficulty>
+    <Author>Keen Software House</Author>
+  </Campaign>
+</MyObjectBuilder_VSFiles>

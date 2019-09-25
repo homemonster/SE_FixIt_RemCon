@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Enemy_Arrival" xml:space="preserve">
+    <value>K Sol Cooperativu tě pošlu zpátky v krabičce od zápalek!</value>
+  </data>
+  <data name="Chat_Enemy_BossTalk" xml:space="preserve">
+    <value>Budu u tebe coby dup Konstruktére, zatím si užívej společnosti mé armády dronů!</value>
+  </data>
+  <data name="Chat_Monolith_Come" xml:space="preserve">
+    <value>Kon--struk--tére...... Pojď... je toho... více k vidění...</value>
+  </data>
+  <data name="Chat_VA_AboutArena" xml:space="preserve">
+    <value>Vypadá to, že právě tady spolčenost R.O.S.4 vyrábí svoje stíhače a drony.</value>
+  </data>
+  <data name="Chat_VA_AboutTube" xml:space="preserve">
+    <value>Nově vyrobení droni vyletí z těchto šachet.</value>
+  </data>
+  <data name="Chat_VA_BossDead" xml:space="preserve">
+    <value>Dokázali jste to. Nevěřil jsem tomu. Už jsem byl v půlce sepisování hlášení o neúspěchu.</value>
+  </data>
+  <data name="Chat_VA_BossWarning" xml:space="preserve">
+    <value>Varování, zaznamenána velká loď, doporučuji úhybné manévry.</value>
+  </data>
+  <data name="Chat_VA_Fan" xml:space="preserve">
+    <value>Dobře, nejsem si jist, proč je to právě tady. Bude lepší se tomu vyhnout.</value>
+  </data>
+  <data name="Chat_VA_FighterShips" xml:space="preserve">
+    <value>Tyto lodě jsou odemčené, doporučuji si jednu "vypůjčit" pro toto střetnutí.</value>
+  </data>
+  <data name="Chat_VA_OverView" xml:space="preserve">
+    <value>Toto je impozantní továrna, alespoň na lidské poměry, možná až na ten obří větrák.</value>
+  </data>
+  <data name="Chat_VA_SecurityDrone" xml:space="preserve">
+    <value>Bezpečnostní dron byl aktivován.</value>
+  </data>
+  <data name="Chat_VA_SecurityDroneWarning" xml:space="preserve">
+    <value>Varování, bezpečnostní dron aktivován.</value>
+  </data>
+  <data name="Chat_VA_SeesMonolith" xml:space="preserve">
+    <value>Tak tohle je ten artefakt, dostávám z něj spoustu podivných údajů.</value>
+  </data>
+  <data name="Chat_VA_ShowControlBlock" xml:space="preserve">
+    <value>Rozstřílení těch kontrolních bloků naruší program nepřátelských dronů.</value>
+  </data>
+  <data name="GPS_HackModuleCreator" xml:space="preserve">
+    <value>Ovládání montéru</value>
+  </data>
+  <data name="GPS_Module" xml:space="preserve">
+    <value>Hacknout modul</value>
+  </data>
+  <data name="GPS_Monolith" xml:space="preserve">
+    <value>Artefakt</value>
+  </data>
+  <data name="GPS_SecurityDrone" xml:space="preserve">
+    <value>Bezpečnostní dron</value>
+  </data>
+  <data name="GPS_Socket" xml:space="preserve">
+    <value>Kontrolní blok</value>
+  </data>
+  <data name="GPS_TugShip" xml:space="preserve">
+    <value>Transgressor - Bitevní loď </value>
+  </data>
+  <data name="Percentage" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="Quest01_Preparation" xml:space="preserve">
+    <value>Připravte se na boj</value>
+  </data>
+  <data name="Quest01_Preparation_drone" xml:space="preserve">
+    <value>Zničte nepřátelský, bezpečnostní dron</value>
+  </data>
+  <data name="Quest01_Preparation_gears" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro odemknutí přistávacích podvozků</value>
+  </data>
+  <data name="Quest01_Preparation_ship" xml:space="preserve">
+    <value>Vstupte do jedné ze zvýrazněných lodí</value>
+  </data>
+  <data name="Quest02_FirstTower" xml:space="preserve">
+    <value>Zničte kontrolní blok pro hacknutí nových dronů</value>
+  </data>
+  <data name="Quest02_FirstTower_Attack" xml:space="preserve">
+    <value>Zničte nechráněný kontrolní blok</value>
+  </data>
+  <data name="Quest02_FirstTower_NextExposed" xml:space="preserve">
+    <value>Příští nechráněný kontrolní blok: {0}</value>
+  </data>
+  <data name="Quest02_FirstTower_NextExposedTime" xml:space="preserve">
+    <value>Další nechráněný blok za: {0} vteřin</value>
+  </data>
+  <data name="Quest02_FirstTower_Wait" xml:space="preserve">
+    <value>Přežijte do odkrytí dalšího bloku</value>
+  </data>
+  <data name="Quest03_Combat" xml:space="preserve">
+    <value>Přežijte dokud se kontrolní bloky znovu neobjeví</value>
+  </data>
+  <data name="Quest03_Combat_HelpYourDrones" xml:space="preserve">
+    <value>Pomozte spojeneckým dronům (zeleným) zničit ty nepřátelské (červené)</value>
+  </data>
+  <data name="Quest03_Combat_TimeLeft" xml:space="preserve">
+    <value>Hackování dokončeno za {0}:{1}{2}</value>
+  </data>
+  <data name="Quest03_Combat_WaitForHacking" xml:space="preserve">
+    <value>Přežijte, dokud nebude dokončeno hackování</value>
+  </data>
+  <data name="Quest04_SecondTower" xml:space="preserve">
+    <value>Zničte druhý kontrolní blok </value>
+  </data>
+  <data name="Quest05_DefeatBoss" xml:space="preserve">
+    <value>Porazte {0}</value>
+  </data>
+  <data name="Quest05_DefeatBoss_Quest" xml:space="preserve">
+    <value>Zničte velitelskou loď</value>
+  </data>
+  <data name="Quest05_WaitForBoss" xml:space="preserve">
+    <value>Přežijte, dokud nedorazí Marcus</value>
+  </data>
+  <data name="Quest05_WaitForBoss_Boss" xml:space="preserve">
+    <value>Velká entita dorazí za: {0} vteřin</value>
+  </data>
+  <data name="Quest05_WaitForBoss_Intro" xml:space="preserve">
+    <value>Zničte více červených dronů</value>
+  </data>
+  <data name="Quest06_Monolith" xml:space="preserve">
+    <value>Najděte artefakt a zjistěte jeho účel</value>
+  </data>
+  <data name="Quest06_Monolith_End" xml:space="preserve">
+    <value>Přibližte se k artefaktu</value>
+  </data>
+  <data name="Quest06_Monolith_Location" xml:space="preserve">
+    <value>Tajná chodba označená pomocí GPS</value>
+  </data>
+  <data name="Terminology_Central" xml:space="preserve">
+    <value>Středový</value>
+  </data>
+  <data name="Terminology_Left" xml:space="preserve">
+    <value>Levý</value>
+  </data>
+  <data name="Terminology_Right" xml:space="preserve">
+    <value>Pravý</value>
+  </data>
+</root>

@@ -1,0 +1,358 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Animations>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="test_emote" />
+            <AnimationModel>Models\Characters\Animations\facepalm.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+
+        <!-- FEMALE -->
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="Idle_Female" />
+            <DisplayName>Idle</DisplayName>
+            <Description>Idle</Description>
+            <Icon>Textures\GUI\Icons\Fake.dds</Icon>
+            <AnimationModel>Models\Characters\Animations\Female\idle.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body</InfluenceArea>
+            <Public>false</Public>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="Angry_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\Angry.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body Spine RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="AssistEnd_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\AssistEnd.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="AssistCome_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\AssistLoop.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="Dance_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\Dance.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body Spine RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>false</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointAggressive_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\PointAgressive.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointBack_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\PointBack.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointDown_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\PointDown.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointForward_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\PointForward.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointLeft_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\PointLeft.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointRight_Female" />
+            <AnimationModel>Models\Characters\Animations\Female\PointRight.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+
+        <!-- MALE -->
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="Angry" />
+            <AnimationModel>Models\Characters\Animations\Angry.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body Spine RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="AssistEnd" />
+            <AnimationModel>Models\Characters\Animations\AssistEnd.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="AssistCome" />
+            <AnimationModel>Models\Characters\Animations\AssistLoop.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="Dance" />
+            <AnimationModel>Models\Characters\Animations\Dance.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Body Spine RightHand LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>false</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointAggressive" />
+            <AnimationModel>Models\Characters\Animations\PointAgressive.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointBack" />
+            <AnimationModel>Models\Characters\Animations\PointBack.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointDown" />
+            <AnimationModel>Models\Characters\Animations\PointDown.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointForward" />
+            <AnimationModel>Models\Characters\Animations\PointForward.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointLeft" />
+            <AnimationModel>Models\Characters\Animations\PointLeft.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine LeftHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+        <Animation>
+            <Id Type="AnimationDefinition" Subtype="PointRight" />
+            <AnimationModel>Models\Characters\Animations\PointRight.mwm</AnimationModel>
+            <ClipIndex>0</ClipIndex>
+            <InfluenceArea>Spine RightHand</InfluenceArea>
+            <Public>false</Public>
+            <AllowInCockpit>true</AllowInCockpit>
+            <AllowWithWeapon>true</AllowWithWeapon>
+        </Animation>
+    </Animations>
+
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="test_emote" />
+        <DisplayName>DisplayName_TestEmote</DisplayName>
+
+        <Icon>Textures\GUI\Icons\Animations\Facepalm.dds</Icon>
+        <Icon>Textures\GUI\Controls\checkbox_green_checked.png</Icon>
+        <AnimationId Type="AnimationDefinition" Subtype="test_emote" />
+    </Definition>
+
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmoteAngry" />
+        <DisplayName>DisplayName_EmoteAngry</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\Angry.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="Angry" />
+        <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="Angry_Female" />
+        </Override> 
+        <ChatCommand>/angry</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_Angry</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_Angry</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmoteAssist" />
+        <DisplayName>DisplayName_EmoteAssistStop</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\AssistStop.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="AssistEnd" />
+        <!--<Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="AssistEnd_Female" />
+        </Override> -->
+        <ChatCommand>/assistEnd</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_AssistStop</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_AssistStop</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmoteAssistCome" />
+        <DisplayName>DisplayName_EmoteAssistCome</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\Assist.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="AssistCome" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="AssistCome_Female" />
+        </Override> -->
+        <ChatCommand>/assistCome</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_AssistCome</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_AssistCome</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmoteDance" />
+        <DisplayName>DisplayName_EmoteDance</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\Dance.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="Dance" />
+        <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="Dance_Female" />
+        </Override> 
+        <ChatCommand>/dance</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_Dance</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_Dance</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmotePointAggressive" />
+        <DisplayName>DisplayName_EmotePointAggressive</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\PointAggressive.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="PointAggressive" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="PointAggressive_Female" />
+        </Override> -->
+        <ChatCommand>/pointAggressive</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_PointAggressive</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_PointAggressive</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmotePointBack" />
+        <DisplayName>DisplayName_EmotePointBack</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\PointBack.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="PointBack" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="PointBack_Female" />
+        </Override> -->
+        <ChatCommand>/pointBack</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_PointBack</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_PointBack</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmotePointDown" />
+        <DisplayName>DisplayName_EmotePointDown</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\PointDown.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="PointDown" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="PointDown_Female" />
+        </Override> -->
+        <ChatCommand>/pointDown</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_PointDown</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_PointDown</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmotePointForward" />
+        <DisplayName>DisplayName_EmotePointForward</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\PointForward.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="PointForward" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="PointForward_Female" />
+        </Override> -->
+        <ChatCommand>/pointForward</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_PointForward</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_PointForward</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmotePointLeft" />
+        <DisplayName>DisplayName_EmotePointLeft</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\PointLeft.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="PointLeft" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="PointLeft_Female" />
+        </Override> -->
+        <ChatCommand>/pointLeft</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_PointLeft</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_PointLeft</ChatCommandDescription>
+    </Definition>
+    <Definition xsi:type="MyObjectBuilder_EmoteDefinition">
+        <Id Type="EmoteDefinition" Subtype="EmotePointRight" />
+        <DisplayName>DisplayName_EmotePointRight</DisplayName>
+        <Icon>Textures\GUI\Icons\Animations\PointRight.dds</Icon>
+        <DLC>StylePack</DLC>
+        <AnimationId Type="AnimationDefinition" Subtype="PointRight" />
+        <!-- <Override>
+            <CharacterId Type="Character" Subtype="Default_Astronaut_Female"/>
+            <AnimationId Type="AnimationDefinition" Subtype="PointRight_Female" />
+        </Override> -->
+        <ChatCommand>/pointRight</ChatCommand>
+        <ChatCommandName>ChatCommand_Help_PointRight</ChatCommandName>
+        <ChatCommandDescription>ChatCommand_HelpSimple_PointRight</ChatCommandDescription>
+    </Definition>
+</Definitions>

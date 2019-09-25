@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Name="dunning-kruger" xmlns:yaxlib="http://www.sinairv.com/yaxlib/">
+  <Network Sequential="False" LoadOnStart="False" SaveOnStop="False" Id="0" Name="Network">
+    <Children>
+      <MyJoin LoadOnStart="False" SaveOnStop="False" Id="16" Name="Node_16" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin">
+        <IO>
+          <InputBranches>2</InputBranches>
+          <OutputColHint>0</OutputColHint>
+        </IO>
+        <Behavior>
+          <Operation>StackInputs</Operation>
+        </Behavior>
+        <DataFolder></DataFolder>
+        <Location X="875" Y="62" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="InitMemoryMapping" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin+MyInitTask" />
+          <Task Enabled="True" PropertyName="StackInputs" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin+MyStackInputsTask" />
+        </Tasks>
+      </MyJoin>
+      <MyUserInput LoadOnStart="False" SaveOnStop="False" Id="17" Name="Move" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput">
+        <IO>
+          <OutputSize>3</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <MinValue>-3</MinValue>
+        <MaxValue>3</MaxValue>
+        <UserInputStr>0;0.1034231;3</UserInputStr>
+        <ConvertToBinary>False</ConvertToBinary>
+        <DataFolder></DataFolder>
+        <Location X="571" Y="36" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput+MyTransferTask" />
+        </Tasks>
+      </MyUserInput>
+      <MyUserInput LoadOnStart="False" SaveOnStop="False" Id="18" Name="Rotate" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput">
+        <IO>
+          <OutputSize>3</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <MinValue>-20</MinValue>
+        <MaxValue>20</MaxValue>
+        <UserInputStr>0;-15.17258;0</UserInputStr>
+        <ConvertToBinary>False</ConvertToBinary>
+        <DataFolder></DataFolder>
+        <Location X="659" Y="36" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput+MyTransferTask" />
+        </Tasks>
+      </MyUserInput>
+      <MyJoin LoadOnStart="False" SaveOnStop="False" Id="19" Name="Node_19" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin">
+        <IO>
+          <InputBranches>2</InputBranches>
+          <OutputColHint>0</OutputColHint>
+        </IO>
+        <Behavior>
+          <Operation>StackInputs</Operation>
+        </Behavior>
+        <DataFolder></DataFolder>
+        <Location X="876" Y="241" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="InitMemoryMapping" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin+MyInitTask" />
+          <Task Enabled="True" PropertyName="StackInputs" yaxlib:realtype="GoodAI.Core.Nodes.MyJoin+MyStackInputsTask" />
+        </Tasks>
+      </MyJoin>
+      <MyUserInput LoadOnStart="False" SaveOnStop="False" Id="20" Name="Tool" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput">
+        <IO>
+          <OutputSize>1</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <MinValue>0</MinValue>
+        <MaxValue>3</MaxValue>
+        <UserInputStr>2.275862</UserInputStr>
+        <ConvertToBinary>False</ConvertToBinary>
+        <DataFolder></DataFolder>
+        <Location X="571" Y="201" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput+MyTransferTask" />
+        </Tasks>
+      </MyUserInput>
+      <MyUserInput LoadOnStart="False" SaveOnStop="False" Id="21" Name="Actions" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput">
+        <IO>
+          <OutputSize>5</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <UserInputStr>1;0;1;0;0</UserInputStr>
+        <ConvertToBinary>False</ConvertToBinary>
+        <DataFolder></DataFolder>
+        <Location X="661" Y="201" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput+MyTransferTask" />
+        </Tasks>
+      </MyUserInput>
+      <MyUserInput LoadOnStart="False" SaveOnStop="False" Id="24" Name="Node_24" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput">
+        <IO>
+          <OutputSize>5</OutputSize>
+        </IO>
+        <ColumnHint>1</ColumnHint>
+        <MinValue>0</MinValue>
+        <MaxValue>1</MaxValue>
+        <UserInputStr>0;0;0;0;0</UserInputStr>
+        <ConvertToBinary>False</ConvertToBinary>
+        <DataFolder></DataFolder>
+        <Location X="474" Y="150" />
+        <Tasks>
+          <Task Enabled="True" PropertyName="GenerateInput" yaxlib:realtype="GoodAI.Core.Nodes.MyUserInput+MyTransferTask" />
+        </Tasks>
+      </MyUserInput>
+    </Children>
+    <LayoutProperties Zoom="0.9999997">
+      <Translation X="0" Y="0" />
+    </LayoutProperties>
+    <GroupInputNodes>
+      <MyParentInput ParentInputIndex="0" Id="1" Name="Position">
+        <Location X="50" Y="100" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="1" Id="9" Name="Tools">
+        <Location X="50" Y="214" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="2" Id="10" Name="Blocks">
+        <Location X="50" Y="326" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="3" Id="11" Name="SelectedBlock">
+        <Location X="50" Y="439" />
+      </MyParentInput>
+      <MyParentInput ParentInputIndex="4" Id="22" Name="Stats">
+        <Location X="50" Y="700" />
+      </MyParentInput>
+    </GroupInputNodes>
+    <GroupOutputNodes>
+      <MyOutput Id="7" Name="MoveAndRotate">
+        <Location X="1106" Y="82" />
+      </MyOutput>
+      <MyOutput Id="13" Name="ToolAndActions">
+        <Location X="1108" Y="204" />
+      </MyOutput>
+      <MyOutput Id="23" Name="SimulationControl">
+        <Location X="1097" Y="314" />
+      </MyOutput>
+    </GroupOutputNodes>
+    <DataFolder></DataFolder>
+    <Connections>
+      <Connection From="16" To="7" FromIndex="0" ToIndex="0" />
+      <Connection From="19" To="13" FromIndex="0" ToIndex="0" />
+      <Connection From="24" To="23" FromIndex="0" ToIndex="0" />
+      <Connection From="17" To="16" FromIndex="0" ToIndex="0" />
+      <Connection From="18" To="16" FromIndex="0" ToIndex="1" />
+      <Connection From="20" To="19" FromIndex="0" ToIndex="0" />
+      <Connection From="21" To="19" FromIndex="0" ToIndex="1" />
+    </Connections>
+    <Tasks />
+  </Network>
+  <World LoadOnStart="False" SaveOnStop="False" Id="6" Name="World" yaxlib:realtype="GoodAI.SandboxIntegration.SeWorld">
+    <MaxBlockCount>500</MaxBlockCount>
+    <ListeningIP>127.0.0.1</ListeningIP>
+    <ListeningPort>6683</ListeningPort>
+    <SynchronizationTimeout>5000</SynchronizationTimeout>
+    <BrainSynchronous>True</BrainSynchronous>
+    <BrainStepsPerComm>1</BrainStepsPerComm>
+    <GameSynchronous>True</GameSynchronous>
+    <GameStepsPerComm>10</GameStepsPerComm>
+    <GameCaffeine>False</GameCaffeine>
+    <DataFolder></DataFolder>
+    <Tasks>
+      <Task Enabled="True" PropertyName="SeSyncTask" yaxlib:realtype="GoodAI.SandboxIntegration.SeSyncTask">
+        <ZeroRotationThreshold>2.5</ZeroRotationThreshold>
+        <SphereRadius>10</SphereRadius>
+      </Task>
+    </Tasks>
+  </World>
+  <Observers>
+    <MemoryBlockObserver yaxlib:realtype="GoodAI.Core.Observers.MyMemoryBlockObserver">
+      <Method>RedGreenScale</Method>
+      <Scale>InvTan</Scale>
+      <Elements>2</Elements>
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="543" Y="511" />
+        <Size Width="300" Height="155" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6#Position</TargetIdentifier>
+      <m_boundPolicy>MANUAL</m_boundPolicy>
+      <m_minValue>-2</m_minValue>
+      <m_maxValue>2</m_maxValue>
+    </MemoryBlockObserver>
+    <NodeObserver yaxlib:realtype="GoodAI.SandboxIntegration.MySeObserver">
+      <ViewMode>Orbit_3D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="853" Y="551" />
+        <Size Width="474" Height="265" />
+        <CameraData CameraType="Orbit_3D" X="-45" Y="30" Z="29.27424" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6</TargetIdentifier>
+    </NodeObserver>
+    <MyMatrixObserver yaxlib:realtype="GoodAI.Core.Observers.MyMatrixObserver">
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="546" Y="674" />
+        <Size Width="300" Height="104" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6#Position</TargetIdentifier>
+      <m_nbDecimals>2</m_nbDecimals>
+      <m_xStart>0</m_xStart>
+      <m_xLength>3</m_xLength>
+      <m_yStart>0</m_yStart>
+      <m_yLength>4</m_yLength>
+    </MyMatrixObserver>
+    <MemoryBlockObserver yaxlib:realtype="GoodAI.Core.Observers.MyMemoryBlockObserver">
+      <Method>RedGreenScale</Method>
+      <Scale>InvTan</Scale>
+      <Elements>2</Elements>
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="498" Y="112" />
+        <Size Width="300" Height="300" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6#Blocks</TargetIdentifier>
+      <m_boundPolicy>MANUAL</m_boundPolicy>
+      <m_minValue>0</m_minValue>
+      <m_maxValue>1</m_maxValue>
+    </MemoryBlockObserver>
+    <MyMatrixObserver yaxlib:realtype="GoodAI.Core.Observers.MyMatrixObserver">
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="351" Y="689" />
+        <Size Width="186" Height="128" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6#Stats</TargetIdentifier>
+      <m_nbDecimals>2</m_nbDecimals>
+      <m_xStart>0</m_xStart>
+      <m_xLength>1</m_xLength>
+      <m_yStart>0</m_yStart>
+      <m_yLength>2</m_yLength>
+    </MyMatrixObserver>
+    <MyMatrixObserver yaxlib:realtype="GoodAI.Core.Observers.MyMatrixObserver">
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="1358" Y="527" />
+        <Size Width="260" Height="200" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>16#Output</TargetIdentifier>
+      <m_nbDecimals>2</m_nbDecimals>
+      <m_xStart>0</m_xStart>
+      <m_xLength>1</m_xLength>
+      <m_yStart>0</m_yStart>
+      <m_yLength>6</m_yLength>
+    </MyMatrixObserver>
+    <MyMatrixObserver yaxlib:realtype="GoodAI.Core.Observers.MyMatrixObserver">
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="249" Y="297" />
+        <Size Width="124" Height="130" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6#Tools</TargetIdentifier>
+      <m_nbDecimals>2</m_nbDecimals>
+      <m_xStart>0</m_xStart>
+      <m_xLength>1</m_xLength>
+      <m_yStart>0</m_yStart>
+      <m_yLength>1</m_yLength>
+    </MyMatrixObserver>
+    <MyMatrixObserver yaxlib:realtype="GoodAI.Core.Observers.MyMatrixObserver">
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="1361" Y="731" />
+        <Size Width="215" Height="140" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>19#Output</TargetIdentifier>
+      <m_nbDecimals>2</m_nbDecimals>
+      <m_xStart>0</m_xStart>
+      <m_xLength>1</m_xLength>
+      <m_yStart>0</m_yStart>
+      <m_yLength>6</m_yLength>
+    </MyMatrixObserver>
+    <MemoryBlockObserver yaxlib:realtype="GoodAI.Core.Observers.MyMemoryBlockObserver">
+      <Method>RedGreenScale</Method>
+      <Scale>Linear</Scale>
+      <Elements>2</Elements>
+      <ViewMode>Fit_2D</ViewMode>
+      <KeepRatio>True</KeepRatio>
+      <Window>
+        <Location X="502" Y="415" />
+        <Size Width="297" Height="69" />
+      </Window>
+      <AutosaveSnapshop>False</AutosaveSnapshop>
+      <BilinearFiltering>False</BilinearFiltering>
+      <TargetIdentifier>6#SelectedBlock</TargetIdentifier>
+      <m_boundPolicy>MANUAL</m_boundPolicy>
+      <m_minValue>0</m_minValue>
+      <m_maxValue>1</m_maxValue>
+    </MemoryBlockObserver>
+  </Observers>
+  <UsedModules>
+    <Module Name="GoodAI.Platform.Core.dll" Version="9" />
+    <Module Name="GoodAI.SandboxIntegration.dll" Version="1" />
+  </UsedModules>
+</Project>

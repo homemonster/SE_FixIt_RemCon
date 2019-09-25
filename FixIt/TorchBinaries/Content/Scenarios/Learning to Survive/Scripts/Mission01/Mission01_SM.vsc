@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StateMachine>
+    <Name>Mission01_SM</Name>
+    <OwnerId>0</OwnerId>
+    <Cursors>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Start</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Objective_02_01</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+      <MyObjectBuilder_ScriptSMCursor>
+        <NodeName>Objective_02_05</NodeName>
+      </MyObjectBuilder_ScriptSMCursor>
+    </Cursors>
+    <Nodes>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="341" y="252" />
+        <Name>Start</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Mission01_Start.vs</ScriptFilePath>
+        <ScriptClassName>Mission01_Start</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMSpreadNode">
+        <Position x="617" y="262.7295" />
+        <Name>Spread_5</Name>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="962.9995" y="-85.45041" />
+        <Name>Objective_01_01</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_01.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_01</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="627.181641" y="-208.776657" />
+        <Name>WorldTriggers</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\WorldTriggers.vs</ScriptFilePath>
+        <ScriptClassName>WorldTriggers</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="964.6813" y="31.4205933" />
+        <Name>Objective_01_02</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_02.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_02</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="964.6813" y="147.799011" />
+        <Name>Objective_01_03</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_03.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_03</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="964.6569" y="261.7574" />
+        <Name>Objective_01_04</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_04.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_04</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="964.0761" y="377.52002" />
+        <Name>Objective_01_05</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_05.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_05</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="964.0761" y="495.6552" />
+        <Name>Objective_01_06</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_06.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_06</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="965.0761" y="610.222839" />
+        <Name>Objective_01_07</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_01_07.vs</ScriptFilePath>
+        <ScriptClassName>Objective_01_07</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMBarrierNode">
+        <Position x="1148.14722" y="1136.33826" />
+        <Name>WaitForAll_9</Name>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1353.22412" y="-97.09085" />
+        <Name>Objective_02_01</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_02_01.vs</ScriptFilePath>
+        <ScriptClassName>Objective_02_01</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1262.75623" y="27.7839813" />
+        <Name>Objective_02_02</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_02_02.vs</ScriptFilePath>
+        <ScriptClassName>Objective_02_02</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1261.75623" y="141.783981" />
+        <Name>Objective_02_03</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_02_03.vs</ScriptFilePath>
+        <ScriptClassName>Objective_02_03</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1262.75623" y="255.783966" />
+        <Name>Objective_02_04</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_02_04.vs</ScriptFilePath>
+        <ScriptClassName>Objective_02_04</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1347.37915" y="380.297638" />
+        <Name>Objective_02_05</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_02_05.vs</ScriptFilePath>
+        <ScriptClassName>Objective_02_05</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1569.36609" y="-91.34157" />
+        <Name>Objective_03_01</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_03_01.vs</ScriptFilePath>
+        <ScriptClassName>Objective_03_01</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1569.36621" y="23.5727081" />
+        <Name>Objective_03_02</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_03_02.vs</ScriptFilePath>
+        <ScriptClassName>Objective_03_02</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1569.36609" y="133.730148" />
+        <Name>Objective_03_03</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_03_03.vs</ScriptFilePath>
+        <ScriptClassName>Objective_03_03</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1570.20715" y="243.887619" />
+        <Name>Objective_03_04</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_03_04.vs</ScriptFilePath>
+        <ScriptClassName>Objective_03_04</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="1569.85889" y="356.423431" />
+        <Name>Objective_03_05</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_03_05.vs</ScriptFilePath>
+        <ScriptClassName>Objective_03_05</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+      <MyObjectBuilder_ScriptSMNode xsi:type="MyObjectBuilder_ScriptSMNode">
+        <Position x="864.945" y="1201.42944" />
+        <Name>Objective_Final</Name>
+        <ScriptFilePath>Scenarios\Learning to Survive\Scripts\Mission01\Objective_Final.vs</ScriptFilePath>
+        <ScriptClassName>Objective_Final</ScriptClassName>
+      </MyObjectBuilder_ScriptSMNode>
+    </Nodes>
+    <Transitions>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Start</From>
+        <To>Spread_5</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_01</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>WorldTriggers</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_02</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_03</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_04</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_05</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_06</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_01_07</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_07</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_06</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_05</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_04</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_03</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_02</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_01_01</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_02_02</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_02_03</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_02_04</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_02_02</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_02_03</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_02_04</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_03_01</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_03_02</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_03_03</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_03_04</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_03_05</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_03_01</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_03_02</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_03_03</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_03_04</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name>Completed</Name>
+        <From>Objective_03_05</From>
+        <To>WaitForAll_9</To>
+      </MyObjectBuilder_ScriptSMTransition>
+      <MyObjectBuilder_ScriptSMTransition>
+        <Name />
+        <From>Spread_5</From>
+        <To>Objective_Final</To>
+      </MyObjectBuilder_ScriptSMTransition>
+    </Transitions>
+  </StateMachine>
+</MyObjectBuilder_VSFiles>

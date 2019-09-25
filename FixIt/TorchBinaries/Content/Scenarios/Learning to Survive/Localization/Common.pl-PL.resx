@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Fail_Part1" xml:space="preserve">
+    <value>Panel przyciskami rozpoczynający misję '</value>
+  </data>
+  <data name="Button_Fail_Part2" xml:space="preserve">
+    <value>' został zniszczony. Załaduj ostatni zapis aby przywrócić misję ([F5]) lub kontynuuj.</value>
+  </data>
+  <data name="Fail_Caption" xml:space="preserve">
+    <value>Porażka!</value>
+  </data>
+  <data name="Fail_Description" xml:space="preserve">
+    <value>Misja zakończyła się porażką. Możesz kontynuować granie (Postęp nie będzie blokowany), możesz też wczytać poprzedni zapis i spróbować ponownie.</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01" xml:space="preserve">
+    <value>Drone Waypoint</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01_Desc" xml:space="preserve">
+    <value>Position of Drone Waypoint</value>
+  </data>
+  <data name="GPS_PirateDrone_01" xml:space="preserve">
+    <value>Dron piratów</value>
+  </data>
+  <data name="GPS_PirateDrone_01_Desc" xml:space="preserve">
+    <value>Lokalizacja dronu piratów</value>
+  </data>
+  <data name="GPS_PirateFacility_01" xml:space="preserve">
+    <value>Placówka Piracka</value>
+  </data>
+  <data name="GPS_PirateFacility_01_Desc" xml:space="preserve">
+    <value>Pozycja Placówki Pirackiej</value>
+  </data>
+  <data name="GPS_PiratePlanet_01" xml:space="preserve">
+    <value>Planeta</value>
+  </data>
+  <data name="GPS_PiratePlanet_01_Desc" xml:space="preserve">
+    <value>Pozycja Planety</value>
+  </data>
+  <data name="GPS_PirateShip_01" xml:space="preserve">
+    <value>Statek dowodzenia piratów</value>
+  </data>
+  <data name="GPS_PirateShip_01_Desc" xml:space="preserve">
+    <value>Lokalizacja statku dowodzenia piratów</value>
+  </data>
+  <data name="O_01x01_01_Description" xml:space="preserve">
+    <value>Aby móc uzupełnić tlen i wodór przez zestaw przetrwania potrzebujesz mocy, działającego systemu transportu pomiędzy generatorem tlenu a zestawem przetrwania oraz ludu w generatorze.</value>
+  </data>
+  <data name="O_01x01_01_Objective" xml:space="preserve">
+    <value>Uzupełnij tlen i wodór poprzez zestaw przetrwania.</value>
+  </data>
+  <data name="O_01x01_Caption" xml:space="preserve">
+    <value>Good.bot: Tlen i wodór</value>
+  </data>
+  <data name="O_01x01_Hint" xml:space="preserve">
+    <value>Dobra robota! 
+
+Rada: Umieść butle z tlenem wewnątrz generatora tlenu aby je uzupełnić.</value>
+  </data>
+  <data name="O_01x01_Name" xml:space="preserve">
+    <value>Tlen i wodór</value>
+  </data>
+  <data name="O_01x02_01_Description" xml:space="preserve">
+    <value>Te panele słoneczne generują prąd w kontakcie z światłem słonecznym.
+ Ten prąd przechowywany jest w bateriach. Napraw panele aby wygenerować więcej prądu.
+ Narzędzia i komponenty znajdziesz w kontenerze na platformie. </value>
+  </data>
+  <data name="O_01x02_01_Objective" xml:space="preserve">
+    <value>Użyj spawarki żeby naprawić panele słoneczne.</value>
+  </data>
+  <data name="O_01x02_Caption" xml:space="preserve">
+    <value>Good.bot: Panele Słoneczne</value>
+  </data>
+  <data name="O_01x02_Hint" xml:space="preserve">
+    <value>Świetnie! 
+
+
+Rada: Panele słoneczne generują więcej prądu kiedy są zwrócone bezpośrednio w stronę słońca. </value>
+  </data>
+  <data name="O_01x02_Name" xml:space="preserve">
+    <value>Panele Słoneczne</value>
+  </data>
+  <data name="O_01x03_01_Description" xml:space="preserve">
+    <value>Zestaw przetrwania produkuje małe ilości sztabek z kamienia, podstawowe komponenty ze sztabek, pozwala na odnowienie zdrowia i energii oraz pozwala na odrodzenie. Wszystko czego potrzeba na początek. </value>
+  </data>
+  <data name="O_01x03_01_Objective" xml:space="preserve">
+    <value>Przytrzymaj [{CONTROL:USE}] aby odnowić zdrowie i energię z konsoli.</value>
+  </data>
+  <data name="O_01x03_Caption" xml:space="preserve">
+    <value>Good.bot: Zestaw Przetrwania </value>
+  </data>
+  <data name="O_01x03_Hint" xml:space="preserve">
+    <value>Fantastycznie!
+
+Rada: Połącz generator tlenu z zestawem przetrwania aby umożliwić odnawianie tlenu i wodoru. </value>
+  </data>
+  <data name="O_01x03_Name" xml:space="preserve">
+    <value>Zestaw przetrwania</value>
+  </data>
+  <data name="O_01x04_01_Description" xml:space="preserve">
+    <value>Rudy możesz znaleźć wewnątrz asteroid i planet. Wyjmij wiertło by wyświetlić lokalizację pobliskich rud na HUD. </value>
+  </data>
+  <data name="O_01x04_01_Objective" xml:space="preserve">
+    <value>Znajdź, wykop i zbierz rudę żelaza.</value>
+  </data>
+  <data name="O_01x04_Caption" xml:space="preserve">
+    <value>Good.Bot: Wydobycie</value>
+  </data>
+  <data name="O_01x04_Hint" xml:space="preserve">
+    <value>Doskonale!
+
+
+Rada: Umieść rudę żelaza w rafinerii żeby wyprodukować sztabki żelaza.</value>
+  </data>
+  <data name="O_01x04_Name" xml:space="preserve">
+    <value>Wydobycie</value>
+  </data>
+  <data name="O_01x05_01_Description" xml:space="preserve">
+    <value>Ten statek jest zablokowany magnetycznie przez podwozie. Odblokuj je przez terminal lub użyj szlifierki do zniszczenia ich. Wyłączone nie odblokują się. </value>
+  </data>
+  <data name="O_01x05_01_Objective" xml:space="preserve">
+    <value>Wyłącz podwozie.</value>
+  </data>
+  <data name="O_01x05_Caption" xml:space="preserve">
+    <value>Good.bot: Statek</value>
+  </data>
+  <data name="O_01x05_Hint" xml:space="preserve">
+    <value>Wspaniale!
+
+
+Rada: Spróbuj trochę polatać!</value>
+  </data>
+  <data name="O_01x05_Name" xml:space="preserve">
+    <value>Statek</value>
+  </data>
+  <data name="O_01x06_01_Description" xml:space="preserve">
+    <value>W pobliżu jest statek budowlany, ale musi zostać naprawiony. Wymagane komponenty powinny być gdzieś w pobliżu.</value>
+  </data>
+  <data name="O_01x06_01_Objective" xml:space="preserve">
+    <value>Przywróć zasilanie w statku.</value>
+  </data>
+  <data name="O_01x06_02_Description" xml:space="preserve">
+    <value>Dobrze! Wejdź do kokpitu aby rozpocząć.</value>
+  </data>
+  <data name="O_01x06_02_Objective" xml:space="preserve">
+    <value>Wejdź do kokpitu klikając [{CONTROL:USE}] celując w kokpit.</value>
+  </data>
+  <data name="O_01x06_03_Description" xml:space="preserve">
+    <value>Narzędzia statku są pomocne w szybkiej budowie i dekonstrukcji bloków mogą też przechowywać spore ilości komponentów. Wybierz jedne z narzędzi i użyj go do ucieczki z hangaru. Wciśnij [{CONTROL:LANDING_GEAR}] aby wyłączyć podwozie. </value>
+  </data>
+  <data name="O_01x06_03_Objective" xml:space="preserve">
+    <value>Napraw lub zniszcz drzwi aby uciec.</value>
+  </data>
+  <data name="O_01x06_Caption" xml:space="preserve">
+    <value>Good.bot: Narzędzia statku</value>
+  </data>
+  <data name="O_01x06_Hint" xml:space="preserve">
+    <value>Całkiem nieźle!
+
+
+Rada: Spawarka do budowania korzysta z komponentów z ekwipunku statku.</value>
+  </data>
+  <data name="O_01x06_Name" xml:space="preserve">
+    <value>Narzędzia statku</value>
+  </data>
+  <data name="O_01x07_01_Description" xml:space="preserve">
+    <value>W pobliżu jest statek wydobywczy, ale wymaga naprawy. Wymagane komponenty powinny być gdzieś w pobliżu.</value>
+  </data>
+  <data name="O_01x07_01_Objective" xml:space="preserve">
+    <value>Przywróć zasilanie w statku.</value>
+  </data>
+  <data name="O_01x07_02_Description" xml:space="preserve">
+    <value>Dobrze! Wejdź do kokpitu aby rozpocząć.</value>
+  </data>
+  <data name="O_01x07_02_Objective" xml:space="preserve">
+    <value>Wejdź do kokpitu klikając [{CONTROL:USE}] celując w kokpit.</value>
+  </data>
+  <data name="O_01x07_03_Description" xml:space="preserve">
+    <value>Wybierz wiertło z paska narzędzi i użyj prawego przycisku myszy żeby utworzyć tunel do ucieczki. 
+ Wciśnij [{CONTROL:LANDING_GEAR}] aby wyłączyć podwozie. </value>
+  </data>
+  <data name="O_01x07_03_Objective" xml:space="preserve">
+    <value>Znajdź drogę ucieczki ze statkiem.</value>
+  </data>
+  <data name="O_01x07_Caption" xml:space="preserve">
+    <value>Good.bot: Statek Górniczy</value>
+  </data>
+  <data name="O_01x07_Hint" xml:space="preserve">
+    <value>Znakomicie!
+
+Rada: Podczas korzystania z wiertła lewy przyciskiem zbiera się rudy a prawym kopie tunele. </value>
+  </data>
+  <data name="O_01x07_Name" xml:space="preserve">
+    <value>Statek Górniczy</value>
+  </data>
+  <data name="O_02x01_01_Description" xml:space="preserve">
+    <value>Tutaj możesz testować broń osobistą i broń statku.</value>
+  </data>
+  <data name="O_02x01_01_Objective_01" xml:space="preserve">
+    <value>Zniszcz cele</value>
+  </data>
+  <data name="O_02x01_01_Objective_02" xml:space="preserve">
+    <value>Strzel z działka Gatlinga</value>
+  </data>
+  <data name="O_02x01_01_Objective_03" xml:space="preserve">
+    <value>Strzel z wyrzutni rakiet</value>
+  </data>
+  <data name="O_02x01_02_Description" xml:space="preserve">
+    <value>Wybornie! Możesz naprawić statek bojowy i wrócić do domu.</value>
+  </data>
+  <data name="O_02x01_02_Objective" xml:space="preserve">
+    <value>Przywróć zasilanie w statku.</value>
+  </data>
+  <data name="O_02x01_Caption" xml:space="preserve">
+    <value>Good.bot: Bronie</value>
+  </data>
+  <data name="O_02x01_Hint" xml:space="preserve">
+    <value>W dziesiątkę!
+
+ Rada: Maksymalny zasięg broni to 800 metrów.</value>
+  </data>
+  <data name="O_02x01_Name" xml:space="preserve">
+    <value>Bronie</value>
+  </data>
+  <data name="O_02x02_01_Description" xml:space="preserve">
+    <value>To platforma budowlana. Wygląda na to, że jest tu dosyć materiałów na twój własny statek. Mamy już podstawę. Zacznij od budowy kokpitu.</value>
+  </data>
+  <data name="O_02x02_01_Objective" xml:space="preserve">
+    <value>Zbuduj i zespawaj kokpit aby kontrolować statek.</value>
+  </data>
+  <data name="O_02x02_02_Description" xml:space="preserve">
+    <value>Dobrze! Teraz potrzebujesz silników we wszystkich sześciu kierunkach. Użyj zwykłych silników do lotu w kosmosie. Więcej silników to większe przyspieszenie!</value>
+  </data>
+  <data name="O_02x02_02_Objective" xml:space="preserve">
+    <value>Zespawaj silniki w sześciu kierunkach.</value>
+  </data>
+  <data name="O_02x02_03_Description" xml:space="preserve">
+    <value>Statek potrzebuje też żyroskopu do obracania się. Więcej żyroskopów to większa czułość.</value>
+  </data>
+  <data name="O_02x02_03_Objective" xml:space="preserve">
+    <value>Zbuduj i zespawaj żyroskopy na statku.</value>
+  </data>
+  <data name="O_02x02_04_Description" xml:space="preserve">
+    <value>Na zakończenie potrzebne jest zasilanie. Zbuduj reaktory i zasil je paliwem lub baterie mające małą ilość mocy od początku.</value>
+  </data>
+  <data name="O_02x02_04_Objective" xml:space="preserve">
+    <value>Zasil statek.</value>
+  </data>
+  <data name="O_02x02_Caption" xml:space="preserve">
+    <value>Good.bot: Budowa statku</value>
+  </data>
+  <data name="O_02x02_Hint" xml:space="preserve">
+    <value>Sam bym tego lepiej nie zrobił!
+
+
+Rada: Dodaj pancerz aby chronić ważne części przed zderzeniem lub bronią!</value>
+  </data>
+  <data name="O_02x02_Name" xml:space="preserve">
+    <value>Budowa statku</value>
+  </data>
+  <data name="O_02x03_01_Description" xml:space="preserve">
+    <value>To pomieszczenie było pod ciśnieniem. Pomieszczenia pod ciśnieniem uzupełniają tlen w kombinezonie i ocieplają. 
+ Napraw wentylator aby sprawdzić stan pokoju.</value>
+  </data>
+  <data name="O_02x03_01_Objective" xml:space="preserve">
+    <value>Napraw wentylator.</value>
+  </data>
+  <data name="O_02x03_02_Description" xml:space="preserve">
+    <value>Idealne! Jednak żółte światło na wentylatorze oznacza, że pokój nie jest szczelny. Napraw dziury w ścianach i drzwi żeby uszczelnić pomieszczenie.</value>
+  </data>
+  <data name="O_02x03_02_Objective_01" xml:space="preserve">
+    <value>Uszczelnij pomieszczenie.</value>
+  </data>
+  <data name="O_02x03_02_Objective_02" xml:space="preserve">
+    <value>Napraw dziury w ścianach.</value>
+  </data>
+  <data name="O_02x03_03_Description" xml:space="preserve">
+    <value>Zauważ, że wentylator pokazuje zielone światło, wskazujące że pokój jest szczelny. Połączony generator tlenu może teraz wyprodukować tlen z lodu i skorzystać z wentylatora aby zwiększyć ciśnienie w pomieszczeniu.</value>
+  </data>
+  <data name="O_02x03_03_Objective" xml:space="preserve">
+    <value>Umieść lód w generatorze tlenu z wejścia na dachu.</value>
+  </data>
+  <data name="O_02x03_Caption" xml:space="preserve">
+    <value>Good.bot: Utrzymywanie ciśnienia</value>
+  </data>
+  <data name="O_02x03_Hint" xml:space="preserve">
+    <value>Wybitnie!
+ Rada: Zauważ, że kombinezon automatycznie uzupełnia tlen kiedy jesteś w pomieszczeniu z ciśnieniem.</value>
+  </data>
+  <data name="O_02x03_Name" xml:space="preserve">
+    <value>Utrzymywanie ciśnienia</value>
+  </data>
+  <data name="O_02x04_01_Description" xml:space="preserve">
+    <value>Wygląda to jak zaawansowany zakład produkcyjny. 
+ Ruda jest już w kontenerze, ale rury transportowe nie są zbudowane do końca. Rury transportują przedmioty pomiędzy blokami.</value>
+  </data>
+  <data name="O_02x04_01_Objective" xml:space="preserve">
+    <value>Napraw rury transportowe.</value>
+  </data>
+  <data name="O_02x04_02_Description" xml:space="preserve">
+    <value>Rafineria automatycznie pobierze rudę z kontenera i przetworzy ją w sztabki. A te mogą zostać przetworzone w komponenty przez stację montażową.</value>
+  </data>
+  <data name="O_02x04_02_Objective" xml:space="preserve">
+    <value>Zbuduj i połącz stację montażową z rafinerią.</value>
+  </data>
+  <data name="O_02x04_Caption" xml:space="preserve">
+    <value>Good.bot: Produkcja</value>
+  </data>
+  <data name="O_02x04_Hint" xml:space="preserve">
+    <value>Szybko się uczysz! 
+
+
+Rada: Możesz ulepszyć zaawansowane rafinerie i stacje montażowe modułami.</value>
+  </data>
+  <data name="O_02x04_Name" xml:space="preserve">
+    <value>Produkcja</value>
+  </data>
+  <data name="O_02x05_01_Description" xml:space="preserve">
+    <value>W kosmosie latają baterie dzięki, którym można przywrócić zasilanie placówki. Struktury mogą być połączone za pomocą bloku łączącego. Użyj statku aby scalić baterie ze stacją.</value>
+  </data>
+  <data name="O_02x05_01_Objective" xml:space="preserve">
+    <value>Wejdź do statku towarowego</value>
+  </data>
+  <data name="O_02x05_02_Description" xml:space="preserve">
+    <value>Statek trzyma baterie przednim podwoziem. Przenieś je blisko łącznika aby je połączyć. Blok łączący zaświeci się na żółto kiedy baterie znajdą się w jego zasięgu.</value>
+  </data>
+  <data name="O_02x05_02_Objective" xml:space="preserve">
+    <value>Połącz baterie ze stacją</value>
+  </data>
+  <data name="O_02x05_03_Description" xml:space="preserve">
+    <value>Wspaniale! Zasilanie przywrócone. Teraz możesz połączyć statek ze stacją. Skorzystaj z łącznika aby utworzyć tymczasowe połączenie. Łącznik zaświeci się na żółto kiedy znajdzie się w zasięgu.</value>
+  </data>
+  <data name="O_02x05_03_Objective" xml:space="preserve">
+    <value>Wciśnij [{CONTROL:LANDING_GEAR}] kiedy łącznik zaświeci się na żółto aby go połączyć.</value>
+  </data>
+  <data name="O_02x05_Caption" xml:space="preserve">
+    <value>Good.bot: Łączenie</value>
+  </data>
+  <data name="O_02x05_Hint" xml:space="preserve">
+    <value>Będziesz ekspertem w mgnieniu oka!
+ Łącznik pozwala na transfer przedmiotów i ładowanie baterii.</value>
+  </data>
+  <data name="O_02x05_Name" xml:space="preserve">
+    <value>Łączenie</value>
+  </data>
+  <data name="O_03x01_01_Description" xml:space="preserve">
+    <value>Teraz kiedy drona mamy z głowy, zajmij się teraz systemem obrony stacji. Większość wieżyczek i broni ma maksymalny zasięg 800 metrów.</value>
+  </data>
+  <data name="O_03x01_01_Objective_01" xml:space="preserve">
+    <value>Wyłącz wieżyczkę 1.</value>
+  </data>
+  <data name="O_03x01_01_Objective_02" xml:space="preserve">
+    <value>Wyłącz wieżyczkę 2.</value>
+  </data>
+  <data name="O_03x01_02_Description" xml:space="preserve">
+    <value>Ten czerwony sygnał oznacza wrogą stację piracką.</value>
+  </data>
+  <data name="O_03x01_02_Objective" xml:space="preserve">
+    <value>Znicz drona.</value>
+  </data>
+  <data name="O_03x01_03_Description" xml:space="preserve">
+    <value>Zdejmij antenę na stacji aby zatrzymać pojawianie się dronów.</value>
+  </data>
+  <data name="O_03x01_03_Objective" xml:space="preserve">
+    <value>Zniszcz antenę na stacji.</value>
+  </data>
+  <data name="O_03x01_Caption" xml:space="preserve">
+    <value>Good.bot: Walka</value>
+  </data>
+  <data name="O_03x01_Hint" xml:space="preserve">
+    <value>Cel zneutralizowany!
+
+
+Rada: Czerwone sygnały mogą też wskazywać obecność innych graczy. </value>
+  </data>
+  <data name="O_03x01_Name" xml:space="preserve">
+    <value>Walka</value>
+  </data>
+  <data name="O_03x02_01_Description" xml:space="preserve">
+    <value>To wygląda na zautomatyzowany obiekt budowlany. Projektory są używane do wyświetlania zapisanych schematów, co pomaga w szybszej budowie.</value>
+  </data>
+  <data name="O_03x02_01_Objective" xml:space="preserve">
+    <value>Znajdź sposób włączenia projektora.</value>
+  </data>
+  <data name="O_03x02_02_Description" xml:space="preserve">
+    <value>Projektor wymaga schematu, który może wyświetlić. Spawarki na stacji zrobią większość pracy za ciebie. Spawarki korzystają z komponentów na stacji.</value>
+  </data>
+  <data name="O_03x02_02_Objective" xml:space="preserve">
+    <value>Zbuduj projekcję.</value>
+  </data>
+  <data name="O_03x02_03_Description" xml:space="preserve">
+    <value>Fenomenalnie! Teraz musisz znaleźć odłączyć statek i załadować amunicję do broni. Odłącz statek i spróbuj!</value>
+  </data>
+  <data name="O_03x02_03_Objective" xml:space="preserve">
+    <value>Wyleć nowym statkiem poza hangar, żeby go przetestować.</value>
+  </data>
+  <data name="O_03x02_Caption" xml:space="preserve">
+    <value>Good.bot: Projektor</value>
+  </data>
+  <data name="O_03x02_Hint" xml:space="preserve">
+    <value>Szybko i sprawnie!
+
+
+Rada: Użyj tej placówki lub zbuduj własną aby szybciej budować statki. Pamiętaj o paliwie i amunicji!</value>
+  </data>
+  <data name="O_03x02_Name" xml:space="preserve">
+    <value>Projektor</value>
+  </data>
+  <data name="O_03x03_01_Description" xml:space="preserve">
+    <value>To wygląda na stary statek do eksploracji. Ma na pokładzie napęd skokowy. Napędy skokowe służą do transportu statków na dalekie dystanse. Musisz go naprawić.</value>
+  </data>
+  <data name="O_03x03_01_Objective" xml:space="preserve">
+    <value>Napraw napęd skokowy.</value>
+  </data>
+  <data name="O_03x03_02_Description" xml:space="preserve">
+    <value>Napędy skokowe mogą być aktywowane tylko z paska narzędzi kokpitu. Aktywuj napęd skokowy. Pozostań w fotelu kiedy napęd skokowy jest włączony.</value>
+  </data>
+  <data name="O_03x03_02_Objective" xml:space="preserve">
+    <value>Wykonaj skok.</value>
+  </data>
+  <data name="O_03x03_03_Description" xml:space="preserve">
+    <value>Napędy skokowe mogą korzystać z współrzędnych GPS do skoków. Korzystaj z współrzędnych zapisanych na panelu LCD żeby odnaleźć ukryte miejsca.</value>
+  </data>
+  <data name="O_03x03_03_Objective" xml:space="preserve">
+    <value>Znajdź ukrytą bazę.</value>
+  </data>
+  <data name="O_03x03_Caption" xml:space="preserve">
+    <value>Good.bot: Napęd Skokowy</value>
+  </data>
+  <data name="O_03x03_Hint" xml:space="preserve">
+    <value>Zapnij pasy!
+
+
+Rada: Nie opuszczaj fotela podczas skoku, bo zostaniesz w tyle! </value>
+  </data>
+  <data name="O_03x03_Name" xml:space="preserve">
+    <value>Napęd Skokowy</value>
+  </data>
+  <data name="O_03x04_01_Description" xml:space="preserve">
+    <value>Ta placówka naprawia drony bezzałogowe do obrony placówki, budowy i wydobywania surowców.Aby zdalnie sterować statkiem, potrzebujesz bloku zdalnego sterowania i anteny.</value>
+  </data>
+  <data name="O_03x04_01_Objective_01" xml:space="preserve">
+    <value>Napraw blok zdalnego sterowania.</value>
+  </data>
+  <data name="O_03x04_01_Objective_02" xml:space="preserve">
+    <value>Dodaj dronowi antenę.</value>
+  </data>
+  <data name="O_03x04_02_Description" xml:space="preserve">
+    <value>Aby sterować zdalnie statkiem, wciśnij [Shift+K] aby wejść do menu, które pokazuje statki w zasięgu anteny i wybierz steruj. 
+ Pamiętaj o włączeniu anteny w kombinezonie!</value>
+  </data>
+  <data name="O_03x04_02_Objective" xml:space="preserve">
+    <value>Przejmij zdalną kontrole nad dronem.</value>
+  </data>
+  <data name="O_03x04_03_Description" xml:space="preserve">
+    <value>Poleć do punktu żeby przetestować drona.
+ Nie odleć za daleko, twoja antena musi być w zasięgu anteny drona.</value>
+  </data>
+  <data name="O_03x04_03_Objective" xml:space="preserve">
+    <value>Leć dronem do punktu GPS. </value>
+  </data>
+  <data name="O_03x04_Caption" xml:space="preserve">
+    <value>Good.bot: Zdalna kontrola</value>
+  </data>
+  <data name="O_03x04_Hint" xml:space="preserve">
+    <value>Precyzyjny lot! 
+
+
+Rada: Drony są idealne, jeśli chcesz zbudować tani i mały statek.</value>
+  </data>
+  <data name="O_03x04_Name" xml:space="preserve">
+    <value>Zdalna kontrola</value>
+  </data>
+  <data name="O_03x05_01_Description" xml:space="preserve">
+    <value>Ten statek górniczy korzysta z silników wodorowych.
+ Silniki wodorowe są potężne, ale wymagają wodoru do działania.
+ Wodór produkuje generator tlenu z lodu</value>
+  </data>
+  <data name="O_03x05_01_Objective" xml:space="preserve">
+    <value>Dodaj lodu do generatora tlenu.</value>
+  </data>
+  <data name="O_03x05_02_Description" xml:space="preserve">
+    <value>Tylne napędy nie są połączone z zbiornikiem wodoru. 
+ Napraw lub dodaj rury transportowe żeby połączyć silniki z zbiornikiem paliwa. 
+</value>
+  </data>
+  <data name="O_03x05_02_Objective" xml:space="preserve">
+    <value>Przywróć dopływ paliwa do tylnych silników.</value>
+  </data>
+  <data name="O_03x05_03_Description" xml:space="preserve">
+    <value>Kapitalnie! Teraz możesz skorzystać z wiertła do wykopania lodu i zasilenia nim statku.</value>
+  </data>
+  <data name="O_03x05_03_Objective" xml:space="preserve">
+    <value>Wydobądź lód statkiem górniczym.</value>
+  </data>
+  <data name="O_03x05_Caption" xml:space="preserve">
+    <value>Good.bot: Silniki wodorowe</value>
+  </data>
+  <data name="O_03x05_Hint" xml:space="preserve">
+    <value>Bajkowo!
+
+
+Rada: Silniki wodorowe mogą służyć do opuszczenia atmosfery planety.</value>
+  </data>
+  <data name="O_03x05_Name" xml:space="preserve">
+    <value>Silniki wodorowe</value>
+  </data>
+  <data name="O_0Fx01_01_Description" xml:space="preserve">
+    <value>Dobra robota, inżynierze! Teraz czas przetestować twoje nowe umiejętności. W pobliżu jest planeta zajęta przez piratów.
+ Dotrzyj do planety i pozbądź się piratów.</value>
+  </data>
+  <data name="O_0Fx01_01_Objective" xml:space="preserve">
+    <value>Dotrzyj do planety.</value>
+  </data>
+  <data name="O_0Fx01_02_Description" xml:space="preserve">
+    <value>Dobra robota , jesteś na planecie! Znajduje się tutaj placówka kontrolowana przez piratów. Od ciebie zależy jak ją unieszkodliwisz.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_01" xml:space="preserve">
+    <value>Zniszcz placówkę piratów.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_02" xml:space="preserve">
+    <value>Zniszcz placówkę piratów 2.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_03" xml:space="preserve">
+    <value>Zniszcz placówkę piratów 3.</value>
+  </data>
+  <data name="O_0Fx01_03_Description" xml:space="preserve">
+    <value>Wybitnie! Po zniszczeniu placówek, dowódca piratów ujawnił się. Orbituje wokół planety. Wiesz co robić!</value>
+  </data>
+  <data name="O_0Fx01_03_Objective" xml:space="preserve">
+    <value>Zniszcz statek dowodzenia piratów.</value>
+  </data>
+  <data name="O_0Fx01_Caption" xml:space="preserve">
+    <value>Good.bot: Ostatnie zadanie</value>
+  </data>
+  <data name="O_0Fx01_Hint" xml:space="preserve">
+    <value>Celująco!
+
+
+Rada: Podziel się doświadczeniem z innym graczem, a następnym razem połączcie siły lub rywalizujcie ze sobą!</value>
+  </data>
+  <data name="O_InitialQuest" xml:space="preserve">
+    <value>Jest jeszcze kilka małych zadań do wykonania, mogą być aktywowane przez przycisk na panelu z przyciskami. Na platformie jest kilka, możesz je wypróbować!</value>
+  </data>
+  <data name="O_InitialQuest_Caption" xml:space="preserve">
+    <value>Good.bot: Zadania</value>
+  </data>
+  <data name="Persons_VirtualAssistant" xml:space="preserve">
+    <value>Good.bot</value>
+  </data>
+  <data name="QuestlogDetail_Failed" xml:space="preserve">
+    <value>Zadanie zakończyło się porażką.</value>
+  </data>
+  <data name="QuestlogDetail_Success" xml:space="preserve">
+    <value>Zadanie zakończyło się sukcesem.</value>
+  </data>
+</root>

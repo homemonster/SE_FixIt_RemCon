@@ -1,0 +1,754 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Boundary_Warning" xml:space="preserve">
+    <value>** Hraniční varování **</value>
+  </data>
+  <data name="DeathScreen" xml:space="preserve">
+    <value>Zemřeli jste...</value>
+  </data>
+  <data name="Hacked" xml:space="preserve">
+    <value>HACKNUTO</value>
+  </data>
+  <data name="LCD_M01_01" xml:space="preserve">
+    <value>Přibližování ke stanici... 
+Vzdálenost: 239.3m</value>
+  </data>
+  <data name="LCD_M01_02" xml:space="preserve">
+    <value>VÝCHOD</value>
+  </data>
+  <data name="LCD_M01_03" xml:space="preserve">
+    <value>Přechodová komora</value>
+  </data>
+  <data name="LCD_M01_04" xml:space="preserve">
+    <value>-----------------------------------------------
+Únikové moduly
+--------------------------------</value>
+  </data>
+  <data name="LCD_M01_05" xml:space="preserve">
+    <value>////////\\\\\\\\\\\\\\\\ 
+ Modul 07
+ Připraven
+////////\\\\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_06" xml:space="preserve">
+    <value>--------------------------------
+ Ošetřovna
+ Nabíjení stanice 
+ Energie zde
+---------------------------</value>
+  </data>
+  <data name="LCD_M01_07" xml:space="preserve">
+    <value>Únikové moduly --&gt;</value>
+  </data>
+  <data name="LCD_M01_08" xml:space="preserve">
+    <value>Zbývá 1 únikový modul</value>
+  </data>
+  <data name="LCD_M01_09" xml:space="preserve">
+    <value>Nezbývá žádný únikový modul</value>
+  </data>
+  <data name="LCD_M01_10" xml:space="preserve">
+    <value>doop</value>
+  </data>
+  <data name="LCD_M01_11" xml:space="preserve">
+    <value>-------------------------------------
+ /\
+ /_!_\
+ Pohotovost
+ Ihned se evakuujte
+-----------------------------------------</value>
+  </data>
+  <data name="LCD_M01_12" xml:space="preserve">
+    <value>/////////\\\\\\\\\\\\\
+ Dveře poškozeny
+ Vyžadovaná oprava
+/////////\\\\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_13" xml:space="preserve">
+    <value>---------------------------------
+ Zjištěno protržení,
+ Podpora života
+ selhává
+----------------------------------</value>
+  </data>
+  <data name="LCD_M01_14" xml:space="preserve">
+    <value>////////////\\\\\\\\\\\\\\\
+ Únikové moduly
+ Ihned se evakuujte!
+////////////\\\\\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_15" xml:space="preserve">
+    <value>\/ Únikové moduly</value>
+  </data>
+  <data name="LCD_M01_16" xml:space="preserve">
+    <value>////////\\\\\\\\\\\\\\\\ 
+ Modul 06
+ Vypuštěn
+////////\\\\\\\\\\\\\\</value>
+  </data>
+  <data name="LCD_M01_17" xml:space="preserve">
+    <value>Zjištěno protržení!</value>
+  </data>
+  <data name="LCD_M01_18" xml:space="preserve">
+    <value>Únikový modul 07 připraven</value>
+  </data>
+  <data name="LCD_M01_19" xml:space="preserve">
+    <value>Ovládání tlaku</value>
+  </data>
+  <data name="LCD_M01_20" xml:space="preserve">
+    <value>OMEZENO</value>
+  </data>
+  <data name="LCD_M01_21" xml:space="preserve">
+    <value>Otevřít hangár</value>
+  </data>
+  <data name="LCD_M01_22" xml:space="preserve">
+    <value>Otevřít přechodovou komoru</value>
+  </data>
+  <data name="LCD_M01_23" xml:space="preserve">
+    <value>Vydat kyslíkovou láhev</value>
+  </data>
+  <data name="LCD_M01_24" xml:space="preserve">
+    <value>hangárová vrata</value>
+  </data>
+  <data name="LCD_M01_25" xml:space="preserve">
+    <value>Natlakovat</value>
+  </data>
+  <data name="LCD_M01_26" xml:space="preserve">
+    <value>Utěsnit a natlakovat</value>
+  </data>
+  <data name="LCD_M02_01" xml:space="preserve">
+    <value>---------------------------------------------------------------
+    STISKNĚTE "P" PRO
+   UZAMKNUTÍ / ODEMKNUTÍ
+  PŘISTÁVACÍHO PODVOZKU 
+A KONEKTORŮ
+
+----------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_02" xml:space="preserve">
+    <value>------------------------------------------------------------
+    STISKNĚTE "1" PRO 
+  VYBRÁNÍ VRTÁKU
+ NÁSLEDNĚ DRŽTE LEVÉ
+      TLAČÍTKO MYŠI PRO 
+     POUŽITÍ VRÁTKU
+------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_03" xml:space="preserve">
+    <value>------------------------------------------------------------------
+KONEKTOR LODI
+ JE VESPOD
+
+        STISKNĚTE "V" PRO 
+   PŘEPNUTÍ REŽIMU POHLEDU
+   ABYSTE SE MOHLI SNÁZE NASMĚROVAT
+        NA KONEKTOR
+
+-------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_04" xml:space="preserve">
+    <value>---------------------------------------------------------------------
+  DRŽTE "ALT" 
+    A HÝBEJTE
+        MYŠÍ PRO
+  OTÁČENÍ POHLEDU
+   V REŽIMU TŘETÍ OSOBY
+
+---------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_05" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ 48. ZÁZNAM DENÍKU
+----------------------------------------------------------------------------------------
+ Extrakce je naplánována na 14:00.
+
+ Tým vědců netrpělivě očekává
+ dovezení artefaktů
+ u hlavní základny. Znovu už
+ to prodlužovat nebudu, nenechám se znovu 
+ poučovat o důležitosti
+ dodržování termínů od těch vědců, kteří
+ zůstali doma.
+----------------------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_06" xml:space="preserve">
+    <value>MÍSTO VÝKOPU -&gt;</value>
+  </data>
+  <data name="LCD_M02_07" xml:space="preserve">
+    <value>&lt;- MÍSTO VÝKOPU</value>
+  </data>
+  <data name="LCD_M02_08" xml:space="preserve">
+    <value>BEZPEČNOSTNÍ DRONY</value>
+  </data>
+  <data name="LCD_M02_09" xml:space="preserve">
+    <value>OŠETŘOVNA</value>
+  </data>
+  <data name="LCD_M02_10" xml:space="preserve">
+    <value>PODPORA ŽIVOTA</value>
+  </data>
+  <data name="LCD_M02_11" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ F. Palmerová - Osobní deník
+---------------------------------------------------------------------------------
+ Netuším jestli bych tohle neměla nahlásit
+ svým nadřízeným, myslím že Blair
+ přichází o rozum. Probrala jsem se z kryospánku
+ a viděla ho jak stojí na okraji
+ komory s artefaktem, prostě stál.. jen
+ na něj zíral. Myslím, že nešel
+ spát společně s námi. Nic jsem
+ neřekla, ale bojím se, že ten stres
+ z práce a života v téhle kobce 
+na mne dopadá.
+----------------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_12" xml:space="preserve">
+    <value>NORRIS</value>
+  </data>
+  <data name="LCD_M02_13" xml:space="preserve">
+    <value>PALEROVÁ</value>
+  </data>
+  <data name="LCD_M02_14" xml:space="preserve">
+    <value>CHILDS</value>
+  </data>
+  <data name="LCD_M02_15" xml:space="preserve">
+    <value>BLAIR</value>
+  </data>
+  <data name="LCD_M02_16" xml:space="preserve">
+    <value>Přístup pro údržbu</value>
+  </data>
+  <data name="LCD_M02_17" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ Blair - Osobní deník
+---------------------------------------------------------------------
+ Tak si myslím, že tohle bude
+ můj poslední záznam. Vždy jsem 
+ si říkal, kde lidi berou
+ čas na psaní těchto
+ věcí před smrtí. Řekl bych,
+ že jsem na to přišel.
+
+ Alespoň... jsem se pokusil udělat
+ správnou věc.
+--------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_18" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ K. Clark - Deník údržby
+------------------------------------------------------------------------
+ Nadřízený si mě dnes zavolal do jámy,
+ jak já nesnáším ten rachtající, starý výtah. Šíleně
+ mě děsí vždycky, kdykoliv s ním jedu. Pořád
+ žádám o jeho opravení, ale oni tvrdí,
+ že to není třeba. Nemyslím si, že mají v plánu
+ tu zůstat nějak dlouho.
+
+ Bezpečnostní dron 07 se poškodil,
+ ale naštěstí nebyl problém ho opravit. 
+ Nechápu jak ti vědci mohou vydržet
+ takovou dobu v těch jeskyních.
+------------------------------------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_19" xml:space="preserve">
+    <value>ŘÍDÍCÍ VĚŽ</value>
+  </data>
+  <data name="LCD_M02_20" xml:space="preserve">
+    <value>GARÁŽ</value>
+  </data>
+  <data name="LCD_M02_21" xml:space="preserve">
+    <value>VESTIBUL</value>
+  </data>
+  <data name="LCD_M02_22" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+ STAV ZÁKLADNY 
+---------------------------------------------------------------------------------- 
+ SOUČASNÁ POSÁDKA - 0</value>
+  </data>
+  <data name="LCD_M02_23" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+ STAV ZÁKLADNY 
+---------------------------------------------------------------------------------- 
+ KOMUNIKACE: Vyřazena</value>
+  </data>
+  <data name="LCD_M02_24" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+ STAV ZÁKLADNY
+----------------------------------------------------------------------------------
+ ENERGIE: Dostupná</value>
+  </data>
+  <data name="LCD_M02_25" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- 
+ STAV ZÁKLADNY 
+---------------------------------------------------------------------------------- 
+ PODPORA ŽIVOTA: Funkční</value>
+  </data>
+  <data name="LCD_M02_26" xml:space="preserve">
+    <value>Přístup pro údržbu</value>
+  </data>
+  <data name="LCD_M02_27" xml:space="preserve">
+    <value>VÝTAH</value>
+  </data>
+  <data name="LCD_M02_28" xml:space="preserve">
+    <value>-------------------------------------------
+
+Výzkumná stanice 17-A 
+
+
+poslední zaznamenaná aktivita:
+  před 79 dny
+
+----------------------------------------------</value>
+  </data>
+  <data name="LCD_M02_29" xml:space="preserve">
+    <value>AKTIVNÍ ZABEZPEČENÍ</value>
+  </data>
+  <data name="LCD_M02_30" xml:space="preserve">
+    <value>Časovací blok - Spustit ihned</value>
+  </data>
+  <data name="LCD_M02_31" xml:space="preserve">
+    <value>Malý reaktor - Přepnout Zapnut/Vypnut</value>
+  </data>
+  <data name="LCD_M02_32" xml:space="preserve">
+    <value>Přistávací podvozek - Odemknout</value>
+  </data>
+  <data name="LCD_M02_33" xml:space="preserve">
+    <value>Použít výtah - Spustit ihned</value>
+  </data>
+  <data name="LCD_M02_34" xml:space="preserve">
+    <value>Výtah nahoru</value>
+  </data>
+  <data name="LCD_M02_35" xml:space="preserve">
+    <value>Časovací blok údržby - Spustit ihned</value>
+  </data>
+  <data name="LCD_M02_36" xml:space="preserve">
+    <value>Vzdálený test řízení - Autopilot Zapnut/Vypnut</value>
+  </data>
+  <data name="LCD_M02_37" xml:space="preserve">
+    <value>Hangárová vrata prostoru vozidel</value>
+  </data>
+  <data name="LCD_M02_38" xml:space="preserve">
+    <value>Hangárová vrata prostoru vozidel</value>
+  </data>
+  <data name="LCD_M02_39" xml:space="preserve">
+    <value>Odemknout vrata - Spustit ihned</value>
+  </data>
+  <data name="LCD_M03_01" xml:space="preserve">
+    <value>Součástky baterie</value>
+  </data>
+  <data name="LCD_M03_02" xml:space="preserve">
+    <value>Žádná energie</value>
+  </data>
+  <data name="LCD_M03_03" xml:space="preserve">
+    <value>Říkal jsem si, že se ještě 
+pozeptám, jestli někdo nezměnil názor 
+ a neodletí s námi, místo toho,  
+ aby zůstal na tomhle místě. 
+ 
+ Zprvu jsem si nebyl jist na 
+ co to koukám. Hejno ptáků? 
+ Ne, poslali drony. Tucty
+ dronů. 
+ 
+ A teď tu ležím, umírajíc.
+ Alespoň si zkrátím čas psaním svého
+ posledního záznamu.</value>
+  </data>
+  <data name="LCD_M03_04" xml:space="preserve">
+    <value>OMEZENO</value>
+  </data>
+  <data name="LCD_M03_05" xml:space="preserve">
+    <value>&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;  
+  ||	   S. Patrick  ||  Osobní deník  ||
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;
+
+ Po vší té práci! Nemohu uvěřit,
+ že by nám to udělali! Zatracený korporát
+ ti zabodne kudlu do zad při první
+ příležitosti.
+ Leonarde, jestli tohle najdeš a divíš se
+ co se stalo, dálkové senzory zaznamenaly
+ signál flotily lodí R.O.S.4.
+ Dali jsme ji ten zatracený artefakt,
+ ale stejně si pro nás jdou. Nemáme moc 
+ času dostat se pryč. Doufám, že se znovu
+ shledáme.
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&gt;</value>
+  </data>
+  <data name="LCD_M03_06" xml:space="preserve">
+    <value>&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;
+     ||    K. James     ||   Veřejné oznámení   ||
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;
+
+ POZOR! Drtící jáma je mimo 
+ provoz, dokud nebude řečeno jinak.
+
+ Nehoda z minulého týdne nebyla
+ daleko od velmi závažné. Nehodlám vystavit
+ nikoho dalšího takovému riziku. Bude-li to nutné,
+ rozebereme každý šrot ručně,
+ alespoň dokud nebude jáma opravená
+ a prověřená.
+
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;</value>
+  </data>
+  <data name="LCD_M03_07" xml:space="preserve">
+    <value>Aggelos</value>
+  </data>
+  <data name="LCD_M03_08" xml:space="preserve">
+    <value>VÝCHOD</value>
+  </data>
+  <data name="LCD_M03_09" xml:space="preserve">
+    <value>/\
+       |
+ŘÍDÍCÍ
+  MÍSTNOST</value>
+  </data>
+  <data name="LCD_M03_10" xml:space="preserve">
+    <value>ŘÍDÍCÍ
+  MÍSTNOST</value>
+  </data>
+  <data name="LCD_M03_11" xml:space="preserve">
+    <value>Konektor: odemčen
+
+Pumpy: nečinné
+
+Hladina nádrže: 0%</value>
+  </data>
+  <data name="LCD_M03_12" xml:space="preserve">
+    <value>Řídící místnost</value>
+  </data>
+  <data name="LCD_M03_13" xml:space="preserve">
+    <value>&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;    
+  ||	   O, Miles  ||  Deník šéfinženýra  ||  
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;
+ Konečně jsme po mnoha měsících téměř dokončili opravy na
+ fregatě. Je těžké si vzpomenou na stav, v jakém byla, když mi ji prvně
+ dali k opravě. Polovina systémů selhávala a
+ řekl bych, že to byl spíš kus šrotu než loď! 
+ 
+ Poslední úkol na mém seznamu je oprava hlavního motoru. Potom už 
+bude třeba jen doplnit zásoby a bude moct vyrazit. 
+  
+ Už se těším až ji uvidím vyplout, jen se bojím, co mi dají k 
+opravě příště! 
+&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;&gt;&lt;</value>
+  </data>
+  <data name="LCD_M03_14" xml:space="preserve">
+    <value>Časovač výtahu - Spustit ihned</value>
+  </data>
+  <data name="LCD_M03_15" xml:space="preserve">
+    <value>Místa</value>
+  </data>
+  <data name="LCD_M03_16" xml:space="preserve">
+    <value>Hlavice - Zahájit odpočet</value>
+  </data>
+  <data name="LCD_M03_17" xml:space="preserve">
+    <value>Reflektor - Přepnutí Zapnout/Vypnout</value>
+  </data>
+  <data name="LCD_M03_18" xml:space="preserve">
+    <value>Reflektor - Přepnutí Zapnout/Vypnout</value>
+  </data>
+  <data name="LCD_M03_19" xml:space="preserve">
+    <value>Hangárová vrata</value>
+  </data>
+  <data name="LCD_M03_20" xml:space="preserve">
+    <value>Aktivovat obrazovku</value>
+  </data>
+  <data name="LCD_M03_21" xml:space="preserve">
+    <value>bruska</value>
+  </data>
+  <data name="LCD_M03_22" xml:space="preserve">
+    <value>Aktivovat</value>
+  </data>
+  <data name="LCD_M03_23" xml:space="preserve">
+    <value>Vysunout píst</value>
+  </data>
+  <data name="LCD_M03_24" xml:space="preserve">
+    <value>Zamknout konektor</value>
+  </data>
+  <data name="LCD_M04_01" xml:space="preserve">
+    <value>Stiskněte P pro 
+         Ruční brzdu</value>
+  </data>
+  <data name="LCD_M04_02" xml:space="preserve">
+    <value>Stiskněte V pro přepnutí
+   do pohledu třetí osoby</value>
+  </data>
+  <data name="LCD_M04_03" xml:space="preserve">
+    <value>s</value>
+  </data>
+  <data name="LCD_M04_04" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+   TOVÁRNA
+ NA DRONY
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-</value>
+  </data>
+  <data name="LCD_M04_05" xml:space="preserve">
+    <value>Kola</value>
+  </data>
+  <data name="LCD_M04_06" xml:space="preserve">
+    <value>Časovací blok spouštějící skripty - Spustit ihned</value>
+  </data>
+  <data name="LCD_M04_07" xml:space="preserve">
+    <value>Rakety</value>
+  </data>
+  <data name="LCD_M04_08" xml:space="preserve">
+    <value>Vrata torpédové komory</value>
+  </data>
+  <data name="LCD_M04_09" xml:space="preserve">
+    <value>Hangárová vrata</value>
+  </data>
+  <data name="LCD_M04_10" xml:space="preserve">
+    <value>Přistávací podvozek 3 - Autouzamčení Zapnout/Vypnout</value>
+  </data>
+  <data name="LCD_M04_11" xml:space="preserve">
+    <value>Přistávací podvozek 3 - Zapnout zámek</value>
+  </data>
+  <data name="LCD_M04_12" xml:space="preserve">
+    <value>Otevřete vrata továrny na drony</value>
+  </data>
+  <data name="LCD_M05_01" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+   UI DRONŮ
+ SOFTWARE:
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="LCD_M05_02" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=  
+     STAV 
+      PRODUKCE 
+    DRONU:  
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="LCD_M05_03" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="LCD_M05_04" xml:space="preserve">
+    <value>NORMÁLNÍ</value>
+  </data>
+  <data name="LCD_M05_05" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+           LODNÍ
+          DOK 01
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="LCD_M05_06" xml:space="preserve">
+    <value>-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= 
+          LODNÍ 
+         DOK 02 
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=</value>
+  </data>
+  <data name="Messages_CampDone_Caption" xml:space="preserve">
+    <value>Kampaň dokončena!</value>
+  </data>
+  <data name="Messages_CampDone_Message" xml:space="preserve">
+    <value>Chcete se vrátit do hlavní nabídky?</value>
+  </data>
+  <data name="Messages_LevelDone_Caption" xml:space="preserve">
+    <value>Úroveň dokončena!</value>
+  </data>
+  <data name="Messages_LevelDone_Message" xml:space="preserve">
+    <value>Chcete pokračovat do další úrovně?</value>
+  </data>
+  <data name="Messages_YouDied_Caption" xml:space="preserve">
+    <value>Zemřeli jste</value>
+  </data>
+  <data name="Messages_YouDied_Message" xml:space="preserve">
+    <value>Musíte načíst hru od posledního záchytného bodu.</value>
+  </data>
+  <data name="Persons_Enemy" xml:space="preserve">
+    <value>Marcus</value>
+  </data>
+  <data name="Persons_Rebel" xml:space="preserve">
+    <value>Rebel</value>
+  </data>
+  <data name="Persons_VirtualAssistant" xml:space="preserve">
+    <value>Good.Bot</value>
+  </data>
+  <data name="SaveName_M01_Ch1" xml:space="preserve">
+    <value>Mise první - záchytný bod 1</value>
+  </data>
+  <data name="SaveName_M01_Ch2" xml:space="preserve">
+    <value>Mise první - záchytný bod 2</value>
+  </data>
+  <data name="SaveName_M01_Ch3" xml:space="preserve">
+    <value>Mise první - záchytný bod 3</value>
+  </data>
+  <data name="SaveName_M01_Start" xml:space="preserve">
+    <value>Mise první - Začátek</value>
+  </data>
+  <data name="SaveName_M02_Base" xml:space="preserve">
+    <value>Mise druhá - Základna</value>
+  </data>
+  <data name="SaveName_M02_ExtractionSite" xml:space="preserve">
+    <value>Mise druhá - Výkopové stanoviště</value>
+  </data>
+  <data name="SaveName_M02_Mines" xml:space="preserve">
+    <value>Mise druhá - Doly</value>
+  </data>
+  <data name="SaveName_M02_Ship" xml:space="preserve">
+    <value>Mise druhá - Loď</value>
+  </data>
+  <data name="SaveName_M02_Start" xml:space="preserve">
+    <value>Mise druhá - Začátek</value>
+  </data>
+  <data name="SaveName_M02_ThePit" xml:space="preserve">
+    <value>Mise druhá - Jáma</value>
+  </data>
+  <data name="SaveName_M03_Battle" xml:space="preserve">
+    <value>Mise třetí - Bitva</value>
+  </data>
+  <data name="SaveName_M03_ControlTower" xml:space="preserve">
+    <value>Mise třetí - V řídící věži</value>
+  </data>
+  <data name="SaveName_M03_Fuel" xml:space="preserve">
+    <value>Mise třetí - Palivo</value>
+  </data>
+  <data name="SaveName_M03_Introduction" xml:space="preserve">
+    <value>Mise třetí - Úvod</value>
+  </data>
+  <data name="SaveName_M03_Power" xml:space="preserve">
+    <value>Mise třetí - Energie</value>
+  </data>
+  <data name="SaveName_M03_TakeOff" xml:space="preserve">
+    <value>Mise třetí - Vzlétnutí</value>
+  </data>
+  <data name="SaveName_M04_Base" xml:space="preserve">
+    <value>Mise čtvrtá - Základna</value>
+  </data>
+  <data name="SaveName_M04_Start" xml:space="preserve">
+    <value>Mise čtvrtá - Začátek</value>
+  </data>
+  <data name="SaveName_M04_Tank" xml:space="preserve">
+    <value>Mise čtvrtá - V nádrži</value>
+  </data>
+  <data name="SaveName_M05_Artefact" xml:space="preserve">
+    <value>Mise pátá - Artefakt</value>
+  </data>
+  <data name="SaveName_M05_FirstTower" xml:space="preserve">
+    <value>Mise pátá - První věž</value>
+  </data>
+  <data name="SaveName_M05_HackingDone" xml:space="preserve">
+    <value>Mise pátá - Hackovací dron</value>
+  </data>
+  <data name="SaveName_M05_Start" xml:space="preserve">
+    <value>Mise pátá - Začátek</value>
+  </data>
+</root>

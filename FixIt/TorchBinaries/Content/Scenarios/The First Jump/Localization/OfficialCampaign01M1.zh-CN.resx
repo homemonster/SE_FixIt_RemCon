@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_VA_Airlock" xml:space="preserve">
+    <value>模拟分析显示导致损伤的原因是偶然的可能性只有2%</value>
+  </data>
+  <data name="Chat_VA_AttackWarning" xml:space="preserve">
+    <value>工程师，你的飞船已经严重损坏，这会影响你的评估报告。</value>
+  </data>
+  <data name="Chat_VA_AttackWarningpart2" xml:space="preserve">
+    <value>建议紧急撤离，结束原来的任务</value>
+  </data>
+  <data name="Chat_VA_AttackWarningpart3" xml:space="preserve">
+    <value>按照GPS指示，以最快的路径撤离分离舱</value>
+  </data>
+  <data name="Chat_VA_BreachDetected" xml:space="preserve">
+    <value>对不起，我无法关闭安保设施，因为没有办法连接到基地系统。</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo1" xml:space="preserve">
+    <value>正在与基地对接</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo2" xml:space="preserve">
+    <value>基地没有回复</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo3" xml:space="preserve">
+    <value>想知道这里发生了什么，请亲自去探究</value>
+  </data>
+  <data name="Chat_VA_CommandCenter" xml:space="preserve">
+    <value>根据基地的设计，控制台应该建在更高的楼层</value>
+  </data>
+  <data name="Chat_VA_DoorDamaged" xml:space="preserve">
+    <value>门已经受损，请用周边散落的工具来维修</value>
+  </data>
+  <data name="Chat_VA_EnergyLoss" xml:space="preserve">
+    <value>警告：检测到宇航服服工作不正常。能量水平在降低</value>
+  </data>
+  <data name="Chat_VA_EnergyStabilize" xml:space="preserve">
+    <value>宇航服问题解决，建议前往医疗站充电</value>
+  </data>
+  <data name="Chat_VA_EnterEscapePod" xml:space="preserve">
+    <value>进入飞行舱，请准备撤离基地</value>
+  </data>
+  <data name="Chat_VA_EnterTheStation" xml:space="preserve">
+    <value>小心进入，从基地掉下会对评估报告造成不好的影响</value>
+  </data>
+  <data name="Chat_VA_GetOxygenBottle" xml:space="preserve">
+    <value>工程师，请记得吸氧，氧气对宇航员的表现很重要</value>
+  </data>
+  <data name="Chat_VA_GoToTheAirlock" xml:space="preserve">
+    <value>工程师，请准备登陆基地开展调查</value>
+  </data>
+  <data name="Chat_VA_GoToTheBridge" xml:space="preserve">
+    <value>请前往飞船桥去开会</value>
+  </data>
+  <data name="Chat_VA_Helmet" xml:space="preserve">
+    <value>警告：不建议不戴头盔氧气罩离开加压区</value>
+  </data>
+  <data name="Chat_VA_Introduction" xml:space="preserve">
+    <value>请激活虚拟工程师助手</value>
+  </data>
+  <data name="Chat_VA_Outro" xml:space="preserve">
+    <value>冲突报告已经确定，ROS基地遇袭受损，工程师飞船已被破坏，撤离到月球表面</value>
+  </data>
+  <data name="Chat_VA_StartExploring" xml:space="preserve">
+    <value>飞船自动导航启动，正飞往安全区</value>
+  </data>
+  <data name="Chat_VA_UseRedPanel" xml:space="preserve">
+    <value>报告显示基地系统严重受损</value>
+  </data>
+  <data name="Chat_VA_WakeUp" xml:space="preserve">
+    <value>开始低温仓解冻程序</value>
+  </data>
+  <data name="GPS_Airlock" xml:space="preserve">
+    <value>气密室</value>
+  </data>
+  <data name="GPS_BluePanel" xml:space="preserve">
+    <value>蓝色面板</value>
+  </data>
+  <data name="GPS_Bridge" xml:space="preserve">
+    <value>舰桥</value>
+  </data>
+  <data name="GPS_ControlPanel" xml:space="preserve">
+    <value>控制面板</value>
+  </data>
+  <data name="GPS_DamagedDoor" xml:space="preserve">
+    <value>受损门</value>
+  </data>
+  <data name="GPS_EscapePod" xml:space="preserve">
+    <value>逃生舱</value>
+  </data>
+  <data name="GPS_MedicalBay" xml:space="preserve">
+    <value>医疗台-此处充电</value>
+  </data>
+  <data name="GPS_RedPanel" xml:space="preserve">
+    <value>红色面板</value>
+  </data>
+  <data name="GPS_StationFrontDoor" xml:space="preserve">
+    <value>基地气密室</value>
+  </data>
+  <data name="GPS_ToCommandCenter" xml:space="preserve">
+    <value>通往控制中心</value>
+  </data>
+  <data name="GPS_ToEscapePods" xml:space="preserve">
+    <value>通往逃生舱</value>
+  </data>
+  <data name="LCDPanel_Bridge_Approaching" xml:space="preserve">
+    <value>接近基地</value>
+  </data>
+  <data name="LCDPanel_Bridge_Distance" xml:space="preserve">
+    <value>距离：[{0}]m</value>
+  </data>
+  <data name="LCDPanel_Bridge_Locked" xml:space="preserve">
+    <value>与基地锁住</value>
+  </data>
+  <data name="LCDPanel_Oxy_Amount" xml:space="preserve">
+    <value>室内氧气：[{0}]%</value>
+  </data>
+  <data name="LCDPanel_Oxy_NoPressure" xml:space="preserve">
+    <value>室内没有加压</value>
+  </data>
+  <data name="LCDPanel_Oxy_PressurePreporeLine1" xml:space="preserve">
+    <value>防爆门正在关闭。</value>
+  </data>
+  <data name="LCDPanel_Oxy_PressurePreporeLine2" xml:space="preserve">
+    <value>准备加压</value>
+  </data>
+  <data name="LCDPanel_Oxy_Pressurized" xml:space="preserve">
+    <value>已加压</value>
+  </data>
+  <data name="Notification_Intro" xml:space="preserve">
+    <value>飞船自动日志—接近目的地。飞行时间576地球小时。开始工程师唤醒程序……</value>
+  </data>
+  <data name="Quest01_Cryo" xml:space="preserve">
+    <value>离开休眠仓</value>
+  </data>
+  <data name="Quest01_Cryo_UseKey" xml:space="preserve">
+    <value>按[{0}]键离开休眠舱</value>
+  </data>
+  <data name="Quest02_Movement" xml:space="preserve">
+    <value>前往飞船舰桥报到</value>
+  </data>
+  <data name="Quest02_Movement_Door" xml:space="preserve">
+    <value>请看着门然后按[{0}]键打开和关闭</value>
+  </data>
+  <data name="Quest02_Movement_GPS" xml:space="preserve">
+    <value>请跟随GPS标识行进</value>
+  </data>
+  <data name="Quest02_Movement_Keys" xml:space="preserve">
+    <value>请按 [ [{0}] ], [ {1} ], [ {2} ], [ {3} ] 键移动</value>
+  </data>
+  <data name="Quest02_Movement_Mouse" xml:space="preserve">
+    <value>请用鼠标环顾四周</value>
+  </data>
+  <data name="Quest03_GoToAirlock" xml:space="preserve">
+    <value>请前往飞船气密室</value>
+  </data>
+  <data name="Quest03_GoToAirlock_Doors" xml:space="preserve">
+    <value>按 [{0}] 开门/关门</value>
+  </data>
+  <data name="Quest03_GoToAirlock_Navigation" xml:space="preserve">
+    <value>请前往至位于下一层的气密室</value>
+  </data>
+  <data name="Quest04B_Helmet" xml:space="preserve">
+    <value>请打开气密室</value>
+  </data>
+  <data name="Quest04B_Helmet_RedPanel" xml:space="preserve">
+    <value>请用左舷的按钮面板打开机库门</value>
+  </data>
+  <data name="Quest04B_Helmet_toggle" xml:space="preserve">
+    <value>请按 [{0}] 打开或关闭头盔面罩</value>
+  </data>
+  <data name="Quest04_Equipment" xml:space="preserve">
+    <value>获得个人氧气供应</value>
+  </data>
+  <data name="Quest04_Equipment_Button" xml:space="preserve">
+    <value>请使用右舷按钮面板将氧气罐充气</value>
+  </data>
+  <data name="Quest04_Equipment_PickUp" xml:space="preserve">
+    <value>请注视物品按 [{0}] 键将其捡起</value>
+  </data>
+  <data name="Quest04_Equipment_UseKey" xml:space="preserve">
+    <value>请按 [{0}] 激活按键面板上面的按键</value>
+  </data>
+  <data name="Quest05_EnterStation" xml:space="preserve">
+    <value>登上基地</value>
+  </data>
+  <data name="Quest05_EnterStation_Airlock" xml:space="preserve">
+    <value>请继续前行至基地气密室</value>
+  </data>
+  <data name="Quest05_EnterStation_AirlockButton" xml:space="preserve">
+    <value>请使用控制面板来通过气密室</value>
+  </data>
+  <data name="Quest05_EnterStation_Caution" xml:space="preserve">
+    <value>基地气密室的坐标更新</value>
+  </data>
+  <data name="Quest06_Explore" xml:space="preserve">
+    <value>找到基地控制中心</value>
+  </data>
+  <data name="Quest06_ExplorePartOne_Crouch" xml:space="preserve">
+    <value>按[{0}]键蹲伏</value>
+  </data>
+  <data name="Quest06_ExplorePartOne_Search" xml:space="preserve">
+    <value>请按照GPS位标指引前往控制中心</value>
+  </data>
+  <data name="Quest07_Breach" xml:space="preserve">
+    <value>急救室加压</value>
+  </data>
+  <data name="Quest07_Breach_Intro" xml:space="preserve">
+    <value>检测到飞船外层破损</value>
+  </data>
+  <data name="Quest07_Breach_Intro2" xml:space="preserve">
+    <value>基地安防系统不允许在未增压状态下打开舱门</value>
+  </data>
+  <data name="Quest07_Breach_Intro3" xml:space="preserve">
+    <value>请查看附近按键面板尝试关闭顶层防爆门</value>
+  </data>
+  <data name="Quest07_Breach_Pressurizing" xml:space="preserve">
+    <value>加压中，请稍候</value>
+  </data>
+  <data name="Quest08_ExplorePartTwo_Intro" xml:space="preserve">
+    <value>防护门正在打开，继续前行至指挥中心</value>
+  </data>
+  <data name="Quest09_DamagedDoor" xml:space="preserve">
+    <value>修复受损门</value>
+  </data>
+  <data name="Quest09_DamagedDoor_Energy" xml:space="preserve">
+    <value>在医疗站按住 [{0}] 为太空服补充电力</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpComponents" xml:space="preserve">
+    <value>[{0}]键捡起选中的物品</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpMotors" xml:space="preserve">
+    <value>组件已经捡起：[{0}]/{1}</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpWelder" xml:space="preserve">
+    <value>请看着物品按[{0}]键捡起</value>
+  </data>
+  <data name="Quest09_DamagedDoor_Repair" xml:space="preserve">
+    <value>请靠近门按住鼠标左键开始焊接</value>
+  </data>
+  <data name="Quest10_ExplorePartThree_Intro" xml:space="preserve">
+    <value>请继续前行至附近的指挥中心</value>
+  </data>
+  <data name="Quest10_ExplorePartThree_IntroPart2" xml:space="preserve">
+    <value>距离指挥中心很近了</value>
+  </data>
+  <data name="Quest11_Attacked" xml:space="preserve">
+    <value>请立即撤离基地</value>
+  </data>
+  <data name="Quest11_Attacked_Direction" xml:space="preserve">
+    <value>请按照GPS指引前往逃生舱</value>
+  </data>
+  <data name="Quest11_Attacked_EscapePods" xml:space="preserve">
+    <value>新路线已确认，前往逃生舱</value>
+  </data>
+  <data name="Quest11_Attacked_Intro" xml:space="preserve">
+    <value>基地遭到不明攻击者袭击</value>
+  </data>
+  <data name="Quest11_Attacked_Sprint" xml:space="preserve">
+    <value>请按住[{0}]键冲刺跑</value>
+  </data>
+  <data name="Quest12_Jumping" xml:space="preserve">
+    <value>通过受损的通道</value>
+  </data>
+  <data name="Quest12_Jumping_Danger" xml:space="preserve">
+    <value>通过受损的通道</value>
+  </data>
+  <data name="Quest12_Jumping_Gaps" xml:space="preserve">
+    <value>你需要跃过通道中的断裂处</value>
+  </data>
+  <data name="Quest12_Jumping_Jump" xml:space="preserve">
+    <value>用[{0}]键跳过间隙</value>
+  </data>
+  <data name="Quest13_GoToEscapePods" xml:space="preserve">
+    <value>到达逃生舱</value>
+  </data>
+  <data name="Quest13_GoToEscapePods_Stairs" xml:space="preserve">
+    <value>继续前往GPS位标处</value>
+  </data>
+  <data name="Quest14_EscapePod" xml:space="preserve">
+    <value>撤退！</value>
+  </data>
+  <data name="Quest14_EscapePod_How" xml:space="preserve">
+    <value>靠近座舱然后请按[{0}]</value>
+  </data>
+</root>

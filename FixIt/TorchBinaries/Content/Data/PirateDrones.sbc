@@ -1,0 +1,484 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Blue Drone MK1" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Blue Drone MK1">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Blue Drone MK2" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Blue Drone MK2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Red Drone MK1" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Red Drone MK1">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Escord Drone" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Escord Drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Light patrol drone" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Light patrol drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Vulture Drone" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Vulture Drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>10000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="ProtectoBot" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="ProtectoBot">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+        <Prefab SubtypeId="ProtectoBot">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Raider Drone" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Raider Drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+        <Behaviour>DefaultDirect</Behaviour>
+        <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Salvage Drone" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Salvage Drone">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>StationGrinderBot</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+          <Prefab SubtypeId="Salvage Drone">
+            <Position>
+              <X>1000.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>1</Speed>
+            <Behaviour>StationGrinderBot</Behaviour>
+            <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+          </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Seeker Mine" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Seeker Mine">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>C_TunnelDrillDrone</Behaviour>
+          <BehaviourActivationDistance>1000</BehaviourActivationDistance>
+        </Prefab>
+        <Prefab SubtypeId="Seeker Mine">
+          <Position>
+            <X>100.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>C_TunnelDrillDrone</Behaviour>
+          <BehaviourActivationDistance>1000</BehaviourActivationDistance>
+        </Prefab>
+        <Prefab SubtypeId="Seeker Mine">
+          <Position>
+            <X>100.0</X>
+            <Y>100.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>C_TunnelDrillDrone</Behaviour>
+          <BehaviourActivationDistance>1000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Snub Fighter" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Snub Fighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Stash-satellite" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Stash-satellite">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>StationGrinderBot</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="V2-Gunboat" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="V2-Gunboat">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Hostile Miner" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Hostile Miner">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>30000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Old Mining Drone" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Old Mining Drone">
+          <Position>
+            <X>10.4272423</X>
+            <Y>-13.1194963</Y>
+            <Z>-14.6050024</Z>
+          </Position>
+          <Speed>1</Speed>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="Tusk" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="Tusk_mk.1">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 1GG_1" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 1GG_1">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 1GG_2" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 1GG_2">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 1GG_3" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 1GG_3">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS Drill.Warhead" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS Drill.Warhead">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 2GG.1GT" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 2GG.1GT">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 1MT.2GG" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 1MT.2GG">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 2GG.1GT.1RL" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 2GG.1GT.1RL">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneS 2GG.2GT" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneS 2GG.2GT">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="DroneL 1RL.1GG.2IT" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="DroneL 1RL.1GG.2IT">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id Type="MyObjectBuilder_SpawnGroupDefinition" Subtype="BossDroneL 1RL.2GT.1MT.2IT" />
+      <IsPirate>true</IsPirate>
+      <Frequency>10.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="BossDroneL 1RL.2GT.1MT.2IT">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>1</Speed>
+          <Behaviour>DefaultDirect</Behaviour>
+          <BehaviourActivationDistance>100000</BehaviourActivationDistance>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

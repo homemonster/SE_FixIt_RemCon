@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_VSFiles xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Campaign>
+    <StateMachine>
+      <Nodes>
+        <MyObjectBuilder_CampaignSMNode>
+          <Name>Mission_1</Name>
+          <SaveFilePath>Scenarios\Learning to Survive\Worlds\Mission01\Sandbox.sbc</SaveFilePath>
+          <Location x="488" y="237" />
+        </MyObjectBuilder_CampaignSMNode>
+      </Nodes>
+      <Transitions />
+    </StateMachine>
+    <LocalizationPaths>
+      <Path>Scenarios\Learning to Survive\Localization</Path>
+    </LocalizationPaths>
+    <LocalizationLanguages>
+      <Language>en-US</Language>
+    </LocalizationLanguages>
+    <DescriptionLocalizationFile>Scenarios\Learning to Survive\Localization\Common.sbl</DescriptionLocalizationFile>
+    <Name>Learning to Survive</Name>
+    <Description>Restore an old outpost to act as your base of operations and explore the remains of what a once thriving industry left behind. Learn about space engineering or pick a fight, the choice is yours, this is where your career begins!</Description>
+    <ImagePath>Scenarios\Learning to Survive\Screens\Scenario.png</ImagePath>
+    <IsMultiplayer>false</IsMultiplayer>
+    <Difficulty>Normal</Difficulty>
+    <Author>Keen Software House</Author>
+  </Campaign>
+</MyObjectBuilder_VSFiles>

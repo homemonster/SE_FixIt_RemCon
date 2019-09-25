@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_AboutPower2" xml:space="preserve">
+    <value>太阳能板需要对准阳光才能功能，但要让它动起来首先得需要些电。</value>
+  </data>
+  <data name="Chat_Rebel_AboutPower3" xml:space="preserve">
+    <value>货柜里有些组件，正在标记位置。</value>
+  </data>
+  <data name="Chat_Rebel_Intro1" xml:space="preserve">
+    <value>欢迎来到我们最初的移民小镇，之前我们有百来人住这里，想一起努力建立新的移民地，相信与 R.O.S.4 的合同将会打开一个新的纪元，将一切壮大起来！</value>
+  </data>
+  <data name="Chat_Rebel_Intro2" xml:space="preserve">
+    <value>我们完成了自己的工作，挖出了人造物，得到的却是残忍的对待，他们的无人机把小镇变成了你看到的这个样子。</value>
+  </data>
+  <data name="Chat_Rebel_Intro3" xml:space="preserve">
+    <value>我们带你来到这里是因为我们需要你的工程学的能力来帮助我们修理机库内的护卫舰，她在袭击中受损了。有你在我相信它们能够再飞起来。</value>
+  </data>
+  <data name="Chat_Rebel_Intro4" xml:space="preserve">
+    <value>我们准备对 R.O.S.4 的舰队发起反击，需要尽可能获得更多的飞船</value>
+  </data>
+  <data name="Chat_Rebel_Intro5" xml:space="preserve">
+    <value>工程师，祝你好运!</value>
+  </data>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>我们成功了！他们在撤退!</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>这些王八蛋终于也尝到了我们曾经受的苦</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>没有你我们不可能成功，但是现在还没有结束。我们需要从他们手中把人造物抢回来。我们不允许这些人利用那东西来胡作非为。</value>
+  </data>
+  <data name="Chat_VA_AboutPower1" xml:space="preserve">
+    <value>从这基地中我没有侦测到任何电力信息</value>
+  </data>
+  <data name="Chat_VA_ActivateTorpedo" xml:space="preserve">
+    <value>鱼雷门正在打开。从同样的面板激活鱼雷系统</value>
+  </data>
+  <data name="Chat_VA_AmmoHaveEnough" xml:space="preserve">
+    <value>已经有了足够的盒子，请拿到飞船上</value>
+  </data>
+  <data name="Chat_VA_AmmoQuest" xml:space="preserve">
+    <value>飞船目前没有弹药，请至少 运80个弹药盒到飞船</value>
+  </data>
+  <data name="Chat_VA_AmmoReady" xml:space="preserve">
+    <value>弹药已经装载，可以按需要分配了</value>
+  </data>
+  <data name="Chat_VA_BatteryWrongPlace" xml:space="preserve">
+    <value>电池需要和红色平台直接连接。试着飞起来在放置的时候往下看</value>
+  </data>
+  <data name="Chat_VA_EnemyShips" xml:space="preserve">
+    <value>敌方已经在鱼雷射程内。从鱼雷附近的面板上打开鱼雷门</value>
+  </data>
+  <data name="Chat_VA_FuelDone" xml:space="preserve">
+    <value>干得好！反应堆启动正在启动</value>
+  </data>
+  <data name="Chat_VA_FuelLocation" xml:space="preserve">
+    <value>燃料罐位于下面的坐标</value>
+  </data>
+  <data name="Chat_VA_FuelPlaced" xml:space="preserve">
+    <value>燃料已经有了，但还没有加注进飞船，需要先给加注系统通电。</value>
+  </data>
+  <data name="Chat_VA_GearsUnlocked" xml:space="preserve">
+    <value>机库起落架已解锁，现在可以起飞了</value>
+  </data>
+  <data name="Chat_VA_GotFuel" xml:space="preserve">
+    <value>铀锭是飞船反应堆的燃料，将其放在飞船的备用反应堆中</value>
+  </data>
+  <data name="Chat_VA_GoToShip" xml:space="preserve">
+    <value>机库坐标已经上传到导航电脑</value>
+  </data>
+  <data name="Chat_VA_GoToShipStatus" xml:space="preserve">
+    <value>激活机库控制台来接收当前飞船信息</value>
+  </data>
+  <data name="Chat_VA_GrindBlock" xml:space="preserve">
+    <value>在你身后的地上有个旧推进器，用你的切割机回收一些它的零件。</value>
+  </data>
+  <data name="Chat_VA_GrindDone1" xml:space="preserve">
+    <value>你现有已经有了维修需要的必要工具。</value>
+  </data>
+  <data name="Chat_VA_GrindDone2" xml:space="preserve">
+    <value>受损的推进器已经高亮，需要做些简单的修理。</value>
+  </data>
+  <data name="Chat_VA_GrindDone3" xml:space="preserve">
+    <value>在基地中找到更多的旧部件将其拆解</value>
+  </data>
+  <data name="Chat_VA_LaunchTorpedo" xml:space="preserve">
+    <value>已准备好从附近飞行座椅附近上发射鱼雷</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNoStatus" xml:space="preserve">
+    <value>打开控制台后才能启用屋顶机械装置</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNotReady" xml:space="preserve">
+    <value>飞船就位后才能启用屋顶机械装置</value>
+  </data>
+  <data name="Chat_VA_RepairsDone" xml:space="preserve">
+    <value>推进器已经修复。干得漂亮！</value>
+  </data>
+  <data name="Chat_VA_RepairsDoneCompletely" xml:space="preserve">
+    <value>修复已经完成</value>
+  </data>
+  <data name="Chat_VA_RepairsDonePart2" xml:space="preserve">
+    <value>遗失的推进器已经标记为高亮。</value>
+  </data>
+  <data name="Chat_VA_RoofReady" xml:space="preserve">
+    <value>机库顶已经打开</value>
+  </data>
+  <data name="Chat_VA_TankingConnectorSwitch" xml:space="preserve">
+    <value>加注燃料过程中连接器无法解锁</value>
+  </data>
+  <data name="Chat_VA_TankingInProgress" xml:space="preserve">
+    <value>加注燃料中，请稍候</value>
+  </data>
+  <data name="Chat_VA_TankingPumpsSwitch" xml:space="preserve">
+    <value>与飞船对接时活塞不能激活</value>
+  </data>
+  <data name="Chat_VA_ToolsLocation" xml:space="preserve">
+    <value>你需要一个切割机来获取修理船舰所需的零件，可以在货柜里找到。</value>
+  </data>
+  <data name="Chat_VA_TorpedoDoorNotReady" xml:space="preserve">
+    <value>门打开后才可以激活鱼雷</value>
+  </data>
+  <data name="GPS_AmmoCargo" xml:space="preserve">
+    <value>飞船弹药库</value>
+  </data>
+  <data name="GPS_BackupReactor" xml:space="preserve">
+    <value>备用反应堆</value>
+  </data>
+  <data name="GPS_Battery" xml:space="preserve">
+    <value>飞船电池</value>
+  </data>
+  <data name="GPS_BatterySpareParts" xml:space="preserve">
+    <value>电池备件</value>
+  </data>
+  <data name="GPS_Cargo" xml:space="preserve">
+    <value>主货仓</value>
+  </data>
+  <data name="GPS_Cockpit" xml:space="preserve">
+    <value>飞行座椅</value>
+  </data>
+  <data name="GPS_ControlStation" xml:space="preserve">
+    <value>控制室</value>
+  </data>
+  <data name="GPS_DamagedBlock" xml:space="preserve">
+    <value>焊接：受损推进器</value>
+  </data>
+  <data name="GPS_Enemy" xml:space="preserve">
+    <value>敌方飞船</value>
+  </data>
+  <data name="GPS_FuelBox" xml:space="preserve">
+    <value>铀储藏箱</value>
+  </data>
+  <data name="GPS_GrindThis" xml:space="preserve">
+    <value>拆解：旧推进器</value>
+  </data>
+  <data name="GPS_Hangar" xml:space="preserve">
+    <value>机库入口</value>
+  </data>
+  <data name="GPS_Location" xml:space="preserve">
+    <value>集结点</value>
+  </data>
+  <data name="GPS_RedPlatform" xml:space="preserve">
+    <value>此处放置电池</value>
+  </data>
+  <data name="GPS_TankingPanel" xml:space="preserve">
+    <value>燃料罐控制面板</value>
+  </data>
+  <data name="GPS_ToolBox" xml:space="preserve">
+    <value>工具货柜</value>
+  </data>
+  <data name="GPS_TorpedoCockpit" xml:space="preserve">
+    <value>发射台</value>
+  </data>
+  <data name="GPS_TorpedoPanel" xml:space="preserve">
+    <value>鱼雷控制面板</value>
+  </data>
+  <data name="GPS_Weakpoint" xml:space="preserve">
+    <value>位标</value>
+  </data>
+  <data name="GPS_WeldThis" xml:space="preserve">
+    <value>推进器建造中</value>
+  </data>
+  <data name="HowToHint_EquipAWelder" xml:space="preserve">
+    <value>将焊接机从选单中拖到工具栏</value>
+  </data>
+  <data name="HowToHint_HowToTransferItems" xml:space="preserve">
+    <value>从右边的库存中双击物品，将其转移到你的库存中。</value>
+  </data>
+  <data name="HowToHint_SelectABattery" xml:space="preserve">
+    <value>拖动并将电池块放进工具栏中，或者使用双击操作。</value>
+  </data>
+  <data name="HowToHint_SelectAToolSection" xml:space="preserve">
+    <value>切换到 "角色工具" 分类</value>
+  </data>
+  <data name="Panel_Working" xml:space="preserve">
+    <value>运行中</value>
+  </data>
+  <data name="Quest01_BatteryItems" xml:space="preserve">
+    <value>给新电池找备件</value>
+  </data>
+  <data name="Quest01_BatteryItems_AccessItems" xml:space="preserve">
+    <value>对准仓口，按[{0}]或者[{1}]打开库存界面</value>
+  </data>
+  <data name="Quest01_BatteryItems_Approach" xml:space="preserve">
+    <value>接近标记的货柜</value>
+  </data>
+  <data name="Quest01_BatteryItems_DragItems" xml:space="preserve">
+    <value>从物品从货物库存中拖到你的库存。</value>
+  </data>
+  <data name="Quest01_BatteryItems_LeaveShip" xml:space="preserve">
+    <value>离开运输飞船</value>
+  </data>
+  <data name="Quest02_BatteryPlace" xml:space="preserve">
+    <value>修建一个电池块</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Close" xml:space="preserve">
+    <value>点击X或者按Escape退出</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Drag" xml:space="preserve">
+    <value>将电池加到你的工具栏。</value>
+  </data>
+  <data name="Quest02_BatteryPlace_GScreen" xml:space="preserve">
+    <value>请按[{0}]打开工具栏界面</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Place" xml:space="preserve">
+    <value>按鼠标左键将电池放在红色的平台</value>
+  </data>
+  <data name="Quest03_BatteryWeld" xml:space="preserve">
+    <value>焊接电池</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Drag" xml:space="preserve">
+    <value>切换到人物标签工具，将电焊机加到工具栏之后关闭界面</value>
+  </data>
+  <data name="Quest03_BatteryWeld_GScreen" xml:space="preserve">
+    <value>请按[{0}]打开工具栏界面</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Weld" xml:space="preserve">
+    <value>对准方块，按住鼠标左键直到电池做好</value>
+  </data>
+  <data name="Quest04_ControlTower" xml:space="preserve">
+    <value>激活控制室</value>
+  </data>
+  <data name="Quest04_ControlTower_Activate" xml:space="preserve">
+    <value>使用标记的按钮面板</value>
+  </data>
+  <data name="Quest04_ControlTower_Elevator" xml:space="preserve">
+    <value>使用升降机进入机库</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip" xml:space="preserve">
+    <value>恢复飞船动力</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Inventory" xml:space="preserve">
+    <value>将铀锭从货柜转到你的库存，按[{0}]或者[{1}]键进入。</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Place" xml:space="preserve">
+    <value>将铀装到飞船反应堆</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Uranium" xml:space="preserve">
+    <value>从货柜中取得铀</value>
+  </data>
+  <data name="Quest06_GrinderTool" xml:space="preserve">
+    <value>获得切割机 工具</value>
+  </data>
+  <data name="Quest06_GrinderTool_GetGrinder" xml:space="preserve">
+    <value>标记的货柜中有可供使用的切割机</value>
+  </data>
+  <data name="Quest06_GrinderTool_Purpose" xml:space="preserve">
+    <value>拆解机可以拆除方块和回收利用组件</value>
+  </data>
+  <data name="Quest07_GrindThruster" xml:space="preserve">
+    <value>取得组件用于维修</value>
+  </data>
+  <data name="Quest07_GrindThruster_Drag" xml:space="preserve">
+    <value>切换至人物工具，将高级切割机加到你的工具栏。</value>
+  </data>
+  <data name="Quest07_GrindThruster_Equip" xml:space="preserve">
+    <value>按[{0}]打开工具界面</value>
+  </data>
+  <data name="Quest07_GrindThruster_Grind" xml:space="preserve">
+    <value>接近高亮的推进器按住鼠标左键将其切割回收</value>
+  </data>
+  <data name="Quest08_RepairThrusters" xml:space="preserve">
+    <value>维修高亮的推进器</value>
+  </data>
+  <data name="Quest08_RepairThrusters_ActualCount" xml:space="preserve">
+    <value>推进器已经修复：[{0}]/3</value>
+  </data>
+  <data name="Quest08_RepairThrusters_LookAround" xml:space="preserve">
+    <value>有</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseGrinder" xml:space="preserve">
+    <value>切割其他没有用的推进器可以得到多余的组件</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseWelder" xml:space="preserve">
+    <value>切换至你的焊接器，维修受损推进器。</value>
+  </data>
+  <data name="Quest09_Tanking" xml:space="preserve">
+    <value>为飞船加注氢气燃料</value>
+  </data>
+  <data name="Quest09_Tanking_Control" xml:space="preserve">
+    <value>用按键1伸出连接器，用按键2上锁</value>
+  </data>
+  <data name="Quest09_Tanking_Disconnect" xml:space="preserve">
+    <value>按下按键2来解锁和断开连接</value>
+  </data>
+  <data name="Quest09_Tanking_Fill" xml:space="preserve">
+    <value>气罐储量：{0}%</value>
+  </data>
+  <data name="Quest09_Tanking_Wait" xml:space="preserve">
+    <value>等待完成。</value>
+  </data>
+  <data name="Quest10_Ammo" xml:space="preserve">
+    <value>给飞船补给弹药</value>
+  </data>
+  <data name="Quest10_Ammo_Hint" xml:space="preserve">
+    <value>基地防护周围有多余的弹药箱</value>
+  </data>
+  <data name="Quest10_Ammo_PlayerCount" xml:space="preserve">
+    <value>你有{0}个弹药</value>
+  </data>
+  <data name="Quest10_Ammo_Quest" xml:space="preserve">
+    <value>将80单位的弹药送到高亮的飞船货柜箱内</value>
+  </data>
+  <data name="Quest10_Ammo_ShipCount" xml:space="preserve">
+    <value>运送货物： [{0}]/80</value>
+  </data>
+  <data name="Quest11_Roof" xml:space="preserve">
+    <value>打开机库顶蓬</value>
+  </data>
+  <data name="Quest11_Roof_Hint" xml:space="preserve">
+    <value>使用控制室内的按钮面板</value>
+  </data>
+  <data name="Quest12_Combat" xml:space="preserve">
+    <value>击毁敌方旗舰</value>
+  </data>
+  <data name="Quest12_Combat_Cancel" xml:space="preserve">
+    <value>按[{0}]退出炮塔控制</value>
+  </data>
+  <data name="Quest12_Combat_Turrets" xml:space="preserve">
+    <value>在飞行座椅上用{0}，{2}和{3}键控制导弹塔</value>
+  </data>
+  <data name="Quest12_Combat_Weakpoint" xml:space="preserve">
+    <value>目标标识为飞船的弱点</value>
+  </data>
+  <data name="Quest12_Combat_WeakpointCount" xml:space="preserve">
+    <value>弱点已击毁：{0}/{1}</value>
+  </data>
+  <data name="Quest12_Flying" xml:space="preserve">
+    <value>将飞船开移出机库</value>
+  </data>
+  <data name="Quest12_Flying_Cockpit" xml:space="preserve">
+    <value>按[{0}]进入高亮飞行座椅</value>
+  </data>
+  <data name="Quest12_Flying_Coordinates" xml:space="preserve">
+    <value>飞向集结点的坐标</value>
+  </data>
+  <data name="Quest12_Flying_Start" xml:space="preserve">
+    <value>请按住[{0}]键升起飞船，安全离开机库</value>
+  </data>
+  <data name="Quest12_Flying_VHint" xml:space="preserve">
+    <value>请按[{0}]键切换到第三人视角</value>
+  </data>
+  <data name="ShipStatus_Status_Closed" xml:space="preserve">
+    <value>已关闭</value>
+  </data>
+  <data name="ShipStatus_Status_Empty" xml:space="preserve">
+    <value>空的</value>
+  </data>
+  <data name="ShipStatus_Status_FuelInCargo" xml:space="preserve">
+    <value>燃料没有分配</value>
+  </data>
+  <data name="ShipStatus_Status_Full" xml:space="preserve">
+    <value>[{0}]%</value>
+  </data>
+  <data name="ShipStatus_Status_Missing" xml:space="preserve">
+    <value>没有</value>
+  </data>
+  <data name="ShipStatus_Status_NoFuel" xml:space="preserve">
+    <value>系统内没有燃料</value>
+  </data>
+  <data name="ShipStatus_Status_OffLine" xml:space="preserve">
+    <value>离线</value>
+  </data>
+  <data name="ShipStatus_Status_OnLine" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="ShipStatus_Status_Open" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="ShipStatus_Status_Ready" xml:space="preserve">
+    <value>就绪</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs1" xml:space="preserve">
+    <value>需要修复</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs2" xml:space="preserve">
+    <value>没有推进器</value>
+  </data>
+  <data name="ShipStatus_Title_Ammo" xml:space="preserve">
+    <value>弹药：</value>
+  </data>
+  <data name="ShipStatus_Title_Hydrogen" xml:space="preserve">
+    <value>氢气罐：</value>
+  </data>
+  <data name="ShipStatus_Title_Main" xml:space="preserve">
+    <value>飞船状态</value>
+  </data>
+  <data name="ShipStatus_Title_Reactors" xml:space="preserve">
+    <value>反应堆：</value>
+  </data>
+  <data name="ShipStatus_Title_Repair" xml:space="preserve">
+    <value>状态：</value>
+  </data>
+  <data name="ShipStatus_Title_Roof" xml:space="preserve">
+    <value>机库顶篷：</value>
+  </data>
+  <data name="TankingStatus_Status_Idle" xml:space="preserve">
+    <value>未激活</value>
+  </data>
+  <data name="TankingStatus_Status_Locked" xml:space="preserve">
+    <value>已锁住</value>
+  </data>
+  <data name="TankingStatus_Status_PumpingDone" xml:space="preserve">
+    <value>气罐已满</value>
+  </data>
+  <data name="TankingStatus_Status_Unlocked" xml:space="preserve">
+    <value>已解锁</value>
+  </data>
+  <data name="TankingStatus_Status_Working" xml:space="preserve">
+    <value>加注中</value>
+  </data>
+  <data name="TankingStatus_Title_Connector" xml:space="preserve">
+    <value>连接器</value>
+  </data>
+  <data name="TankingStatus_Title_Fuel" xml:space="preserve">
+    <value>气罐储量：[{0}]%</value>
+  </data>
+  <data name="TankingStatus_Title_Pumps" xml:space="preserve">
+    <value>燃料泵</value>
+  </data>
+</root>

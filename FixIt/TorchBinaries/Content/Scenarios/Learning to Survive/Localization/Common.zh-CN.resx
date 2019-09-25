@@ -1,0 +1,673 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Fail_Part1" xml:space="preserve">
+    <value>按钮面板启动任务</value>
+  </data>
+  <data name="Button_Fail_Part2" xml:space="preserve">
+    <value>已损坏。按F5加载最近的存档恢复任务。</value>
+  </data>
+  <data name="Fail_Caption" xml:space="preserve">
+    <value>任务失败！</value>
+  </data>
+  <data name="Fail_Description" xml:space="preserve">
+    <value>任务失败。你可以继续玩（进度不会终止）或者你可以重新加载之前的存档再试一次。</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01" xml:space="preserve">
+    <value>无人机位标</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01_Desc" xml:space="preserve">
+    <value>无人机位标点</value>
+  </data>
+  <data name="GPS_PirateDrone_01" xml:space="preserve">
+    <value>海盗无人机</value>
+  </data>
+  <data name="GPS_PirateDrone_01_Desc" xml:space="preserve">
+    <value>海盗无人机方位</value>
+  </data>
+  <data name="GPS_PirateFacility_01" xml:space="preserve">
+    <value>海盗设施</value>
+  </data>
+  <data name="GPS_PirateFacility_01_Desc" xml:space="preserve">
+    <value>海盗设施方位</value>
+  </data>
+  <data name="GPS_PiratePlanet_01" xml:space="preserve">
+    <value>星球</value>
+  </data>
+  <data name="GPS_PiratePlanet_01_Desc" xml:space="preserve">
+    <value>行星方位</value>
+  </data>
+  <data name="GPS_PirateShip_01" xml:space="preserve">
+    <value>海盗指挥舰</value>
+  </data>
+  <data name="GPS_PirateShip_01_Desc" xml:space="preserve">
+    <value>海盗指挥舰方位</value>
+  </data>
+  <data name="O_01x01_01_Description" xml:space="preserve">
+    <value>生存装置需要电，用运输机连接氢氧发生器进行氢氧补给，生存装置和氢氧发生器的冰也一样需要运输机运送。</value>
+  </data>
+  <data name="O_01x01_01_Objective" xml:space="preserve">
+    <value>生存装置补给氢氧。</value>
+  </data>
+  <data name="O_01x01_Caption" xml:space="preserve">
+    <value>友好机器人：氢氧</value>
+  </data>
+  <data name="O_01x01_Hint" xml:space="preserve">
+    <value>干得好！
+
+提示：向氢氧发生器加冰。</value>
+  </data>
+  <data name="O_01x01_Name" xml:space="preserve">
+    <value>氢氧</value>
+  </data>
+  <data name="O_01x02_01_Description" xml:space="preserve">
+    <value>阳光照射太阳能板后会产生电能。
+电能储存在电池中。维修太阳能板提升发电效率。
+平台上的储存箱内有工具。</value>
+  </data>
+  <data name="O_01x02_01_Objective" xml:space="preserve">
+    <value>用电焊机维修太阳能板。</value>
+  </data>
+  <data name="O_01x02_Caption" xml:space="preserve">
+    <value>友好机器人：太阳能板</value>
+  </data>
+  <data name="O_01x02_Hint" xml:space="preserve">
+    <value>干得好！
+
+
+提示：太阳能板正对着太阳时产生电能更多。</value>
+  </data>
+  <data name="O_01x02_Name" xml:space="preserve">
+    <value>太阳能板</value>
+  </data>
+  <data name="O_01x03_01_Description" xml:space="preserve">
+    <value>求生装置可以从石头中提炼出锭子，然后生产出基本组件提供电力。维持体能以及重生。</value>
+  </data>
+  <data name="O_01x03_01_Objective" xml:space="preserve">
+    <value>按住{CONTROL:USE}恢复健康，并充电。</value>
+  </data>
+  <data name="O_01x03_Caption" xml:space="preserve">
+    <value>友好机器人：求生装置</value>
+  </data>
+  <data name="O_01x03_Hint" xml:space="preserve">
+    <value>太棒了！
+
+提示：氢氧发生器和求生装置连接补充氢氧。</value>
+  </data>
+  <data name="O_01x03_Name" xml:space="preserve">
+    <value>求生装置</value>
+  </data>
+  <data name="O_01x04_01_Description" xml:space="preserve">
+    <value>在小行星和行星中可以采矿。用钻子，开启屏显会找到矿石方位。</value>
+  </data>
+  <data name="O_01x04_01_Objective" xml:space="preserve">
+    <value>定位，并采矿。</value>
+  </data>
+  <data name="O_01x04_Caption" xml:space="preserve">
+    <value>友好机器人：采矿</value>
+  </data>
+  <data name="O_01x04_Hint" xml:space="preserve">
+    <value>很好！
+
+
+你可以将铁矿石放入简易提炼炉获得铁矿。</value>
+  </data>
+  <data name="O_01x04_Name" xml:space="preserve">
+    <value>采矿</value>
+  </data>
+  <data name="O_01x05_01_Description" xml:space="preserve">
+    <value>飞船用磁性起落架锁在平台上。去控制台解锁或者直接用切割机。注意：切断电源不能解锁。</value>
+  </data>
+  <data name="O_01x05_01_Objective" xml:space="preserve">
+    <value>禁用起落架。</value>
+  </data>
+  <data name="O_01x05_Caption" xml:space="preserve">
+    <value>友好机器人：飞船</value>
+  </data>
+  <data name="O_01x05_Hint" xml:space="preserve">
+    <value>太棒了！
+
+
+提示：试飞一下！</value>
+  </data>
+  <data name="O_01x05_Name" xml:space="preserve">
+    <value>飞船</value>
+  </data>
+  <data name="O_01x06_01_Description" xml:space="preserve">
+    <value>这里一艘飞船，但是需要维修。要在附近找到一些必要的部件。</value>
+  </data>
+  <data name="O_01x06_01_Objective" xml:space="preserve">
+    <value>为飞船恢复电力。</value>
+  </data>
+  <data name="O_01x06_02_Description" xml:space="preserve">
+    <value>太棒了！进入驾驶舱准备起飞。</value>
+  </data>
+  <data name="O_01x06_02_Objective" xml:space="preserve">
+    <value>对准驾驶舱，按{CONTROL:USE}进入驾驶舱。</value>
+  </data>
+  <data name="O_01x06_03_Description" xml:space="preserve">
+    <value>飞船工具可以有效地建造或者拆解方块并能储存大量的部件。在工具栏中选择工具，用它逃离机库。按{CONTROL:LANDING_GEAR}关闭起落架。</value>
+  </data>
+  <data name="O_01x06_03_Objective" xml:space="preserve">
+    <value>维修或者拆除大门逃离。</value>
+  </data>
+  <data name="O_01x06_Caption" xml:space="preserve">
+    <value>友好机器人：飞船工具</value>
+  </data>
+  <data name="O_01x06_Hint" xml:space="preserve">
+    <value>很好！
+
+
+提示：飞船焊接器使用飞船库存中的组件建造方块。</value>
+  </data>
+  <data name="O_01x06_Name" xml:space="preserve">
+    <value>飞船工具</value>
+  </data>
+  <data name="O_01x07_01_Description" xml:space="preserve">
+    <value>这里一艘采矿船，但是需要维修。要在你附近找到一些必要的部件。</value>
+  </data>
+  <data name="O_01x07_01_Objective" xml:space="preserve">
+    <value>给采矿船恢复电力。</value>
+  </data>
+  <data name="O_01x07_02_Description" xml:space="preserve">
+    <value>太棒了！进入驾驶舱准备起飞。</value>
+  </data>
+  <data name="O_01x07_02_Objective" xml:space="preserve">
+    <value>对准驾驶舱，按{CONTROL:USE}进入驾驶舱。</value>
+  </data>
+  <data name="O_01x07_03_Description" xml:space="preserve">
+    <value>在工具栏中选择钻子，按鼠标右键建造地道方便撤离。
+按{CONTROL:LANDING_GEAR}给起落架解锁。</value>
+  </data>
+  <data name="O_01x07_03_Objective" xml:space="preserve">
+    <value>设法逃离采矿船。</value>
+  </data>
+  <data name="O_01x07_Caption" xml:space="preserve">
+    <value>友好机器人：采矿船</value>
+  </data>
+  <data name="O_01x07_Hint" xml:space="preserve">
+    <value>太赞了！
+
+提示：用钻子时，按鼠标左键收集矿石，按鼠标右键快速挖通道。</value>
+  </data>
+  <data name="O_01x07_Name" xml:space="preserve">
+    <value>采矿船</value>
+  </data>
+  <data name="O_02x01_01_Description" xml:space="preserve">
+    <value>你可以在此测试手持武器，试用飞船武器。</value>
+  </data>
+  <data name="O_02x01_01_Objective_01" xml:space="preserve">
+    <value>击落目标</value>
+  </data>
+  <data name="O_02x01_01_Objective_02" xml:space="preserve">
+    <value>用加特林机枪扫射</value>
+  </data>
+  <data name="O_02x01_01_Objective_03" xml:space="preserve">
+    <value>启动火箭发射器</value>
+  </data>
+  <data name="O_02x01_02_Description" xml:space="preserve">
+    <value>漂亮！你能修战斗机，然后飞回基地。</value>
+  </data>
+  <data name="O_02x01_02_Objective" xml:space="preserve">
+    <value>恢复战斗机电力。</value>
+  </data>
+  <data name="O_02x01_Caption" xml:space="preserve">
+    <value>友好机器人：武器</value>
+  </data>
+  <data name="O_02x01_Hint" xml:space="preserve">
+    <value>第一名！
+
+提示：武器最大射程为800米</value>
+  </data>
+  <data name="O_02x01_Name" xml:space="preserve">
+    <value>武器</value>
+  </data>
+  <data name="O_02x02_01_Description" xml:space="preserve">
+    <value>这是制造平台。你有足够的部件造属于你自己的飞船。已经有了基础。可以先造驾驶舱。</value>
+  </data>
+  <data name="O_02x02_01_Objective" xml:space="preserve">
+    <value>造驾驶舱控制飞船。</value>
+  </data>
+  <data name="O_02x02_02_Description" xml:space="preserve">
+    <value>干得好！现在造发动机六个方向都要有。太空飞行要离子推进器。推进器越多动力越大！</value>
+  </data>
+  <data name="O_02x02_02_Objective" xml:space="preserve">
+    <value>六个方向都要有推进器。</value>
+  </data>
+  <data name="O_02x02_03_Description" xml:space="preserve">
+    <value>造陀螺仪转向。陀螺仪越多灵敏度越高。</value>
+  </data>
+  <data name="O_02x02_03_Objective" xml:space="preserve">
+    <value>为飞船造陀螺仪。</value>
+  </data>
+  <data name="O_02x02_04_Description" xml:space="preserve">
+    <value>最后还需要动力。造反应堆并添加燃料，或者造带有电量的电池。</value>
+  </data>
+  <data name="O_02x02_04_Objective" xml:space="preserve">
+    <value>给飞船通电。</value>
+  </data>
+  <data name="O_02x02_Caption" xml:space="preserve">
+    <value>友好机器人：建造飞船</value>
+  </data>
+  <data name="O_02x02_Hint" xml:space="preserve">
+    <value>我自己应该可以做的更好！
+
+
+提示：增加装甲，加强飞船的防御力！</value>
+  </data>
+  <data name="O_02x02_Name" xml:space="preserve">
+    <value>建造飞船</value>
+  </data>
+  <data name="O_02x03_01_Description" xml:space="preserve">
+    <value>看起来这地方加压过。加压舱为你供氧，维持你的体温。
+维修通风口，查看室内情况。</value>
+  </data>
+  <data name="O_02x03_01_Objective" xml:space="preserve">
+    <value>维修通风口。</value>
+  </data>
+  <data name="O_02x03_02_Description" xml:space="preserve">
+    <value>太好了！可是通风口有黄灯警示，表示在漏气。去检修保证室内气密性。</value>
+  </data>
+  <data name="O_02x03_02_Objective_01" xml:space="preserve">
+    <value>保证室内不漏气。</value>
+  </data>
+  <data name="O_02x03_02_Objective_02" xml:space="preserve">
+    <value>维修墙上通风口。</value>
+  </data>
+  <data name="O_02x03_03_Description" xml:space="preserve">
+    <value>通风口处显示绿灯，已经不漏气。连接氢氧发生器用冰制造氧气为室内加压。</value>
+  </data>
+  <data name="O_02x03_03_Objective" xml:space="preserve">
+    <value>向氢氧发生器添加冰块。</value>
+  </data>
+  <data name="O_02x03_Caption" xml:space="preserve">
+    <value>友好机器人：加压</value>
+  </data>
+  <data name="O_02x03_Hint" xml:space="preserve">
+    <value>很好！
+提示：在加压区时，你的宇航服会自动补给氧气。</value>
+  </data>
+  <data name="O_02x03_Name" xml:space="preserve">
+    <value>加压</value>
+  </data>
+  <data name="O_02x04_01_Description" xml:space="preserve">
+    <value>这个看起来像是高级生产设施。
+大储存箱内已经有矿石，但是输送机还没有做好。输送器能实现方块间的物料传输。</value>
+  </data>
+  <data name="O_02x04_01_Objective" xml:space="preserve">
+    <value>维修输送机管道。</value>
+  </data>
+  <data name="O_02x04_02_Description" xml:space="preserve">
+    <value>精炼机会从储存箱内获取矿石，炼成锭子。可以用装配机做成组件。</value>
+  </data>
+  <data name="O_02x04_02_Objective" xml:space="preserve">
+    <value>造装配机连接到精炼机。</value>
+  </data>
+  <data name="O_02x04_Caption" xml:space="preserve">
+    <value>友好机器人：生产</value>
+  </data>
+  <data name="O_02x04_Hint" xml:space="preserve">
+    <value>你学的很快！
+
+
+提示：你可以通过模块升级高级精炼机和装配机。</value>
+  </data>
+  <data name="O_02x04_Name" xml:space="preserve">
+    <value>生产</value>
+  </data>
+  <data name="O_02x05_01_Description" xml:space="preserve">
+    <value>太空中有漂浮的电池。可以用它为设施通电。可以用合并方块将网格合并。用拖船将电池和基站合并。</value>
+  </data>
+  <data name="O_02x05_01_Objective" xml:space="preserve">
+    <value>进入拖船</value>
+  </data>
+  <data name="O_02x05_02_Description" xml:space="preserve">
+    <value>飞船用起落架固定了电池。将合并方块移近让它们连接。合并方块靠近时会显示黄色。</value>
+  </data>
+  <data name="O_02x05_02_Objective" xml:space="preserve">
+    <value>将电池连接到基站</value>
+  </data>
+  <data name="O_02x05_03_Description" xml:space="preserve">
+    <value>太好了！已经恢复通电。现在你可以将飞船连到基站。用连接器连接。连机器靠近时会显示黄色</value>
+  </data>
+  <data name="O_02x05_03_Objective" xml:space="preserve">
+    <value>连接器显示黄色时按{CONTROL:LANDING_GEAR}连接。</value>
+  </data>
+  <data name="O_02x05_Caption" xml:space="preserve">
+    <value>友好机器人：连机器</value>
+  </data>
+  <data name="O_02x05_Hint" xml:space="preserve">
+    <value>你很快就是专家了！
+你可以用连接器为飞船充电和转运物质。</value>
+  </data>
+  <data name="O_02x05_Name" xml:space="preserve">
+    <value>连接器</value>
+  </data>
+  <data name="O_03x01_01_Description" xml:space="preserve">
+    <value>现在你已经控制了无人机，接着取出基站防御装备。大多数炮塔和武器的最大射程为800米。</value>
+  </data>
+  <data name="O_03x01_01_Objective_01" xml:space="preserve">
+    <value>禁用炮塔1.</value>
+  </data>
+  <data name="O_03x01_01_Objective_02" xml:space="preserve">
+    <value>禁用炮塔2.</value>
+  </data>
+  <data name="O_03x01_02_Description" xml:space="preserve">
+    <value>红色为敌方海盗基站。它们通常配备有自动炮塔和无人机。</value>
+  </data>
+  <data name="O_03x01_02_Objective" xml:space="preserve">
+    <value>击落无人机。</value>
+  </data>
+  <data name="O_03x01_03_Description" xml:space="preserve">
+    <value>移走基站天线阻止更多无人机重生。</value>
+  </data>
+  <data name="O_03x01_03_Objective" xml:space="preserve">
+    <value>击毁基站天线。</value>
+  </data>
+  <data name="O_03x01_Caption" xml:space="preserve">
+    <value>友好机器人：战斗</value>
+  </data>
+  <data name="O_03x01_Hint" xml:space="preserve">
+    <value>已投降！
+
+
+提示：红色信号表示还有其他玩家。</value>
+  </data>
+  <data name="O_03x01_Name" xml:space="preserve">
+    <value>战斗</value>
+  </data>
+  <data name="O_03x02_01_Description" xml:space="preserve">
+    <value>看起来像是自动建造设施。投影仪可用于建造保存的飞船蓝图。</value>
+  </data>
+  <data name="O_03x02_01_Objective" xml:space="preserve">
+    <value>想办法开启投影仪。</value>
+  </data>
+  <data name="O_03x02_02_Description" xml:space="preserve">
+    <value>投影仪需要连接到蓝图才能建造。用基站的焊接器就够了。组件都在基站内。</value>
+  </data>
+  <data name="O_03x02_02_Objective" xml:space="preserve">
+    <value>建造投影仪。</value>
+  </data>
+  <data name="O_03x02_03_Description" xml:space="preserve">
+    <value>太好了！现在你需要设法断开飞船并给枪上弹药。</value>
+  </data>
+  <data name="O_03x02_03_Objective" xml:space="preserve">
+    <value>将你的新飞船移出机库并试飞。</value>
+  </data>
+  <data name="O_03x02_Caption" xml:space="preserve">
+    <value>友好机器人：投影仪</value>
+  </data>
+  <data name="O_03x02_Hint" xml:space="preserve">
+    <value>你的动作很快！
+
+
+提示：你可以使用此设施或者建造设施来造更多的船。记住补充燃料和弹药！</value>
+  </data>
+  <data name="O_03x02_Name" xml:space="preserve">
+    <value>投影仪</value>
+  </data>
+  <data name="O_03x03_01_Description" xml:space="preserve">
+    <value>看起来像一个老探险船。配备有迁跃引擎。迁跃引擎可能实现瞬间飞行至遥远距离。设法修复迁跃引擎。</value>
+  </data>
+  <data name="O_03x03_01_Objective" xml:space="preserve">
+    <value>维修迁跃引擎。</value>
+  </data>
+  <data name="O_03x03_02_Description" xml:space="preserve">
+    <value>迁跃引擎只能从驾驶舱攻击力激活。进入控制台激活迁跃引擎。充电时请坐好。</value>
+  </data>
+  <data name="O_03x03_02_Objective" xml:space="preserve">
+    <value>开始迁跃。</value>
+  </data>
+  <data name="O_03x03_03_Description" xml:space="preserve">
+    <value>迁跃引擎也可以使用GPS坐标。请找到并使用飞船面板中的坐标。</value>
+  </data>
+  <data name="O_03x03_03_Objective" xml:space="preserve">
+    <value>找到隐藏基地。</value>
+  </data>
+  <data name="O_03x03_Caption" xml:space="preserve">
+    <value>友好机器人：迁跃引擎</value>
+  </data>
+  <data name="O_03x03_Hint" xml:space="preserve">
+    <value>坐好！
+
+
+提示：迁跃时不要离开座位，不然就把你丢到后面了！</value>
+  </data>
+  <data name="O_03x03_Name" xml:space="preserve">
+    <value>跃迁引擎</value>
+  </data>
+  <data name="O_03x04_01_Description" xml:space="preserve">
+    <value>它可以维修无人机，建造和保护基地。需要远程控制方块和天线控制飞船。</value>
+  </data>
+  <data name="O_03x04_01_Objective_01" xml:space="preserve">
+    <value>维修远程控制方块</value>
+  </data>
+  <data name="O_03x04_01_Objective_02" xml:space="preserve">
+    <value>为无人机安装天线。</value>
+  </data>
+  <data name="O_03x04_02_Description" xml:space="preserve">
+    <value>按SHIFT-K进入菜单,会看到天线覆盖范围内的飞船，选择控制，对飞船进行远程控制。
+保证你的宇航服天线已开启！</value>
+  </data>
+  <data name="O_03x04_02_Objective" xml:space="preserve">
+    <value>远程控制无人机。</value>
+  </data>
+  <data name="O_03x04_03_Description" xml:space="preserve">
+    <value>试飞无人机到位标。
+但不要飞的太远超出了天线的覆盖范围。</value>
+  </data>
+  <data name="O_03x04_03_Objective" xml:space="preserve">
+    <value>将无人机朝GPS坐标方向飞。</value>
+  </data>
+  <data name="O_03x04_Caption" xml:space="preserve">
+    <value>友好机器人：远程控制</value>
+  </data>
+  <data name="O_03x04_Hint" xml:space="preserve">
+    <value>精准飞行！
+
+
+提示：无人机很轻便。</value>
+  </data>
+  <data name="O_03x04_Name" xml:space="preserve">
+    <value>远程控制</value>
+  </data>
+  <data name="O_03x05_01_Description" xml:space="preserve">
+    <value>这里有一个小型采矿船配备有氢气推进器。
+氢气推进器动力强劲但是需要氢气驱动。
+飞船可以使用氢氧发生器用冰生产氧气</value>
+  </data>
+  <data name="O_03x05_01_Objective" xml:space="preserve">
+    <value>向氢氧发生器添加冰。</value>
+  </data>
+  <data name="O_03x05_02_Description" xml:space="preserve">
+    <value>后面的推进器没有连接到氢气罐。
+维修或者添加运输机，恢复推进器燃料供应。
+</value>
+  </data>
+  <data name="O_03x05_02_Objective" xml:space="preserve">
+    <value>后面的氢气推进器燃料供应恢复。</value>
+  </data>
+  <data name="O_03x05_03_Description" xml:space="preserve">
+    <value>太好了！你现在可以用钻子获取更多冰。</value>
+  </data>
+  <data name="O_03x05_03_Objective" xml:space="preserve">
+    <value>用采矿船获取冰块。</value>
+  </data>
+  <data name="O_03x05_Caption" xml:space="preserve">
+    <value>友好机器人：氢气推进器</value>
+  </data>
+  <data name="O_03x05_Hint" xml:space="preserve">
+    <value>太好了！
+
+
+提示：逃离行星重力可以使用氢气推进器。</value>
+  </data>
+  <data name="O_03x05_Name" xml:space="preserve">
+    <value>氢气推进器</value>
+  </data>
+  <data name="O_0Fx01_01_Description" xml:space="preserve">
+    <value>干得好！现在可以测试你的新技能了。附近有一颗行星，正被海盗控制着。
+设法夺回它。</value>
+  </data>
+  <data name="O_0Fx01_01_Objective" xml:space="preserve">
+    <value>抵达行星。</value>
+  </data>
+  <data name="O_0Fx01_02_Description" xml:space="preserve">
+    <value>干得好，你顺利抵达行星！海盗正控制着行星。想办法禁用它。</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_01" xml:space="preserve">
+    <value>禁用海盗设施。</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_02" xml:space="preserve">
+    <value>禁用海盗设施2。</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_03" xml:space="preserve">
+    <value>禁用海盗设施3。</value>
+  </data>
+  <data name="O_0Fx01_03_Description" xml:space="preserve">
+    <value>干得很出色！摧毁海盗设施后，海盗头子正处在行星上方。你应该知道如何处理！</value>
+  </data>
+  <data name="O_0Fx01_03_Objective" xml:space="preserve">
+    <value>摧毁海盗指挥舰。</value>
+  </data>
+  <data name="O_0Fx01_Caption" xml:space="preserve">
+    <value>友好机器人：最后目标</value>
+  </data>
+  <data name="O_0Fx01_Hint" xml:space="preserve">
+    <value>太棒了！
+
+
+提示：和大伙分享你的经验，下次组队或者互相挑战乐趣无穷！</value>
+  </data>
+  <data name="O_InitialQuest" xml:space="preserve">
+    <value>你还有个小任务，找到并激活按钮面板。平台上有好几个这样的面板，去试试吧！</value>
+  </data>
+  <data name="O_InitialQuest_Caption" xml:space="preserve">
+    <value>友好机器人：任务</value>
+  </data>
+  <data name="Persons_VirtualAssistant" xml:space="preserve">
+    <value>友好机器人</value>
+  </data>
+  <data name="QuestlogDetail_Failed" xml:space="preserve">
+    <value>任务失败。</value>
+  </data>
+  <data name="QuestlogDetail_Success" xml:space="preserve">
+    <value>任务完成。</value>
+  </data>
+</root>

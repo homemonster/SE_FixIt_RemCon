@@ -1,0 +1,1613 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <AssetModifiers>
+        <!-- ArmorTest -->
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="TestArmor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\ArmorTest.DDS</Icon>
+            <Textures>
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\SkinTestArmor_cm.dds"/>
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\SkinTestBlock_cm.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="DigitalCamouflage_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\DigitalCamouflage.dds</Icon>
+            <DLC>StylePack</DLC>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\cockpit_small_add.DDS"/>				
+			
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\InteriorWall_add.DDS"/>				
+						
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\DigitalCamouflage_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\DigitalCamouflage_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\DigitalCamouflage_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\DigitalCamouflage_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\DigitalCamouflage_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\DigitalCamouflage_add.DDS"/>
+
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_edges_ng.DDS"/>
+				<Texture Location="EdgeStraight" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_edges_add.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_edges_cm.DDS"/>
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_edges_ng.DDS"/>
+				<Texture Location="EdgeDiagonal" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_edges_add.DDS"/>
+				
+				<!-- Doodads -->
+				<Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_DigitalCamouflage_cm.DDS"/>
+				<Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_DigitalCamouflage_ng.DDS"/>
+
+				<!-- PanelingColorable-->	
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 		
+				<Texture Location="PanelingColorable" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 					
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_DigitalCamouflage_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_DigitalCamouflage_ng.DDS"/>
+				<Texture Location="Atlas1Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Atlas1_DigitalCamouflage_add.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\LargeLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_light_2x1_triangles_ng.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\LargeHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\large_heavy_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\SmallLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_light_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\SmallHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\DigitalCamouflage\small_heavy_2x1_triangle_ng.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="CarbonFibre_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\CarbonFiber.dds</Icon>
+            <DLC>StylePack</DLC>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\cockpit_small_add.DDS"/>
+				
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\InteriorWall_add.DDS"/>	
+				
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\CarbonFibre_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\CarbonFibre_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\CarbonFibre_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\CarbonFibre_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\CarbonFibre_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\CarbonFibre_add.DDS"/>
+
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_edges_ng.DDS"/>
+				<Texture Location="EdgeStraight" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_edges_add.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_edges_cm.DDS"/>				
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_edges_ng.DDS"/>
+				<Texture Location="EdgeDiagonal" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_edges_add.DDS"/>
+				
+				<!-- Doodads -->
+				<Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_CarbonFiber_cm.DDS"/>
+				<Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_CarbonFiber_ng.DDS"/>
+
+				<!-- PanelingColorable-->
+                <Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_CarbonFiber_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_CarbonFiber_ng.DDS"/> 	
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_CarbonFiber_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_CarbonFiber_ng.DDS"/> 
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_CarbonFiber_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_CarbonFiber_ng.DDS"/>
+				<Texture Location="Atlas1Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Atlas1_CarbonFiber_add.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\LargeLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_light_2x1_triangles_ng.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\LargeHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\large_heavy_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\SmallLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_light_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\SmallHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CarbonFibre\small_heavy_2x1_triangle_ng.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Clean_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\CleanArmor.dds</Icon>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\cockpit_small_add.DDS"/>				
+
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\InteriorWall_add.DDS"/>
+				
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\PaintedMetalColorableClean_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\PaintedMetalColorableClean_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\PaintedMetalColorableClean_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\PaintedMetalColorableClean_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\PaintedMetalColorableClean_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\PaintedMetalColorableClean_add.DDS"/>
+
+				<!-- Doodads -->
+				<Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_CleanArmor_cm.DDS"/>
+				<Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_CleanArmor_ng.DDS"/>
+
+				<!-- PanelingColorable
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_CleanArmor_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_CleanArmor_ng.DDS"/> -->
+
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\LargeLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_light_2x1_triangles_ng.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\LargeHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\large_heavy_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\SmallLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_light_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\SmallHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\CleanVersion\small_heavy_2x1_triangle_ng.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Golden_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\Golden.dds</Icon>
+            <DLC>DeluxeEdition</DLC>
+            <DefaultColor>
+                <R>85</R>
+                <G>76</G>
+                <B>13</B>
+                <A>255</A>
+            </DefaultColor>
+            <Textures>
+			
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Gold\cockpit_small_add.DDS"/>				
+			
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Gold\InteriorWall_add.DDS"/>				
+			
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Golden_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Golden_ng.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Golden_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Golden_ng.DDS"/>
+				
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_edges_ng.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_edges_cm.DDS"/>
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_edges_ng.DDS"/>
+				
+				<!-- Doodads -->
+                <Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_Gold_cm.DDS"/>
+                <Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_Gold_ng.DDS"/>
+
+				<!-- PanelingColorable -->
+				<Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Gold_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Gold_ng.DDS"/>
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Gold_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Gold_ng.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_Gold_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_Gold_ng.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\LargeLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_light_2x1_triangles_ng.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\LargeHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\large_heavy_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\SmallLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_light_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\SmallHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Gold\small_heavy_2x1_triangle_ng.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Silver_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\Silver.dds</Icon>
+            <DLC>StylePack</DLC>
+            <DefaultColor>
+                <R>134</R>
+                <G>136</G>
+                <B>133</B>
+                <A>255</A>
+            </DefaultColor>			
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Silver\cockpit_small_add.DDS"/>				
+			
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Silver\InteriorWall_add.DDS"/>				
+			
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Silver_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Silver_ng.DDS"/>
+				<Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Silver_add.DDS"/>
+				
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Silver_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Silver_ng.DDS"/>
+				<Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Silver_add.DDS"/>
+								
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_edges_ng.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_edges_cm.DDS"/>
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_edges_ng.DDS"/>
+				
+				<!-- Doodads -->
+                <Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_Silver_cm.DDS"/>
+                <Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_Silver_ng.DDS"/>
+
+				<!-- PanelingColorable -->
+                <Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Silver_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Silver_ng.DDS"/>	
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Silver_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Silver_ng.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_Silver_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_Silver_ng.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\LargeLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_light_2x1_triangles_ng.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\LargeHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\large_heavy_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_square_plate_ng.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\SmallLightSlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_light_2x1_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\SmallHeavySlopePlateSlab_ng.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_corner_and_face_triangle_ng.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Silver\small_heavy_2x1_triangle_ng.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Glamour_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\Glamour.dds</Icon>
+            <DLC>Economy</DLC>
+            <MetalnessColorable>true</MetalnessColorable>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\cockpit_small_add.DDS"/>	
+				
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\InteriorWall_add.DDS"/>		
+				
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Glamour_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Glamour_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Glamour_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Glamour_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Glamour_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Glamour_add.DDS"/>
+
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_edges_ng.DDS"/>
+				<Texture Location="EdgeStraight" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_edges_add.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_edges_cm.DDS"/>				
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_edges_ng.DDS"/>
+				<Texture Location="EdgeDiagonal" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_edges_add.DDS"/>
+
+				<!-- Doodads -->
+				<Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_Glamour_cm.DDS"/>
+				<Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_Glamour_ng.DDS"/>
+				<Texture Location="Doodads" Type="Extensions" Filepath="Textures\Models\Cubes\Doodads_Glamour_add.DDS"/>
+
+				<!-- PanelingColorable -->
+				<Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Glamour_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Glamour_ng.DDS"/>
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Glamour_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Glamour_ng.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_Glamour_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_Glamour_ng.DDS"/>
+				<Texture Location="Atlas1Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Atlas1_Glamour_add.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_square_plate_ng.DDS"/>
+                <Texture Location="SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_square_plate_add.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_square_plate_ng.DDS"/>
+                <Texture Location="SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_square_plate_add.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\LargeLightSlopePlateSlab_ng.DDS"/>
+                <Texture Location="SlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\LargeLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_light_2x1_triangles_add.DDS"/>
+
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_light_2x1_triangles_add.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_square_plate_ng.DDS"/>
+                <Texture Location="HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_square_plate_ng.DDS"/>
+                <Texture Location="HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\LargeHeavySlopePlateSlab_ng.DDS"/>
+                <Texture Location="HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\LargeHeavySlopePlateSlab_add.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_2x1_triangle_add.DDS"/>
+
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\large_heavy_2x1_triangle_add.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_square_plate_ng.DDS"/>
+                <Texture Location="small_SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_square_plate_ng.DDS"/>
+                <Texture Location="small_SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\SmallLightSlopePlateSlab_ng.DDS"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\SmallLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_light_2x1_triangle_add.DDS"/>
+
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_light_2x1_triangle_add.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_square_plate_ng.DDS"/>
+                <Texture Location="small_HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_square_plate_ng.DDS"/>
+                <Texture Location="small_HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\SmallHeavySlopePlateSlab_ng.DDS"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\SmallHeavySlopePlateSlab_add.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_2x1_triangle_add.DDS"/>
+
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Glamour\small_heavy_2x1_triangle_add.DDS"/>
+
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Disco_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\Disco.dds</Icon>
+			<MetalnessColorable>true</MetalnessColorable>
+            <DLC>Economy</DLC>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\cockpit_small_add.DDS"/>						
+			
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\InteriorWall_add.DDS"/>				
+
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Disco_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Disco_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Disco_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Disco_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Disco_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Disco_add.DDS"/>
+
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_edges_ng.DDS"/>
+				<Texture Location="EdgeStraight" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_edges_add.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_edges_cm.DDS"/>				
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_edges_ng.DDS"/>
+				<Texture Location="EdgeDiagonal" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_edges_add.DDS"/>
+
+				<!-- Doodads -->
+                <Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_Disco_cm.DDS"/>
+                <Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_Disco_ng.DDS"/>
+				<Texture Location="Doodads" Type="Extensions" Filepath="Textures\Models\Cubes\Doodads_Disco_add.DDS"/>
+
+				<!-- PanelingColorable -->
+                <Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Disco_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Disco_ng.DDS"/>
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Disco_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Disco_ng.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_Disco_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_Disco_ng.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Atlas1_Disco_add.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_square_plate_ng.DDS"/>
+                <Texture Location="SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_square_plate_add.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_square_plate_ng.DDS"/>
+                <Texture Location="SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_square_plate_add.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\LargeLightSlopePlateSlab_ng.DDS"/>
+                <Texture Location="SlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\LargeLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_light_2x1_triangles_add.DDS"/>
+
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_light_2x1_triangles_add.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_square_plate_ng.DDS"/>
+                <Texture Location="HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_square_plate_ng.DDS"/>
+                <Texture Location="HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\LargeHeavySlopePlateSlab_ng.DDS"/>
+                <Texture Location="HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\LargeHeavySlopePlateSlab_add.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_2x1_triangle_add.DDS"/>
+
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\large_heavy_2x1_triangle_add.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_square_plate_ng.DDS"/>
+                <Texture Location="small_SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_square_plate_ng.DDS"/>
+                <Texture Location="small_SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\SmallLightSlopePlateSlab_ng.DDS"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\SmallLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_light_2x1_triangle_add.DDS"/>
+
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_light_2x1_triangle_add.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_square_plate_ng.DDS"/>
+                <Texture Location="small_HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_square_plate_ng.DDS"/>
+                <Texture Location="small_HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\SmallHeavySlopePlateSlab_ng.DDS"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\SmallHeavySlopePlateSlab_add.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_2x1_triangle_add.DDS"/>
+
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Disco\small_heavy_2x1_triangle_add.DDS"/>
+            </Textures>
+        </AssetModifier>
+
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Wood_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\Wood.dds</Icon>
+            <DLC>Economy</DLC>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\cockpit_small_add.DDS"/>			
+			
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\InteriorWall_add.DDS"/>				
+			
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Wooden_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Wooden_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Wooden_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Wooden_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Wooden_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Wooden_add.DDS"/>
+
+               <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_edges_ng.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_edges_cm.DDS"/>
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_edges_ng.DDS"/>
+				
+				<!-- Doodads -->
+				<Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_Wooden_cm.DDS"/>
+				<Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_Wooden_ng.DDS"/>
+
+				<!-- PanelingColorable-->
+                <Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Wooden_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Wooden_ng.DDS"/> 
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_add.DDS"/> 				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Wooden_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Wooden_ng.DDS"/> 
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_Wooden_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_Wooden_ng.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Atlas1_Wooden_add.DDS"/>
+				
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_square_plate_ng.DDS"/>
+                <Texture Location="SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_square_plate_add.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_ng.DDS"/>
+
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\LargeLightSlopePlateSlab_ng.DDS"/>
+                <Texture Location="SlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\LargeLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_corner_and_face_triangle_add.DDS"/>
+
+
+                <!-- Large Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_light_2x1_triangles_add.DDS"/>
+
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_light_2x1_triangles_ng.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_light_2x1_triangles_add.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_ng.DDS"/>
+                <Texture Location="HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_ng.DDS"/>
+                <Texture Location="HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_slope_plate_slab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_slope_plate_slab_ng.DDS"/>
+                <Texture Location="HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_slope_plate_slab_add.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_2x1_triangle_add.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\large_heavy_2x1_triangle_add.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_square_plate_ng.DDS"/>
+                <Texture Location="small_SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_square_plate_ng.DDS"/>
+                <Texture Location="small_SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_slope_plate_slab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_slope_plate_slab_ng.DDS"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_slope_plate_slab_add.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_2x1_triangle_add.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_light_2x1_triangle_add.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_square_plate_ng.DDS"/>
+                <Texture Location="small_HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_square_plate_ng.DDS"/>
+                <Texture Location="small_HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_square_plate_ng.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_slope_plate_slab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_slope_plate_slab_ng.DDS"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_slope_plate_slab_add.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_corner_and_face_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_2x1_triangle_add.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_2x1_triangle_ng.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Wooden\small_heavy_2x1_triangle_add.DDS"/>
+            </Textures>
+        </AssetModifier>
+        
+        <AssetModifier>
+            <Id Type="AssetModifierDefinition" Subtype="Mossy_Armor" />
+            <Icon>Textures\GUI\Icons\Skins\Armor\Mossy.DDS</Icon>
+            <DLC>Economy</DLC>
+            <Textures>
+                <!-- Cockpit_small -->
+                <Texture Location="CockpitSmall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\cockpit_small_cm.dds"/>
+                <Texture Location="CockpitSmall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\cockpit_small_ng.DDS"/>
+                <Texture Location="CockpitSmall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\cockpit_small_add.DDS"/>				
+			
+                <!-- InteriorWall -->
+                <Texture Location="InteriorWall" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWall" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWall" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_add.DDS"/>				
+				
+                <Texture Location="InteriorWallBottom" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallBottom" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallBottom" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_add.DDS"/>
+
+                <Texture Location="InteriorWallSide" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallSide" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallSide" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_add.DDS"/>				
+
+                <Texture Location="InteriorWallTop" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_cm.dds"/>
+                <Texture Location="InteriorWallTop" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_ng.DDS"/>
+                <Texture Location="InteriorWallTop" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\InteriorWall_add.DDS"/>		
+				
+                <!-- Colorable Metal -->
+                <Texture Location="PaintedMetal_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Mossy_cm.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Mossy_ng.DDS"/>
+                <Texture Location="PaintedMetal_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Mossy_add.DDS"/>
+
+                <!-- Colorable Metal Scratched -->
+                <Texture Location="PaintedMetalScratched_Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Mossy_cm.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Mossy_ng.DDS"/>
+                <Texture Location="PaintedMetalScratched_Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Mossy_add.DDS"/>
+
+                <!-- Large Armor Edges -->
+                <Texture Location="EdgeStraight" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_edges_cm.DDS"/>
+                <Texture Location="EdgeStraight" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_edges_ng.DDS"/>
+				<Texture Location="EdgeStraight" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_edges_add.DDS"/>
+
+                <!-- Small Armor Edges -->
+                <Texture Location="EdgeDiagonal" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_edges_cm.DDS"/>				
+                <Texture Location="EdgeDiagonal" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_edges_ng.DDS"/>
+				<Texture Location="EdgeDiagonal" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_edges_add.DDS"/>
+				
+				<!-- Doodads -->
+				<Texture Location="Doodads" Type="ColorMetal" Filepath="Textures\Models\Cubes\Doodads_Mossy_cm.DDS"/>
+				<Texture Location="Doodads" Type="NormalGloss" Filepath="Textures\Models\Cubes\Doodads_Mossy_ng.DDS"/>
+				<Texture Location="Doodads" Type="Extensions" Filepath="Textures\Models\Cubes\Doodads_Mossy_add.DDS"/>
+
+				<!-- PanelingColorable -->
+                <Texture Location="Decals" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Mossy_cm.DDS"/>
+                <Texture Location="Decals" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Mossy_ng.DDS"/>
+				<Texture Location="Decals" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Mossy_add.DDS"/>				
+                <Texture Location="PanelingColorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Mossy_cm.DDS"/>
+                <Texture Location="PanelingColorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Mossy_ng.DDS"/>
+				<Texture Location="PanelingColorable" Type="Extensions" Filepath="Textures\Models\Cubes\Decals_Atlas_A_01_Mossy_add.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="ColorMetal" Filepath="Textures\Models\Cubes\Atlas1_Mossy_cm.DDS"/>
+                <Texture Location="Atlas1Colorable" Type="NormalGloss" Filepath="Textures\Models\Cubes\Atlas1_Mossy_ng.DDS"/>
+				<Texture Location="Atlas1Colorable" Type="Extensions" Filepath="Textures\Models\Cubes\Atlas1_Mossy_add.DDS"/>
+							
+                <!-- Large Square -->
+                <Texture Location="SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_square_plate_cm.dds"/>
+                <Texture Location="SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_square_plate_ng.DDS"/>
+				<Texture Location="SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_square_plate_add.DDS"/>
+
+                <!-- Large Slope Square -->
+                <Texture Location="SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_square_plate_cm.dds"/>
+                <Texture Location="SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_square_plate_ng.DDS"/>
+				<Texture Location="SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_square_plate_add.DDS"/>
+				
+                <!-- Large Slope Slab -->
+                <Texture Location="SlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\LargeLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="SlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\LargeLightSlopePlateSlab_ng.DDS"/>
+				<Texture Location="SlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\LargeLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Large Corners -->
+                <Texture Location="corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Light Corners 2x1 -->
+                <Texture Location="corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_light_2x1_triangles_ng.DDS"/>
+				<Texture Location="corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_light_2x1_triangles_add.DDS"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_light_2x1_triangles_cm.dds"/>
+                <Texture Location="corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_light_2x1_triangles_ng.DDS"/>
+				<Texture Location="corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_light_2x1_triangles_add.DDS"/>
+
+                <!-- Large Heavy Square -->
+                <Texture Location="HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_square_plate_ng.DDS"/>
+				<Texture Location="HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Square -->
+                <Texture Location="HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_square_plate_cm.dds"/>
+                <Texture Location="HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_square_plate_ng.DDS"/>
+				<Texture Location="HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_square_plate_add.DDS"/>
+
+                <!-- Large Heavy Slope Slab -->
+                <Texture Location="HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\LargeHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\LargeHeavySlopePlateSlab_ng.DDS"/>
+				 <Texture Location="HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\LargeHeavySlopePlateSlab_add.DDS"/>
+
+                <!-- Large Heavy Corners -->
+                <Texture Location="Heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="Heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="Heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <Texture Location="Large_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="Large_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="Large_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="Large_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Large Heavy Corners 2x1 -->
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_2x1_triangle_ng.DDS"/>
+				<Texture Location="heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_2x1_triangle_add.DDS"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_2x1_triangle_ng.DDS"/>
+				<Texture Location="heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\large_heavy_2x1_triangle_add.DDS"/>
+
+                <!-- Small Square -->
+                <Texture Location="small_SquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_square_plate_cm.dds"/>
+                <Texture Location="small_SquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_square_plate_ng.DDS"/>
+				<Texture Location="small_SquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Square -->
+                <Texture Location="small_SlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_square_plate_cm.dds"/>
+                <Texture Location="small_SlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_square_plate_ng.DDS"/>
+				<Texture Location="small_SlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_square_plate_add.DDS"/>
+
+                <!-- Small Slope Slab -->
+                <Texture Location="small_LightSlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\SmallLightSlopePlateSlab_cm.dds"/>
+                <Texture Location="small_LightSlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\SmallLightSlopePlateSlab_ng.DDS"/>
+				<Texture Location="small_LightSlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\SmallLightSlopePlateSlab_add.DDS"/>
+
+                <!-- Small Corners -->
+                <Texture Location="small_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="small_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="small_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Corners 2x1 -->
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_light_2x1_triangle_ng.DDS"/>
+				<Texture Location="small_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_light_2x1_triangle_add.DDS"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_light_2x1_triangle_cm.dds"/>
+                <Texture Location="small_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_light_2x1_triangle_ng.DDS"/>
+				<Texture Location="small_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_light_2x1_triangle_add.DDS"/>
+
+                <!-- Small Heavy Square -->
+                <Texture Location="small_HeavySquarePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySquarePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_square_plate_ng.DDS"/>
+				<Texture Location="small_HeavySquarePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Square -->
+                <Texture Location="small_HeavySlopePlate" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_square_plate_cm.dds"/>
+                <Texture Location="small_HeavySlopePlate" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_square_plate_ng.DDS"/>
+				<Texture Location="small_HeavySlopePlate" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_square_plate_add.DDS"/>
+
+                <!-- Small Heavy Slope Slab -->
+                <Texture Location="small_HeavySlopePlateSlab" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\SmallHeavySlopePlateSlab_cm.dds"/>
+                <Texture Location="small_HeavySlopePlateSlab" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\SmallHeavySlopePlateSlab_ng.DDS"/>
+				<Texture Location="small_HeavySlopePlateSlab" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\SmallHeavySlopePlateSlab_add.DDS"/>
+
+                <!-- Small Heavy Corners -->
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="small_heavy_corner_and_face_triangle" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_corner_and_face_triangle_add.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_corner_and_face_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_corner_and_face_triangle_ng.DDS"/>
+				<Texture Location="small_heavy_corner_and_face_triangle_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_corner_and_face_triangle_add.DDS"/>
+
+                <!-- Small Heavy Corners 2x1 -->
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_2x1_triangle_ng.DDS"/>
+				<Texture Location="small_heavy_corner_and_face_triangle_2x1" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_2x1_triangle_add.DDS"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="ColorMetal" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_2x1_triangle_cm.dds"/>
+                <Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="NormalGloss" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_2x1_triangle_ng.DDS"/>
+				<Texture Location="small_heavy_corner_and_face_triangle_2x1_inv" Type="Extensions" Filepath="Textures\Models\Cubes\armor\Skins\Moss\small_heavy_2x1_triangle_add.DDS"/>
+            </Textures>
+        </AssetModifier>
+    </AssetModifiers>
+</Definitions>

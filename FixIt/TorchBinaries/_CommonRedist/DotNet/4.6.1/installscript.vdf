@@ -1,0 +1,20 @@
+"InstallScript"
+{
+	"Run Process"
+	{
+		"4.6.1"
+		{
+			"HasRunKey"		"HKEY_LOCAL_MACHINE\\Software\\Valve\\Steam\\Apps\\CommonRedist\\.NET\\4.6.1"
+			"process 1"		"%INSTALLDIR%\\_CommonRedist\\DotNet\\4.6.1\\Microsoft .NET Framework 4.6.1.cmd"
+			"NoCleanUp"		"1"
+			"Requirement_OS"
+			{
+				"Is64BitWindows"		"1"
+			}
+		}
+	}
+}
+"kvsignatures"
+{
+	"InstallScript"		"5f87fe249772490b2f26b5fe0e185ccf3d19a64c3a2856782bdf7a4f00c71aeeb583ead6c0a93f2bf8750f92ccfe4a212e228e3a4dfb53e1460b47b29f8e2aa3f5942886874c8cf13da14981cebd7ea6c5f0f067b3948a9ee7b27e03c4c6285f054a6e680c475c2aa2e5626d2ef6e03fa965ac09bc57897f8447a4f5e8adadef"
+}

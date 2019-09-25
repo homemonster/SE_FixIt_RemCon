@@ -1,0 +1,679 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Button_Fail_Part1" xml:space="preserve">
+    <value>Button panel for starting mission '</value>
+  </data>
+  <data name="Button_Fail_Part2" xml:space="preserve">
+    <value>' was destroyed. Load your last safe ([f5]) to restore your progress or continue on without access to the final objective.</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>Restore an old outpost to act as your base of operations and explore the remains of what a once thriving industry left behind. Learn about space engineering or pick a fight, the choice is yours, this is where your career begins!</value>
+  </data>
+  <data name="Fail_Caption" xml:space="preserve">
+    <value>Mission Failed!</value>
+  </data>
+  <data name="Fail_Description" xml:space="preserve">
+    <value>Mission has failed. Load your last safe (f5) to restore your progress or continue on without access to the final objective.</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01" xml:space="preserve">
+    <value>Drone Waypoint</value>
+  </data>
+  <data name="GPS_DroneWaypoint_01_Desc" xml:space="preserve">
+    <value>Position of Drone Waypoint</value>
+  </data>
+  <data name="GPS_PirateDrone_01" xml:space="preserve">
+    <value>Pirate drone</value>
+  </data>
+  <data name="GPS_PirateDrone_01_Desc" xml:space="preserve">
+    <value>Location of Pirate drone</value>
+  </data>
+  <data name="GPS_PirateFacility_01" xml:space="preserve">
+    <value>Pirate Facility</value>
+  </data>
+  <data name="GPS_PirateFacility_01_Desc" xml:space="preserve">
+    <value>Position of Pirate Facility</value>
+  </data>
+  <data name="GPS_PiratePlanet_01" xml:space="preserve">
+    <value>Planet</value>
+  </data>
+  <data name="GPS_PiratePlanet_01_Desc" xml:space="preserve">
+    <value>Position of Planet</value>
+  </data>
+  <data name="GPS_PirateShip_01" xml:space="preserve">
+    <value>Pirate commander ship</value>
+  </data>
+  <data name="GPS_PirateShip_01_Desc" xml:space="preserve">
+    <value>Position of Pirate comander ship</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Learning to Survive</value>
+  </data>
+  <data name="O_01x01_01_Description" xml:space="preserve">
+    <value>To replenish oxygen and hydrogen at the survival kit you need power, a working conveyor connection between the H2/O2 generator, as well as a survival kit and ice in the H2/O2 generator.</value>
+  </data>
+  <data name="O_01x01_01_Objective" xml:space="preserve">
+    <value>Replenish your oxygen and hydrogen at a survival kit.</value>
+  </data>
+  <data name="O_01x01_Caption" xml:space="preserve">
+    <value>Good.bot: Oxygen and Hydrogen</value>
+  </data>
+  <data name="O_01x01_Hint" xml:space="preserve">
+    <value>Good job!
+
+Tip: Put oxygen bottles inside the H2/O2 generator to refill them.</value>
+  </data>
+  <data name="O_01x01_Name" xml:space="preserve">
+    <value>Oxygen and Hydrogen</value>
+  </data>
+  <data name="O_01x02_01_Description" xml:space="preserve">
+    <value>These solar panels generate power when in contact with sunlight. This power is stored in batteries. Repair the solar panel to generate more power. You can find tools and components in the cargo container on the platform. </value>
+  </data>
+  <data name="O_01x02_01_Objective" xml:space="preserve">
+    <value>Use your welder to repair the solar panel.</value>
+  </data>
+  <data name="O_01x02_Caption" xml:space="preserve">
+    <value>Good.bot: Solar Panels</value>
+  </data>
+  <data name="O_01x02_Hint" xml:space="preserve">
+    <value>Well done!
+
+
+Tip: Solar panels produce more power when facing the sun directly. </value>
+  </data>
+  <data name="O_01x02_Name" xml:space="preserve">
+    <value>Solar Panels</value>
+  </data>
+  <data name="O_01x03_01_Description" xml:space="preserve">
+    <value>The survival kit can produce small amounts of ingots from stone, produce basic components from ingots, allows you to recharge your energy as well as health, and allows you to respawn. Everything you need to get started. </value>
+  </data>
+  <data name="O_01x03_01_Objective" xml:space="preserve">
+    <value>Hold [{CONTROL:USE}] to recharge your health and energy from the console.</value>
+  </data>
+  <data name="O_01x03_Caption" xml:space="preserve">
+    <value>Good.bot: Survival Kit</value>
+  </data>
+  <data name="O_01x03_Hint" xml:space="preserve">
+    <value>Fantastic!
+
+Tip: Connect the H2/O2 generator with the survival kit to recharge your hydrogen and oxygen as well. </value>
+  </data>
+  <data name="O_01x03_Name" xml:space="preserve">
+    <value>Survival Kit</value>
+  </data>
+  <data name="O_01x04_01_Description" xml:space="preserve">
+    <value>You can find ore inside asteroids and planets. Equip your drill to enable HUD markers that show you nearby locations of ore. </value>
+  </data>
+  <data name="O_01x04_01_Objective" xml:space="preserve">
+    <value>Locate, drill and pick up some iron ore.</value>
+  </data>
+  <data name="O_01x04_Caption" xml:space="preserve">
+    <value>Good.Bot: Mining</value>
+  </data>
+  <data name="O_01x04_Hint" xml:space="preserve">
+    <value>Superb!
+
+
+Tip: You can put this iron ore in a basic refinery to produce iron ingots.</value>
+  </data>
+  <data name="O_01x04_Name" xml:space="preserve">
+    <value>Mining</value>
+  </data>
+  <data name="O_01x05_01_Description" xml:space="preserve">
+    <value>This ship is locked to the platform with magnetic landing gear. Find a way to unlock the landing gear through the consoles or use your grinder to destroy it. Note that turning it off will not unlock it. </value>
+  </data>
+  <data name="O_01x05_01_Objective" xml:space="preserve">
+    <value>Disable the landing gear.</value>
+  </data>
+  <data name="O_01x05_Caption" xml:space="preserve">
+    <value>Good.bot: Ship</value>
+  </data>
+  <data name="O_01x05_Hint" xml:space="preserve">
+    <value>Awesome!
+
+
+Tip: Try to fly the ship!</value>
+  </data>
+  <data name="O_01x05_Name" xml:space="preserve">
+    <value>Ship</value>
+  </data>
+  <data name="O_01x06_01_Description" xml:space="preserve">
+    <value>There is a useful utility ship here, but it needs to be repaired. The required components are likely near your current location.</value>
+  </data>
+  <data name="O_01x06_01_Objective" xml:space="preserve">
+    <value>Restore power to the utility ship.</value>
+  </data>
+  <data name="O_01x06_02_Description" xml:space="preserve">
+    <value>Great! Enter the cockpit to get started.</value>
+  </data>
+  <data name="O_01x06_02_Objective" xml:space="preserve">
+    <value>Enter the cockpit by pressing [{CONTROL:USE}] while facing the cockpit.</value>
+  </data>
+  <data name="O_01x06_03_Description" xml:space="preserve">
+    <value>Ship tools are useful to build or deconstruct blocks quickly and can store large quantities of components. Select one of the ship tools on your toolbar and use these to escape the hangar. Press [{CONTROL:LANDING_GEAR}] to turn off the landing gears. </value>
+  </data>
+  <data name="O_01x06_03_Objective" xml:space="preserve">
+    <value>Repair or grind down the doors to escape.</value>
+  </data>
+  <data name="O_01x06_Caption" xml:space="preserve">
+    <value>Good.bot: Ship Tools</value>
+  </data>
+  <data name="O_01x06_Hint" xml:space="preserve">
+    <value>Fine Work!
+
+
+Tip: Ship welders use components from the ship inventory to construct blocks.</value>
+  </data>
+  <data name="O_01x06_Name" xml:space="preserve">
+    <value>Ship Tools</value>
+  </data>
+  <data name="O_01x07_01_Description" xml:space="preserve">
+    <value>There is a useful mining ship here, but it needs to be repaired. The required components are likely near your current location.</value>
+  </data>
+  <data name="O_01x07_01_Objective" xml:space="preserve">
+    <value>Restore power to the mining ship.</value>
+  </data>
+  <data name="O_01x07_02_Description" xml:space="preserve">
+    <value>Great! Enter the cockpit to get started.</value>
+  </data>
+  <data name="O_01x07_02_Objective" xml:space="preserve">
+    <value>Enter the cockpit by pressing [{CONTROL:USE}] while facing the cockpit.</value>
+  </data>
+  <data name="O_01x07_03_Description" xml:space="preserve">
+    <value>Select the drills on your toolbar and use the right mouse function to create a tunnel in order to escape. 
+Press [{CONTROL:LANDING_GEAR}] to unlock the landing gears. </value>
+  </data>
+  <data name="O_01x07_03_Objective" xml:space="preserve">
+    <value>Find a way to escape with the mining ship.</value>
+  </data>
+  <data name="O_01x07_Caption" xml:space="preserve">
+    <value>Good.bot: Ship Mining</value>
+  </data>
+  <data name="O_01x07_Hint" xml:space="preserve">
+    <value>Brilliant!
+
+Tip: While using drills, use [left-click] to collect ore and [right-click] to create tunnels fast. </value>
+  </data>
+  <data name="O_01x07_Name" xml:space="preserve">
+    <value>Ship Mining</value>
+  </data>
+  <data name="O_02x01_01_Description" xml:space="preserve">
+    <value>You can test your handheld weapons and try out ship weapons here.</value>
+  </data>
+  <data name="O_02x01_01_Objective_01" xml:space="preserve">
+    <value>Destroy targets</value>
+  </data>
+  <data name="O_02x01_01_Objective_02" xml:space="preserve">
+    <value>Fire Gatling gun</value>
+  </data>
+  <data name="O_02x01_01_Objective_03" xml:space="preserve">
+    <value>Fire missile launcher</value>
+  </data>
+  <data name="O_02x01_02_Description" xml:space="preserve">
+    <value>Excellent! You can repair the fighter ship and fly it home.</value>
+  </data>
+  <data name="O_02x01_02_Objective" xml:space="preserve">
+    <value>Restore power to the fighter.</value>
+  </data>
+  <data name="O_02x01_Caption" xml:space="preserve">
+    <value>Good.bot: Weapons</value>
+  </data>
+  <data name="O_02x01_Hint" xml:space="preserve">
+    <value>First-rate!
+
+Tip: Weapons have a maximum range of 800m.</value>
+  </data>
+  <data name="O_02x01_Name" xml:space="preserve">
+    <value>Weapons</value>
+  </data>
+  <data name="O_02x02_01_Description" xml:space="preserve">
+    <value>This is a construction platform. It looks like there is enough materials to build your own ship. There is already a base to start from. Begin by adding a cockpit.</value>
+  </data>
+  <data name="O_02x02_01_Objective" xml:space="preserve">
+    <value>Add and weld a cockpit to control your ship.</value>
+  </data>
+  <data name="O_02x02_02_Description" xml:space="preserve">
+    <value>Good! Now you need functional thrusters in all six directions. Use ion thrusters for space travel. More thrusters means faster acceleration!</value>
+  </data>
+  <data name="O_02x02_02_Objective" xml:space="preserve">
+    <value>Weld thrusters in all six directions.</value>
+  </data>
+  <data name="O_02x02_03_Description" xml:space="preserve">
+    <value>A ship also needs gyroscopes for orientation. More gyroscopes means higher sensitivity.</value>
+  </data>
+  <data name="O_02x02_03_Objective" xml:space="preserve">
+    <value>Add and weld gyroscopes to your ship.</value>
+  </data>
+  <data name="O_02x02_04_Description" xml:space="preserve">
+    <value>Lastly, your ship needs power. Either build reactors and add fuel, or build batteries that come with a small amount of power.</value>
+  </data>
+  <data name="O_02x02_04_Objective" xml:space="preserve">
+    <value>Power your ship.</value>
+  </data>
+  <data name="O_02x02_Caption" xml:space="preserve">
+    <value>Good.bot: Ship Building</value>
+  </data>
+  <data name="O_02x02_Hint" xml:space="preserve">
+    <value>I couldn't have done it better myself!
+
+
+Tip: Add more armor to protect the vital parts of your ship against collisions and weapons!</value>
+  </data>
+  <data name="O_02x02_Name" xml:space="preserve">
+    <value>Ship Building</value>
+  </data>
+  <data name="O_02x03_01_Description" xml:space="preserve">
+    <value>It looks like this place used to be pressurized. Pressurized rooms will replenish your oxygen and keep you warm. 
+Repair the air vent to check the status of the room.</value>
+  </data>
+  <data name="O_02x03_01_Objective" xml:space="preserve">
+    <value>Repair the air vent.</value>
+  </data>
+  <data name="O_02x03_02_Description" xml:space="preserve">
+    <value>Perfect! But a yellow light on the air vent means the room is not sealed. Repair the holes in the walls and the door to make the room air tight.</value>
+  </data>
+  <data name="O_02x03_02_Objective_01" xml:space="preserve">
+    <value>Make the room airtight.</value>
+  </data>
+  <data name="O_02x03_02_Objective_02" xml:space="preserve">
+    <value>Repair the holes in the walls.</value>
+  </data>
+  <data name="O_02x03_03_Description" xml:space="preserve">
+    <value>Notice that the air vent now shows a green light, indicating the room is sealed. A connected H2\O2 generator can now produce oxygen from ice and use the vent to pressurize the room.</value>
+  </data>
+  <data name="O_02x03_03_Objective" xml:space="preserve">
+    <value>Store ice in the H2\O2 generator access port on the roof.</value>
+  </data>
+  <data name="O_02x03_Caption" xml:space="preserve">
+    <value>Good.bot: Pressurization</value>
+  </data>
+  <data name="O_02x03_Hint" xml:space="preserve">
+    <value>Outstanding!
+Tip: Notice that your suit oxygen supply automatically replenishes when you are in pressurized environments.</value>
+  </data>
+  <data name="O_02x03_Name" xml:space="preserve">
+    <value>Pressurization</value>
+  </data>
+  <data name="O_02x04_01_Description" xml:space="preserve">
+    <value>This looks like an advanced production facility. 
+There is already ore in the large container, but the conveyor tubes are unfinished. Conveyor tubes transport items between blocks.</value>
+  </data>
+  <data name="O_02x04_01_Objective" xml:space="preserve">
+    <value>Repair the conveyor tubes.</value>
+  </data>
+  <data name="O_02x04_02_Description" xml:space="preserve">
+    <value>The refinery will automatically pull ore from the container and refine it into ingots. These can be turned into components by an assembler.</value>
+  </data>
+  <data name="O_02x04_02_Objective" xml:space="preserve">
+    <value>Build and connect an assembler to the refinery.</value>
+  </data>
+  <data name="O_02x04_Caption" xml:space="preserve">
+    <value>Good.bot: Production</value>
+  </data>
+  <data name="O_02x04_Hint" xml:space="preserve">
+    <value>You learn quickly!
+
+
+Tip: You can upgrade advanced refineries and assemblers with modules.</value>
+  </data>
+  <data name="O_02x04_Name" xml:space="preserve">
+    <value>Production</value>
+  </data>
+  <data name="O_02x05_01_Description" xml:space="preserve">
+    <value>There are batteries floating in space that can be used to power this facility. Grids can be merged together with merge blocks. Use the tugship to merge the batteries with the station.</value>
+  </data>
+  <data name="O_02x05_01_Objective" xml:space="preserve">
+    <value>Enter the tugship</value>
+  </data>
+  <data name="O_02x05_02_Description" xml:space="preserve">
+    <value>The ship is holding the batteries with its forward landing gears. Move the merge blocks close to each other so they can connect. Merge blocks will light up yellow when they get within range.</value>
+  </data>
+  <data name="O_02x05_02_Objective" xml:space="preserve">
+    <value>Connect the battery with the station</value>
+  </data>
+  <data name="O_02x05_03_Description" xml:space="preserve">
+    <value>Excellent! Power is restored. Now you can connect your ship with the station. Use your connector to form a temporary connection. Connectors will be illuminated by yellow light when in range</value>
+  </data>
+  <data name="O_02x05_03_Objective" xml:space="preserve">
+    <value>Press [{CONTROL:LANDING_GEAR}] when connectors are yellow to connect.</value>
+  </data>
+  <data name="O_02x05_Caption" xml:space="preserve">
+    <value>Good.bot: Connections</value>
+  </data>
+  <data name="O_02x05_Hint" xml:space="preserve">
+    <value>You will be an expert in no time!
+Using connectors allow you to recharge ship batteries and transfer items.</value>
+  </data>
+  <data name="O_02x05_Name" xml:space="preserve">
+    <value>Connections</value>
+  </data>
+  <data name="O_03x01_01_Description" xml:space="preserve">
+    <value>Now that you have taken care of the drone, take out the stations defences next. Most turrets and weapons have 800M maximum range.</value>
+  </data>
+  <data name="O_03x01_01_Objective_01" xml:space="preserve">
+    <value>Disable turret 1.</value>
+  </data>
+  <data name="O_03x01_01_Objective_02" xml:space="preserve">
+    <value>Disable turret 2.</value>
+  </data>
+  <data name="O_03x01_02_Description" xml:space="preserve">
+    <value>This red signal indicates a hostile pirate station. These are often armed with automated turrets and drones.</value>
+  </data>
+  <data name="O_03x01_02_Objective" xml:space="preserve">
+    <value>Destroy the drone.</value>
+  </data>
+  <data name="O_03x01_03_Description" xml:space="preserve">
+    <value>Take out the station's antenna to prevent more drones from spawning.</value>
+  </data>
+  <data name="O_03x01_03_Objective" xml:space="preserve">
+    <value>Destroy the station's antenna.</value>
+  </data>
+  <data name="O_03x01_Caption" xml:space="preserve">
+    <value>Good.bot: Combat</value>
+  </data>
+  <data name="O_03x01_Hint" xml:space="preserve">
+    <value>Target neutralized!
+
+
+Tip: Red signals can also indicate the presence of other players. </value>
+  </data>
+  <data name="O_03x01_Name" xml:space="preserve">
+    <value>Combat</value>
+  </data>
+  <data name="O_03x02_01_Description" xml:space="preserve">
+    <value>This looks like an automated construction facility. Projectors can be used to project saved blueprints of ships, so they can be reconstructed quickly.</value>
+  </data>
+  <data name="O_03x02_01_Objective" xml:space="preserve">
+    <value>Find a way to turn on the projector.</value>
+  </data>
+  <data name="O_03x02_02_Description" xml:space="preserve">
+    <value>A projector needs a connection with the blueprint from which you can start building. The station welders can do most of the work for you. The welders use components available in the station.</value>
+  </data>
+  <data name="O_03x02_02_Objective" xml:space="preserve">
+    <value>Build the projection.</value>
+  </data>
+  <data name="O_03x02_03_Description" xml:space="preserve">
+    <value>Marvelous! Now all you have to do is to find a way to disconnect your ship and add ammunition to the guns. Disconnect the ship from the station and try it out!</value>
+  </data>
+  <data name="O_03x02_03_Objective" xml:space="preserve">
+    <value>Move your new ship out of the hangar to test it.</value>
+  </data>
+  <data name="O_03x02_Caption" xml:space="preserve">
+    <value>Good.bot: Projectors</value>
+  </data>
+  <data name="O_03x02_Hint" xml:space="preserve">
+    <value>You made quick work of that!
+
+
+Tip: You can use this facility or build your own to quickly build more ships. Remember to add fuel and ammunition!</value>
+  </data>
+  <data name="O_03x02_Name" xml:space="preserve">
+    <value>Projectors</value>
+  </data>
+  <data name="O_03x03_01_Description" xml:space="preserve">
+    <value>This looks like an old exploration ship. It is equipped with a jump drive. Jump drives are used to transport ships over great distances. Find a way to repair the jump drive.</value>
+  </data>
+  <data name="O_03x03_01_Objective" xml:space="preserve">
+    <value>Repair the jump drive.</value>
+  </data>
+  <data name="O_03x03_02_Description" xml:space="preserve">
+    <value>Jump drives can only be activated from a cockpit toolbar. Enter the control station and activate the jump drive. Remain seated while the jump drive powers up.</value>
+  </data>
+  <data name="O_03x03_02_Objective" xml:space="preserve">
+    <value>Perform a jump.</value>
+  </data>
+  <data name="O_03x03_03_Description" xml:space="preserve">
+    <value>Jump drives can also use GPS coordinates to jump. Use the GPS coordinates stored in the LCD panels on board this ship to find a hidden location.</value>
+  </data>
+  <data name="O_03x03_03_Objective" xml:space="preserve">
+    <value>Find the hidden base.</value>
+  </data>
+  <data name="O_03x03_Caption" xml:space="preserve">
+    <value>Good.bot: Jump Drives</value>
+  </data>
+  <data name="O_03x03_Hint" xml:space="preserve">
+    <value>Fasten your seatbelt!
+
+
+Tip: Don't get out your seat while jumping, or you will be left behind! </value>
+  </data>
+  <data name="O_03x03_Name" xml:space="preserve">
+    <value>Jump Drives</value>
+  </data>
+  <data name="O_03x04_01_Description" xml:space="preserve">
+    <value>This facility repaired unmanned drones to mine, build and defend the area. To control a ship remotely, you need a remote control block and an antenna.</value>
+  </data>
+  <data name="O_03x04_01_Objective_01" xml:space="preserve">
+    <value>Repair the remote control block.</value>
+  </data>
+  <data name="O_03x04_01_Objective_02" xml:space="preserve">
+    <value>Add an antenna to the drone.</value>
+  </data>
+  <data name="O_03x04_02_Description" xml:space="preserve">
+    <value>To control a ship remotely, press [Shift-K] to enter the menu, which  shows ships within your antenna range, then select control. 
+Make sure your suit antenna is toggled on!</value>
+  </data>
+  <data name="O_03x04_02_Objective" xml:space="preserve">
+    <value>Take control of the drone remotely.</value>
+  </data>
+  <data name="O_03x04_03_Description" xml:space="preserve">
+    <value>Fly the drone to the waypoint to test your drone. 
+Don’t go too far though, your antennae need to stay within range of each other.</value>
+  </data>
+  <data name="O_03x04_03_Objective" xml:space="preserve">
+    <value>Fly the drone towards the GPS. </value>
+  </data>
+  <data name="O_03x04_Caption" xml:space="preserve">
+    <value>Good.bot: Remote Control</value>
+  </data>
+  <data name="O_03x04_Hint" xml:space="preserve">
+    <value>Talk about precision flying!
+
+
+Tip: Drones are handy if you like to build cheap and small ships.</value>
+  </data>
+  <data name="O_03x04_Name" xml:space="preserve">
+    <value>Remote Control</value>
+  </data>
+  <data name="O_03x05_01_Description" xml:space="preserve">
+    <value>There is a small mining ship here that uses hydrogen thrusters. 
+Hydrogen thrusters are powerful but require hydrogen to function.
+A ship can produce hydrogen from ice using a H2/O2 generator</value>
+  </data>
+  <data name="O_03x05_01_Objective" xml:space="preserve">
+    <value>Add Ice to the ship’s H2/O2 generator.</value>
+  </data>
+  <data name="O_03x05_02_Description" xml:space="preserve">
+    <value>The rear thrusters do not have conveyor connections with the hydrogen tank. 
+Repair or add conveyor tubes to restore the fuel supply to the thrusters.</value>
+  </data>
+  <data name="O_03x05_02_Objective" xml:space="preserve">
+    <value>Restore the fuel supply to the rear hydrogen thrusters.</value>
+  </data>
+  <data name="O_03x05_03_Description" xml:space="preserve">
+    <value>Splendid! You can now use the ship's drills to mine more ice so it can refuel itself.</value>
+  </data>
+  <data name="O_03x05_03_Objective" xml:space="preserve">
+    <value>Mine ice using the miner ship.</value>
+  </data>
+  <data name="O_03x05_Caption" xml:space="preserve">
+    <value>Good.bot: Hydrogen Thrusters</value>
+  </data>
+  <data name="O_03x05_Hint" xml:space="preserve">
+    <value>Magnificent!
+
+
+Tip: Hydrogen thrusters can be used to escape planetary gravity.</value>
+  </data>
+  <data name="O_03x05_Name" xml:space="preserve">
+    <value>Hydrogen Thrusters</value>
+  </data>
+  <data name="O_0Fx01_01_Description" xml:space="preserve">
+    <value>Well done, engineer! Now it is time to put your new skills to the test. There is a planet nearby, which is controlled by a pirate faction.
+Find the planet and take out the pirates.</value>
+  </data>
+  <data name="O_0Fx01_01_Objective" xml:space="preserve">
+    <value>Reach the planet.</value>
+  </data>
+  <data name="O_0Fx01_02_Description" xml:space="preserve">
+    <value>Great job; you reached the planet! There is a pirate facility controlling the planet. It is up to you to find a way to disable it.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_01" xml:space="preserve">
+    <value>Disable the pirate facility.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_02" xml:space="preserve">
+    <value>Disable pirate facility 2.</value>
+  </data>
+  <data name="O_0Fx01_02_Objective_03" xml:space="preserve">
+    <value>Disable pirate facility 3.</value>
+  </data>
+  <data name="O_0Fx01_03_Description" xml:space="preserve">
+    <value>Outstanding work! With the destruction of this facility the pirate commander has revealed himself in orbit above the planet. You know what to do!</value>
+  </data>
+  <data name="O_0Fx01_03_Objective" xml:space="preserve">
+    <value>Destroy the pirate commander ship.</value>
+  </data>
+  <data name="O_0Fx01_Caption" xml:space="preserve">
+    <value>Good.bot: Final Objective</value>
+  </data>
+  <data name="O_0Fx01_Fail" xml:space="preserve">
+    <value>Not all tasks were completed successfully, the final objective will remain unavailable until your next play trough</value>
+  </data>
+  <data name="O_0Fx01_Hint" xml:space="preserve">
+    <value>Excellent!
+
+
+Tip: Share your experiences with other players, team up next time or compete against each other for new experiences!</value>
+  </data>
+  <data name="O_InitialQuest" xml:space="preserve">
+    <value>There are small tasks for you to perform, these tasks can be activated by finding and activating specific button panels. There are several such button panels on this platform, go try it out!</value>
+  </data>
+  <data name="O_InitialQuest_Caption" xml:space="preserve">
+    <value>Good.bot: Tasks</value>
+  </data>
+  <data name="Persons_VirtualAssistant" xml:space="preserve">
+    <value>Good.bot</value>
+  </data>
+  <data name="QuestlogDetail_Failed" xml:space="preserve">
+    <value>Objective has been failed.</value>
+  </data>
+  <data name="QuestlogDetail_Success" xml:space="preserve">
+    <value>Objective was completed successfully.</value>
+  </data>
+</root>

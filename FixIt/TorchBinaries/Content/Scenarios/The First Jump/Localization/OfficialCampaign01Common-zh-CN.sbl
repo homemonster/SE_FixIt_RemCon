@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<MyObjectBuilder_Localization xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Id>97572</Id>
+  <Language>zh-CN</Language>
+  <Context>Common</Context>
+  <ResourceName>OfficialCampaign01Common</ResourceName>
+  <Default>false</Default>
+  <ResXName>OfficialCampaign01Common.zh-CN.resx</ResXName>
+</MyObjectBuilder_Localization>

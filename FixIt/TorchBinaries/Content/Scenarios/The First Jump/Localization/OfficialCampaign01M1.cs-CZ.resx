@@ -1,0 +1,402 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_VA_Airlock" xml:space="preserve">
+    <value>Simulace naznačují, že je jen 2% šance, že příčina poškození byla náhoda.</value>
+  </data>
+  <data name="Chat_VA_AttackWarning" xml:space="preserve">
+    <value>Konstruktére, Vaše loď byla kriticky poškozena. Tohle bude vypadat zle ve Vašich záznamech.</value>
+  </data>
+  <data name="Chat_VA_AttackWarningpart2" xml:space="preserve">
+    <value>Nouzová evakuace doporučena, původní mise přerušena.</value>
+  </data>
+  <data name="Chat_VA_AttackWarningpart3" xml:space="preserve">
+    <value>Nejrychlejší trasa k únikovým modulům vyznačena pomocí GPS.</value>
+  </data>
+  <data name="Chat_VA_BreachDetected" xml:space="preserve">
+    <value>Omlouvám se, ale nemohu přepsat bezpečnostní protokoly, systém této stanice je vyšinutý.</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo1" xml:space="preserve">
+    <value>Probíhá dokování ke stanici.</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo2" xml:space="preserve">
+    <value>Stanic neodpovídá na naše volání.</value>
+  </data>
+  <data name="Chat_VA_BridgeInfo3" xml:space="preserve">
+    <value>Doporučuji osobní průzkum, abychom vyhodnotili, co se tu stalo.</value>
+  </data>
+  <data name="Chat_VA_CommandCenter" xml:space="preserve">
+    <value>Plány stanice naznačují, že velící středisko by mělo být v horním patře.</value>
+  </data>
+  <data name="Chat_VA_DoorDamaged" xml:space="preserve">
+    <value>Tyto dveře vypadají, že jsou poškozené. K opravě můžete použít věci okolo Vás.</value>
+  </data>
+  <data name="Chat_VA_EnergyLoss" xml:space="preserve">
+    <value>Varování, zaznamenána porucha skafandru. Hladina energie klesá.</value>
+  </data>
+  <data name="Chat_VA_EnergyStabilize" xml:space="preserve">
+    <value>Porucha skafandru opravena. Doporučuji navštívit dobíjecí stanici.</value>
+  </data>
+  <data name="Chat_VA_EnterEscapePod" xml:space="preserve">
+    <value>Pro evakuaci ze stanice se usaďte do modulu.</value>
+  </data>
+  <data name="Chat_VA_EnterTheStation" xml:space="preserve">
+    <value>Buďte opatrní, vypadnutí ze stanice se nevyjímá dobře v záznamech Konstruktéra.</value>
+  </data>
+  <data name="Chat_VA_GetOxygenBottle" xml:space="preserve">
+    <value>Konstruktére, nezapomeňte dýchat kyslík. Kyslík je klíčový pro dobrý výkon astronauta.</value>
+  </data>
+  <data name="Chat_VA_GoToTheAirlock" xml:space="preserve">
+    <value>Konstruktére, připravte se na vylodění a začněte s vyšetřováním na stanici.</value>
+  </data>
+  <data name="Chat_VA_GoToTheBridge" xml:space="preserve">
+    <value>Prosím, jděte na můstek lodi, kvůli stručné instruktáži.</value>
+  </data>
+  <data name="Chat_VA_Helmet" xml:space="preserve">
+    <value>Varování, pohyb v nenatlakovaném prostředí se bez helmy nedoporučuje.</value>
+  </data>
+  <data name="Chat_VA_Introduction" xml:space="preserve">
+    <value>Virtuální asistent konstruktéra aktivován.</value>
+  </data>
+  <data name="Chat_VA_Outro" xml:space="preserve">
+    <value>Zprávy o konfliktu byly potvrzeny, stanice R.O.S. byla napadena a zničena neznámou frakcí. Loď konstruktéra zničena, evakuujeme se k měsíci.</value>
+  </data>
+  <data name="Chat_VA_StartExploring" xml:space="preserve">
+    <value>Lodní autopilot zapojen, zahájen přesun na bezpečnou vzdálenost.</value>
+  </data>
+  <data name="Chat_VA_UseRedPanel" xml:space="preserve">
+    <value>Stanice hlásí těžké poškození systémů.</value>
+  </data>
+  <data name="Chat_VA_WakeUp" xml:space="preserve">
+    <value>Spouštím rozmrazovací proces kryokomory.</value>
+  </data>
+  <data name="GPS_Airlock" xml:space="preserve">
+    <value>Přechodová komora</value>
+  </data>
+  <data name="GPS_BluePanel" xml:space="preserve">
+    <value>Modrý panel</value>
+  </data>
+  <data name="GPS_Bridge" xml:space="preserve">
+    <value>Můstek</value>
+  </data>
+  <data name="GPS_ControlPanel" xml:space="preserve">
+    <value>Ovládací panel</value>
+  </data>
+  <data name="GPS_DamagedDoor" xml:space="preserve">
+    <value>Poškozené dveře</value>
+  </data>
+  <data name="GPS_EscapePod" xml:space="preserve">
+    <value>Únikový modul</value>
+  </data>
+  <data name="GPS_MedicalBay" xml:space="preserve">
+    <value>Ošetřovna - dobijte se zde</value>
+  </data>
+  <data name="GPS_RedPanel" xml:space="preserve">
+    <value>Červený panel</value>
+  </data>
+  <data name="GPS_StationFrontDoor" xml:space="preserve">
+    <value>Staniční přechodová komora</value>
+  </data>
+  <data name="GPS_ToCommandCenter" xml:space="preserve">
+    <value>K řídícímu středisku</value>
+  </data>
+  <data name="GPS_ToEscapePods" xml:space="preserve">
+    <value>K únikovým modulům</value>
+  </data>
+  <data name="LCDPanel_Bridge_Approaching" xml:space="preserve">
+    <value>Přibližování ke stanici...</value>
+  </data>
+  <data name="LCDPanel_Bridge_Distance" xml:space="preserve">
+    <value>Vzdálenost: {0}m</value>
+  </data>
+  <data name="LCDPanel_Bridge_Locked" xml:space="preserve">
+    <value>Zadokováno ke stanici</value>
+  </data>
+  <data name="LCDPanel_Oxy_Amount" xml:space="preserve">
+    <value>Kyslík v místnosti: {0}%</value>
+  </data>
+  <data name="LCDPanel_Oxy_NoPressure" xml:space="preserve">
+    <value>Místnost nenatlakována</value>
+  </data>
+  <data name="LCDPanel_Oxy_PressurePreporeLine1" xml:space="preserve">
+    <value>Vrata se zavírají,</value>
+  </data>
+  <data name="LCDPanel_Oxy_PressurePreporeLine2" xml:space="preserve">
+    <value>příprava k natlakování...</value>
+  </data>
+  <data name="LCDPanel_Oxy_Pressurized" xml:space="preserve">
+    <value>Místnost natlakována.</value>
+  </data>
+  <data name="Notification_Intro" xml:space="preserve">
+    <value>Lodní, automatický deník - Přibližujeme se cíli. Délka letu 576 pozemských hodin. Zahajuji proceduru oživování konstruktéra...</value>
+  </data>
+  <data name="Quest01_Cryo" xml:space="preserve">
+    <value>Opusťte kryokomoru</value>
+  </data>
+  <data name="Quest01_Cryo_UseKey" xml:space="preserve">
+    <value>Kryokomoru opustíte stisknutím klávesy [ {0} ].</value>
+  </data>
+  <data name="Quest02_Movement" xml:space="preserve">
+    <value>Hlaste se na můstku</value>
+  </data>
+  <data name="Quest02_Movement_Door" xml:space="preserve">
+    <value>Namiřte kurzorem na dveře a stiskněte [ {0} ] pro otevření/zavření.</value>
+  </data>
+  <data name="Quest02_Movement_GPS" xml:space="preserve">
+    <value>Následujte GPS značky, pomohu Vám s navigací.</value>
+  </data>
+  <data name="Quest02_Movement_Keys" xml:space="preserve">
+    <value>K pohybu použijte klávesy [ {0} ], [ {1} ], [ {2} ], [ {3} ].</value>
+  </data>
+  <data name="Quest02_Movement_Mouse" xml:space="preserve">
+    <value>Rozhlédněte se kolem použitím myši.</value>
+  </data>
+  <data name="Quest03_GoToAirlock" xml:space="preserve">
+    <value>Jděte do přechodové komory lodě.</value>
+  </data>
+  <data name="Quest03_GoToAirlock_Doors" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro otevření/zavření dveří.</value>
+  </data>
+  <data name="Quest03_GoToAirlock_Navigation" xml:space="preserve">
+    <value>Jděte do přechodové komory, umístěné na nižším podlaží</value>
+  </data>
+  <data name="Quest04B_Helmet" xml:space="preserve">
+    <value>Otevřete přechodovou komoru</value>
+  </data>
+  <data name="Quest04B_Helmet_RedPanel" xml:space="preserve">
+    <value>Otevřete vrata hangáru pomocí panelu s tlačítky.</value>
+  </data>
+  <data name="Quest04B_Helmet_toggle" xml:space="preserve">
+    <value>Přepněte helmu stisknutím tlačítka [ {0} ]</value>
+  </data>
+  <data name="Quest04_Equipment" xml:space="preserve">
+    <value>Vyzvedněte si zásobník s kyslíkem</value>
+  </data>
+  <data name="Quest04_Equipment_Button" xml:space="preserve">
+    <value>Použijte panel s tlačítky na pravoboku pro vydání kyslíkové láhve.</value>
+  </data>
+  <data name="Quest04_Equipment_PickUp" xml:space="preserve">
+    <value>Zvedněte předmět tím, že na něj namíříte a stisknete klávesu [ {0} ].</value>
+  </data>
+  <data name="Quest04_Equipment_UseKey" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro aktivaci tlačítek na panelu s tlačítky.</value>
+  </data>
+  <data name="Quest05_EnterStation" xml:space="preserve">
+    <value>Naloďte se na stanici</value>
+  </data>
+  <data name="Quest05_EnterStation_Airlock" xml:space="preserve">
+    <value>Jděte do přechodové komory stanice.</value>
+  </data>
+  <data name="Quest05_EnterStation_AirlockButton" xml:space="preserve">
+    <value>Použijte panel s tlačítky pro přepnutí přechodové komory.</value>
+  </data>
+  <data name="Quest05_EnterStation_Caution" xml:space="preserve">
+    <value>Souřadnice staniční přechodové komory aktualizovány.</value>
+  </data>
+  <data name="Quest06_Explore" xml:space="preserve">
+    <value>Najděte řídící středisko stanice</value>
+  </data>
+  <data name="Quest06_ExplorePartOne_Crouch" xml:space="preserve">
+    <value>Stiskněte [ {0} ] pro skrčení se.</value>
+  </data>
+  <data name="Quest06_ExplorePartOne_Search" xml:space="preserve">
+    <value>Dostaňte se do řídícího střediska s pomocí cílových značek GPS</value>
+  </data>
+  <data name="Quest07_Breach" xml:space="preserve">
+    <value>Obnovte tlak v místnosti s podporou života.</value>
+  </data>
+  <data name="Quest07_Breach_Intro" xml:space="preserve">
+    <value>Zaznamenáno značné protržení trupu.</value>
+  </data>
+  <data name="Quest07_Breach_Intro2" xml:space="preserve">
+    <value>Bezpečnostní protokoly stanice nedovolí otevřít dveře, dokud nebude obnoven tlak.</value>
+  </data>
+  <data name="Quest07_Breach_Intro3" xml:space="preserve">
+    <value>Prověřte panel s tlačítky, který je poblíž, za účelem uzavření stropních vrat.</value>
+  </data>
+  <data name="Quest07_Breach_Pressurizing" xml:space="preserve">
+    <value>Probíhá tlakování. Vyčkejte.</value>
+  </data>
+  <data name="Quest08_ExplorePartTwo_Intro" xml:space="preserve">
+    <value>Bezpečnostní přepážka se otevírá, pokračujte do řídícího střediska.</value>
+  </data>
+  <data name="Quest09_DamagedDoor" xml:space="preserve">
+    <value>Opravte poškozené dveře</value>
+  </data>
+  <data name="Quest09_DamagedDoor_Energy" xml:space="preserve">
+    <value>Doplňte energii na ošetřovně (podržte klávesu [ {0} ])</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpComponents" xml:space="preserve">
+    <value>Vezměte všechny zvýrazněné předměty (klávesa [ {0} ]).</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpMotors" xml:space="preserve">
+    <value>Součástky v inventáři: {0}/{1}</value>
+  </data>
+  <data name="Quest09_DamagedDoor_PickUpWelder" xml:space="preserve">
+    <value>Namiřte na předmět a stiskněte [ {0} ] pro jeho zvednutí.</value>
+  </data>
+  <data name="Quest09_DamagedDoor_Repair" xml:space="preserve">
+    <value>Přibližte se ke dveřím a podržte levé tlačítko myši pro zahájení svařování.</value>
+  </data>
+  <data name="Quest10_ExplorePartThree_Intro" xml:space="preserve">
+    <value>Pokračujte k řídícímu středisku, které je poblíž.</value>
+  </data>
+  <data name="Quest10_ExplorePartThree_IntroPart2" xml:space="preserve">
+    <value>Řídící středisko je poblíž.</value>
+  </data>
+  <data name="Quest11_Attacked" xml:space="preserve">
+    <value>Okamžitě se evakuujte</value>
+  </data>
+  <data name="Quest11_Attacked_Direction" xml:space="preserve">
+    <value>Následujte cílové značky GPS, které Vás nasměrují k únikovým modulům</value>
+  </data>
+  <data name="Quest11_Attacked_EscapePods" xml:space="preserve">
+    <value>Nová trasa potvrzena, zamiřte k únikovým modulům.</value>
+  </data>
+  <data name="Quest11_Attacked_Intro" xml:space="preserve">
+    <value>Stanice je pod útokem neznámých útočníků.</value>
+  </data>
+  <data name="Quest11_Attacked_Sprint" xml:space="preserve">
+    <value>Poběžíte podržením klávesy [ {0} ]</value>
+  </data>
+  <data name="Quest12_Jumping" xml:space="preserve">
+    <value>Projděte skrze poškozenou chodbu</value>
+  </data>
+  <data name="Quest12_Jumping_Danger" xml:space="preserve">
+    <value>Projděte skrze poškozenou chodbu</value>
+  </data>
+  <data name="Quest12_Jumping_Gaps" xml:space="preserve">
+    <value>Díry v této chodbě musíte přeskočit.</value>
+  </data>
+  <data name="Quest12_Jumping_Jump" xml:space="preserve">
+    <value>Použijte klávesu [ {0} ] pro přeskočení děr.</value>
+  </data>
+  <data name="Quest13_GoToEscapePods" xml:space="preserve">
+    <value>Dostaňte se do únikového modulu</value>
+  </data>
+  <data name="Quest13_GoToEscapePods_Stairs" xml:space="preserve">
+    <value>Pokračujte k poslední GPS značce</value>
+  </data>
+  <data name="Quest14_EscapePod" xml:space="preserve">
+    <value>Unikněte!</value>
+  </data>
+  <data name="Quest14_EscapePod_How" xml:space="preserve">
+    <value>Dostaňte se k sedadlu a stiskněte [ {0} ].</value>
+  </data>
+</root>

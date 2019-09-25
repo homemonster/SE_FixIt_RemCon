@@ -1,0 +1,558 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Chat_Rebel_AboutPower2" xml:space="preserve">
+    <value>Этим солнечным батареям требуется немного энергии для перенастройки, чтобы начать подачу энергии.</value>
+  </data>
+  <data name="Chat_Rebel_AboutPower3" xml:space="preserve">
+    <value>В контейнере есть необходимые компоненты. Высылаю координаты.</value>
+  </data>
+  <data name="Chat_Rebel_Intro1" xml:space="preserve">
+    <value>Добро пожаловать в наше бывшее поселение, здесь раньше жило больше сотни работников, пытающихся построить новую колонию, мы думали контракт с ROS4 будет началом новой эры, для развития в нечто большее.</value>
+  </data>
+  <data name="Chat_Rebel_Intro2" xml:space="preserve">
+    <value>Вскоре после извлечения артефакта, они выслали свои боевые корабли, безжалостно уничтожив почти всех нас и оставив от колонии одни лишь руины, который Вы видите сейчас.</value>
+  </data>
+  <data name="Chat_Rebel_Intro3" xml:space="preserve">
+    <value>Причина по которой мы привели Вас сюда заключается в том, что мне можем ударить по ним в одиночку, но с Вашими инжереными навыками, у нас может быть шанс: в ангаре пришвартован старый фрегат, его ремонт не завершен, но я думаю Вы способны вернуть его в строй без проблем.</value>
+  </data>
+  <data name="Chat_Rebel_Intro4" xml:space="preserve">
+    <value>Мы планируем наступление на силы корпорации и нуждаемся в любом корабле.</value>
+  </data>
+  <data name="Chat_Rebel_Intro5" xml:space="preserve">
+    <value>Удачи, Инженер!</value>
+  </data>
+  <data name="Chat_Rebel_Outro1" xml:space="preserve">
+    <value>Победа! Они отступают!</value>
+  </data>
+  <data name="Chat_Rebel_Outro2" xml:space="preserve">
+    <value>Наконец эти ублюдки познают вкус горечи за те страдания, которые они нам причинили!</value>
+  </data>
+  <data name="Chat_Rebel_Outro3" xml:space="preserve">
+    <value>Мы бы не справились без Вас, но это еще не конец, мы все еще должны забрать у них артефакт, он не должен оставаться в руках людей, которые используют его ради усиления своей власти.</value>
+  </data>
+  <data name="Chat_VA_AboutPower1" xml:space="preserve">
+    <value>Я не наблюдаю никаких энергетических сигнатур на базе.</value>
+  </data>
+  <data name="Chat_VA_ActivateTorpedo" xml:space="preserve">
+    <value>Торпедный отсек открывается. Активируйте торпедную систему той же панелью.</value>
+  </data>
+  <data name="Chat_VA_AmmoHaveEnough" xml:space="preserve">
+    <value>У Вас достаточно боеприпасов. Доставьте их на корабль.</value>
+  </data>
+  <data name="Chat_VA_AmmoQuest" xml:space="preserve">
+    <value>У корабля в данный момент нет боезапаса. Принесите как минимум 80 ящиком с патронами для пулеметных турелей.</value>
+  </data>
+  <data name="Chat_VA_AmmoReady" xml:space="preserve">
+    <value>Боеприпас заряжен и готов распределиться по требованию.</value>
+  </data>
+  <data name="Chat_VA_BatteryWrongPlace" xml:space="preserve">
+    <value>Батарея должна непосредственно прилегать к красной платформе, попробуйте взлететь и посмотреть вниз, чтобы расположить ее.</value>
+  </data>
+  <data name="Chat_VA_EnemyShips" xml:space="preserve">
+    <value>Вражеский корабль в зоне поражения торпедой. Откройте торпедный люк с помощью панели рядом.</value>
+  </data>
+  <data name="Chat_VA_FuelDone" xml:space="preserve">
+    <value>Реакторы запускаются. Хорошая работа.</value>
+  </data>
+  <data name="Chat_VA_FuelLocation" xml:space="preserve">
+    <value>Хранилище топлива располагается в данных координатах.</value>
+  </data>
+  <data name="Chat_VA_FuelPlaced" xml:space="preserve">
+    <value>Топливо готово, но конвейерная система выключена. Пожалуйста, включите батарею.</value>
+  </data>
+  <data name="Chat_VA_GearsUnlocked" xml:space="preserve">
+    <value>Ангарные шасси отцеплены. Вы можете взлетать.</value>
+  </data>
+  <data name="Chat_VA_GoToShip" xml:space="preserve">
+    <value>Координаты ангара добавлены.</value>
+  </data>
+  <data name="Chat_VA_GoToShipStatus" xml:space="preserve">
+    <value>Активируйте консоль управления ангаром для получения сведений о корабле.</value>
+  </data>
+  <data name="Chat_VA_GotFuel" xml:space="preserve">
+    <value>Урановые слитки питают реакторы корабля. Принесите их к запасному реактору корабля. </value>
+  </data>
+  <data name="Chat_VA_GrindBlock" xml:space="preserve">
+    <value>Попробуйте новую болгарку на старом ускорителе позади Вас.</value>
+  </data>
+  <data name="Chat_VA_GrindDone1" xml:space="preserve">
+    <value>Теперь у Вас есть необходимые для ремонта компоненты.</value>
+  </data>
+  <data name="Chat_VA_GrindDone2" xml:space="preserve">
+    <value>Поврежденный ускоритель подсвечен для облегчения ремонта.</value>
+  </data>
+  <data name="Chat_VA_GrindDone3" xml:space="preserve">
+    <value>Исследуйте местность вокруг базы ради старых запчастей, которые можно распилить. </value>
+  </data>
+  <data name="Chat_VA_LaunchTorpedo" xml:space="preserve">
+    <value>Торпеда готово к запуску через кресло пилота рядом.</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNoStatus" xml:space="preserve">
+    <value>Верхние ангарные створки отключены, пока Вы не включите консоль управления.</value>
+  </data>
+  <data name="Chat_VA_OpenRoofNotReady" xml:space="preserve">
+    <value>Верхние ангарные створки отключены, пока корабль не будет готов.</value>
+  </data>
+  <data name="Chat_VA_RepairsDone" xml:space="preserve">
+    <value>Ускорители отремонтированы. Хорошая работа.</value>
+  </data>
+  <data name="Chat_VA_RepairsDoneCompletely" xml:space="preserve">
+    <value>Ремонт завершен.</value>
+  </data>
+  <data name="Chat_VA_RepairsDonePart2" xml:space="preserve">
+    <value>Включаю подсветку для отсутствующих ускорителей.</value>
+  </data>
+  <data name="Chat_VA_RoofReady" xml:space="preserve">
+    <value>Ангарные створки открываются.</value>
+  </data>
+  <data name="Chat_VA_TankingConnectorSwitch" xml:space="preserve">
+    <value>Коннекторы не могут быть разъединены во время заправки.</value>
+  </data>
+  <data name="Chat_VA_TankingInProgress" xml:space="preserve">
+    <value>Заправка в процессе. Пожалуйста, дождитесь ее завершения.</value>
+  </data>
+  <data name="Chat_VA_TankingPumpsSwitch" xml:space="preserve">
+    <value>Поршень не может быть активирован, пока присоединен к кораблю.</value>
+  </data>
+  <data name="Chat_VA_ToolsLocation" xml:space="preserve">
+    <value>Вам необходима болгарка для получения требуемых компонентов для ремонта корабля. Получите ее на складе. </value>
+  </data>
+  <data name="Chat_VA_TorpedoDoorNotReady" xml:space="preserve">
+    <value>Торпеда не может быть запущена, пока люк не открыт.</value>
+  </data>
+  <data name="GPS_AmmoCargo" xml:space="preserve">
+    <value>Контейнер с боеприпасами</value>
+  </data>
+  <data name="GPS_BackupReactor" xml:space="preserve">
+    <value>Запасной реактор</value>
+  </data>
+  <data name="GPS_Battery" xml:space="preserve">
+    <value>Батарея корабля</value>
+  </data>
+  <data name="GPS_BatterySpareParts" xml:space="preserve">
+    <value>Запчасти для батареи</value>
+  </data>
+  <data name="GPS_Cargo" xml:space="preserve">
+    <value>Основной контейнер</value>
+  </data>
+  <data name="GPS_Cockpit" xml:space="preserve">
+    <value>Кресло пилота</value>
+  </data>
+  <data name="GPS_ControlStation" xml:space="preserve">
+    <value>Центр управления</value>
+  </data>
+  <data name="GPS_DamagedBlock" xml:space="preserve">
+    <value>СОБРАТЬ: Поврежденный ускоритель </value>
+  </data>
+  <data name="GPS_Enemy" xml:space="preserve">
+    <value>Вражеский корабль</value>
+  </data>
+  <data name="GPS_FuelBox" xml:space="preserve">
+    <value>Склад урана</value>
+  </data>
+  <data name="GPS_GrindThis" xml:space="preserve">
+    <value>РАСПИЛИТЬ: Старый ускоритель</value>
+  </data>
+  <data name="GPS_Hangar" xml:space="preserve">
+    <value>Вход в ангар</value>
+  </data>
+  <data name="GPS_Location" xml:space="preserve">
+    <value>Место встречи</value>
+  </data>
+  <data name="GPS_TankingPanel" xml:space="preserve">
+    <value>Панель управления заправкой</value>
+  </data>
+  <data name="GPS_ToolBox" xml:space="preserve">
+    <value>Склад инструментов</value>
+  </data>
+  <data name="GPS_TorpedoCockpit" xml:space="preserve">
+    <value>Кресло для запуска</value>
+  </data>
+  <data name="GPS_TorpedoPanel" xml:space="preserve">
+    <value>Панель управления торпедой</value>
+  </data>
+  <data name="GPS_Weakpoint" xml:space="preserve">
+    <value>Уязвимо </value>
+  </data>
+  <data name="GPS_WeldThis" xml:space="preserve">
+    <value>Ускоритель недостроен</value>
+  </data>
+  <data name="HowToHint_EquipAWelder" xml:space="preserve">
+    <value>Перетащите сварщик на панель инструментов.</value>
+  </data>
+  <data name="HowToHint_HowToTransferItems" xml:space="preserve">
+    <value>Двойной клик по предметам справа для быстрого перемещения в Ваш инвентарь.</value>
+  </data>
+  <data name="HowToHint_SelectABattery" xml:space="preserve">
+    <value>Перетащите блок батареи на панель инструментов или используйте двойной клик.</value>
+  </data>
+  <data name="HowToHint_SelectAToolSection" xml:space="preserve">
+    <value>Переключитесь на раздел инструментов персонажа.</value>
+  </data>
+  <data name="Panel_Working" xml:space="preserve">
+    <value>           Работает</value>
+  </data>
+  <data name="Quest01_BatteryItems" xml:space="preserve">
+    <value>Найдите запчасти для новой батареи</value>
+  </data>
+  <data name="Quest01_BatteryItems_AccessItems" xml:space="preserve">
+    <value>Наведите на конвейерные порты и нажмите {0} или {1}, чтобы открыть инвентарь.</value>
+  </data>
+  <data name="Quest01_BatteryItems_Approach" xml:space="preserve">
+    <value>Подойдите к помеченному контейнеру</value>
+  </data>
+  <data name="Quest01_BatteryItems_DragItems" xml:space="preserve">
+    <value>Перетащите предметы из ящика в свой инвентарь.</value>
+  </data>
+  <data name="Quest01_BatteryItems_LeaveShip" xml:space="preserve">
+    <value>Покиньте транспортник.</value>
+  </data>
+  <data name="Quest02_BatteryPlace" xml:space="preserve">
+    <value>Постройте блок батареи.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Close" xml:space="preserve">
+    <value>Нажмите крестик или Escape чтобы выйти.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Drag" xml:space="preserve">
+    <value>Добавьте батарею на панель инструментов.</value>
+  </data>
+  <data name="Quest02_BatteryPlace_GScreen" xml:space="preserve">
+    <value>Откройте экран панели инструментов нажатием {0}</value>
+  </data>
+  <data name="Quest02_BatteryPlace_Place" xml:space="preserve">
+    <value>Расположите батарею на красной платформе нажатием ЛКМ.</value>
+  </data>
+  <data name="Quest03_BatteryWeld" xml:space="preserve">
+    <value>Соберите батарею</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Drag" xml:space="preserve">
+    <value>Переключитесь на вкладку "инструменты персонажа" и добавьте сварщик на  панель инструментов. </value>
+  </data>
+  <data name="Quest03_BatteryWeld_GScreen" xml:space="preserve">
+    <value>Откройте экран панели инструментов нажатием {0}</value>
+  </data>
+  <data name="Quest03_BatteryWeld_Weld" xml:space="preserve">
+    <value>Наведите на блок и зажмите ЛКМ пока батерея не будет полностью построена.</value>
+  </data>
+  <data name="Quest04_ControlTower" xml:space="preserve">
+    <value>Активируйте центр управления</value>
+  </data>
+  <data name="Quest04_ControlTower_Activate" xml:space="preserve">
+    <value>Используйте отмеченную кнопочную панель.</value>
+  </data>
+  <data name="Quest04_ControlTower_Elevator" xml:space="preserve">
+    <value>Войдите в ангар с помощью лифта.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip" xml:space="preserve">
+    <value>Восстановите энергию на корабле</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Inventory" xml:space="preserve">
+    <value>Переместите урановые слитки из контейнера в свой инвентарь, взаимодействуйте нажатием {0} или {1}.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Place" xml:space="preserve">
+    <value>Разместите урановые слитки в реакторе.</value>
+  </data>
+  <data name="Quest05_PowerUpTheShip_Uranium" xml:space="preserve">
+    <value>Получите уран со склада.</value>
+  </data>
+  <data name="Quest06_GrinderTool" xml:space="preserve">
+    <value>Получите болгарку</value>
+  </data>
+  <data name="Quest06_GrinderTool_GetGrinder" xml:space="preserve">
+    <value>В отмеченном контейнере есть лишняя болгарка.</value>
+  </data>
+  <data name="Quest06_GrinderTool_Purpose" xml:space="preserve">
+    <value>Болгарка используется для разборки блоков и получения компонентов.</value>
+  </data>
+  <data name="Quest07_GrindThruster" xml:space="preserve">
+    <value>Достаньте запчасти для ремонта</value>
+  </data>
+  <data name="Quest07_GrindThruster_Drag" xml:space="preserve">
+    <value>Переключитесь на вкладку "инструменты персонажа" и добавьте улучшенную болагрку на панель инструментов.</value>
+  </data>
+  <data name="Quest07_GrindThruster_Equip" xml:space="preserve">
+    <value>Откройте экран панели инструментов нажатием {0}</value>
+  </data>
+  <data name="Quest07_GrindThruster_Grind" xml:space="preserve">
+    <value>Подойтите к подсвеченному ускорителю и распилите его удерживая ЛКМ.</value>
+  </data>
+  <data name="Quest08_RepairThrusters" xml:space="preserve">
+    <value>Почините выделенный ускоритель</value>
+  </data>
+  <data name="Quest08_RepairThrusters_ActualCount" xml:space="preserve">
+    <value>Ускорителей починено: {0} / 3</value>
+  </data>
+  <data name="Quest08_RepairThrusters_LookAround" xml:space="preserve">
+    <value>Можно получить</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseGrinder" xml:space="preserve">
+    <value>дополнительные компоненты распиливая другие неиспользованные ускорители.</value>
+  </data>
+  <data name="Quest08_RepairThrusters_UseWelder" xml:space="preserve">
+    <value>Выберите Ваш сварщик и почините поврежденный ускоритель.</value>
+  </data>
+  <data name="Quest09_Tanking" xml:space="preserve">
+    <value>Заполните водородные резервуары корабля</value>
+  </data>
+  <data name="Quest09_Tanking_Control" xml:space="preserve">
+    <value>Используйте кнопку 1 чтобы выдвинуть коннектор, затем кнопку 2 чтобы закрепить его.</value>
+  </data>
+  <data name="Quest09_Tanking_Disconnect" xml:space="preserve">
+    <value>Нажмите кнопку 2 чтобы открепить и отсоединить.</value>
+  </data>
+  <data name="Quest09_Tanking_Fill" xml:space="preserve">
+    <value>Запас водорода: {0}%</value>
+  </data>
+  <data name="Quest09_Tanking_Wait" xml:space="preserve">
+    <value>Дождитесь окончания процедуры.</value>
+  </data>
+  <data name="Quest10_Ammo" xml:space="preserve">
+    <value>Загрузите боеприпасы в корабль</value>
+  </data>
+  <data name="Quest10_Ammo_Hint" xml:space="preserve">
+    <value>Около точек обороны базы есть лишние патроны</value>
+  </data>
+  <data name="Quest10_Ammo_PlayerCount" xml:space="preserve">
+    <value>У вас {0} ящиков патронов</value>
+  </data>
+  <data name="Quest10_Ammo_Quest" xml:space="preserve">
+    <value>Доставьте 80 ящиков боеприпасов в выделенные контейнеры</value>
+  </data>
+  <data name="Quest10_Ammo_ShipCount" xml:space="preserve">
+    <value>Загружено: {0} / 80</value>
+  </data>
+  <data name="Quest11_Roof" xml:space="preserve">
+    <value>Откройте ангарные створки</value>
+  </data>
+  <data name="Quest11_Roof_Hint" xml:space="preserve">
+    <value>Используйте кнопочную панель в центре управления.</value>
+  </data>
+  <data name="Quest12_Combat" xml:space="preserve">
+    <value>Уничтожьте вражеский флагман</value>
+  </data>
+  <data name="Quest12_Combat_Cancel" xml:space="preserve">
+    <value>Выйдите из управления турелью нажатием {0}</value>
+  </data>
+  <data name="Quest12_Combat_Turrets" xml:space="preserve">
+    <value>Используйте ракетные турели доступные из кресла пилота используя {0}, {1}, {2} и {3}</value>
+  </data>
+  <data name="Quest12_Combat_Weakpoint" xml:space="preserve">
+    <value>Цельтесь в помеченные слабые места корабля</value>
+  </data>
+  <data name="Quest12_Combat_WeakpointCount" xml:space="preserve">
+    <value>Уязвимых мест уничтожено: {0}/{1}</value>
+  </data>
+  <data name="Quest12_Flying" xml:space="preserve">
+    <value>Выведите корабль из ангара</value>
+  </data>
+  <data name="Quest12_Flying_Cockpit" xml:space="preserve">
+    <value>Нажмите {0} чтобы сесть в выделенное кресло пилота.</value>
+  </data>
+  <data name="Quest12_Flying_Coordinates" xml:space="preserve">
+    <value>Летите к месту встречи</value>
+  </data>
+  <data name="Quest12_Flying_Start" xml:space="preserve">
+    <value>Нажмите и удерживайте {0} чтобы подняться и безопасно покинуть ангар.</value>
+  </data>
+  <data name="Quest12_Flying_VHint" xml:space="preserve">
+    <value>Нажмите {0} чтобы включить обзор от 3-го лица</value>
+  </data>
+  <data name="ShipStatus_Status_Closed" xml:space="preserve">
+    <value>закрыто</value>
+  </data>
+  <data name="ShipStatus_Status_Empty" xml:space="preserve">
+    <value>Пусто</value>
+  </data>
+  <data name="ShipStatus_Status_FuelInCargo" xml:space="preserve">
+    <value>топливо не распределяется</value>
+  </data>
+  <data name="ShipStatus_Status_Full" xml:space="preserve">
+    <value>{0}%</value>
+  </data>
+  <data name="ShipStatus_Status_Missing" xml:space="preserve">
+    <value>отсутствует</value>
+  </data>
+  <data name="ShipStatus_Status_NoFuel" xml:space="preserve">
+    <value>нет топлива</value>
+  </data>
+  <data name="ShipStatus_Status_OffLine" xml:space="preserve">
+    <value>обесточен</value>
+  </data>
+  <data name="ShipStatus_Status_OnLine" xml:space="preserve">
+    <value>подключен</value>
+  </data>
+  <data name="ShipStatus_Status_Open" xml:space="preserve">
+    <value>открыть</value>
+  </data>
+  <data name="ShipStatus_Status_Ready" xml:space="preserve">
+    <value>готов</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs1" xml:space="preserve">
+    <value>требуется ремонт</value>
+  </data>
+  <data name="ShipStatus_Status_Repairs2" xml:space="preserve">
+    <value>отсутствуют ускорители</value>
+  </data>
+  <data name="ShipStatus_Title_Ammo" xml:space="preserve">
+    <value>БОЕЗАПАС: </value>
+  </data>
+  <data name="ShipStatus_Title_Hydrogen" xml:space="preserve">
+    <value>ВОДОРОД: </value>
+  </data>
+  <data name="ShipStatus_Title_Main" xml:space="preserve">
+    <value>                 СТАТУС КОРАБЛЯ:</value>
+  </data>
+  <data name="ShipStatus_Title_Reactors" xml:space="preserve">
+    <value>РЕАКТОРЫ: </value>
+  </data>
+  <data name="ShipStatus_Title_Repair" xml:space="preserve">
+    <value>СТАТУС: </value>
+  </data>
+  <data name="ShipStatus_Title_Roof" xml:space="preserve">
+    <value>СТВОРКИ АНГАРА: </value>
+  </data>
+  <data name="TankingStatus_Status_Idle" xml:space="preserve">
+    <value>неактивно</value>
+  </data>
+  <data name="TankingStatus_Status_Locked" xml:space="preserve">
+    <value>заперто</value>
+  </data>
+  <data name="TankingStatus_Status_PumpingDone" xml:space="preserve">
+    <value>резервуар полон</value>
+  </data>
+  <data name="TankingStatus_Status_Unlocked" xml:space="preserve">
+    <value>открыто</value>
+  </data>
+  <data name="TankingStatus_Status_Working" xml:space="preserve">
+    <value>заправка</value>
+  </data>
+  <data name="TankingStatus_Title_Connector" xml:space="preserve">
+    <value>Коннектор: </value>
+  </data>
+  <data name="TankingStatus_Title_Fuel" xml:space="preserve">
+    <value>Резервуар: {0}%</value>
+  </data>
+  <data name="TankingStatus_Title_Pumps" xml:space="preserve">
+    <value>Насосы: </value>
+  </data>
+  <data name="GPS_RedPlatform" xml:space="preserve">
+    <value>Разместите батарею здесь</value>
+  </data>
+</root>
